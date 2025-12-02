@@ -108,8 +108,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Nous contacter",
+            "content": "<p><br/>Service client disponible tous les jours de 8h00 à 20h00<br/><br/></p>",
             "enable_follow_on_shop": true
           }
         }
