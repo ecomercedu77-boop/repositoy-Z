@@ -356,8 +356,8 @@
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "dropdown",
+            "stack_blocks": false,
+            "selector_style": "block",
             "swatch_selector_style": "block_swatch",
             "variant_image_options": "",
             "size_chart_page": ""
@@ -409,9 +409,9 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#f0f0f0",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
