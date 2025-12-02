@@ -355,9 +355,9 @@
         "variant_picker_6QERpj": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": false,
-            "selector_style": "block",
+            "hide_sold_out_variants": true,
+            "stack_blocks": true,
+            "selector_style": "dropdown",
             "swatch_selector_style": "block_swatch",
             "variant_image_options": "",
             "size_chart_page": ""
