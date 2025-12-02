@@ -12,9 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "title": {
           "type": "title",
@@ -26,10 +28,18 @@
           "type": "badges",
           "settings": {}
         },
-        "price": {
-          "type": "price",
+        "liquid_DkcPWx": {
+          "type": "liquid",
           "settings": {
-            "show_taxes_notice": false
+            "liquid": "<!-- ⚙️ BLOC INFO PRODUIT PREMIUM -->\n<div class=\"product-meta-block\">\n\n  <!-- LIGNE BADGES DU HAUT -->\n  <div class=\"product-badges-row\">\n\n    <!-- BADGE STOCK ROUGE -->\n    <div class=\"stock-badge-red\">\n      <span class=\"stock-icon-red\">💍</span>\n      <span class=\"stock-text-red\">\n        Plus que <span class=\"stock-number-red\" id=\"stock-count\">5</span> en stock\n      </span>\n    </div>\n\n    <!-- BADGE VISITEURS BLEU -->\n    <div class=\"viewer-badge-blue\">\n      <span class=\"viewer-icon-blue\">👀</span>\n      <span class=\"viewer-text-blue\">\n        <span class=\"viewer-number\" id=\"viewer-count\">18</span> personnes regardent ce produit\n      </span>\n    </div>\n\n    <!-- BADGE DERNIÈRES VENTES -->\n    <div class=\"sales-badge\">\n      <span class=\"sales-icon\">⚡</span>\n      <span class=\"sales-text\">\n        <span class=\"sales-number\" id=\"sales-count\">7</span> ventes / 24h\n      </span>\n    </div>\n\n  </div>\n\n  <!-- LIGNE CONFIANCE -->\n  <ul class=\"trust-list\">\n    <li><span class=\"trust-icon\">🚚</span>Commande avant 16h → expédition aujourd’hui</li>\n    <li><span class=\"trust-icon\">🔒</span>Paiement 100% sécurisé</li>\n    <li><span class=\"trust-icon\">🛡️</span>Garantie 2 ans</li>\n    <li><span class=\"trust-icon\">📱</span>Compatible iOS & Android</li>\n  </ul>\n\n</div>\n\n\n<style>\n/* -------- CONTAINER -------- */\n.product-meta-block {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: 14px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* -------- LIGNE BADGES -------- */\n.product-badges-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n\n/* -------- BADGE STOCK -------- */\n.stock-badge-red {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  border-radius: 999px;\n  background: rgba(255, 0, 0, 0.08);\n  border: 1.5px solid rgba(255, 0, 0, 0.45);\n  font-size: 12px;\n  color: #ff3b3b;\n  font-weight: 500;\n  box-shadow: 0 0 10px rgba(255,0,0,0.3);\n}\n\n.stock-icon-red { font-size: 16px; }\n\n.stock-number-red {\n  font-weight: 800;\n  font-size: 13px;\n  padding: 2px 7px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #ff3b3b, #d60000);\n  color: white;\n  box-shadow: 0 0 10px rgba(255,0,0,0.6);\n}\n\n/* -------- BADGE VIEWERS (CHIFFRE ENTOURÉ) -------- */\n.viewer-badge-blue {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(0, 153, 255, 0.08);\n  border: 1.5px solid rgba(0, 153, 255, 0.5);\n  font-size: 11px;\n  color: #0099ff;\n  box-shadow: 0 0 8px rgba(0,153,255,0.3);\n}\n\n.viewer-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #0099ff, #0066cc);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(0,153,255,0.5);\n}\n\n/* -------- BADGE SALES (CHIFFRE ENTOURÉ) -------- */\n.sales-badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(255, 196, 0, 0.08);\n  border: 1.5px solid rgba(255, 196, 0, 0.6);\n  font-size: 11px;\n  color: #e0a400;\n  box-shadow: 0 0 8px rgba(255,196,0,0.3);\n}\n\n.sales-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #f5c400, #c59b00);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(255,196,0,0.5);\n}\n\n/* -------- TRUST LIST -------- */\n.trust-list {\n  list-style: none;\n  padding: 8px 10px;\n  border-radius: 12px;\n  background: rgba(15,23,42,0.7);\n  color: #e5e7eb;\n  font-size: 11px;\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 4px;\n}\n\n.trust-list li {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n@media (min-width: 480px) {\n  .trust-list {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n</style>\n\n\n<script>\n// --------------------------------------\n// SÉLECTION DES ÉLÉMENTS\n// --------------------------------------\nconst stockEl   = document.getElementById(\"stock-count\");\nconst viewersEl = document.getElementById(\"viewer-count\");\nconst salesEl   = document.getElementById(\"sales-count\");\n\n// valeurs initiales\nlet stock   = 5;\nlet viewers = 18;\nlet sales   = 7;\n\n// --------------------------------------\n// MISE À JOUR DU STOCK (toutes les 20 sec)\n// --------------------------------------\nfunction updateStock() {\n  stock += Math.floor(Math.random() * 3) - 1; // -1, 0, +1\n  if (stock < 1) stock = 1;\n  if (stock > 5) stock = 5;\n  stockEl.textContent = stock;\n}\nsetInterval(updateStock, 20000);\n\n// --------------------------------------\n// VIEWERS (toutes les 15 sec)\n// --------------------------------------\nfunction updateViewers() {\n  viewers += Math.floor(Math.random() * 7) - 3;\n  if (viewers < 3) viewers = 3;\n  viewersEl.textContent = viewers;\n}\nsetInterval(updateViewers, 15000);\n\n// --------------------------------------\n// SALES (toutes les 15 sec)\n// --------------------------------------\nfunction updateSales() {\n  if (Math.random() < 0.4) sales += 1;\n  salesEl.textContent = sales;\n}\nsetInterval(updateSales, 15000);\n</script>"
+          }
+        },
+        "image_mtTqxL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/offres_noel_l_0.jpg",
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "rating": {
@@ -45,14 +55,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -75,21 +77,21 @@
             "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "#f0c417",
-            "atc_button_text_color": "#ff1616",
+            "atc_button_text_color": "#000000",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
         }
       },
       "block_order": [
-        "vendor",
+        "price",
         "title",
         "badges",
-        "price",
+        "liquid_DkcPWx",
+        "image_mtTqxL",
         "rating",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
