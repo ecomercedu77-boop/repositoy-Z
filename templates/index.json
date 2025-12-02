@@ -138,6 +138,46 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_k476G9": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_i7wBBP": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_jBWVgf": {
+          "type": "heading",
+          "settings": {
+            "text": "waaaaah",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cdBHtt": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_i7wBBP",
+        "heading_jBWVgf",
+        "richtext_cdBHtt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_KLmrYn": {
       "type": "video",
       "blocks": {
@@ -262,9 +302,11 @@
     "featured_product_QGWkEW": {
       "type": "featured-product",
       "blocks": {
-        "vendor_bp9Kdd": {
-          "type": "vendor",
-          "settings": {}
+        "price_DeRL4J": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "title_a9a6ry": {
           "type": "title",
@@ -289,12 +331,6 @@
         "badges_BYxwYL": {
           "type": "badges",
           "settings": {}
-        },
-        "price_DeRL4J": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
         },
         "rating_6qm3Xe": {
           "type": "rating",
@@ -321,8 +357,8 @@
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
+            "selector_style": "dropdown",
+            "swatch_selector_style": "block_swatch",
             "variant_image_options": "",
             "size_chart_page": ""
           }
@@ -348,12 +384,11 @@
         }
       },
       "block_order": [
-        "vendor_bp9Kdd",
+        "price_DeRL4J",
         "title_a9a6ry",
         "liquid_7C4qnM",
         "image_i3wNYK",
         "badges_BYxwYL",
-        "price_DeRL4J",
         "rating_6qm3Xe",
         "separator_pgqqrC",
         "description_6FfNbY",
@@ -381,6 +416,63 @@
         "input_text_color": ""
       }
     },
+    "tabs_4D8YfY": {
+      "type": "tabs",
+      "blocks": {
+        "tab_dVAc9M": {
+          "type": "tab",
+          "settings": {
+            "title": "Service client 7J/7",
+            "content": "<p>Notre équipe est disponible <strong>tous les jours de la semaine</strong> pour répondre à vos questions et vous accompagner avant et après votre achat. Contactez-nous à tout moment, nous sommes là pour vous aider !</p>",
+            "page": ""
+          }
+        },
+        "tab_gddwGz": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristique",
+            "content": "<p><br/>Discrète, élégante et intelligente, la bague connectée vous accompagne au quotidien pour suivre votre santé et votre bien-être. Grâce à ses capteurs intégrés, elle analyse votre sommeil, votre rythme cardiaque et votre niveau d’activité, tout en offrant un confort exceptionnel. Légère, résistante à l’eau et dotée d’une longue autonomie, elle est l’alliée parfaite pour surveiller votre forme sans effort, où que vous soyez.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "tab_8W6kgx": {
+          "type": "tab",
+          "settings": {
+            "title": "Essayez le 30 jours gratuitement",
+            "content": "<p>Profitez de notre offre exceptionnelle : testez la bague connectée pendant 30 jours, sans aucun engagement. Découvrez tout son potentiel, suivez votre santé au quotidien et voyez la différence par vous-même. Si vous n’êtes pas entièrement satisfait, vous pouvez la retourner facilement. Essayez-la, vous allez l’adorer !</p>",
+            "page": ""
+          }
+        },
+        "tab_qMexpR": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraisons gratuite a domicile",
+            "content": "<p>rofitez de la livraison 100% gratuite directement chez vous !<br/><br/>Nos commandes sont expédiées rapidement et arrivent en <strong>5 à 8 jours ouvrés</strong>, selon votre adresse.<br/><br/>Commandez en toute tranquillité — on s’occupe du reste !</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_dVAc9M",
+        "tab_gddwGz",
+        "tab_8W6kgx",
+        "tab_qMexpR"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_liquid_LekgHe": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -388,47 +480,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<section class=\"faq-section js-faq-reveal\">\n  <div class=\"faq-container\">\n    <!-- Titre -->\n    <header class=\"faq-header\">\n      <p class=\"faq-badge\">Informations sur le produit & politiques d'expédition</p>\n      <h2 class=\"faq-title\">FAQ</h2>\n    </header>\n\n    <!-- Carte support client -->\n    <div class=\"faq-support-card\">\n      <h3>Support One Ring</h3>\n      <p>\n        Notre service client est disponible du lundi au vendredi, de 8h à 20h30,\n        pour répondre à toutes vos questions et vous accompagner dans vos démarches.\n      </p>\n      <p class=\"faq-support-meta\">\n        ⏱ Temps de réponse moyen : <strong>24h</strong>\n      </p>\n    </div>\n\n    <!-- Bloc FAQ principal -->\n    <div class=\"faq-accordion\">\n      <article class=\"faq-item open\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>La bague est-elle compatible avec mon téléphone ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Oui, la bague est compatible avec tous les smartphones récents\n            équipés de NFC (iOS et Android).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Peut-on se laver les mains ou prendre une douche avec ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Elle résiste à l’eau du quotidien (lavage de mains, pluie). Nous\n            déconseillons les immersions prolongées (piscine, mer, spa).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Combien de temps dure la batterie ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Autonomie moyenne : X jours (à adapter). Recharge complète en Y minutes\n            avec le chargeur fourni.\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Ma commande met combien de temps à arriver ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Livraison en 3 à 7 jours ouvrés en France métropolitaine. Un numéro\n            de suivi est envoyé par e-mail dès l’expédition.\n          </p>\n        </div>\n      </article>\n    </div>\n\n    <!-- Bénéfices (mini-accordéons) -->\n    <div class=\"faq-benefits\">\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">1</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">📦</span>\n            <span>Livraison gratuite</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>La livraison est offerte sur toutes les commandes, sans minimum.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">2</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">💬</span>\n            <span>Service client 7j/7</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Notre équipe vous répond 7j/7 par e-mail et réseaux sociaux.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">3</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">✅</span>\n            <span>Satisfait ou remboursé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>\n            Vous disposez de X jours pour nous retourner le produit s’il ne vous convient pas.\n          </p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">4</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">🔒</span>\n            <span>Paiement sécurisé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Transactions chiffrées et sécurisées via des prestataires certifiés.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  :root {\n    --faq-main: #E6DED3;\n    --faq-bg:   #f3ece3;\n    --faq-text: #ffffff; /* TOUT le texte en blanc */\n    --neon:     rgba(255,255,255,0.9);\n  }\n\n  /* Section centrée */\n  .faq-section {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    padding: 4rem 1rem;\n    background: transparent;\n    color: #fff !important;\n  }\n\n  /* Forcer TOUT le texte à blanc */\n  .faq-section * {\n    color: #ffffff !important;\n  }\n\n  /* Animation apparition */\n  .js-faq-reveal {\n    opacity: 0;\n    transform: translateY(40px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n  .js-faq-reveal.visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  /* Container */\n  .faq-container {\n    width: 100%;\n    max-width: 880px;\n    background: var(--faq-main);\n    border-radius: 22px;\n    padding: 2.5rem 2rem;\n    position: relative;\n    overflow: hidden;\n    box-shadow:\n      0 0 24px rgba(255,255,255,0.25),\n      inset 0 0 12px rgba(255,255,255,0.18),\n      inset 0 0 40px rgba(255,255,255,0.12);\n  }\n\n  /* Scan lumineux */\n  .faq-container::after {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      rgba(255,255,255,0.35) 50%,\n      transparent 100%\n    );\n    opacity: 0.15;\n    animation: scan 4s linear infinite;\n    pointer-events: none;\n  }\n  @keyframes scan {\n    0% { transform: translateY(-100%); }\n    100% { transform: translateY(100%); }\n  }\n\n  /* Badge + titre */\n  .faq-badge {\n    background: rgba(255,255,255,0.25);\n  }\n\n  /* Carte support */\n  .faq-support-card {\n    position: relative;\n    background: rgba(255,255,255,0.1);\n    border-radius: 18px;\n    padding: 1.25rem 1.5rem;\n    margin-bottom: 2rem;\n    backdrop-filter: blur(10px);\n  }\n\n  /* Accordéon principal */\n  .faq-accordion {\n    border-radius: 18px;\n    border: 1px solid rgba(255,255,255,0.25);\n    background: rgba(255,255,255,0.12);\n  }\n\n  .faq-item-body {\n    background: rgba(255,255,255,0.05);\n  }\n\n  /* Bénéfices */\n  .faq-benefit {\n    background: rgba(255,255,255,0.12);\n  }\n\n  .faq-benefit-body {\n    background: rgba(255,255,255,0.05);\n  }\n\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n\n  /* Accordéon FAQ */\n  document.querySelectorAll(\".faq-item\").forEach(function(item) {\n    const header = item.querySelector(\".faq-item-header\");\n    header.addEventListener(\"click\", function () {\n      const isOpen = item.classList.contains(\"open\");\n      document.querySelectorAll(\".faq-item\").forEach(i => i.classList.remove(\"open\"));\n      if (!isOpen) item.classList.add(\"open\");\n    });\n  });\n\n  /* Accordéons bénéfices */\n  document.querySelectorAll(\".faq-benefit\").forEach(function(benefit) {\n    const header = benefit.querySelector(\".faq-benefit-header\");\n    header.addEventListener(\"click\", function () {\n      benefit.classList.toggle(\"open\");\n    });\n  });\n\n  /* Apparition */\n  const section = document.querySelector(\".js-faq-reveal\");\n  if (section && \"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          section.classList.add(\"visible\");\n          observer.unobserve(section);\n        }\n      });\n    }, { threshold: 0.25 });\n    observer.observe(section);\n  } else if (section) {\n    section.classList.add(\"visible\");\n  }\n});\n</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_k476G9": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_i7wBBP": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_jBWVgf": {
-          "type": "heading",
-          "settings": {
-            "text": "waaaaah",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_cdBHtt": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_i7wBBP",
-        "heading_jBWVgf",
-        "richtext_cdBHtt"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "liquid": "<section class=\"faq-section js-faq-reveal\">\n  <div class=\"faq-container\">\n    <!-- Titre -->\n    <header class=\"faq-header\">\n      <p class=\"faq-badge\">Informations sur le produit & politiques d'expédition</p>\n      <h2 class=\"faq-title\">FAQ</h2>\n    </header>\n\n    <!-- Carte support client -->\n    <div class=\"faq-support-card\">\n      <h3>Support One Ring</h3>\n      <p>\n        Notre service client est disponible du lundi au vendredi, de 8h à 20h30,\n        pour répondre à toutes vos questions et vous accompagner dans vos démarches.\n      </p>\n      <p class=\"faq-support-meta\">\n        ⏱ Temps de réponse moyen : <strong>24h</strong>\n      </p>\n    </div>\n\n    <!-- Bloc FAQ principal -->\n    <div class=\"faq-accordion\">\n      <article class=\"faq-item open\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>La bague est-elle compatible avec mon téléphone ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Oui, la bague est compatible avec tous les smartphones récents\n            équipés de NFC (iOS et Android).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Peut-on se laver les mains ou prendre une douche avec ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Elle résiste à l’eau du quotidien (lavage de mains, pluie). Nous\n            déconseillons les immersions prolongées (piscine, mer, spa).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Combien de temps dure la batterie ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Autonomie moyenne : X jours (à adapter). Recharge complète en Y minutes\n            avec le chargeur fourni.\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Ma commande met combien de temps à arriver ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Livraison en 3 à 7 jours ouvrés en France métropolitaine. Un numéro\n            de suivi est envoyé par e-mail dès l’expédition.\n          </p>\n        </div>\n      </article>\n    </div>\n\n    <!-- Bénéfices (mini-accordéons) -->\n    <div class=\"faq-benefits\">\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">1</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">📦</span>\n            <span>Livraison gratuite</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>La livraison est offerte sur toutes les commandes, sans minimum.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">2</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">💬</span>\n            <span>Service client 7j/7</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Notre équipe vous répond 7j/7 par e-mail et réseaux sociaux.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">3</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">✅</span>\n            <span>Satisfait ou remboursé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>\n            Vous disposez de X jours pour nous retourner le produit s’il ne vous convient pas.\n          </p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">4</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">🔒</span>\n            <span>Paiement sécurisé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Transactions chiffrées et sécurisées via des prestataires certifiés.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  :root {\n    --faq-main: #ffffff;      /* fond blanc */\n    --faq-bg:   #ffffff;\n    --faq-text: #221b18;      /* texte foncé lisible */\n    --neon:     rgba(255,255,255,0.9);\n  }\n\n  /* Section centrée avec fond blanc */\n  .faq-section {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    padding: 4rem 1rem;\n    background: #ffffff;\n  }\n\n  /* Animation d’apparition */\n  .js-faq-reveal {\n    opacity: 0;\n    transform: translateY(40px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n  .js-faq-reveal.visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  /* Container sur fond blanc, sans gros bloc coloré */\n  .faq-container {\n    width: 100%;\n    max-width: 880px;\n    background: #ffffff;\n    border-radius: 22px;\n    padding: 2.5rem 2rem;\n    position: relative;\n    overflow: hidden;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.04);\n  }\n\n  /* On enlève le scan lumineux (fond) */\n  .faq-container::after {\n    content: none;\n  }\n\n  /* Header + titre */\n  .faq-header {\n    text-align: center;\n    margin-bottom: 2rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-badge {\n    display: inline-block;\n    padding: 0.25rem 0.75rem;\n    border-radius: 999px;\n    font-size: 0.75rem;\n    text-transform: uppercase;\n    letter-spacing: 0.08em;\n    background: rgba(0,0,0,0.04);\n    color: var(--faq-text);\n    margin-bottom: 0.5rem;\n  }\n\n  .faq-title {\n    font-size: 2.3rem;\n    color: var(--faq-text);\n    letter-spacing: 0.25em;\n    text-transform: uppercase;\n    margin: 0;\n    display: inline-block;\n    padding-bottom: 0.5rem;\n    text-shadow: 0 0 9px rgba(0,0,0,0.08);\n    position: relative;\n  }\n\n  .faq-title::after {\n    content: \"\";\n    position: absolute;\n    left: 50%;\n    bottom: -5px;\n    width: 80px;\n    height: 3px;\n    border-radius: 999px;\n    background: #000;\n    opacity: 0.5;\n    transform: translateX(-50%);\n  }\n\n  /* Carte support */\n  .faq-support-card {\n    position: relative;\n    background: #faf7f3;\n    border-radius: 18px;\n    padding: 1.25rem 1.5rem;\n    margin-bottom: 2rem;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.03);\n    z-index: 1;\n  }\n  .faq-support-card h3 {\n    margin: 0 0 0.5rem;\n    font-size: 0.95rem;\n    text-transform: uppercase;\n    letter-spacing: 0.16em;\n    color: var(--faq-text);\n  }\n  .faq-support-card p {\n    margin: 0.25rem 0;\n    font-size: 0.9rem;\n    color: #4a372c;\n    line-height: 1.5;\n  }\n  .faq-support-meta {\n    margin-top: 0.75rem;\n    font-size: 0.85rem;\n  }\n\n  /* Accordéon principal */\n  .faq-accordion {\n    border-radius: 18px;\n    border: 1px solid rgba(0,0,0,0.06);\n    background: #ffffff;\n    overflow: hidden;\n    z-index: 1;\n    position: relative;\n  }\n  .faq-item + .faq-item {\n    border-top: 1px solid rgba(0,0,0,0.04);\n  }\n\n  .faq-item-header {\n    width: 100%;\n    padding: 1rem 1.25rem;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    color: var(--faq-text);\n    font: inherit;\n    transition: background 0.2s ease, box-shadow 0.2s ease;\n  }\n  .faq-item-header span:first-child {\n    font-size: 0.95rem;\n    font-weight: 500;\n  }\n  .faq-item-header:hover {\n    background: rgba(0,0,0,0.02);\n    box-shadow: 0 0 10px rgba(0,0,0,0.03);\n  }\n\n  .faq-icon {\n    font-size: 1.2rem;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-item-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 1.25rem;\n    background: #ffffff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n  .faq-item-body p {\n    margin: 0.75rem 0 1rem;\n    font-size: 0.9rem;\n    color: #5b4a3e;\n  }\n\n  .faq-item.open .faq-item-body {\n    max-height: 200px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.75rem;\n  }\n  .faq-item.open .faq-icon {\n    transform: rotate(45deg);\n  }\n\n  /* Bénéfices (grid) */\n  .faq-benefits {\n    margin-top: 2rem;\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 0.9rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-benefit {\n    background: #ffffff;\n    border-radius: 18px;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.03);\n    overflow: hidden;\n    border: 1px solid rgba(0,0,0,0.04);\n  }\n\n  .faq-benefit-header {\n    width: 100%;\n    padding: 0.65rem 0.75rem;\n    display: flex;\n    align-items: center;\n    gap: 0.4rem;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    font: inherit;\n    color: var(--faq-text);\n  }\n\n  .benefit-number {\n    width: 22px;\n    height: 22px;\n    border-radius: 999px;\n    border: 1px solid rgba(0,0,0,0.2);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 0.75rem;\n    font-weight: 600;\n    background: #f7efe6;\n  }\n\n  .benefit-main {\n    flex: 1;\n    display: inline-flex;\n    align-items: center;\n    gap: 0.35rem;\n  }\n\n  .benefit-icon {\n    font-size: 1.1rem;\n  }\n\n  .benefit-toggle {\n    font-size: 1rem;\n    font-weight: 700;\n    min-width: 20px;\n    text-align: center;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-benefit-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 0.9rem;\n    background: #ffffff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n\n  .faq-benefit-body p {\n    margin: 0.5rem 0 0.75rem;\n    font-size: 0.83rem;\n    color: #5b4a3e;\n  }\n\n  .faq-benefit.open .faq-benefit-body {\n    max-height: 120px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.55rem;\n  }\n  .faq-benefit.open .benefit-toggle {\n    transform: rotate(45deg);\n  }\n\n  @media (max-width: 768px) {\n    .faq-container {\n      padding: 2rem 1.25rem;\n    }\n    .faq-benefits {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  /* Accordéon FAQ */\n  document.querySelectorAll(\".faq-item\").forEach(function(item) {\n    const header = item.querySelector(\".faq-item-header\");\n    header.addEventListener(\"click\", function () {\n      const isOpen = item.classList.contains(\"open\");\n      document.querySelectorAll(\".faq-item\").forEach(i => i.classList.remove(\"open\"));\n      if (!isOpen) item.classList.add(\"open\");\n    });\n  });\n\n  /* Mini-accordéons bénéfices */\n  document.querySelectorAll(\".faq-benefit\").forEach(function(benefit) {\n    const header = benefit.querySelector(\".faq-benefit-header\");\n    header.addEventListener(\"click\", function () {\n      benefit.classList.toggle(\"open\");\n    });\n  });\n\n  /* Apparition au scroll */\n  const section = document.querySelector(\".js-faq-reveal\");\n  if (section && \"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          section.classList.add(\"visible\");\n          observer.unobserve(section);\n        }\n      });\n    }, { threshold: 0.25 });\n    observer.observe(section);\n  } else if (section) {\n    section.classList.add(\"visible\");\n  }\n});\n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -445,6 +497,7 @@
     "rich_text_bpLd6i",
     "multi_column_XzA9bk",
     "featured_product_QGWkEW",
+    "tabs_4D8YfY",
     "custom_liquid_LekgHe"
   ]
 }
