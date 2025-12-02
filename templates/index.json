@@ -177,7 +177,7 @@
         "heading_3Ed49g": {
           "type": "heading",
           "settings": {
-            "text": "Nos client en parlent le mieux",
+            "text": "Nos clients en parlent le mieux",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -393,6 +393,46 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_k476G9": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_i7wBBP": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_jBWVgf": {
+          "type": "heading",
+          "settings": {
+            "text": "waaaaah",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cdBHtt": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_i7wBBP",
+        "heading_jBWVgf",
+        "richtext_cdBHtt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -404,6 +444,7 @@
     "rich_text_bpLd6i",
     "multi_column_XzA9bk",
     "featured_product_QGWkEW",
-    "custom_liquid_LekgHe"
+    "custom_liquid_LekgHe",
+    "rich_text_k476G9"
   ]
 }
