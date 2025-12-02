@@ -1,1 +1,409 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"Tell your story","title":"Slide title","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}},"slide-2":{"type":"image","settings":{"content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"Tell your story","title":"Slide title","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":30,"background":"","background_gradient":""}}},"block_order":["slide-1","slide-2"],"settings":{"full_width":true,"allow_transparent_header":true,"image_size":"auto","controls_type":"numbers","transition_type":"fade_with_text","autoplay":true,"cycle_speed":6,"background":"#F2F2F2","background_gradient":"linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"}},"image-link-blocks":{"type":"image-link-blocks","blocks":{"1664424046b00c932c-0":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-1":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-2":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"1664424046b00c932c-3":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"e4a0ef18-1856-4ddd-83d8-871a60d7acac":{"type":"item","settings":{"stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["1664424046b00c932c-0","1664424046b00c932c-1","1664424046b00c932c-2","1664424046b00c932c-3","e4a0ef18-1856-4ddd-83d8-871a60d7acac"],"settings":{"full_width":false,"block_size":"medium","subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"scrolling-text":{"type":"scrolling-text","settings":{"full_width":true,"text":"Promotion text","text_size":"large","text_style":"fill","scrolling_mode":"auto","scrolling_speed":5,"background":"","background_gradient":"","text_color":"","text_gradient":""}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection-2":{"type":"collection","settings":{"collection":"","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection-3":{"type":"collection","settings":{"collection":"","subheading":"","title":"","url":"","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection-1","collection-2","collection-3"],"settings":{"full_width":true,"stack_collections":false,"collections_per_row":3,"show_progress_bar":false,"subheading":"","title":"Collection list","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"featured-collection":{"type":"featured-collection","settings":{"collection":"","products":[],"full_width":true,"stack_products":false,"show_progress_bar":false,"products_count":6,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"","title":"Featured collection","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"impact-text":{"type":"impact-text","blocks":{"1664424181b38582d5-0":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}}},"block_order":["1664424181b38582d5-0"],"settings":{"full_width":true,"stack_mobile":true,"text_alignment":"center","impact_text_style":"fill","text_divider":"none","impact_text_size_ratio":1,"background":"","background_gradient":"","heading_text_color":"","heading_gradient":"linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)","text_color":"","button_background":"","button_text_color":""}},"image-with-text-overlay":{"type":"image-with-text-overlay","blocks":{"1664424230c4756b0e-0":{"type":"subheading","settings":{"text":"Subheading"}},"1664424230c4756b0e-1":{"type":"heading","settings":{"text":"Image with text overlay","heading_tag":"h1"}},"1664424230c4756b0e-2":{"type":"richtext","settings":{"content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}}},"block_order":["1664424230c4756b0e-0","1664424230c4756b0e-1","1664424230c4756b0e-2"],"settings":{"full_width":true,"allow_transparent_header":false,"enable_parallax":false,"image_size":"auto","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"media-grid":{"type":"media-grid","blocks":{"item-1":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-2":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-3":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":1,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"29246d34-c6e0-4373-84f6-b15e57736a00":{"type":"image","settings":{"title":"Promote your products","heading_tag":"h4","link_url":"","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":1,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item-1","item-2","item-3","29246d34-c6e0-4373-84f6-b15e57736a00"],"settings":{"full_width":true,"reduce_width":false,"desktop_row_height":290,"background":"","background_gradient":""}},"before-after-image":{"type":"before-after-image","settings":{"full_width":true,"subheading":"","title":"Before\/after","content":"<p>Showcase your product benefit by using before\/after image comparison.<\/p>","expand_image":false,"text_position":"center","before_after_text_position":"bottom","before_text":"Before","after_text":"After","drag_initial_position":50,"background":"","background_gradient":"","text_color":"","before_text_color":"#ffffff","after_text_color":"#ffffff"}},"press":{"type":"press","blocks":{"16644243327ba53d2a-0":{"type":"quote","settings":{"logo_width":100,"author":"","content":"Share info about what your customers say about your products.","show_rating":false,"rating":4}},"16644243327ba53d2a-1":{"type":"quote","settings":{"logo_width":100,"author":"","content":"Or share content about your promotion, offers...","show_rating":false,"rating":4}}},"block_order":["16644243327ba53d2a-0","16644243327ba53d2a-1"],"settings":{"full_width":true,"content_size":"medium","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","logo_item_background":"","logo_item_border":""}},"hot-spots":{"type":"hot-spots","blocks":{"1664424434f5b7d0e0-0":{"type":"item","settings":{"horizontal_position":24,"vertical_position":70,"horizontal_position_mobile":24,"vertical_position_mobile":70,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}},"1664424434f5b7d0e0-1":{"type":"item","settings":{"horizontal_position":62,"vertical_position":14,"horizontal_position_mobile":62,"vertical_position_mobile":14,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}},"1664424434f5b7d0e0-2":{"type":"item","settings":{"horizontal_position":83,"vertical_position":75,"horizontal_position_mobile":83,"vertical_position_mobile":75,"icon_width":32,"title":"Feature name","content":"<p>Share useful information about your product features.<\/p>"}}},"block_order":["1664424434f5b7d0e0-0","1664424434f5b7d0e0-1","1664424434f5b7d0e0-2"],"settings":{"full_width":true,"title":"","content":"","button_text":"","button_url":"","desktop_text_position":"place-self-start text-start","image_background":"","image_background_gradient":"","overlay_color":"#000000","overlay_opacity":0,"overlay_text_color":"#ffffff","overlay_button_background":"","overlay_button_text_color":"","hot_spot_dot_background":"#ffffff","hot_spot_dot_text_color":"#000000","hot_spot_content_background":"#ffffff","hot_spot_content_text_color":"#000000","hot_spot_content_opacity":90,"hot_spot_content_blur_radius":3}},"multiple-images-with-text":{"type":"multiple-images-with-text","blocks":{"1664424486a2b084ab-0":{"type":"item","settings":{"image_rotation_degrees":-2,"subheading":"","title":"Heading 1","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}},"1664424486a2b084ab-1":{"type":"item","settings":{"image_rotation_degrees":1.5,"subheading":"","title":"Heading 2","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}}},"block_order":["1664424486a2b084ab-0","1664424486a2b084ab-1"],"settings":{"full_width":true,"images_layout":"scattered","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"featured-product":{"type":"featured-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{"heading_tag":"h2"}},"badges":{"type":"badges","settings":{}},"price":{"type":"price","settings":{"show_taxes_notice":false}},"rating":{"type":"rating","settings":{"show_empty":false}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{"collapse_content":false}},"variant-picker":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"stack_blocks":true,"selector_style":"block","swatch_selector_style":"color","size_chart_page":""}},"quantity-selector":{"type":"quantity_selector","settings":{}},"buy-buttons":{"type":"buy_buttons","settings":{"show_payment_button":true,"atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}}},"block_order":["vendor","title","badges","price","rating","separator","description","variant-picker","quantity-selector","buy-buttons"],"settings":{"full_width":false,"product":"","desktop_media_width":55,"desktop_media_layout":"carousel_thumbnails_left","mobile_media_size":"expanded","mobile_carousel_control":"floating_dots","enable_video_autoplay":true,"enable_video_looping":false,"enable_image_zoom":true,"max_image_zoom_level":3,"background":"#ffffff","background_gradient":"","text_color":"","input_background":"rgba(0,0,0,0)","input_text_color":""}},"faq":{"type":"faq","blocks":{"166442457738b23caf-0":{"type":"item","settings":{"title":"Do you ship overseas?","content":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"166442457738b23caf-1":{"type":"item","settings":{"title":"How long will it take to get my orders?","content":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"166442457738b23caf-2":{"type":"item","settings":{"title":"Any question?","content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["166442457738b23caf-0","166442457738b23caf-1","166442457738b23caf-2"],"settings":{"full_width":false,"subheading":"","title":"FAQ","content":"<p>Use this text to share information about your product or shipping policies.<\/p>","team_avatar_width":160,"support_hours":"Our customer support is available Monday to Friday: 8am-8:30pm.","answer_time":"Average answer time: 24h","button_text":"","button_url":"","text_position":"start","background":"#ffffff","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}}},"order":["slideshow","image-link-blocks","scrolling-text","collection-list","featured-collection","impact-text","image-with-text-overlay","media-grid","before-after-image","press","hot-spots","multiple-images-with-text","featured-product","faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "logo_list_aw3dED": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_gyGAHe": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/downJJload.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_btAMrT": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/download_57b2fb8e-06bc-418d-9750-1db0d007d146.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Ccnwrh": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/dowJJJJnload.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_DwU47K": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/download.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_gyGAHe",
+        "logo_btAMrT",
+        "logo_Ccnwrh",
+        "logo_DwU47K"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "image_with_text_overlay_eLWAfn": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_zc6epX": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zc6epX"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/converted_713852c0-8022-4f83-b951-f07dc205e413.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_GAKrng": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QHnWRY": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir EnoxRing?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QHnWRY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_CHRH97": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-12-02_a_21.26.39_aecb8689.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "video_KLmrYn": {
+      "type": "video",
+      "blocks": {
+        "play_ygzW3n": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_3EPGKH": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_ygzW3n",
+        "heading_3EPGKH"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/1129(1).mp4",
+        "mobile_video": "shopify://files/videos/1129(1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_bpLd6i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3Ed49g": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos client en parlent le mieux",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3Ed49g"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_XzA9bk": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RHWWRh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/hosting_a_party_mobile.jpg",
+            "column_size": "3",
+            "title": "Camille.B.",
+            "heading_tag": "h4",
+            "content": "<h3></h3><p><strong>“J’adore cette bague connectée ! Ultra légère et super élégante. Je ne la sens même pas, et pourtant elle suit tout : sommeil, stress, activité… Une vraie révolution pour moi.”</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JgmAqc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/61zGUU0yZlL.jpg",
+            "column_size": "3",
+            "title": "Sophie Y.",
+            "heading_tag": "h4",
+            "content": "<h3></h3><p><strong>“Après quelques jours d’utilisation, je suis vraiment impressionnée. La batterie tient longtemps, l’appli est simple et complète. Bien mieux que ma montre connectée.”</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yNVEjG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/61fpSHo-OBL.jpg",
+            "column_size": "3",
+            "title": "Thomas B.",
+            "heading_tag": "h4",
+            "content": "<p><strong>“Excellent produit. Les données sont précises et la bague est très confortable. Le design est discret mais classe, je la porte tous les jours. Je recommande sans hésiter !”</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_RHWWRh",
+        "item_JgmAqc",
+        "item_yNVEjG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_product_QGWkEW": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_bp9Kdd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_a9a6ry": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_7C4qnM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ⚙️ BLOC INFO PRODUIT PREMIUM -->\n<div class=\"product-meta-block\">\n\n  <!-- LIGNE BADGES DU HAUT -->\n  <div class=\"product-badges-row\">\n\n    <!-- BADGE STOCK ROUGE -->\n    <div class=\"stock-badge-red\">\n      <span class=\"stock-icon-red\">💍</span>\n      <span class=\"stock-text-red\">\n        Plus que <span class=\"stock-number-red\" id=\"stock-count\">5</span> en stock\n      </span>\n    </div>\n\n    <!-- BADGE VISITEURS BLEU -->\n    <div class=\"viewer-badge-blue\">\n      <span class=\"viewer-icon-blue\">👀</span>\n      <span class=\"viewer-text-blue\">\n        <span class=\"viewer-number\" id=\"viewer-count\">18</span> personnes regardent ce produit\n      </span>\n    </div>\n\n    <!-- BADGE DERNIÈRES VENTES -->\n    <div class=\"sales-badge\">\n      <span class=\"sales-icon\">⚡</span>\n      <span class=\"sales-text\">\n        <span class=\"sales-number\" id=\"sales-count\">7</span> ventes / 24h\n      </span>\n    </div>\n\n  </div>\n\n  <!-- LIGNE CONFIANCE -->\n  <ul class=\"trust-list\">\n    <li><span class=\"trust-icon\">🚚</span>Commande avant 16h → expédition aujourd’hui</li>\n    <li><span class=\"trust-icon\">🔒</span>Paiement 100% sécurisé</li>\n    <li><span class=\"trust-icon\">🛡️</span>Garantie 2 ans</li>\n    <li><span class=\"trust-icon\">📱</span>Compatible iOS & Android</li>\n  </ul>\n\n</div>\n\n\n<style>\n/* -------- CONTAINER -------- */\n.product-meta-block {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: 14px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* -------- LIGNE BADGES -------- */\n.product-badges-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n\n/* -------- BADGE STOCK -------- */\n.stock-badge-red {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  border-radius: 999px;\n  background: rgba(255, 0, 0, 0.08);\n  border: 1.5px solid rgba(255, 0, 0, 0.45);\n  font-size: 12px;\n  color: #ff3b3b;\n  font-weight: 500;\n  box-shadow: 0 0 10px rgba(255,0,0,0.3);\n}\n\n.stock-icon-red { font-size: 16px; }\n\n.stock-number-red {\n  font-weight: 800;\n  font-size: 13px;\n  padding: 2px 7px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #ff3b3b, #d60000);\n  color: white;\n  box-shadow: 0 0 10px rgba(255,0,0,0.6);\n}\n\n/* -------- BADGE VIEWERS (CHIFFRE ENTOURÉ) -------- */\n.viewer-badge-blue {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(0, 153, 255, 0.08);\n  border: 1.5px solid rgba(0, 153, 255, 0.5);\n  font-size: 11px;\n  color: #0099ff;\n  box-shadow: 0 0 8px rgba(0,153,255,0.3);\n}\n\n.viewer-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #0099ff, #0066cc);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(0,153,255,0.5);\n}\n\n/* -------- BADGE SALES (CHIFFRE ENTOURÉ) -------- */\n.sales-badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(255, 196, 0, 0.08);\n  border: 1.5px solid rgba(255, 196, 0, 0.6);\n  font-size: 11px;\n  color: #e0a400;\n  box-shadow: 0 0 8px rgba(255,196,0,0.3);\n}\n\n.sales-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #f5c400, #c59b00);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(255,196,0,0.5);\n}\n\n/* -------- TRUST LIST -------- */\n.trust-list {\n  list-style: none;\n  padding: 8px 10px;\n  border-radius: 12px;\n  background: rgba(15,23,42,0.7);\n  color: #e5e7eb;\n  font-size: 11px;\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 4px;\n}\n\n.trust-list li {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n@media (min-width: 480px) {\n  .trust-list {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n</style>\n\n\n<script>\n// --------------------------------------\n// SÉLECTION DES ÉLÉMENTS\n// --------------------------------------\nconst stockEl   = document.getElementById(\"stock-count\");\nconst viewersEl = document.getElementById(\"viewer-count\");\nconst salesEl   = document.getElementById(\"sales-count\");\n\n// valeurs initiales\nlet stock   = 5;\nlet viewers = 18;\nlet sales   = 7;\n\n// --------------------------------------\n// MISE À JOUR DU STOCK (toutes les 20 sec)\n// --------------------------------------\nfunction updateStock() {\n  stock += Math.floor(Math.random() * 3) - 1; // -1, 0, +1\n  if (stock < 1) stock = 1;\n  if (stock > 5) stock = 5;\n  stockEl.textContent = stock;\n}\nsetInterval(updateStock, 20000);\n\n// --------------------------------------\n// VIEWERS (toutes les 15 sec)\n// --------------------------------------\nfunction updateViewers() {\n  viewers += Math.floor(Math.random() * 7) - 3;\n  if (viewers < 3) viewers = 3;\n  viewersEl.textContent = viewers;\n}\nsetInterval(updateViewers, 15000);\n\n// --------------------------------------\n// SALES (toutes les 15 sec)\n// --------------------------------------\nfunction updateSales() {\n  if (Math.random() < 0.4) sales += 1;\n  salesEl.textContent = sales;\n}\nsetInterval(updateSales, 15000);\n</script>"
+          }
+        },
+        "image_i3wNYK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/offres_noel_l_0.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "badges_BYxwYL": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_DeRL4J": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_6qm3Xe": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_pgqqrC": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_6FfNbY": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/offres_noel_l_0.jpg",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_6QERpj": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_937jg6": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_dpeqiM": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#310000",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_iCRRWy": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_bp9Kdd",
+        "title_a9a6ry",
+        "liquid_7C4qnM",
+        "image_i3wNYK",
+        "badges_BYxwYL",
+        "price_DeRL4J",
+        "rating_6qm3Xe",
+        "separator_pgqqrC",
+        "description_6FfNbY",
+        "variant_picker_6QERpj",
+        "quantity_selector_937jg6",
+        "buy_buttons_dpeqiM",
+        "pickup_availability_iCRRWy"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "enox-ring",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_liquid_LekgHe": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"faq-section js-faq-reveal\">\n  <div class=\"faq-container\">\n    <!-- Titre -->\n    <header class=\"faq-header\">\n      <p class=\"faq-badge\">Informations sur le produit & politiques d'expédition</p>\n      <h2 class=\"faq-title\">FAQ</h2>\n    </header>\n\n    <!-- Carte support client -->\n    <div class=\"faq-support-card\">\n      <h3>Support One Ring</h3>\n      <p>\n        Notre service client est disponible du lundi au vendredi, de 8h à 20h30,\n        pour répondre à toutes vos questions et vous accompagner dans vos démarches.\n      </p>\n      <p class=\"faq-support-meta\">\n        ⏱ Temps de réponse moyen : <strong>24h</strong>\n      </p>\n    </div>\n\n    <!-- Bloc FAQ principal -->\n    <div class=\"faq-accordion\">\n      <article class=\"faq-item open\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>La bague est-elle compatible avec mon téléphone ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Oui, la bague est compatible avec tous les smartphones récents\n            équipés de NFC (iOS et Android).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Peut-on se laver les mains ou prendre une douche avec ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Elle résiste à l’eau du quotidien (lavage de mains, pluie). Nous\n            déconseillons les immersions prolongées (piscine, mer, spa).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Combien de temps dure la batterie ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Autonomie moyenne : X jours (à adapter). Recharge complète en Y minutes\n            avec le chargeur fourni.\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Ma commande met combien de temps à arriver ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Livraison en 3 à 7 jours ouvrés en France métropolitaine. Un numéro\n            de suivi est envoyé par e-mail dès l’expédition.\n          </p>\n        </div>\n      </article>\n    </div>\n\n    <!-- Bénéfices (mini-accordéons) -->\n    <div class=\"faq-benefits\">\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">1</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">📦</span>\n            <span>Livraison gratuite</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>La livraison est offerte sur toutes les commandes, sans minimum.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">2</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">💬</span>\n            <span>Service client 7j/7</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Notre équipe vous répond 7j/7 par e-mail et réseaux sociaux.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">3</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">✅</span>\n            <span>Satisfait ou remboursé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>\n            Vous disposez de X jours pour nous retourner le produit s’il ne vous convient pas.\n          </p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">4</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">🔒</span>\n            <span>Paiement sécurisé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Transactions chiffrées et sécurisées via des prestataires certifiés.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  :root {\n    --faq-main: #E6DED3;       /* ta couleur */\n    --faq-bg:   #f3ece3;\n    --faq-text: #221b18;\n    --neon:     rgba(255,255,255,0.9);\n  }\n\n  /* Section centrée */\n  .faq-section {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    padding: 4rem 1rem;\n    background: transparent;\n  }\n\n  /* Animation d’apparition */\n  .js-faq-reveal {\n    opacity: 0;\n    transform: translateY(40px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n  .js-faq-reveal.visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  /* Container futuriste */\n  .faq-container {\n    width: 100%;\n    max-width: 880px;\n    background: var(--faq-main);\n    border-radius: 22px;\n    padding: 2.5rem 2rem;\n    position: relative;\n    overflow: hidden;\n    box-shadow:\n      0 0 24px rgba(255,255,255,0.25),\n      inset 0 0 12px rgba(255,255,255,0.18),\n      inset 0 0 40px rgba(255,255,255,0.12);\n  }\n\n  /* Scan lumineux vertical */\n  .faq-container::after {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      rgba(255,255,255,0.35) 50%,\n      transparent 100%\n    );\n    opacity: 0.15;\n    animation: scan 4s linear infinite;\n    pointer-events: none;\n  }\n  @keyframes scan {\n    0% { transform: translateY(-100%); }\n    100% { transform: translateY(100%); }\n  }\n\n  /* Header + titre */\n  .faq-header {\n    text-align: center;\n    margin-bottom: 2rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-badge {\n    display: inline-block;\n    padding: 0.25rem 0.75rem;\n    border-radius: 999px;\n    font-size: 0.75rem;\n    text-transform: uppercase;\n    letter-spacing: 0.08em;\n    background: rgba(255,255,255,0.75);\n    color: var(--faq-text);\n    margin-bottom: 0.5rem;\n  }\n\n  .faq-title {\n    font-size: 2.3rem;\n    color: var(--faq-text);\n    letter-spacing: 0.25em;\n    text-transform: uppercase;\n    margin: 0;\n    display: inline-block;\n    padding-bottom: 0.5rem;\n    text-shadow: 0 0 9px var(--neon), 0 0 22px var(--neon);\n    position: relative;\n  }\n\n  .faq-title::after {\n    content: \"\";\n    position: absolute;\n    left: 50%;\n    bottom: -5px;\n    width: 80px;\n    height: 3px;\n    border-radius: 999px;\n    background: var(--neon);\n    transform: translateX(-50%);\n    animation: glowline 2s ease-in-out infinite alternate;\n  }\n  @keyframes glowline {\n    0%   { opacity: 0.35; box-shadow: 0 0 10px var(--neon); }\n    100% { opacity: 1;    box-shadow: 0 0 22px var(--neon); }\n  }\n\n  /* Carte support */\n  .faq-support-card {\n    position: relative;\n    background: rgba(255,255,255,0.82);\n    border-radius: 18px;\n    padding: 1.25rem 1.5rem;\n    margin-bottom: 2rem;\n    box-shadow: 0 14px 40px rgba(0,0,0,0.09);\n    backdrop-filter: blur(10px);\n    z-index: 1;\n  }\n  .faq-support-card h3 {\n    margin: 0 0 0.5rem;\n    font-size: 0.95rem;\n    text-transform: uppercase;\n    letter-spacing: 0.16em;\n    color: var(--faq-text);\n  }\n  .faq-support-card p {\n    margin: 0.25rem 0;\n    font-size: 0.9rem;\n    color: #3d3029;\n    line-height: 1.5;\n  }\n  .faq-support-meta {\n    margin-top: 0.75rem;\n    font-size: 0.85rem;\n  }\n\n  /* Accordéon principal */\n  .faq-accordion {\n    border-radius: 18px;\n    border: 1px solid rgba(0,0,0,0.08);\n    background: rgba(255,255,255,0.78);\n    overflow: hidden;\n    z-index: 1;\n    position: relative;\n  }\n  .faq-item + .faq-item {\n    border-top: 1px solid rgba(0,0,0,0.06);\n  }\n\n  .faq-item-header {\n    width: 100%;\n    padding: 1rem 1.25rem;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    color: var(--faq-text);\n    font: inherit;\n    transition: background 0.2s ease, box-shadow 0.2s ease;\n  }\n  .faq-item-header span:first-child {\n    font-size: 0.95rem;\n    font-weight: 500;\n  }\n  .faq-item-header:hover {\n    background: rgba(255,255,255,0.9);\n    box-shadow: 0 0 16px rgba(255,255,255,0.6);\n  }\n\n  .faq-icon {\n    font-size: 1.2rem;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-item-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 1.25rem;\n    background: #fff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n  .faq-item-body p {\n    margin: 0.75rem 0 1rem;\n    font-size: 0.9rem;\n    color: #5b4a3e;\n  }\n\n  .faq-item.open .faq-item-body {\n    max-height: 200px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.75rem;\n  }\n  .faq-item.open .faq-icon {\n    transform: rotate(45deg);\n  }\n\n  /* Bénéfices (grid) */\n  .faq-benefits {\n    margin-top: 2rem;\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 0.9rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-benefit {\n    background: rgba(255,255,255,0.9);\n    border-radius: 18px;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.06);\n    overflow: hidden;\n  }\n\n  .faq-benefit-header {\n    width: 100%;\n    padding: 0.65rem 0.75rem;\n    display: flex;\n    align-items: center;\n    gap: 0.4rem;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    font: inherit;\n    color: var(--faq-text);\n  }\n\n  .benefit-number {\n    width: 22px;\n    height: 22px;\n    border-radius: 999px;\n    border: 1px solid rgba(0,0,0,0.2);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 0.75rem;\n    font-weight: 600;\n    background: #f7efe6;\n  }\n\n  .benefit-main {\n    flex: 1;\n    display: inline-flex;\n    align-items: center;\n    gap: 0.35rem;\n  }\n\n  .benefit-icon {\n    font-size: 1.1rem;\n  }\n\n  .benefit-toggle {\n    font-size: 1rem;\n    font-weight: 700;\n    min-width: 20px;\n    text-align: center;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-benefit-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 0.9rem;\n    background: #fff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n\n  .faq-benefit-body p {\n    margin: 0.5rem 0 0.75rem;\n    font-size: 0.83rem;\n    color: #5b4a3e;\n  }\n\n  .faq-benefit.open .faq-benefit-body {\n    max-height: 120px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.55rem;\n  }\n  .faq-benefit.open .benefit-toggle {\n    transform: rotate(45deg);\n  }\n\n  @media (max-width: 768px) {\n    .faq-container {\n      padding: 2rem 1.25rem;\n    }\n    .faq-benefits {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  /* Accordéon FAQ */\n  document.querySelectorAll(\".faq-item\").forEach(function(item) {\n    const header = item.querySelector(\".faq-item-header\");\n    header.addEventListener(\"click\", function () {\n      const isOpen = item.classList.contains(\"open\");\n      document.querySelectorAll(\".faq-item\").forEach(i => i.classList.remove(\"open\"));\n      if (!isOpen) item.classList.add(\"open\");\n    });\n  });\n\n  /* Mini-accordéons bénéfices */\n  document.querySelectorAll(\".faq-benefit\").forEach(function(benefit) {\n    const header = benefit.querySelector(\".faq-benefit-header\");\n    header.addEventListener(\"click\", function () {\n      benefit.classList.toggle(\"open\");\n    });\n  });\n\n  /* Apparition au scroll */\n  const section = document.querySelector(\".js-faq-reveal\");\n  if (section && \"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          section.classList.add(\"visible\");\n          observer.unobserve(section);\n        }\n      });\n    }, { threshold: 0.25 });\n    observer.observe(section);\n  } else if (section) {\n    section.classList.add(\"visible\");\n  }\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "logo_list_aw3dED",
+    "image_with_text_overlay_eLWAfn",
+    "rich_text_GAKrng",
+    "image_with_text_overlay_CHRH97",
+    "video_KLmrYn",
+    "rich_text_bpLd6i",
+    "multi_column_XzA9bk",
+    "featured_product_QGWkEW",
+    "custom_liquid_LekgHe"
+  ]
+}
