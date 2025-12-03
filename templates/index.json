@@ -9,83 +9,96 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_eLWAfn": {
-      "type": "image-with-text-overlay",
+    "slideshow": {
+      "type": "slideshow",
       "blocks": {
-        "heading_zc6epX": {
-          "type": "heading",
+        "slide-2": {
+          "type": "image",
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "image": "shopify://shop_images/fcae0452-ac94-4c9e-8564-85b3d14d9bac_beee133f-6798-4315-ab04-c1478832cef4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_zc6epX"
+        "slide-2"
       ],
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/converted_713852c0-8022-4f83-b951-f07dc205e413.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "logo_list_aw3dED": {
+    "logo_list_iTeKAH": {
       "type": "logo-list",
       "blocks": {
-        "logo_gyGAHe": {
+        "logo_bCTbxx": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/downJJload.png",
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
             "logo_width": 120,
             "link": ""
           }
         },
-        "logo_btAMrT": {
+        "logo_tHRLCh": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download_57b2fb8e-06bc-418d-9750-1db0d007d146.jpg",
+            "logo": "shopify://shop_images/download_d88372c9-5db9-4935-ad99-6e7a7f33ec70.png",
             "logo_width": 120,
             "link": ""
           }
         },
-        "logo_Ccnwrh": {
+        "logo_gCDz3G": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/dowJJJJnload.jpg",
+            "logo": "shopify://shop_images/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png",
             "logo_width": 120,
             "link": ""
           }
         },
-        "logo_DwU47K": {
+        "logo_TEGxBM": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download.png",
+            "logo": "shopify://shop_images/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png",
             "logo_width": 120,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_gyGAHe",
-        "logo_btAMrT",
-        "logo_Ccnwrh",
-        "logo_DwU47K"
+        "logo_bCTbxx",
+        "logo_tHRLCh",
+        "logo_gCDz3G",
+        "logo_TEGxBM"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Vu sur:",
+        "title": "Vu sur :",
         "content": "",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
         "background_gradient": "",
@@ -96,408 +109,112 @@
         "logo_item_border": ""
       }
     },
-    "rich_text_GAKrng": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_QHnWRY": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi choisir EnoxRing?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_QHnWRY"
-      ],
-      "name": "Rich text",
+    "impact-text": {
+      "type": "impact-text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
-    "image_with_text_overlay_CHRH97": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/WhatsApp_Image_2025-12-02_a_21.26.39_aecb8689.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_k476G9": {
-      "type": "rich-text",
+    "faq": {
+      "type": "faq",
       "blocks": {
-        "subheading_i7wBBP": {
-          "type": "subheading",
+        "166442457738b23caf-0": {
+          "type": "item",
           "settings": {
-            "text": ""
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
-        "heading_jBWVgf": {
-          "type": "heading",
+        "166442457738b23caf-1": {
+          "type": "item",
           "settings": {
-            "text": "Design",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
-        "richtext_cdBHtt": {
-          "type": "richtext",
+        "166442457738b23caf-2": {
+          "type": "item",
           "settings": {
-            "content": ""
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_i7wBBP",
-        "heading_jBWVgf",
-        "richtext_cdBHtt"
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
       ],
-      "name": "Rich text",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
-    "video_KLmrYn": {
-      "type": "video",
+    "images_with_text_scrolling_8ei6fN": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "play_ygzW3n": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_3EPGKH": {
-          "type": "heading",
+        "item_Az6TYa": {
+          "type": "item",
           "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "play_ygzW3n",
-        "heading_3EPGKH"
+        "item_Az6TYa"
       ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify://files/videos/1129(1).mp4",
-        "mobile_video": "shopify://files/videos/1129(1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_bpLd6i": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3Ed49g": {
-          "type": "heading",
-          "settings": {
-            "text": "Nos clients en parlent le mieux",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_3Ed49g"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_XzA9bk": {
-      "type": "multi-column",
-      "blocks": {
-        "item_RHWWRh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/hosting_a_party_mobile.jpg",
-            "column_size": "3",
-            "title": "Camille.B.",
-            "heading_tag": "h4",
-            "content": "<h3></h3><p><strong>“J’adore cette bague connectée ! Ultra légère et super élégante. Je ne la sens même pas, et pourtant elle suit tout : sommeil, stress, activité… Une vraie révolution pour moi.”</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JgmAqc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/61zGUU0yZlL.jpg",
-            "column_size": "3",
-            "title": "Sophie Y.",
-            "heading_tag": "h4",
-            "content": "<h3></h3><p><strong>“Après quelques jours d’utilisation, je suis vraiment impressionnée. La batterie tient longtemps, l’appli est simple et complète. Bien mieux que ma montre connectée.”</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yNVEjG": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/61fpSHo-OBL.jpg",
-            "column_size": "3",
-            "title": "Thomas B.",
-            "heading_tag": "h4",
-            "content": "<p><strong>“Excellent produit. Les données sont précises et la bague est très confortable. Le design est discret mais classe, je la porte tous les jours. Je recommande sans hésiter !”</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_RHWWRh",
-        "item_JgmAqc",
-        "item_yNVEjG"
-      ],
-      "name": "Multi-column",
+      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured_product_QGWkEW": {
-      "type": "featured-product",
-      "blocks": {
-        "price_DeRL4J": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "title_a9a6ry": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "liquid_7C4qnM": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!-- ⚙️ BLOC INFO PRODUIT PREMIUM -->\n<div class=\"product-meta-block\">\n\n  <!-- LIGNE BADGES DU HAUT -->\n  <div class=\"product-badges-row\">\n\n    <!-- BADGE STOCK ROUGE -->\n    <div class=\"stock-badge-red\">\n      <span class=\"stock-icon-red\">💍</span>\n      <span class=\"stock-text-red\">\n        Plus que <span class=\"stock-number-red\" id=\"stock-count\">5</span> en stock\n      </span>\n    </div>\n\n    <!-- BADGE VISITEURS BLEU -->\n    <div class=\"viewer-badge-blue\">\n      <span class=\"viewer-icon-blue\">👀</span>\n      <span class=\"viewer-text-blue\">\n        <span class=\"viewer-number\" id=\"viewer-count\">18</span> personnes regardent ce produit\n      </span>\n    </div>\n\n    <!-- BADGE DERNIÈRES VENTES -->\n    <div class=\"sales-badge\">\n      <span class=\"sales-icon\">⚡</span>\n      <span class=\"sales-text\">\n        <span class=\"sales-number\" id=\"sales-count\">7</span> ventes / 24h\n      </span>\n    </div>\n\n  </div>\n\n  <!-- LIGNE CONFIANCE -->\n  <ul class=\"trust-list\">\n    <li><span class=\"trust-icon\">🚚</span>Commande avant 16h → expédition aujourd’hui</li>\n    <li><span class=\"trust-icon\">🔒</span>Paiement 100% sécurisé</li>\n    <li><span class=\"trust-icon\">🛡️</span>Garantie 2 ans</li>\n    <li><span class=\"trust-icon\">📱</span>Compatible iOS & Android</li>\n  </ul>\n\n</div>\n\n\n<style>\n/* -------- CONTAINER -------- */\n.product-meta-block {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: 14px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* -------- LIGNE BADGES -------- */\n.product-badges-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n\n/* -------- BADGE STOCK -------- */\n.stock-badge-red {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  border-radius: 999px;\n  background: rgba(255, 0, 0, 0.08);\n  border: 1.5px solid rgba(255, 0, 0, 0.45);\n  font-size: 12px;\n  color: #ff3b3b;\n  font-weight: 500;\n  box-shadow: 0 0 10px rgba(255,0,0,0.3);\n}\n\n.stock-icon-red { font-size: 16px; }\n\n.stock-number-red {\n  font-weight: 800;\n  font-size: 13px;\n  padding: 2px 7px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #ff3b3b, #d60000);\n  color: white;\n  box-shadow: 0 0 10px rgba(255,0,0,0.6);\n}\n\n/* -------- BADGE VIEWERS (CHIFFRE ENTOURÉ) -------- */\n.viewer-badge-blue {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(0, 153, 255, 0.08);\n  border: 1.5px solid rgba(0, 153, 255, 0.5);\n  font-size: 11px;\n  color: #0099ff;\n  box-shadow: 0 0 8px rgba(0,153,255,0.3);\n}\n\n.viewer-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #0099ff, #0066cc);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(0,153,255,0.5);\n}\n\n/* -------- BADGE SALES (CHIFFRE ENTOURÉ) -------- */\n.sales-badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(255, 196, 0, 0.08);\n  border: 1.5px solid rgba(255, 196, 0, 0.6);\n  font-size: 11px;\n  color: #e0a400;\n  box-shadow: 0 0 8px rgba(255,196,0,0.3);\n}\n\n.sales-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #f5c400, #c59b00);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(255,196,0,0.5);\n}\n\n/* -------- TRUST LIST -------- */\n.trust-list {\n  list-style: none;\n  padding: 8px 10px;\n  border-radius: 12px;\n  background: rgba(15,23,42,0.7);\n  color: #e5e7eb;\n  font-size: 11px;\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 4px;\n}\n\n.trust-list li {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n@media (min-width: 480px) {\n  .trust-list {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n</style>\n\n\n<script>\n// --------------------------------------\n// SÉLECTION DES ÉLÉMENTS\n// --------------------------------------\nconst stockEl   = document.getElementById(\"stock-count\");\nconst viewersEl = document.getElementById(\"viewer-count\");\nconst salesEl   = document.getElementById(\"sales-count\");\n\n// valeurs initiales\nlet stock   = 5;\nlet viewers = 18;\nlet sales   = 7;\n\n// --------------------------------------\n// MISE À JOUR DU STOCK (toutes les 20 sec)\n// --------------------------------------\nfunction updateStock() {\n  stock += Math.floor(Math.random() * 3) - 1; // -1, 0, +1\n  if (stock < 1) stock = 1;\n  if (stock > 5) stock = 5;\n  stockEl.textContent = stock;\n}\nsetInterval(updateStock, 20000);\n\n// --------------------------------------\n// VIEWERS (toutes les 15 sec)\n// --------------------------------------\nfunction updateViewers() {\n  viewers += Math.floor(Math.random() * 7) - 3;\n  if (viewers < 3) viewers = 3;\n  viewersEl.textContent = viewers;\n}\nsetInterval(updateViewers, 15000);\n\n// --------------------------------------\n// SALES (toutes les 15 sec)\n// --------------------------------------\nfunction updateSales() {\n  if (Math.random() < 0.4) sales += 1;\n  salesEl.textContent = sales;\n}\nsetInterval(updateSales, 15000);\n</script>"
-          }
-        },
-        "image_i3wNYK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/offres_noel_l_0.jpg",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "badges_BYxwYL": {
-          "type": "badges",
-          "settings": {}
-        },
-        "rating_6qm3Xe": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_pgqqrC": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_6FfNbY": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/offres_noel_l_0.jpg",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_6QERpj": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": true,
-            "stack_blocks": true,
-            "selector_style": "dropdown",
-            "swatch_selector_style": "none",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_937jg6": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_dpeqiM": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#f0c417",
-            "atc_button_text_color": "#310000",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_iCRRWy": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "price_DeRL4J",
-        "title_a9a6ry",
-        "liquid_7C4qnM",
-        "image_i3wNYK",
-        "badges_BYxwYL",
-        "rating_6qm3Xe",
-        "separator_pgqqrC",
-        "description_6FfNbY",
-        "variant_picker_6QERpj",
-        "quantity_selector_937jg6",
-        "buy_buttons_dpeqiM",
-        "pickup_availability_iCRRWy"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "enox-ring",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#f0f0f0",
-        "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "tabs_4D8YfY": {
-      "type": "tabs",
-      "blocks": {
-        "tab_dVAc9M": {
-          "type": "tab",
-          "settings": {
-            "title": "Service client 7J/7",
-            "content": "<p>Notre équipe est disponible <strong>tous les jours de la semaine</strong> pour répondre à vos questions et vous accompagner avant et après votre achat. Contactez-nous à tout moment, nous sommes là pour vous aider !</p>",
-            "page": ""
-          }
-        },
-        "tab_gddwGz": {
-          "type": "tab",
-          "settings": {
-            "title": "Caractéristique",
-            "content": "<p><br/>Discrète, élégante et intelligente, la bague connectée vous accompagne au quotidien pour suivre votre santé et votre bien-être. Grâce à ses capteurs intégrés, elle analyse votre sommeil, votre rythme cardiaque et votre niveau d’activité, tout en offrant un confort exceptionnel. Légère, résistante à l’eau et dotée d’une longue autonomie, elle est l’alliée parfaite pour surveiller votre forme sans effort, où que vous soyez.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "tab_8W6kgx": {
-          "type": "tab",
-          "settings": {
-            "title": "Essayez le 30 jours gratuitement",
-            "content": "<p>Profitez de notre offre exceptionnelle : testez la bague connectée pendant 30 jours, sans aucun engagement. Découvrez tout son potentiel, suivez votre santé au quotidien et voyez la différence par vous-même. Si vous n’êtes pas entièrement satisfait, vous pouvez la retourner facilement. Essayez-la, vous allez l’adorer !</p>",
-            "page": ""
-          }
-        },
-        "tab_qMexpR": {
-          "type": "tab",
-          "settings": {
-            "title": "Livraisons gratuite a domicile",
-            "content": "<p>rofitez de la livraison 100% gratuite directement chez vous !<br/><br/>Nos commandes sont expédiées rapidement et arrivent en <strong>5 à 8 jours ouvrés</strong>, selon votre adresse.<br/><br/>Commandez en toute tranquillité — on s’occupe du reste !</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_dVAc9M",
-        "tab_gddwGz",
-        "tab_8W6kgx",
-        "tab_qMexpR"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "custom_liquid_LekgHe": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<section class=\"faq-section js-faq-reveal\">\n  <div class=\"faq-container\">\n    <!-- Titre -->\n    <header class=\"faq-header\">\n      <p class=\"faq-badge\">Informations sur le produit & politiques d'expédition</p>\n      <h2 class=\"faq-title\">FAQ</h2>\n    </header>\n\n    <!-- Carte support client -->\n    <div class=\"faq-support-card\">\n      <h3>Support One Ring</h3>\n      <p>\n        Notre service client est disponible du lundi au vendredi, de 8h à 20h30,\n        pour répondre à toutes vos questions et vous accompagner dans vos démarches.\n      </p>\n      <p class=\"faq-support-meta\">\n        ⏱ Temps de réponse moyen : <strong>24h</strong>\n      </p>\n    </div>\n\n    <!-- Bloc FAQ principal -->\n    <div class=\"faq-accordion\">\n      <article class=\"faq-item open\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>La bague est-elle compatible avec mon téléphone ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Oui, la bague est compatible avec tous les smartphones récents\n            équipés de NFC (iOS et Android).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Peut-on se laver les mains ou prendre une douche avec ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Elle résiste à l’eau du quotidien (lavage de mains, pluie). Nous\n            déconseillons les immersions prolongées (piscine, mer, spa).\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Combien de temps dure la batterie ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Autonomie moyenne : X jours (à adapter). Recharge complète en Y minutes\n            avec le chargeur fourni.\n          </p>\n        </div>\n      </article>\n\n      <article class=\"faq-item\">\n        <button class=\"faq-item-header\" type=\"button\">\n          <span>Ma commande met combien de temps à arriver ?</span>\n          <span class=\"faq-icon\">+</span>\n        </button>\n        <div class=\"faq-item-body\">\n          <p>\n            Livraison en 3 à 7 jours ouvrés en France métropolitaine. Un numéro\n            de suivi est envoyé par e-mail dès l’expédition.\n          </p>\n        </div>\n      </article>\n    </div>\n\n    <!-- Bénéfices (mini-accordéons) -->\n    <div class=\"faq-benefits\">\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">1</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">📦</span>\n            <span>Livraison gratuite</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>La livraison est offerte sur toutes les commandes, sans minimum.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">2</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">💬</span>\n            <span>Service client 7j/7</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Notre équipe vous répond 7j/7 par e-mail et réseaux sociaux.</p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">3</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">✅</span>\n            <span>Satisfait ou remboursé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>\n            Vous disposez de X jours pour nous retourner le produit s’il ne vous convient pas.\n          </p>\n        </div>\n      </div>\n\n      <div class=\"faq-benefit\">\n        <button class=\"faq-benefit-header\" type=\"button\">\n          <span class=\"benefit-number\">4</span>\n          <span class=\"benefit-main\">\n            <span class=\"benefit-icon\">🔒</span>\n            <span>Paiement sécurisé</span>\n          </span>\n          <span class=\"benefit-toggle\">+</span>\n        </button>\n        <div class=\"faq-benefit-body\">\n          <p>Transactions chiffrées et sécurisées via des prestataires certifiés.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  :root {\n    --faq-main: #ffffff;\n    --faq-bg:   #ffffff;\n    --faq-text: #221b18;\n    --neon:     rgba(255,255,255,0.9);\n  }\n\n  /* Section centrée avec fond transparent */\n  .faq-section {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    padding: 4rem 1rem;\n    background: transparent; /* <<< ICI */\n  }\n\n  /* Animation d’apparition */\n  .js-faq-reveal {\n    opacity: 0;\n    transform: translateY(40px);\n    transition: opacity 0.6s ease, transform 0.6s ease;\n  }\n  .js-faq-reveal.visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  /* Container transparent aussi */\n  .faq-container {\n    width: 100%;\n    max-width: 880px;\n    background: transparent; /* <<< ICI */\n    border-radius: 22px;\n    padding: 2.5rem 2rem;\n    position: relative;\n    overflow: hidden;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.04);\n  }\n\n  /* On enlève le scan lumineux (fond) */\n  .faq-container::after {\n    content: none;\n  }\n\n  /* Header + titre */\n  .faq-header {\n    text-align: center;\n    margin-bottom: 2rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-badge {\n    display: inline-block;\n    padding: 0.25rem 0.75rem;\n    border-radius: 999px;\n    font-size: 0.75rem;\n    text-transform: uppercase;\n    letter-spacing: 0.08em;\n    background: rgba(0,0,0,0.04);\n    color: var(--faq-text);\n    margin-bottom: 0.5rem;\n  }\n\n  .faq-title {\n    font-size: 2.3rem;\n    color: var(--faq-text);\n    letter-spacing: 0.25em;\n    text-transform: uppercase;\n    margin: 0;\n    display: inline-block;\n    padding-bottom: 0.5rem;\n    text-shadow: 0 0 9px rgba(0,0,0,0.08);\n    position: relative;\n  }\n\n  .faq-title::after {\n    content: \"\";\n    position: absolute;\n    left: 50%;\n    bottom: -5px;\n    width: 80px;\n    height: 3px;\n    border-radius: 999px;\n    background: #000;\n    opacity: 0.5;\n    transform: translateX(-50%);\n  }\n\n  /* Carte support */\n  .faq-support-card {\n    position: relative;\n    background: #faf7f3;\n    border-radius: 18px;\n    padding: 1.25rem 1.5rem;\n    margin-bottom: 2rem;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.03);\n    z-index: 1;\n  }\n  .faq-support-card h3 {\n    margin: 0 0 0.5rem;\n    font-size: 0.95rem;\n    text-transform: uppercase;\n    letter-spacing: 0.16em;\n    color: var(--faq-text);\n  }\n  .faq-support-card p {\n    margin: 0.25rem 0;\n    font-size: 0.9rem;\n    color: #4a372c;\n    line-height: 1.5;\n  }\n  .faq-support-meta {\n    margin-top: 0.75rem;\n    font-size: 0.85rem;\n  }\n\n  /* Accordéon principal */\n  .faq-accordion {\n    border-radius: 18px;\n    border: 1px solid rgba(0,0,0,0.06);\n    background: #ffffff;\n    overflow: hidden;\n    z-index: 1;\n    position: relative;\n  }\n  .faq-item + .faq-item {\n    border-top: 1px solid rgba(0,0,0,0.04);\n  }\n\n  .faq-item-header {\n    width: 100%;\n    padding: 1rem 1.25rem;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    color: var(--faq-text);\n    font: inherit;\n    transition: background 0.2s ease, box-shadow 0.2s ease;\n  }\n  .faq-item-header span:first-child {\n    font-size: 0.95rem;\n    font-weight: 500;\n  }\n  .faq-item-header:hover {\n    background: rgba(0,0,0,0.02);\n    box-shadow: 0 0 10px rgba(0,0,0,0.03);\n  }\n\n  .faq-icon {\n    font-size: 1.2rem;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-item-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 1.25rem;\n    background: #ffffff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n  .faq-item-body p {\n    margin: 0.75rem 0 1rem;\n    font-size: 0.9rem;\n    color: #5b4a3e;\n  }\n\n  .faq-item.open .faq-item-body {\n    max-height: 200px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.75rem;\n  }\n  .faq-item.open .faq-icon {\n    transform: rotate(45deg);\n  }\n\n  /* Bénéfices (grid) */\n  .faq-benefits {\n    margin-top: 2rem;\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 0.9rem;\n    position: relative;\n    z-index: 1;\n  }\n\n  .faq-benefit {\n    background: #ffffff;\n    border-radius: 18px;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.03);\n    overflow: hidden;\n    border: 1px solid rgba(0,0,0,0.04);\n  }\n\n  .faq-benefit-header {\n    width: 100%;\n    padding: 0.65rem 0.75rem;\n    display: flex;\n    align-items: center;\n    gap: 0.4rem;\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    font: inherit;\n    color: var(--faq-text);\n  }\n\n  .benefit-number {\n    width: 22px;\n    height: 22px;\n    border-radius: 999px;\n    border: 1px solid rgba(0,0,0,0.2);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 0.75rem;\n    font-weight: 600;\n    background: #f7efe6;\n  }\n\n  .benefit-main {\n    flex: 1;\n    display: inline-flex;\n    align-items: center;\n    gap: 0.35rem;\n  }\n\n  .benefit-icon {\n    font-size: 1.1rem;\n  }\n\n  .benefit-toggle {\n    font-size: 1rem;\n    font-weight: 700;\n    min-width: 20px;\n    text-align: center;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-benefit-body {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 0.9rem;\n    background: #ffffff;\n    transition: max-height 0.25s ease, padding-top 0.25s ease, padding-bottom 0.25s ease;\n  }\n\n  .faq-benefit-body p {\n    margin: 0.5rem 0 0.75rem;\n    font-size: 0.83rem;\n    color: #5b4a3e;\n  }\n\n  .faq-benefit.open .faq-benefit-body {\n    max-height: 120px;\n    padding-top: 0.25rem;\n    padding-bottom: 0.55rem;\n  }\n  .faq-benefit.open .benefit-toggle {\n    transform: rotate(45deg);\n  }\n\n  @media (max-width: 768px) {\n    .faq-container {\n      padding: 2rem 1.25rem;\n    }\n    .faq-benefits {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  /* Accordéon FAQ */\n  document.querySelectorAll(\".faq-item\").forEach(function(item) {\n    const header = item.querySelector(\".faq-item-header\");\n    header.addEventListener(\"click\", function () {\n      const isOpen = item.classList.contains(\"open\");\n      document.querySelectorAll(\".faq-item\").forEach(i => i.classList.remove(\"open\"));\n      if (!isOpen) item.classList.add(\"open\");\n    });\n  });\n\n  /* Mini-accordéons bénéfices */\n  document.querySelectorAll(\".faq-benefit\").forEach(function(benefit) {\n    const header = benefit.querySelector(\".faq-benefit-header\");\n    header.addEventListener(\"click\", function () {\n      benefit.classList.toggle(\"open\");\n    });\n  });\n\n  /* Apparition au scroll */\n  const section = document.querySelector(\".js-faq-reveal\");\n  if (section && \"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          section.classList.add(\"visible\");\n          observer.unobserve(section);\n        }\n      });\n    }, { threshold: 0.25 });\n    observer.observe(section);\n  } else if (section) {\n    section.classList.add(\"visible\");\n  }\n});\n</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "image_with_text_overlay_eLWAfn",
-    "logo_list_aw3dED",
-    "rich_text_GAKrng",
-    "image_with_text_overlay_CHRH97",
-    "rich_text_k476G9",
-    "video_KLmrYn",
-    "rich_text_bpLd6i",
-    "multi_column_XzA9bk",
-    "featured_product_QGWkEW",
-    "tabs_4D8YfY",
-    "custom_liquid_LekgHe"
+    "slideshow",
+    "logo_list_iTeKAH",
+    "impact-text",
+    "faq",
+    "images_with_text_scrolling_8ei6fN"
   ]
 }
