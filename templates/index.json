@@ -321,6 +321,110 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_tNeRqU": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_yxbYNr": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_em7hYA": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_hyJ3nK": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_X3Jdfj": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_YgnfxH": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_EVTjeB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_gzUEfY": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_EtUA3C": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_HnMTnp": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_BjHhhF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "#1a1a1a",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_UgMzEf": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_yxbYNr",
+        "title_em7hYA",
+        "badges_hyJ3nK",
+        "price_X3Jdfj",
+        "rating_YgnfxH",
+        "separator_EVTjeB",
+        "description_gzUEfY",
+        "variant_picker_EtUA3C",
+        "quantity_selector_HnMTnp",
+        "buy_buttons_BjHhhF",
+        "pickup_availability_UgMzEf"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "glowup-tein-fusion",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -332,6 +436,7 @@
     "multiple_images_with_text_ECXcJH",
     "custom_html_b7F6g4",
     "shop_the_look_xKpCgC",
-    "custom_html_hRaCCe"
+    "custom_html_hRaCCe",
+    "featured_product_tNeRqU"
   ]
 }
