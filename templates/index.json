@@ -179,34 +179,90 @@
         "accordion_text_color": ""
       }
     },
-    "images_with_text_scrolling_8ei6fN": {
-      "type": "images-with-text-scrolling",
+    "multiple_images_with_text_4rYbRH": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "item_Az6TYa": {
+        "item_6Y8cfg": {
           "type": "item",
           "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "image": "shopify://shop_images/Design_sans_titre_-_2025-10-22T155811.224_236746bd-5cf3-4481-8804-80a9cd543255.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Votre teint parfait en 10 secondes",
+            "content": "<p>Teint Fusion s'adapte instantanément à votre carnation pour un rendu naturel impeccable. Formule 2-en-1 qui unifie, hydrate et protège votre peau. Fini les erreurs de teinte et l'effet masque.</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_kjgi3m": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "item_Az6TYa"
+        "item_6Y8cfg",
+        "item_kjgi3m"
       ],
-      "name": "Images and text scrolling",
+      "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#fcf0d6",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_ECXcJH": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_ferPrG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2025-10-22T155811.224_236746bd-5cf3-4481-8804-80a9cd543255.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Votre teint parfait en 10 secondes",
+            "content": "<p>Teint Fusion s'adapte instantanément à votre carnation pour un rendu naturel impeccable. Formule 2-en-1 qui unifie, hydrate et protège votre peau. Fini les erreurs de teinte et l'effet masque.</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_MLRFXY": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ferPrG",
+        "item_MLRFXY"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#fcf0d6",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
@@ -215,6 +271,7 @@
     "logo_list_iTeKAH",
     "impact-text",
     "faq",
-    "images_with_text_scrolling_8ei6fN"
+    "multiple_images_with_text_4rYbRH",
+    "multiple_images_with_text_ECXcJH"
   ]
 }
