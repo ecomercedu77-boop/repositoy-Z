@@ -228,11 +228,11 @@
         "item_ferPrG": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_-_2025-10-22T155811.224_236746bd-5cf3-4481-8804-80a9cd543255.webp",
+            "image": "shopify://shop_images/dr-sophie.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Votre teint parfait en 10 secondes",
-            "content": "<p>Teint Fusion s'adapte instantanément à votre carnation pour un rendu naturel impeccable. Formule 2-en-1 qui unifie, hydrate et protège votre peau. Fini les erreurs de teinte et l'effet masque.</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
+            "title": "Avis d'expert - Dr. Marie Leblanc, Dermatologue",
+            "content": "<p>\"Je reçois régulièrement des patientes de 40 à 60 ans qui me disent qu'elles n'arrivent plus à se maquiller correctement. Leur fond de teint vire à l'orange, accentue leurs rides ou ne tient pas sur leur peau qui a tendance à être plus sèche avec l'âge. Ce qu'elles ne réalisent pas, c'est que leur teint évolue avec les années - notamment à cause des changements hormonaux liés à la ménopause qui provoquent des rougeurs et des variations de pigmentation. Un fond de teint qui s'adapte automatiquement à ces changements, comme celui-ci, peut vraiment faire la différence. L'important, c'est qu'il n'étouffe pas la peau et qu'il contienne des actifs hydratants comme la vitamine E. Ce type de formule permet de retrouver un teint unifié sans alourdir ou marquer les rides existantes.\"</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -264,6 +264,37 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "video_pydCgJ": {
+      "type": "video",
+      "blocks": {
+        "play_iFFy8h": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_PJEcta": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_iFFy8h",
+        "heading_PJEcta"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -272,6 +303,7 @@
     "impact-text",
     "faq",
     "multiple_images_with_text_4rYbRH",
+    "video_pydCgJ",
     "multiple_images_with_text_ECXcJH"
   ]
 }
