@@ -109,6 +109,37 @@
         "logo_item_border": ""
       }
     },
+    "multiple_images_with_text_Ettnfa": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_36n8Qx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5bf5b521-60d5-48b5-b5fb-44c3736c3fd9_748070c7-94da-4248-9bae-c7f3b1b227a3.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_36n8Qx"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "settings": {
@@ -386,42 +417,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "multiple_images_with_text_Ettnfa": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_36n8Qx": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/5bf5b521-60d5-48b5-b5fb-44c3736c3fd9_748070c7-94da-4248-9bae-c7f3b1b227a3.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_36n8Qx"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_iTeKAH",
+    "multiple_images_with_text_Ettnfa",
     "impact-text",
     "multiple_images_with_text_4rYbRH",
     "video_pydCgJ",
@@ -429,7 +430,6 @@
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "custom_html_EWLLqy",
-    "multiple_images_with_text_Ettnfa"
+    "custom_html_EWLLqy"
   ]
 }
