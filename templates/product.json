@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "sku_QFwMnn": {
+          "type": "sku",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -84,6 +88,7 @@
         }
       },
       "block_order": [
+        "sku_QFwMnn",
         "price",
         "title",
         "badges",
