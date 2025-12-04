@@ -127,58 +127,6 @@
         "button_text_color": ""
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "multiple_images_with_text_4rYbRH": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -220,6 +168,37 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "video_pydCgJ": {
+      "type": "video",
+      "blocks": {
+        "play_iFFy8h": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_PJEcta": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_iFFy8h",
+        "heading_PJEcta"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "multiple_images_with_text_ECXcJH": {
@@ -265,35 +244,30 @@
         "button_text_color": ""
       }
     },
-    "video_pydCgJ": {
-      "type": "video",
-      "blocks": {
-        "play_iFFy8h": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_PJEcta": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_iFFy8h",
-        "heading_PJEcta"
-      ],
-      "name": "Video",
+    "custom_html_b7F6g4": {
+      "type": "custom-html",
+      "name": "Custom HTML",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n  .avis-clients-container {\n    font-family: Arial, sans-serif;\n    max-width: 800px;\n    margin: 0 auto;\n  }\n\n  .avis-titre {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 16px;\n    text-align: center;\n  }\n\n  .avis-item {\n    margin-bottom: 28px;\n    border-bottom: 1px solid #eee;\n    padding-bottom: 20px;\n  }\n\n  .avis-nom {\n    font-weight: bold;\n    color: #ff4b9a; /* rose prénom */\n    margin-bottom: 4px;\n  }\n\n  .avis-stars {\n    color: #ff4b9a; /* rose étoiles */\n    font-size: 18px;\n    margin-bottom: 8px;\n  }\n\n  .avis-texte {\n    font-size: 14px;\n    line-height: 1.5;\n  }\n\n  /* Photos en petits carrés */\n  .avis-photo {\n    width: 120px;\n    height: 120px;\n    object-fit: cover;\n    border-radius: 12px;\n    display: block;\n    margin: 14px auto;\n    box-shadow: 0px 3px 8px rgba(0,0,0,0.12);\n  }\n</style>\n\n<div class=\"avis-clients-container\">\n  <div class=\"avis-titre\">Avis de nos clientes</div>\n\n  <!-- Avis 1 -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Clara, 27 ans – Peau mixte</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « J’ai enfin trouvé un fond de teint qui tient toute la journée sans briller !\n      La texture est légère, le rendu hyper naturel, et il floute parfaitement mes pores.\n      Je suis fan. »\n    </div>\n    <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894280__0__omrejDLr__fLzAIZQYi__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 1\">\n  </div>\n\n  <!-- Avis 2 -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Inès, 34 ans – Peau normale</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « Application ultra simple, la matière se fond dans la peau en quelques secondes.\n      Le résultat est lumineux, homogène et vraiment flatteur. Je reçois souvent des compliments\n      depuis que je l’utilise ! »\n    </div>\n    <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894251__0__c22d1VbV__bEVGl2sj1__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 2\">\n  </div>\n\n  <!-- Avis 3 -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Léa, 22 ans – Peau acnéique</div>\n    <div class=\"avis-stars\">★★★★☆</div>\n    <div class=\"avis-texte\">\n      « Très bonne couvrance sans effet plâtre. Il unifie super bien mon teint\n      et camoufle mes imperfections tout en restant léger. Gros coup de cœur pour la tenue. »\n    </div>\n    <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894281__0__C3aOGt1G___GhLCgTmW__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 3\">\n  </div>\n\n  <!-- Avis 4 -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Sara, 30 ans – Peau sèche</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « Il ne marque pas mes zones de sécheresse, ce qui est rare !\n      Le teint est doux, lissé, presque velouté. Je n’ai même plus besoin de retouches. »\n    </div>\n    <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894266__0__F6yJYPCw__ITfRNHrw3__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 4\">\n  </div>\n\n  <!-- Avis 5 -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Maëlle, 29 ans – Peau sensible</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « Aucun tiraillement, aucune réaction. Le fond de teint se fond naturellement\n      et donne un effet \"seconde peau\". Le fini est magnifique au soleil comme en intérieur. »\n    </div>\n    <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894281__0__sBV7rRh8__dyIF8LA8Cm__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 5\">\n  </div>\n\n  <!-- Avis 6 (sans photo) -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Chloé, 31 ans – Peau mixte</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « Je l’adore pour le quotidien : rapide à appliquer, facile à moduler, et le pinceau intégré\n      est un vrai plus. Le rendu reste impeccable même après 10 heures. »\n    </div>\n  </div>\n\n  <!-- Avis 7 (sans photo) -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Élodie, 40 ans – Peau mature</div>\n    <div class=\"avis-stars\">★★★★☆</div>\n    <div class=\"avis-texte\">\n      « Il lisse vraiment le grain de peau et atténue visiblement les ridules.\n      Le fini est lumineux mais pas gras, très chic. Je me sens plus fraîche immédiatement. »\n    </div>\n  </div>\n\n  <!-- Avis 8 (sans photo) -->\n  <div class=\"avis-item\">\n    <div class=\"avis-nom\">Amira, 25 ans – Peau mate</div>\n    <div class=\"avis-stars\">★★★★★</div>\n    <div class=\"avis-texte\">\n      « Enfin une teinte qui correspond parfaitement à ma carnation !\n      La couvrance est uniforme et le résultat reste stable toute la journée. »\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_hRaCCe": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n.faq-container {\n  max-width: 800px;\n  margin: 20px auto;\n  font-family: Arial, sans-serif;\n}\n.faq-item {\n  border-bottom: 1px solid #ddd;\n  padding: 10px 0;\n}\n.faq-title {\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  padding: 10px 0;\n}\n.faq-content {\n  display: none;\n  padding: 10px 0;\n  font-size: 15px;\n  color: #555;\n}\n</style>\n\n<div class=\"faq-container\">\n\n  <!-- BLOC 1 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-title\">📌 Comment choisir ma teinte de fond de teint ?</div>\n    <div class=\"faq-content\">\n      <p>\n        Pour choisir la bonne teinte :\n      </p>\n      <ul>\n        <li>Référez-vous aux photos, swatches et descriptions des teintes.</li>\n        <li>Identifiez votre sous-ton : \n          <strong>froid</strong> (veines bleutées), \n          <strong>neutre</strong> (mélange bleu/vert), \n          <strong>chaud</strong> (veines verdâtres).</li>\n        <li>Si vous hésitez entre deux teintes, prenez la plus <strong>claire</strong> pour un rendu naturel.</li>\n      </ul>\n      <p>\n        Astuce : le fond de teint doit se fondre avec la couleur de votre cou, pas seulement votre visage.\n      </p>\n    </div>\n  </div>\n\n  <!-- BLOC 2 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-title\">📌 Est-ce adapté à mon type de peau (sèche, grasse, mixte, sensible) ?</div>\n    <div class=\"faq-content\">\n      <p>\n        Notre fond de teint convient à la plupart des types de peau :\n      </p>\n      <ul>\n        <li>\n<strong>Peau sèche :</strong> hydratez bien votre peau avant l’application, vous pouvez ajouter une base hydratante.</li>\n        <li>\n<strong>Peau grasse / mixte :</strong> appliquez une base matifiante sur la zone T et poudrez légèrement pour fixer.</li>\n        <li>\n<strong>Peau sensible :</strong> vérifiez toujours la liste d’ingrédients et faites un test sur une petite zone avant la première utilisation.</li>\n      </ul>\n      <p>\n        Si vous avez des allergies connues, pensez à vérifier la composition ou à nous contacter avant de commander.\n      </p>\n    </div>\n  </div>\n\n  <!-- BLOC 3 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-title\">📌 Comment appliquer le fond de teint et quelle est la couvrance ?</div>\n    <div class=\"faq-content\">\n      <p>\n        Vous pouvez appliquer le fond de teint avec :\n      </p>\n      <ul>\n        <li>Vos <strong>doigts</strong> pour un rendu naturel et rapide.</li>\n        <li>Une <strong>éponge</strong> pour un fini fondu et sans traces.</li>\n        <li>Un <strong>pinceau</strong> pour une couvrance plus travaillée.</li>\n      </ul>\n      <p>\n        Commencez par une petite quantité, puis ajoutez du produit si besoin :\n      </p>\n      <ul>\n        <li>\n<strong>Couvrance légère :</strong> une fine couche pour un effet “peau nue”.</li>\n        <li>\n<strong>Couvrance moyenne :</strong> ajoutez une deuxième couche sur les zones qui en ont besoin.</li>\n        <li>\n<strong>Couvrance forte :</strong> tapotez le produit sans trop l’étirer.</li>\n      </ul>\n      <p>\n        Pour une meilleure tenue, utilisez une base avant et une poudre fixante après l’application.\n      </p>\n    </div>\n  </div>\n\n  <!-- BLOC 4 -->\n  <div class=\"faq-item\">\n    <div class=\"faq-title\">📌 Livraison, retours &amp; échange de teinte</div>\n    <div class=\"faq-content\">\n      <p>\n        <strong>Livraison :</strong><br>\n        • Les commandes sont expédiées sous X jours ouvrés (hors week-end et jours fériés).<br>\n        • Vous recevrez un numéro de suivi par e-mail dès l’envoi de votre colis.\n      </p>\n      <p>\n        <strong>Retours :</strong><br>\n        • Pour des raisons d’hygiène, les produits de maquillage ouverts ou utilisés ne peuvent généralement pas être retournés.<br>\n        • Si votre produit arrive endommagé ou défectueux, contactez-nous sous X jours avec une photo, nous trouverons une solution.\n      </p>\n      <p>\n        <strong>Erreur de teinte :</strong><br>\n        • Si vous vous êtes trompé(e) de teinte, écrivez-nous : selon l’état du produit et nos conditions, nous verrons si un échange est possible.\n      </p>\n    </div>\n  </div>\n\n</div>\n\n<script>\ndocument.querySelectorAll('.faq-title').forEach(title => {\n  title.addEventListener('click', () => {\n    const content = title.nextElementSibling;\n    content.style.display = content.style.display === 'block' ? 'none' : 'block';\n  });\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
@@ -301,9 +275,10 @@
     "slideshow",
     "logo_list_iTeKAH",
     "impact-text",
-    "faq",
     "multiple_images_with_text_4rYbRH",
     "video_pydCgJ",
-    "multiple_images_with_text_ECXcJH"
+    "multiple_images_with_text_ECXcJH",
+    "custom_html_b7F6g4",
+    "custom_html_hRaCCe"
   ]
 }
