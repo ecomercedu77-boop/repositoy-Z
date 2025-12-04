@@ -257,71 +257,6 @@
         "text_color": ""
       }
     },
-    "shop_the_look_xKpCgC": {
-      "type": "shop-the-look",
-      "blocks": {
-        "product_i7Q3nL": {
-          "type": "product",
-          "settings": {
-            "product": "glowup-tein-fusion",
-            "horizontal_position": 52,
-            "vertical_position": 25
-          }
-        },
-        "product_3W7jPU": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 75,
-            "vertical_position": 53
-          }
-        },
-        "product_DYYVa8": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
-          }
-        }
-      },
-      "block_order": [
-        "product_i7Q3nL",
-        "product_3W7jPU",
-        "product_DYYVa8"
-      ],
-      "name": "Shop the look",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "image": "shopify://shop_images/Design_sans_titre_-_2025-11-06T204202.340.webp",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
-      }
-    },
-    "custom_html_hRaCCe": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<style>\n.faq-wrapper {\n  text-align: center;\n  margin: 40px auto;\n}\n\n.faq-title-main {\n  font-size: 32px;\n  font-weight: bold;\n  margin-bottom: 30px;\n}\n\n.faq-container {\n  max-width: 800px;\n  margin: 0 auto;\n  font-family: Arial, sans-serif;\n  text-align: center; /* CENTRE TOUT LE TEXTE */\n}\n\n.faq-item {\n  border-bottom: 1px solid #ddd;\n  padding: 15px 0;\n}\n\n.faq-title {\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.faq-title img {\n  width: 22px;\n  height: 22px;\n}\n\n.faq-content {\n  display: none;\n  padding: 10px 0 0;\n  font-size: 15px;\n  color: #555;\n}\n</style>\n\n<div class=\"faq-wrapper\">\n  <div class=\"faq-title-main\">FAQ</div>\n\n  <div class=\"faq-container\">\n\n    <!-- BLOC 1 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Comment choisir ma teinte de fond de teint ?\n      </div>\n      <div class=\"faq-content\">\n        Pour choisir la bonne teinte, référez-vous aux photos, aux sous-tons et aux conseils fournis. \n        Si vous hésitez entre deux teintes, choisissez la plus claire pour un rendu naturel.\n      </div>\n    </div>\n\n    <!-- BLOC 2 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Est-ce adapté à mon type de peau ?\n      </div>\n      <div class=\"faq-content\">\n        Notre fond de teint convient aux peaux sèches, grasses, mixtes et sensibles. \n        Adaptez simplement votre base selon votre type de peau.\n      </div>\n    </div>\n\n    <!-- BLOC 3 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Comment appliquer le fond de teint ?\n      </div>\n      <div class=\"faq-content\">\n        Vous pouvez utiliser vos doigts, une éponge ou un pinceau. \n        Commencez par une petite quantité et augmentez la couvrance si besoin.\n      </div>\n    </div>\n\n    <!-- BLOC 4 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Livraison, retours &amp; échange de teinte\n      </div>\n      <div class=\"faq-content\">\n        Les commandes sont expédiées rapidement.  \n        En cas de produit abîmé ou erreur de teinte, contactez-nous.\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\ndocument.querySelectorAll('.faq-title').forEach(title => {\n  title.addEventListener('click', () => {\n    const content = title.nextElementSibling;\n    content.style.display = content.style.display === 'block' ? 'none' : 'block';\n  });\n});\n</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_tNeRqU": {
       "type": "featured-product",
       "blocks": {
@@ -363,6 +298,17 @@
             "collapse_content": false
           }
         },
+        "buy_buttons_BjHhhF": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "#1a1a1a",
+            "payment_button_text_color": ""
+          }
+        },
         "variant_picker_EtUA3C": {
           "type": "variant_picker",
           "settings": {
@@ -378,17 +324,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_BjHhhF": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#f0c417",
-            "atc_button_text_color": "#000000",
-            "payment_button_background": "#1a1a1a",
-            "payment_button_text_color": ""
-          }
-        },
         "pickup_availability_UgMzEf": {
           "type": "pickup_availability",
           "settings": {}
@@ -402,9 +337,9 @@
         "rating_YgnfxH",
         "separator_EVTjeB",
         "description_gzUEfY",
+        "buy_buttons_BjHhhF",
         "variant_picker_EtUA3C",
         "quantity_selector_HnMTnp",
-        "buy_buttons_BjHhhF",
         "pickup_availability_UgMzEf"
       ],
       "name": "Featured product",
@@ -425,6 +360,63 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "custom_html_hRaCCe": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n.faq-wrapper {\n  text-align: center;\n  margin: 40px auto;\n}\n\n.faq-title-main {\n  font-size: 32px;\n  font-weight: bold;\n  margin-bottom: 30px;\n}\n\n.faq-container {\n  max-width: 800px;\n  margin: 0 auto;\n  font-family: Arial, sans-serif;\n  text-align: center; /* CENTRE TOUT LE TEXTE */\n}\n\n.faq-item {\n  border-bottom: 1px solid #ddd;\n  padding: 15px 0;\n}\n\n.faq-title {\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.faq-title img {\n  width: 22px;\n  height: 22px;\n}\n\n.faq-content {\n  display: none;\n  padding: 10px 0 0;\n  font-size: 15px;\n  color: #555;\n}\n</style>\n\n<div class=\"faq-wrapper\">\n  <div class=\"faq-title-main\">FAQ</div>\n\n  <div class=\"faq-container\">\n\n    <!-- BLOC 1 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Comment choisir ma teinte de fond de teint ?\n      </div>\n      <div class=\"faq-content\">\n        Pour choisir la bonne teinte, référez-vous aux photos, aux sous-tons et aux conseils fournis. \n        Si vous hésitez entre deux teintes, choisissez la plus claire pour un rendu naturel.\n      </div>\n    </div>\n\n    <!-- BLOC 2 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Est-ce adapté à mon type de peau ?\n      </div>\n      <div class=\"faq-content\">\n        Notre fond de teint convient aux peaux sèches, grasses, mixtes et sensibles. \n        Adaptez simplement votre base selon votre type de peau.\n      </div>\n    </div>\n\n    <!-- BLOC 3 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Comment appliquer le fond de teint ?\n      </div>\n      <div class=\"faq-content\">\n        Vous pouvez utiliser vos doigts, une éponge ou un pinceau. \n        Commencez par une petite quantité et augmentez la couvrance si besoin.\n      </div>\n    </div>\n\n    <!-- BLOC 4 -->\n    <div class=\"faq-item\">\n      <div class=\"faq-title\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/545/545682.png\">\n        Livraison, retours &amp; échange de teinte\n      </div>\n      <div class=\"faq-content\">\n        Les commandes sont expédiées rapidement.  \n        En cas de produit abîmé ou erreur de teinte, contactez-nous.\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\ndocument.querySelectorAll('.faq-title').forEach(title => {\n  title.addEventListener('click', () => {\n    const content = title.nextElementSibling;\n    content.style.display = content.style.display === 'block' ? 'none' : 'block';\n  });\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_EWLLqy": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n  .bloc-benefices-glowup {\n    font-family: Arial, sans-serif;\n    max-width: 1100px;\n    margin: 40px auto;\n    background: #fff7fb;\n    border-radius: 20px;\n    padding: 24px 30px;\n    display: flex;\n    gap: 30px;\n    align-items: center;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.06);\n  }\n\n  .bloc-benefices-image {\n    flex: 1;\n    text-align: center;\n  }\n\n  .bloc-benefices-image img {\n    max-width: 100%;\n    height: auto;\n    border-radius: 18px;\n  }\n\n  .bloc-benefices-contenu {\n    flex: 1.2;\n  }\n\n  .bloc-benefices-titre {\n    font-size: 26px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  .bloc-benefices-soustitre {\n    color: #ff4b9a;\n    font-weight: bold;\n    margin-bottom: 18px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    font-size: 13px;\n  }\n\n  .bloc-benefices-liste {\n    list-style: none;\n    padding: 0;\n    margin: 0 0 20px;\n  }\n\n  .bloc-benefices-liste li {\n    position: relative;\n    padding-left: 32px;\n    margin-bottom: 10px;\n    font-size: 14px;\n    line-height: 1.5;\n  }\n\n  .bloc-benefices-liste li::before {\n    content: \"➜\";\n    position: absolute;\n    left: 0;\n    top: 2px;\n    color: #ff4b9a;\n    font-size: 18px;\n    font-weight: bold;\n  }\n\n  .badge-cruelty {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 12px;\n    padding: 6px 12px;\n    border-radius: 999px;\n    background: #ffe3f0;\n    color: #ff4b9a;\n    font-weight: bold;\n    margin-bottom: 8px;\n  }\n\n  .badge-cruelty span {\n    font-size: 16px;\n  }\n\n  .bloc-benefices-cta {\n    margin-top: 10px;\n  }\n\n  .bloc-benefices-cta button {\n    background: #ff4b9a;\n    color: white;\n    border: none;\n    padding: 10px 20px;\n    border-radius: 999px;\n    font-size: 14px;\n    font-weight: bold;\n    cursor: pointer;\n    box-shadow: 0 4px 10px rgba(255,75,154,0.4);\n    transition: transform 0.15s ease, box-shadow 0.15s ease;\n  }\n\n  .bloc-benefices-cta button:hover {\n    transform: translateY(-1px);\n    box-shadow: 0 6px 15px rgba(255,75,154,0.5);\n  }\n\n  @media (max-width: 768px) {\n    .bloc-benefices-glowup {\n      flex-direction: column;\n      padding: 20px;\n    }\n  }\n</style>\n\n<div class=\"bloc-benefices-glowup\">\n  <!-- IMAGE PRODUIT -->\n  <div class=\"bloc-benefices-image\">\n    <img src=\"URL_DE_TON_IMAGE_PRODUIT\" alt=\"Fond de teint Glow'up Paris\">\n  </div>\n\n  <!-- TEXTE + FLÈCHES -->\n  <div class=\"bloc-benefices-contenu\">\n    <div class=\"bloc-benefices-soustitre\">NOUVEAU • FOND DE TEINT STICK &amp; PINCEAU</div>\n    <div class=\"bloc-benefices-titre\">Glow'up Paris – Teint lisse &amp; lumineux en 30 secondes</div>\n\n    <div class=\"badge-cruelty\">\n      <span>🐰</span> Cruelty Free &amp; Peaux sensibles OK\n    </div>\n\n    <ul class=\"bloc-benefices-liste\">\n      <li>Couvrance modulable &amp; naturelle – de légère à moyenne, sans effet masque.</li>\n      <li>Teint lissé &amp; flouté – pores, rougeurs et imperfections estompés en un geste.</li>\n      <li>Texture ultra légère – effet seconde peau confortable toute la journée.</li>\n      <li>Tenue longue durée – reste impeccable même après 10+ heures.</li>\n      <li>Pinceau intégré – application rapide, propre et homogène partout où tu es.</li>\n      <li>Convient aux peaux mixtes, grasses, acnéiques &amp; sensibles.</li>\n    </ul>\n\n    <div class=\"bloc-benefices-cta\">\n      <button>Je veux mon teint Glow'up ✨</button>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_Ettnfa": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_36n8Qx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5bf5b521-60d5-48b5-b5fb-44c3736c3fd9_748070c7-94da-4248-9bae-c7f3b1b227a3.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_36n8Qx"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -435,8 +427,9 @@
     "video_pydCgJ",
     "multiple_images_with_text_ECXcJH",
     "custom_html_b7F6g4",
-    "shop_the_look_xKpCgC",
+    "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "featured_product_tNeRqU"
+    "custom_html_EWLLqy",
+    "multiple_images_with_text_Ettnfa"
   ]
 }
