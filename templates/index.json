@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/rings_light_background.jpg",
+            "image": "shopify://shop_images/peau_sans_imperfections_en_2_semaines.webp",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-start-center sm:text-center",
@@ -56,28 +56,32 @@
         "logo_bCTbxx": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_tHRLCh": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_gCDz3G": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/download_d88372c9-5db9-4935-ad99-6e7a7f33ec70.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_TEGxBM": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.webp",
+            "logo_width": 300,
             "link": ""
           }
         }
