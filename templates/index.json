@@ -109,6 +109,50 @@
         "logo_item_border": ""
       }
     },
+    "custom_html_b3GkCr": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<meta charset=\"UTF-8\">\n  <title>Élinea - Hero</title>\n  <style>\n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    body {\n      font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n      background: #fff5f8;\n      color: #1a1a1a;\n    }\n\n    .hero {\n      min-height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      text-align: center;\n      padding: 0 1.5rem;\n      position: relative;\n      overflow: hidden;\n    }\n\n    /* Petites bulles animées en fond */\n    .bubble {\n      position: absolute;\n      border-radius: 999px;\n      opacity: 0.18;\n      filter: blur(2px);\n      animation: float 12s infinite alternate ease-in-out;\n    }\n\n    .bubble.b1 {\n      width: 260px;\n      height: 260px;\n      background: #ffd6e5;\n      top: -60px;\n      left: -40px;\n    }\n\n    .bubble.b2 {\n      width: 320px;\n      height: 320px;\n      background: #ffe9f3;\n      bottom: -80px;\n      right: -40px;\n      animation-delay: 2s;\n    }\n\n    @keyframes float {\n      0%   { transform: translateY(0) translateX(0) scale(1); }\n      100% { transform: translateY(-20px) translateX(10px) scale(1.05); }\n    }\n\n    .hero-content {\n      max-width: 700px;\n      position: relative;\n      z-index: 5;\n    }\n\n    h1 {\n      font-size: clamp(2.1rem, 4vw, 2.8rem);\n      line-height: 1.2;\n      margin-bottom: 1rem;\n      animation: fadeUp 0.7s ease-out forwards;\n      opacity: 0;\n    }\n\n    .brand {\n      position: relative;\n      display: inline-block;\n      padding: 0 0.25em;\n      border-radius: 999px;\n      background: linear-gradient(90deg, #ff7aac, #ff4f88);\n      color: #fff;\n      font-weight: 700;\n      animation: glow 1.8s ease-in-out infinite;\n    }\n\n    .subtitle {\n      font-size: 1rem;\n      color: #555;\n      max-width: 560px;\n      margin: 0 auto 1.8rem;\n      line-height: 1.5;\n      animation: fadeUp 0.7s ease-out forwards;\n      animation-delay: 0.25s;\n      opacity: 0;\n    }\n\n    .bullets {\n      list-style: none;\n      display: flex;\n      flex-wrap: wrap;\n      gap: 0.75rem;\n      justify-content: center;\n      margin-bottom: 2.2rem;\n      animation: fadeUp 0.7s ease-out forwards;\n      animation-delay: 0.45s;\n      opacity: 0;\n    }\n\n    .bullets li {\n      background: #ffffff;\n      border-radius: 999px;\n      padding: 0.55rem 1.1rem;\n      font-size: 0.9rem;\n      box-shadow: 0 8px 18px rgba(0,0,0,0.05);\n      white-space: nowrap;\n    }\n\n    .bullets span {\n      color: #18a05b;\n      font-weight: 700;\n      margin-right: 0.25rem;\n    }\n\n    .cta {\n      display: inline-block;\n      padding: 0.9rem 2.3rem;\n      border-radius: 999px;\n      background: linear-gradient(120deg, #ff6fa3, #ff4f88);\n      color: #fff;\n      font-size: 1rem;\n      font-weight: 600;\n      text-decoration: none;\n      box-shadow: 0 10px 24px rgba(255, 79, 136, 0.38);\n      transform: translateY(0);\n      transition: transform 0.18s ease, box-shadow 0.18s ease;\n      animation: fadeUp 0.7s ease-out forwards;\n      animation-delay: 0.7s;\n      opacity: 0;\n    }\n\n    .cta:hover {\n      transform: translateY(-3px);\n      box-shadow: 0 16px 30px rgba(255, 79, 136, 0.45);\n    }\n\n    @keyframes fadeUp {\n      from {\n        opacity: 0;\n        transform: translateY(18px);\n      }\n      to {\n        opacity: 1;\n        transform: translateY(0);\n      }\n    }\n\n    @keyframes glow {\n      0%, 100% {\n        box-shadow: 0 0 0 rgba(255, 111, 163, 0);\n      }\n      50% {\n        box-shadow: 0 0 20px rgba(255, 111, 163, 0.75);\n      }\n    }\n  </style>\n\n\n  <section class=\"hero\">\n    <div class=\"bubble b1\"></div>\n    <div class=\"bubble b2\"></div>\n\n    <div class=\"hero-content\">\n      <h1>\n        Ne cherchez plus :\n        <span class=\"brand\">Élinea</span>\n        est la solution qui lisse votre peau dès la 1ʳᵉ utilisation.\n      </h1>\n\n      <p class=\"subtitle\">\n        Dites adieu à la peau de fraise, aux poils incarnés et aux gommages agressifs.\n        Un simple gant + de l’eau, et votre peau devient douce, nette et lumineuse.\n      </p>\n\n      <ul class=\"bullets\">\n        <li>\n<span>✓</span>Résultats dès la 1ʳᵉ utilisation</li>\n        <li>\n<span>✓</span>0 produit chimique</li>\n        <li>\n<span>✓</span>Réutilisable 1 an</li>\n        <li>\n<span>✓</span>Idéal avant l’épilation &amp; l’auto-bronzant</li>\n      </ul>\n\n      <a href=\"#acheter\" class=\"cta\">Découvrir le gant Élinea</a>\n    </div>\n  </section>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_dfnVFr": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_ARWfA7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ARWfA7"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "shop_the_look_DBTie4": {
       "type": "shop-the-look",
       "blocks": {
@@ -149,7 +193,7 @@
         "image": "shopify://shop_images/3_87b9f4da-8680-4ca4-8d4c-5f3a81cf0d76.webp",
         "title": "L’efficacité prouvée dès la première utilisation.",
         "content": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -174,48 +218,6 @@
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "multiple_images_with_text_4rYbRH": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_6Y8cfg": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Votre teint parfait en 10 secondes",
-            "content": "<p>Teint Fusion s'adapte instantanément à votre carnation pour un rendu naturel impeccable. Formule 2-en-1 qui unifie, hydrate et protège votre peau. Fini les erreurs de teinte et l'effet masque.</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_kjgi3m": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_6Y8cfg",
-        "item_kjgi3m"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#fcf0d6",
-        "background_gradient": "",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -250,48 +252,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "multiple_images_with_text_ECXcJH": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_ferPrG": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Avis d'expert - Dr. Marie Leblanc, Dermatologue",
-            "content": "<p>\"Je reçois régulièrement des patientes de 40 à 60 ans qui me disent qu'elles n'arrivent plus à se maquiller correctement. Leur fond de teint vire à l'orange, accentue leurs rides ou ne tient pas sur leur peau qui a tendance à être plus sèche avec l'âge. Ce qu'elles ne réalisent pas, c'est que leur teint évolue avec les années - notamment à cause des changements hormonaux liés à la ménopause qui provoquent des rougeurs et des variations de pigmentation. Un fond de teint qui s'adapte automatiquement à ces changements, comme celui-ci, peut vraiment faire la différence. L'important, c'est qu'il n'étouffe pas la peau et qu'il contienne des actifs hydratants comme la vitamine E. Ce type de formule permet de retrouver un teint unifié sans alourdir ou marquer les rides existantes.\"</p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p><p><a href=\"https://aurevaparis.com/products/aureva-paris%E2%84%A2-teint-fusion\"><br/><br/></a></p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_MLRFXY": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ferPrG",
-        "item_MLRFXY"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#fcf0d6",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "custom_html_b7F6g4": {
@@ -423,48 +383,16 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "multiple_images_with_text_dfnVFr": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_ARWfA7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ARWfA7"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_iTeKAH",
-    "shop_the_look_DBTie4",
+    "custom_html_b3GkCr",
     "multiple_images_with_text_dfnVFr",
+    "shop_the_look_DBTie4",
     "impact-text",
-    "multiple_images_with_text_4rYbRH",
     "video_pydCgJ",
-    "multiple_images_with_text_ECXcJH",
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe"
