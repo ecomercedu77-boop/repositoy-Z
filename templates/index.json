@@ -109,6 +109,50 @@
         "logo_item_border": ""
       }
     },
+    "hot_spots_eie8i7": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_xtxgrx": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon": "shopify://shop_images/image_elinea.jpg",
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_xtxgrx"
+      ],
+      "name": "Hot spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/image_elinea.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "shopify://products/gant-exfoliant-en-soie-corps",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "slideshow_CjrXw8": {
       "type": "slideshow",
       "name": "Slideshow",
@@ -201,7 +245,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
-        "video_size": "auto",
+        "video_size": "md",
         "video": "shopify://files/videos/snaptik_7398636282450038048_hd.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
@@ -350,50 +394,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "hot_spots_eie8i7": {
-      "type": "hot-spots",
-      "blocks": {
-        "item_xtxgrx": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon": "shopify://shop_images/image_elinea.jpg",
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_xtxgrx"
-      ],
-      "name": "Hot spots",
-      "settings": {
-        "full_width": true,
-        "image": "shopify://shop_images/image_elinea.jpg",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "shopify://products/gant-exfoliant-en-soie-corps",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
       }
     }
   },
