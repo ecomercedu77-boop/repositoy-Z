@@ -109,17 +109,20 @@
         "logo_item_border": ""
       }
     },
-    "custom_liquid_APkCe4": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "slideshow_CjrXw8": {
+      "type": "slideshow",
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .elinea-why-section {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 50px 15px;\n    font-family: \"Inter\", system-ui, sans-serif;\n    color: #222;\n  }\n\n  .elinea-why-title {\n    text-align: center;\n    font-size: 34px;\n    font-weight: 800;\n    letter-spacing: 0.04em;\n    margin-bottom: 40px;\n  }\n\n  .elinea-why-layout {\n    display: grid;\n    grid-template-columns: 1.1fr auto 1.1fr;\n    gap: 30px;\n    align-items: center;\n  }\n\n  .elinea-why-column {\n    display: flex;\n    flex-direction: column;\n    gap: 26px;\n  }\n\n  .elinea-why-item {\n    position: relative;\n  }\n\n  .elinea-why-pill {\n    display: inline-block;\n    padding: 10px 22px;\n    border-radius: 999px;\n    border: 2px solid #F7C6D2;\n    background: #ffffff;\n    font-size: 15px;\n    font-weight: 700;\n    text-transform: uppercase;\n    white-space: nowrap;\n  }\n\n  .elinea-why-text {\n    margin-top: 6px;\n    font-size: 14px;\n    line-height: 1.4;\n  }\n\n  /* GANT AU CENTRE */\n  .elinea-why-glove-wrap {\n    display: flex;\n    justify-content: center;\n  }\n  .elinea-why-glove {\n    width: 280px;\n    max-width: 100%;\n    filter: drop-shadow(0 12px 25px rgba(0,0,0,0.18));\n  }\n\n  /* LIGNES FINES ENTRE LES PILLES ET LE GANT */\n  .elinea-why-item-left .elinea-why-pill::after,\n  .elinea-why-item-right .elinea-why-pill::after {\n    content: \"\";\n    position: absolute;\n    top: 50%;\n    width: 60px;\n    height: 1px;\n    background: #dddddd;\n  }\n\n  .elinea-why-item-left .elinea-why-pill::after {\n    right: -65px;\n  }\n\n  .elinea-why-item-right .elinea-why-pill::after {\n    left: -65px;\n  }\n\n  .elinea-why-item-right {\n    text-align: right;\n  }\n  .elinea-why-item-right .elinea-why-text {\n    text-align: right;\n  }\n\n  /* RESPONSIVE MOBILE */\n  @media (max-width: 900px) {\n    .elinea-why-layout {\n      grid-template-columns: 1fr;\n      gap: 24px;\n    }\n\n    .elinea-why-glove-wrap {\n      order: -1;\n    }\n\n    .elinea-why-column {\n      align-items: center;\n    }\n\n    .elinea-why-item,\n    .elinea-why-item-right {\n      text-align: center;\n    }\n\n    .elinea-why-item-left .elinea-why-pill::after,\n    .elinea-why-item-right .elinea-why-pill::after {\n      display: none;\n    }\n  }\n</style>\n\n<div class=\"elinea-why-section\">\n  <h2 class=\"elinea-why-title\">POURQUOI CHOISIR ÉLINEA&nbsp;?</h2>\n\n  <div class=\"elinea-why-layout\">\n\n    <!-- COLONNE GAUCHE -->\n    <div class=\"elinea-why-column\">\n      <div class=\"elinea-why-item elinea-why-item-left\">\n        <span class=\"elinea-why-pill\">Anti peau de fraise</span>\n        <div class=\"elinea-why-text\">\n          Retire la peau de fraise dès<br>\n          à partir de la 2<sup>ᵉ</sup> utilisation\n        </div>\n      </div>\n\n      <div class=\"elinea-why-item elinea-why-item-left\">\n        <span class=\"elinea-why-pill\">Lisse la peau en 3 min</span>\n        <div class=\"elinea-why-text\">\n          En 3 min : une peau lisse,<br>\n          lumineuse et toute douce\n        </div>\n      </div>\n\n      <div class=\"elinea-why-item elinea-why-item-left\">\n        <span class=\"elinea-why-pill\">0 savon nécessaire</span>\n        <div class=\"elinea-why-text\">\n          Le Gant Élínea s’active<br>\n          seulement avec de l’eau\n        </div>\n      </div>\n    </div>\n\n    <!-- GANT AU CENTRE -->\n    <div class=\"elinea-why-glove-wrap\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/5e8529a3-b635-4b03-b407-ed1444890f99.png?v=1765062862\"\n        alt=\"Gant Élínea\"\n        class=\"elinea-why-glove\">\n    </div>\n\n    <!-- COLONNE DROITE -->\n    <div class=\"elinea-why-column\">\n      <div class=\"elinea-why-item elinea-why-item-right\">\n        <span class=\"elinea-why-pill\">Anti poils incarnés</span>\n        <div class=\"elinea-why-text\">\n          Retire les poils incarnés<br>\n          à partir de la 1<sup>ʳᵉ</sup> utilisation\n        </div>\n      </div>\n\n      <div class=\"elinea-why-item elinea-why-item-right\">\n        <span class=\"elinea-why-pill\">Réutilisable 1 an</span>\n        <div class=\"elinea-why-text\">\n          Se réutilise 1 an minimum\n        </div>\n      </div>\n\n      <div class=\"elinea-why-item elinea-why-item-right\">\n        <span class=\"elinea-why-pill\">Adieu les complexes</span>\n        <div class=\"elinea-why-text\">\n          À partir de 2 semaines,<br>\n          commencez à dire adieu à<br>\n          vos complexes\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "shop_the_look_DBTie4": {
@@ -348,12 +351,57 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "hot_spots_eie8i7": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_xtxgrx": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon": "shopify://shop_images/image_elinea.jpg",
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_xtxgrx"
+      ],
+      "name": "Hot spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/image_elinea.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "shopify://products/gant-exfoliant-en-soie-corps",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_iTeKAH",
-    "custom_liquid_APkCe4",
+    "hot_spots_eie8i7",
+    "slideshow_CjrXw8",
     "shop_the_look_DBTie4",
     "impact-text",
     "video_pydCgJ",
