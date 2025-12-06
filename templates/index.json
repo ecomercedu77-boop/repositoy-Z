@@ -122,6 +122,48 @@
         "text_color": ""
       }
     },
+    "slideshow_RxyJAn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RjkeMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_elinea.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RjkeMn"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "shop_the_look_DBTie4": {
       "type": "shop-the-look",
       "blocks": {
@@ -367,46 +409,17 @@
         "text_color": ""
       }
     },
-    "slideshow_RxyJAn": {
-      "type": "slideshow",
-      "blocks": {
-        "image_RjkeMn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/image_elinea.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_RjkeMn"
-      ],
-      "name": "Slideshow",
+    "custom_liquid_APkCe4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .elinea-why {\n    max-width: 1150px;\n    margin: 0 auto;\n    padding: 40px 20px;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n    color: #222222;\n  }\n\n  .elinea-why__title {\n    text-align: center;\n    font-size: 32px;\n    font-weight: 700;\n    margin-bottom: 40px;\n    opacity: 0;\n    animation: elinea-fadeDown 0.8s ease-out forwards;\n  }\n\n  .elinea-why__content {\n    display: grid;\n    grid-template-columns: 1.1fr 0.8fr 1.1fr;\n    align-items: center;\n    gap: 20px;\n  }\n\n  .elinea-why__column {\n    display: flex;\n    flex-direction: column;\n    gap: 30px;\n  }\n\n  .elinea-why__bubble {\n    background: #ffffff;\n    border-radius: 999px;\n    padding: 14px 22px;\n    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);\n    border: 1px solid #f0f0f0;\n    opacity: 0;\n  }\n\n  .elinea-why__bubble-title {\n    font-size: 16px;\n    font-weight: 700;\n    text-transform: uppercase;\n    margin-bottom: 4px;\n  }\n\n  .elinea-why__bubble-text {\n    font-size: 13px;\n    line-height: 1.4;\n  }\n\n  .elinea-why__glove-wrapper {\n    display: flex;\n    justify-content: center;\n    opacity: 0;\n    animation: elinea-gloveIn 1s ease-out 0.3s forwards;\n  }\n\n  .elinea-why__glove {\n    width: 260px;\n    max-width: 100%;\n    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.12));\n  }\n\n  @keyframes elinea-fadeLeft {\n    from { opacity: 0; transform: translateX(-30px); }\n    to   { opacity: 1; transform: translateX(0); }\n  }\n\n  @keyframes elinea-fadeRight {\n    from { opacity: 0; transform: translateX(30px); }\n    to   { opacity: 1; transform: translateX(0); }\n  }\n\n  @keyframes elinea-fadeDown {\n    from { opacity: 0; transform: translateY(-20px); }\n    to   { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes elinea-gloveIn {\n    from { opacity: 0; transform: scale(0.9) translateY(20px); }\n    to   { opacity: 1; transform: scale(1) translateY(0); }\n  }\n\n  .elinea-left-1 { animation: elinea-fadeLeft 0.7s ease-out 0.4s forwards; }\n  .elinea-left-2 { animation: elinea-fadeLeft 0.7s ease-out 0.7s forwards; }\n  .elinea-left-3 { animation: elinea-fadeLeft 0.7s ease-out 1.0s forwards; }\n\n  .elinea-right-1 { animation: elinea-fadeRight 0.7s ease-out 0.4s forwards; }\n  .elinea-right-2 { animation: elinea-fadeRight 0.7s ease-out 0.7s forwards; }\n  .elinea-right-3 { animation: elinea-fadeRight 0.7s ease-out 1.0s forwards; }\n\n  @media (max-width: 900px) {\n    .elinea-why__content {\n      grid-template-columns: 1fr;\n    }\n    .elinea-why__glove-wrapper {\n      order: -1;\n      margin-bottom: 20px;\n    }\n    .elinea-why__column {\n      align-items: center;\n    }\n    .elinea-why__bubble {\n      text-align: center;\n    }\n  }\n</style>\n\n<div class=\"elinea-why\">\n  <h2 class=\"elinea-why__title\">POURQUOI CHOISIR ÉLINEA&nbsp;?</h2>\n\n  <div class=\"elinea-why__content\">\n    <!-- Colonne gauche -->\n    <div class=\"elinea-why__column\">\n      <div class=\"elinea-why__bubble elinea-left-1\">\n        <div class=\"elinea-why__bubble-title\">ANTI PEAU DE FRAISE</div>\n        <div class=\"elinea-why__bubble-text\">\n          Retire la peau de fraise dès<br>\n          à partir de la 2<sup>ᵉ</sup> utilisation\n        </div>\n      </div>\n\n      <div class=\"elinea-why__bubble elinea-left-2\">\n        <div class=\"elinea-why__bubble-title\">LISSE LA PEAU EN 3 MIN</div>\n        <div class=\"elinea-why__bubble-text\">\n          En 3 min : une peau lisse,<br>\n          lumineuse et toute douce\n        </div>\n      </div>\n\n      <div class=\"elinea-why__bubble elinea-left-3\">\n        <div class=\"elinea-why__bubble-title\">0 SAVON NÉCESSAIRE</div>\n        <div class=\"elinea-why__bubble-text\">\n          Le Gant Élínea s’active<br>\n          seulement avec de l’eau\n        </div>\n      </div>\n    </div>\n\n    <!-- Image au centre -->\n    <div class=\"elinea-why__glove-wrapper\">\n      <img \n        src=\"TON_URL_D_IMAGE_ICI\" \n        alt=\"Gant Élínea\" \n        class=\"elinea-why__glove\">\n    </div>\n\n    <!-- Colonne droite -->\n    <div class=\"elinea-why__column\">\n      <div class=\"elinea-why__bubble elinea-right-1\">\n        <div class=\"elinea-why__bubble-title\">ANTI POILS INCARNÉS</div>\n        <div class=\"elinea-why__bubble-text\">\n          Retire les poils incarnés<br>\n          à partir de la 1<sup>ʳᵉ</sup> utilisation\n        </div>\n      </div>\n\n      <div class=\"elinea-why__bubble elinea-right-2\">\n        <div class=\"elinea-why__bubble-title\">RÉUTILISABLE 1 AN</div>\n        <div class=\"elinea-why__bubble-text\">\n          Se réutilise 1 an minimum\n        </div>\n      </div>\n\n      <div class=\"elinea-why__bubble elinea-right-3\">\n        <div class=\"elinea-why__bubble-title\">ADIEU LES COMPLEXES</div>\n        <div class=\"elinea-why__bubble-text\">\n          À partir de 2 semaines,<br>\n          commencez à dire adieu à<br>\n          vos complexes\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
@@ -421,6 +434,7 @@
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "custom_html_EN3r9m"
+    "custom_html_EN3r9m",
+    "custom_liquid_APkCe4"
   ]
 }
