@@ -128,7 +128,7 @@
         "product_kYFUyg": {
           "type": "product",
           "settings": {
-            "product": "glowup-tein-fusion",
+            "product": "gant-exfoliant-en-soie-corps",
             "horizontal_position": 52,
             "vertical_position": 25
           }
@@ -390,7 +390,7 @@
         "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "end",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -402,13 +402,13 @@
     "slideshow",
     "logo_list_iTeKAH",
     "custom_html_b3GkCr",
+    "images_with_text_scrolling_mPa9h7",
     "shop_the_look_DBTie4",
     "impact-text",
     "video_pydCgJ",
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "custom_html_EN3r9m",
-    "images_with_text_scrolling_mPa9h7"
+    "custom_html_EN3r9m"
   ]
 }
