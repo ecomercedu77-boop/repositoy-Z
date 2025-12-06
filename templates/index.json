@@ -122,37 +122,6 @@
         "text_color": ""
       }
     },
-    "multiple_images_with_text_dfnVFr": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_ARWfA7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ARWfA7"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "shop_the_look_DBTie4": {
       "type": "shop-the-look",
       "blocks": {
@@ -262,7 +231,7 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "html": "<style>\n  .avis-clients-container {\n    font-family: Arial, sans-serif;\n    max-width: 800px;\n    margin: 0 auto;\n    position: relative;\n    overflow: hidden; /* cache ce qui dépasse */\n  }\n\n  .avis-titre {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 16px;\n    text-align: center;\n  }\n\n  /* --- SLIDER --- */\n  .avis-slider {\n    display: flex;\n    transition: transform 0.4s ease;\n  }\n\n  .avis-item {\n    min-width: 100%;              /* 1 avis par “écran” */\n    box-sizing: border-box;\n    padding: 0 20px 20px;\n    border-bottom: 1px solid #eee;\n    margin-bottom: 0;             /* plus besoin du margin-bottom */\n  }\n\n  .avis-nom {\n    font-weight: bold;\n    color: #ff4b9a; /* rose prénom */\n    margin-bottom: 4px;\n  }\n\n  .avis-stars {\n    color: #ff4b9a; /* rose étoiles */\n    font-size: 18px;\n    margin-bottom: 8px;\n  }\n\n  .avis-texte {\n    font-size: 14px;\n    line-height: 1.5;\n  }\n\n  .avis-photo {\n    width: 120px;\n    height: 120px;\n    object-fit: cover;\n    border-radius: 12px;\n    display: block;\n    margin: 14px auto;\n    box-shadow: 0px 3px 8px rgba(0,0,0,0.12);\n  }\n\n  /* Flèches */\n  .avis-arrow {\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    border: none;\n    background: rgba(255, 255, 255, 0.9);\n    box-shadow: 0 2px 6px rgba(0,0,0,0.15);\n    width: 32px;\n    height: 32px;\n    border-radius: 999px;\n    cursor: pointer;\n    font-size: 20px;\n    line-height: 32px;\n    text-align: center;\n    color: #ff4b9a;\n  }\n\n  .avis-prev { left: 8px; }\n  .avis-next { right: 8px; }\n</style>\n\n<div class=\"avis-clients-container\">\n  <div class=\"avis-titre\">Avis de nos clientes</div>\n\n  <!-- SLIDER -->\n  <div class=\"avis-slider\">\n\n    <!-- Avis 1 -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Clara, 27 ans – Peau mixte</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « J’ai enfin trouvé un fond de teint qui tient toute la journée sans briller !\n        La texture est légère, le rendu hyper naturel, et il floute parfaitement mes pores.\n        Je suis fan. »\n      </div>\n      <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894280__0__omrejDLr__fLzAIZQYi__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 1\">\n    </div>\n\n    <!-- Avis 2 -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Inès, 34 ans – Peau normale</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « Application ultra simple, la matière se fond dans la peau en quelques secondes.\n        Le résultat est lumineux, homogène et vraiment flatteur. Je reçois souvent des compliments\n        depuis que je l’utilise ! »\n      </div>\n      <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894251__0__c22d1VbV__bEVGl2sj1__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 2\">\n    </div>\n\n    <!-- Avis 3 -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Léa, 22 ans – Peau acnéique</div>\n      <div class=\"avis-stars\">★★★★☆</div>\n      <div class=\"avis-texte\">\n        « Très bonne couvrance sans effet plâtre. Il unifie super bien mon teint\n        et camoufle mes imperfections tout en restant léger. Gros coup de cœur pour la tenue. »\n      </div>\n      <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894281__0__C3aOGt1G___GhLCgTmW__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 3\">\n    </div>\n\n    <!-- Avis 4 -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Sara, 30 ans – Peau sèche</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « Il ne marque pas mes zones de sécheresse, ce qui est rare !\n        Le teint est doux, lissé, presque velouté. Je n’ai même plus besoin de retouches. »\n      </div>\n      <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894266__0__F6yJYPCw__ITfRNHrw3__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 4\">\n    </div>\n\n    <!-- Avis 5 -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Maëlle, 29 ans – Peau sensible</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « Aucun tiraillement, aucune réaction. Le fond de teint se fond naturellement\n        et donne un effet \"seconde peau\". Le fini est magnifique au soleil comme en intérieur. »\n      </div>\n      <img class=\"avis-photo\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1761894281__0__sBV7rRh8__dyIF8LA8Cm__original.avif?v=1764808084\" alt=\"Avant / Après fond de teint 5\">\n    </div>\n\n    <!-- Avis 6 (sans photo) -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Chloé, 31 ans – Peau mixte</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « Je l’adore pour le quotidien : rapide à appliquer, facile à moduler, et le pinceau intégré\n        est un vrai plus. Le rendu reste impeccable même après 10 heures. »\n      </div>\n    </div>\n\n    <!-- Avis 7 (sans photo) -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Élodie, 40 ans – Peau mature</div>\n      <div class=\"avis-stars\">★★★★☆</div>\n      <div class=\"avis-texte\">\n        « Il lisse vraiment le grain de peau et atténue visiblement les ridules.\n        Le fini est lumineux mais pas gras, très chic. Je me sens plus fraîche immédiatement. »\n      </div>\n    </div>\n\n    <!-- Avis 8 (sans photo) -->\n    <div class=\"avis-item\">\n      <div class=\"avis-nom\">Amira, 25 ans – Peau mate</div>\n      <div class=\"avis-stars\">★★★★★</div>\n      <div class=\"avis-texte\">\n        « Enfin une teinte qui correspond parfaitement à ma carnation !\n        La couvrance est uniforme et le résultat reste stable toute la journée. »\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Flèches -->\n  <button class=\"avis-arrow avis-prev\">❮</button>\n  <button class=\"avis-arrow avis-next\">❯</button>\n</div>\n\n<script>\n  (function() {\n    const slider = document.querySelector('.avis-slider');\n    const items = document.querySelectorAll('.avis-item');\n    const prevBtn = document.querySelector('.avis-prev');\n    const nextBtn = document.querySelector('.avis-next');\n    let index = 0;\n\n    function showSlide(i) {\n      if (i < 0) i = items.length - 1;\n      if (i >= items.length) i = 0;\n      index = i;\n      slider.style.transform = 'translateX(' + (-index * 100) + '%)';\n    }\n\n    prevBtn.addEventListener('click', () => showSlide(index - 1));\n    nextBtn.addEventListener('click', () => showSlide(index + 1));\n\n    // Optionnel : défilement automatique\n    // setInterval(() => showSlide(index + 1), 7000);\n  })();\n</script>",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -311,9 +280,9 @@
         "buy_buttons_BjHhhF": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#f0c417",
+            "atc_button_background": "#f7c6d2",
             "atc_button_text_color": "#000000",
             "payment_button_background": "#1a1a1a",
             "payment_button_text_color": ""
@@ -355,7 +324,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "glowup-tein-fusion",
+        "product": "gant-exfoliant-en-soie-corps",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -364,7 +333,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
@@ -396,19 +365,50 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "images_with_text_scrolling_mPa9h7": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_GdRyEb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_GdRyEb"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_iTeKAH",
     "custom_html_b3GkCr",
-    "multiple_images_with_text_dfnVFr",
     "shop_the_look_DBTie4",
     "impact-text",
     "video_pydCgJ",
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "custom_html_EN3r9m"
+    "custom_html_EN3r9m",
+    "images_with_text_scrolling_mPa9h7"
   ]
 }
