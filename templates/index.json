@@ -122,6 +122,37 @@
         "text_color": ""
       }
     },
+    "images_with_text_scrolling_mPa9h7": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_GdRyEb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_GdRyEb"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "shop_the_look_DBTie4": {
       "type": "shop-the-look",
       "blocks": {
@@ -217,6 +248,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
+        "video": "shopify://files/videos/snaptik_7398636282450038048_hd.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -364,37 +396,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "images_with_text_scrolling_mPa9h7": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_GdRyEb": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/12416a39-bc85-4c65-82b8-55b1d52e9ac8_29384dc5-5764-43e4-8623-5d5689ae204d.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_GdRyEb"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     }
   },
