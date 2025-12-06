@@ -109,6 +109,19 @@
         "logo_item_border": ""
       }
     },
+    "custom_liquid_APkCe4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .ultimate3d {\n    max-width: 1300px;\n    margin: 0 auto;\n    padding: 100px 20px;\n    font-family: \"Inter\", system-ui, sans-serif;\n    color: #222;\n    position: relative;\n    overflow: visible;\n  }\n\n  /* TITLE GRADIENT ROSE → OR */\n  .ultimate3d__title {\n    text-align: center;\n    font-size: 52px;\n    font-weight: 900;\n    margin-bottom: 90px;\n    background: linear-gradient(90deg, #F7C6D2, #f7a8b8, #ffcf8b, #ffd57a);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    opacity: 0;\n    transform: translateY(40px);\n    animation: titleShow 1s ease-out forwards;\n  }\n\n  /* GRID 3D STRUCTURE */\n  .ultimate3d__content {\n    display: grid;\n    grid-template-columns: 1fr 0.9fr 1fr;\n    gap: 60px;\n    align-items: center;\n    position: relative;\n  }\n\n  /* BUBBLES – GLASS + GRADIENT EDGE + LIGHT REFLECTION */\n  .ultimate3d__bubble {\n    background: rgba(255, 255, 255, 0.3);\n    padding: 26px 32px;\n    border-radius: 22px;\n    border: 2px solid rgba(247, 198, 210, 0.8);\n    backdrop-filter: blur(12px);\n    box-shadow: \n      0 15px 40px rgba(0,0,0,0.12),\n      inset 0 0 40px rgba(255,255,255,0.35);\n    position: relative;\n    overflow: hidden;\n    transform: translateZ(60px) rotateY(-10deg);\n    opacity: 0;\n  }\n\n  /* Light reflection inside bubbles */\n  .ultimate3d__bubble::before {\n    content: \"\";\n    position: absolute;\n    top: -120%;\n    left: -120%;\n    width: 300%;\n    height: 300%;\n    background: linear-gradient(\n      120deg,\n      transparent,\n      rgba(255,255,255,0.35),\n      transparent\n    );\n    transform: rotate(35deg);\n    animation: shine 6s infinite linear;\n  }\n\n  /* BUBBLE TEXT */\n  .ultimate3d__bubble-title {\n    font-size: 19px;\n    font-weight: 800;\n    margin-bottom: 6px;\n  }\n  .ultimate3d__bubble-text {\n    font-size: 15px;\n    line-height: 1.4;\n  }\n\n  /* CENTER 3D IMAGE WITH PARALLAX + FLOAT */\n  .ultimate3d__product {\n    position: relative;\n    transform-style: preserve-3d;\n    opacity: 0;\n    transform: translateY(60px) scale(0.85);\n    animation: productShow 1.2s ease-out forwards 0.3s;\n  }\n\n  .ultimate3d__img {\n    width: 380px;\n    max-width: 100%;\n    filter: drop-shadow(0 35px 50px rgba(0,0,0,0.25));\n    animation: float 5s ease-in-out infinite;\n    transform-style: preserve-3d;\n  }\n\n  /* PARALLAX LINES 3D (auto-animated) */\n  .ultimate3d__line {\n    position: absolute;\n    width: 2px;\n    height: 180px;\n    background: linear-gradient(#F7C6D2, #ffbdc7, #ffd9a0);\n    opacity: 0.7;\n    transform-origin: top;\n    transform: rotateZ(-20deg) translateZ(80px);\n    animation: lineMove 6s ease-in-out infinite alternate;\n  }\n\n  /* Positions left lines */\n  .l1 { left: -40px; top: 120px; }\n  .l2 { left: -60px; top: 260px; height: 220px; }\n\n  /* Positions right lines */\n  .r1 { right: -40px; top: 160px; height: 200px; }\n  .r2 { right: -70px; top: 320px; }\n\n  /* ANIMATIONS -------------------------------- */\n\n  @keyframes shine {\n    0% { transform: translate(-200%, -200%) rotate(35deg); }\n    100% { transform: translate(200%, 200%) rotate(35deg); }\n  }\n\n  @keyframes float {\n    0% { transform: translateY(0) translateZ(50px); }\n    50% { transform: translateY(-20px) translateZ(50px); }\n    100% { transform: translateY(0) translateZ(50px); }\n  }\n\n  @keyframes lineMove {\n    0% { transform: rotateZ(-12deg) scaleY(1); }\n    100% { transform: rotateZ(-25deg) scaleY(1.3); }\n  }\n\n  @keyframes titleShow {\n    to { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes productShow {\n    to { opacity: 1; transform: translateY(0) scale(1); }\n  }\n\n  @keyframes bubbleShow {\n    to { opacity: 1; transform: translateZ(60px) rotateY(-10deg); }\n  }\n\n  /* RESPONSIVE */\n  @media (max-width: 900px) {\n    .ultimate3d__content {\n      grid-template-columns: 1fr;\n    }\n    .ultimate3d__product {\n      order: -1;\n      margin-bottom: 40px;\n    }\n  }\n</style>\n\n<div class=\"ultimate3d\">\n  <h2 class=\"ultimate3d__title\">POURQUOI CHOISIR ÉLINEA ?</h2>\n\n  <!-- 3D LINES -->\n  <span class=\"ultimate3d__line l1\"></span>\n  <span class=\"ultimate3d__line l2\"></span>\n  <span class=\"ultimate3d__line r1\"></span>\n  <span class=\"ultimate3d__line r2\"></span>\n\n  <div class=\"ultimate3d__content\">\n\n    <!-- LEFT BUBBLES -->\n    <div>\n      <div class=\"ultimate3d__bubble b1\">\n        <div class=\"ultimate3d__bubble-title\">Anti peau de fraise</div>\n        <div class=\"ultimate3d__bubble-text\">Résultats visibles dès la 2ᵉ utilisation.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b2\">\n        <div class=\"ultimate3d__bubble-title\">Lisse la peau en 3 min</div>\n        <div class=\"ultimate3d__bubble-text\">Peau douce, lumineuse et nette instantanément.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b3\">\n        <div class=\"ultimate3d__bubble-title\">Sans savon</div>\n        <div class=\"ultimate3d__bubble-text\">Fonctionne uniquement avec de l’eau.</div>\n      </div>\n    </div>\n\n    <!-- CENTER PRODUCT -->\n    <div class=\"ultimate3d__product\" id=\"product3d\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/5e8529a3-b635-4b03-b407-ed1444890f99.png?v=1765062862\"\n        class=\"ultimate3d__img\"\n        alt=\"Gant Élínea 3D\">\n    </div>\n\n    <!-- RIGHT BUBBLES -->\n    <div>\n      <div class=\"ultimate3d__bubble b4\">\n        <div class=\"ultimate3d__bubble-title\">Anti poils incarnés</div>\n        <div class=\"ultimate3d__bubble-text\">Réduit les poils incarnés dès la 1ʳᵉ utilisation.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b5\">\n        <div class=\"ultimate3d__bubble-title\">Réutilisable 1 an</div>\n        <div class=\"ultimate3d__bubble-text\">Durable, économique et écologique.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b6\">\n        <div class=\"ultimate3d__bubble-title\">Adieu les complexes</div>\n        <div class=\"ultimate3d__bubble-text\">En 2 semaines, une peau qui redonne confiance.</div>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n/* PARALLAX 3D ON SCROLL + MOUSELIKE MOVEMENT */\ndocument.addEventListener(\"scroll\", () => {\n  const p = document.getElementById(\"product3d\");\n  const s = window.scrollY * 0.1;\n  p.style.transform = `translateY(${s}px) scale(1)`;\n});\n\ndocument.addEventListener(\"mousemove\", (e) => {\n  const p = document.getElementById(\"product3d\");\n  const x = (e.clientX - window.innerWidth / 2) * 0.02;\n  const y = (e.clientY - window.innerHeight / 2) * 0.02;\n  p.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;\n});\n\n/* STAGGERED SHOW FOR BUBBLES */\nconst bubbles = document.querySelectorAll(\".ultimate3d__bubble\");\nbubbles.forEach((b, i) => {\n  setTimeout(() => {\n    b.style.animation = \"bubbleShow 1.1s cubic-bezier(.22,.61,.36,1) forwards\";\n  }, 300 + i * 200);\n});\n</script>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "shop_the_look_DBTie4": {
       "type": "shop-the-look",
       "blocks": {
@@ -119,28 +132,10 @@
             "horizontal_position": 52,
             "vertical_position": 25
           }
-        },
-        "product_apeNCf": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 75,
-            "vertical_position": 53
-          }
-        },
-        "product_wkiipb": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
-          }
         }
       },
       "block_order": [
-        "product_kYFUyg",
-        "product_apeNCf",
-        "product_wkiipb"
+        "product_kYFUyg"
       ],
       "name": "Shop the look",
       "settings": {
@@ -353,31 +348,18 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_liquid_APkCe4": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .ultimate3d {\n    max-width: 1300px;\n    margin: 0 auto;\n    padding: 100px 20px;\n    font-family: \"Inter\", system-ui, sans-serif;\n    color: #222;\n    position: relative;\n    overflow: visible;\n  }\n\n  /* TITLE GRADIENT ROSE → OR */\n  .ultimate3d__title {\n    text-align: center;\n    font-size: 52px;\n    font-weight: 900;\n    margin-bottom: 90px;\n    background: linear-gradient(90deg, #F7C6D2, #f7a8b8, #ffcf8b, #ffd57a);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    opacity: 0;\n    transform: translateY(40px);\n    animation: titleShow 1s ease-out forwards;\n  }\n\n  /* GRID 3D STRUCTURE */\n  .ultimate3d__content {\n    display: grid;\n    grid-template-columns: 1fr 0.9fr 1fr;\n    gap: 60px;\n    align-items: center;\n    position: relative;\n  }\n\n  /* BUBBLES – GLASS + GRADIENT EDGE + LIGHT REFLECTION */\n  .ultimate3d__bubble {\n    background: rgba(255, 255, 255, 0.3);\n    padding: 26px 32px;\n    border-radius: 22px;\n    border: 2px solid rgba(247, 198, 210, 0.8);\n    backdrop-filter: blur(12px);\n    box-shadow: \n      0 15px 40px rgba(0,0,0,0.12),\n      inset 0 0 40px rgba(255,255,255,0.35);\n    position: relative;\n    overflow: hidden;\n    transform: translateZ(60px) rotateY(-10deg);\n    opacity: 0;\n  }\n\n  /* Light reflection inside bubbles */\n  .ultimate3d__bubble::before {\n    content: \"\";\n    position: absolute;\n    top: -120%;\n    left: -120%;\n    width: 300%;\n    height: 300%;\n    background: linear-gradient(\n      120deg,\n      transparent,\n      rgba(255,255,255,0.35),\n      transparent\n    );\n    transform: rotate(35deg);\n    animation: shine 6s infinite linear;\n  }\n\n  /* BUBBLE TEXT */\n  .ultimate3d__bubble-title {\n    font-size: 19px;\n    font-weight: 800;\n    margin-bottom: 6px;\n  }\n  .ultimate3d__bubble-text {\n    font-size: 15px;\n    line-height: 1.4;\n  }\n\n  /* CENTER 3D IMAGE WITH PARALLAX + FLOAT */\n  .ultimate3d__product {\n    position: relative;\n    transform-style: preserve-3d;\n    opacity: 0;\n    transform: translateY(60px) scale(0.85);\n    animation: productShow 1.2s ease-out forwards 0.3s;\n  }\n\n  .ultimate3d__img {\n    width: 380px;\n    max-width: 100%;\n    filter: drop-shadow(0 35px 50px rgba(0,0,0,0.25));\n    animation: float 5s ease-in-out infinite;\n    transform-style: preserve-3d;\n  }\n\n  /* PARALLAX LINES 3D (auto-animated) */\n  .ultimate3d__line {\n    position: absolute;\n    width: 2px;\n    height: 180px;\n    background: linear-gradient(#F7C6D2, #ffbdc7, #ffd9a0);\n    opacity: 0.7;\n    transform-origin: top;\n    transform: rotateZ(-20deg) translateZ(80px);\n    animation: lineMove 6s ease-in-out infinite alternate;\n  }\n\n  /* Positions left lines */\n  .l1 { left: -40px; top: 120px; }\n  .l2 { left: -60px; top: 260px; height: 220px; }\n\n  /* Positions right lines */\n  .r1 { right: -40px; top: 160px; height: 200px; }\n  .r2 { right: -70px; top: 320px; }\n\n  /* ANIMATIONS -------------------------------- */\n\n  @keyframes shine {\n    0% { transform: translate(-200%, -200%) rotate(35deg); }\n    100% { transform: translate(200%, 200%) rotate(35deg); }\n  }\n\n  @keyframes float {\n    0% { transform: translateY(0) translateZ(50px); }\n    50% { transform: translateY(-20px) translateZ(50px); }\n    100% { transform: translateY(0) translateZ(50px); }\n  }\n\n  @keyframes lineMove {\n    0% { transform: rotateZ(-12deg) scaleY(1); }\n    100% { transform: rotateZ(-25deg) scaleY(1.3); }\n  }\n\n  @keyframes titleShow {\n    to { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes productShow {\n    to { opacity: 1; transform: translateY(0) scale(1); }\n  }\n\n  @keyframes bubbleShow {\n    to { opacity: 1; transform: translateZ(60px) rotateY(-10deg); }\n  }\n\n  /* RESPONSIVE */\n  @media (max-width: 900px) {\n    .ultimate3d__content {\n      grid-template-columns: 1fr;\n    }\n    .ultimate3d__product {\n      order: -1;\n      margin-bottom: 40px;\n    }\n  }\n</style>\n\n<div class=\"ultimate3d\">\n  <h2 class=\"ultimate3d__title\">POURQUOI CHOISIR ÉLINEA ?</h2>\n\n  <!-- 3D LINES -->\n  <span class=\"ultimate3d__line l1\"></span>\n  <span class=\"ultimate3d__line l2\"></span>\n  <span class=\"ultimate3d__line r1\"></span>\n  <span class=\"ultimate3d__line r2\"></span>\n\n  <div class=\"ultimate3d__content\">\n\n    <!-- LEFT BUBBLES -->\n    <div>\n      <div class=\"ultimate3d__bubble b1\">\n        <div class=\"ultimate3d__bubble-title\">Anti peau de fraise</div>\n        <div class=\"ultimate3d__bubble-text\">Résultats visibles dès la 2ᵉ utilisation.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b2\">\n        <div class=\"ultimate3d__bubble-title\">Lisse la peau en 3 min</div>\n        <div class=\"ultimate3d__bubble-text\">Peau douce, lumineuse et nette instantanément.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b3\">\n        <div class=\"ultimate3d__bubble-title\">Sans savon</div>\n        <div class=\"ultimate3d__bubble-text\">Fonctionne uniquement avec de l’eau.</div>\n      </div>\n    </div>\n\n    <!-- CENTER PRODUCT -->\n    <div class=\"ultimate3d__product\" id=\"product3d\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/5e8529a3-b635-4b03-b407-ed1444890f99.png?v=1765062862\"\n        class=\"ultimate3d__img\"\n        alt=\"Gant Élínea 3D\">\n    </div>\n\n    <!-- RIGHT BUBBLES -->\n    <div>\n      <div class=\"ultimate3d__bubble b4\">\n        <div class=\"ultimate3d__bubble-title\">Anti poils incarnés</div>\n        <div class=\"ultimate3d__bubble-text\">Réduit les poils incarnés dès la 1ʳᵉ utilisation.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b5\">\n        <div class=\"ultimate3d__bubble-title\">Réutilisable 1 an</div>\n        <div class=\"ultimate3d__bubble-text\">Durable, économique et écologique.</div>\n      </div>\n\n      <div class=\"ultimate3d__bubble b6\">\n        <div class=\"ultimate3d__bubble-title\">Adieu les complexes</div>\n        <div class=\"ultimate3d__bubble-text\">En 2 semaines, une peau qui redonne confiance.</div>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\n/* PARALLAX 3D ON SCROLL + MOUSELIKE MOVEMENT */\ndocument.addEventListener(\"scroll\", () => {\n  const p = document.getElementById(\"product3d\");\n  const s = window.scrollY * 0.1;\n  p.style.transform = `translateY(${s}px) scale(1)`;\n});\n\ndocument.addEventListener(\"mousemove\", (e) => {\n  const p = document.getElementById(\"product3d\");\n  const x = (e.clientX - window.innerWidth / 2) * 0.02;\n  const y = (e.clientY - window.innerHeight / 2) * 0.02;\n  p.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;\n});\n\n/* STAGGERED SHOW FOR BUBBLES */\nconst bubbles = document.querySelectorAll(\".ultimate3d__bubble\");\nbubbles.forEach((b, i) => {\n  setTimeout(() => {\n    b.style.animation = \"bubbleShow 1.1s cubic-bezier(.22,.61,.36,1) forwards\";\n  }, 300 + i * 200);\n});\n</script>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "logo_list_iTeKAH",
     "slideshow",
+    "logo_list_iTeKAH",
+    "custom_liquid_APkCe4",
     "shop_the_look_DBTie4",
     "impact-text",
     "video_pydCgJ",
     "custom_html_b7F6g4",
     "featured_product_tNeRqU",
     "custom_html_hRaCCe",
-    "custom_html_EN3r9m",
-    "custom_liquid_APkCe4"
+    "custom_html_EN3r9m"
   ]
 }
