@@ -113,7 +113,20 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_Ji3k9A": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -123,6 +136,7 @@
   "order": [
     "announcement-bar",
     "header",
-    "custom_liquid_cbxPij"
+    "custom_liquid_cbxPij",
+    "custom_html_Ji3k9A"
   ]
 }
