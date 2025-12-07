@@ -106,27 +106,14 @@
         "background_blur_radius": 0
       }
     },
-    "custom_liquid_cbxPij": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_html_Ji3k9A": {
+    "custom_html_TTn7J9": {
       "type": "custom-html",
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "",
+        "html": "s",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -136,7 +123,6 @@
   "order": [
     "announcement-bar",
     "header",
-    "custom_liquid_cbxPij",
-    "custom_html_Ji3k9A"
+    "custom_html_TTn7J9"
   ]
 }
