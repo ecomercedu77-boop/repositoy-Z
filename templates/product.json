@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_CwypDV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- BADGE TRUSTPILOT COMPLET -->\n<div class=\"tp-badge\">\n  \n  <!-- Logo + étoiles -->\n  <div class=\"tp-top\">\n    <!-- Logo Trustpilot -->\n    <svg class=\"tp-logo\" viewBox=\"0 0 100 20\">\n      <text x=\"0\" y=\"15\" font-size=\"15\" font-family=\"Arial\" font-weight=\"700\" fill=\"#000\">\n        Trustpilot\n      </text>\n    </svg>\n\n    <!-- Étoiles -->\n    <div class=\"tp-stars\">\n      <svg viewBox=\"0 0 24 24\" class=\"tp-star\"><polygon fill=\"#00b67a\" points=\"12,1 15,9 24,9 17,14 19,22 12,17 5,22 7,14 0,9 9,9\"></polygon></svg>\n      <svg viewBox=\"0 0 24 24\" class=\"tp-star\"><polygon fill=\"#00b67a\" points=\"12,1 15,9 24,9 17,14 19,22 12,17 5,22 7,14 0,9 9,9\"></polygon></svg>\n      <svg viewBox=\"0 0 24 24\" class=\"tp-star\"><polygon fill=\"#00b67a\" points=\"12,1 15,9 24,9 17,14 19,22 12,17 5,22 7,14 0,9 9,9\"></polygon></svg>\n      <svg viewBox=\"0 0 24 24\" class=\"tp-star\"><polygon fill=\"#00b67a\" points=\"12,1 15,9 24,9 17,14 19,22 12,17 5,22 7,14 0,9 9,9\"></polygon></svg>\n      <svg viewBox=\"0 0 24 24\" class=\"tp-star\"><polygon fill=\"#00b67a\" points=\"12,1 15,9 24,9 17,14 19,22 12,17 5,22 7,14 0,9 9,9\"></polygon></svg>\n    </div>\n  </div>\n\n  <!-- Note -->\n  <div class=\"tp-bottom\">\n    <span class=\"tp-score\">4,8 / 5</span>\n    <span class=\"tp-count\">Basé sur 1 254 avis</span>\n  </div>\n\n</div>\n\n<style>\n.tp-badge {\n  display: inline-flex;\n  flex-direction: column;\n  padding: 12px 16px;\n  border-radius: 14px;\n  background: #ffffff;\n  border: 1px solid #e5e7eb;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.08);\n  font-family: system-ui, -apple-system, sans-serif;\n  width: fit-content;\n}\n\n.tp-top {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\n.tp-logo {\n  height: 18px;\n}\n\n.tp-stars {\n  display: flex;\n  gap: 3px;\n}\n\n.tp-star {\n  width: 16px;\n  height: 16px;\n}\n\n.tp-bottom {\n  margin-top: 6px;\n  display: flex;\n  gap: 10px;\n  font-size: 12px;\n  color: #4b5563;\n}\n\n.tp-score {\n  font-weight: 700;\n  color: #000;\n}\n\n.tp-count {\n  opacity: 0.8;\n}\n</style>"
+          }
+        },
         "sku_QFwMnn": {
           "type": "sku",
           "settings": {}
@@ -31,12 +37,6 @@
         "badges": {
           "type": "badges",
           "settings": {}
-        },
-        "liquid_DkcPWx": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!-- ⚙️ BLOC INFO PRODUIT PREMIUM -->\n<div class=\"product-meta-block\">\n\n  <!-- LIGNE BADGES DU HAUT -->\n  <div class=\"product-badges-row\">\n\n    <!-- BADGE STOCK ROUGE -->\n    <div class=\"stock-badge-red\">\n      <span class=\"stock-icon-red\">💍</span>\n      <span class=\"stock-text-red\">\n        Plus que <span class=\"stock-number-red\" id=\"stock-count\">5</span> en stock\n      </span>\n    </div>\n\n    <!-- BADGE VISITEURS BLEU -->\n    <div class=\"viewer-badge-blue\">\n      <span class=\"viewer-icon-blue\">👀</span>\n      <span class=\"viewer-text-blue\">\n        <span class=\"viewer-number\" id=\"viewer-count\">18</span> personnes regardent ce produit\n      </span>\n    </div>\n\n    <!-- BADGE DERNIÈRES VENTES -->\n    <div class=\"sales-badge\">\n      <span class=\"sales-icon\">⚡</span>\n      <span class=\"sales-text\">\n        <span class=\"sales-number\" id=\"sales-count\">7</span> ventes / 24h\n      </span>\n    </div>\n\n  </div>\n\n  <!-- LIGNE CONFIANCE -->\n  <ul class=\"trust-list\">\n    <li><span class=\"trust-icon\">🚚</span>Commande avant 16h → expédition aujourd’hui</li>\n    <li><span class=\"trust-icon\">🔒</span>Paiement 100% sécurisé</li>\n    <li><span class=\"trust-icon\">🛡️</span>Garantie 2 ans</li>\n    <li><span class=\"trust-icon\">📱</span>Compatible iOS & Android</li>\n  </ul>\n\n</div>\n\n\n<style>\n/* -------- CONTAINER -------- */\n.product-meta-block {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  margin-top: 14px;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif;\n}\n\n/* -------- LIGNE BADGES -------- */\n.product-badges-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n\n/* -------- BADGE STOCK -------- */\n.stock-badge-red {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 14px;\n  border-radius: 999px;\n  background: rgba(255, 0, 0, 0.08);\n  border: 1.5px solid rgba(255, 0, 0, 0.45);\n  font-size: 12px;\n  color: #ff3b3b;\n  font-weight: 500;\n  box-shadow: 0 0 10px rgba(255,0,0,0.3);\n}\n\n.stock-icon-red { font-size: 16px; }\n\n.stock-number-red {\n  font-weight: 800;\n  font-size: 13px;\n  padding: 2px 7px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #ff3b3b, #d60000);\n  color: white;\n  box-shadow: 0 0 10px rgba(255,0,0,0.6);\n}\n\n/* -------- BADGE VIEWERS (CHIFFRE ENTOURÉ) -------- */\n.viewer-badge-blue {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(0, 153, 255, 0.08);\n  border: 1.5px solid rgba(0, 153, 255, 0.5);\n  font-size: 11px;\n  color: #0099ff;\n  box-shadow: 0 0 8px rgba(0,153,255,0.3);\n}\n\n.viewer-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #0099ff, #0066cc);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(0,153,255,0.5);\n}\n\n/* -------- BADGE SALES (CHIFFRE ENTOURÉ) -------- */\n.sales-badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 6px 12px;\n  border-radius: 999px;\n  background: rgba(255, 196, 0, 0.08);\n  border: 1.5px solid rgba(255, 196, 0, 0.6);\n  font-size: 11px;\n  color: #e0a400;\n  box-shadow: 0 0 8px rgba(255,196,0,0.3);\n}\n\n.sales-number {\n  font-weight: 800;\n  padding: 2px 6px;\n  border-radius: 999px;\n  background: linear-gradient(120deg, #f5c400, #c59b00);\n  color: white;\n  font-size: 12px;\n  box-shadow: 0 0 10px rgba(255,196,0,0.5);\n}\n\n/* -------- TRUST LIST -------- */\n.trust-list {\n  list-style: none;\n  padding: 8px 10px;\n  border-radius: 12px;\n  background: rgba(15,23,42,0.7);\n  color: #e5e7eb;\n  font-size: 11px;\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 4px;\n}\n\n.trust-list li {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n@media (min-width: 480px) {\n  .trust-list {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n</style>\n\n\n<script>\n// --------------------------------------\n// SÉLECTION DES ÉLÉMENTS\n// --------------------------------------\nconst stockEl   = document.getElementById(\"stock-count\");\nconst viewersEl = document.getElementById(\"viewer-count\");\nconst salesEl   = document.getElementById(\"sales-count\");\n\n// valeurs initiales\nlet stock   = 5;\nlet viewers = 18;\nlet sales   = 7;\n\n// --------------------------------------\n// MISE À JOUR DU STOCK (toutes les 20 sec)\n// --------------------------------------\nfunction updateStock() {\n  stock += Math.floor(Math.random() * 3) - 1; // -1, 0, +1\n  if (stock < 1) stock = 1;\n  if (stock > 5) stock = 5;\n  stockEl.textContent = stock;\n}\nsetInterval(updateStock, 20000);\n\n// --------------------------------------\n// VIEWERS (toutes les 15 sec)\n// --------------------------------------\nfunction updateViewers() {\n  viewers += Math.floor(Math.random() * 7) - 3;\n  if (viewers < 3) viewers = 3;\n  viewersEl.textContent = viewers;\n}\nsetInterval(updateViewers, 15000);\n\n// --------------------------------------\n// SALES (toutes les 15 sec)\n// --------------------------------------\nfunction updateSales() {\n  if (Math.random() < 0.4) sales += 1;\n  salesEl.textContent = sales;\n}\nsetInterval(updateSales, 15000);\n</script>"
-          }
         },
         "image_mtTqxL": {
           "type": "image",
@@ -84,21 +84,28 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
+        },
+        "liquid_kHWneL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Trustpilot script global -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- Fin script Trustpilot -->"
+          }
         }
       },
       "block_order": [
+        "liquid_CwypDV",
         "sku_QFwMnn",
         "price",
         "title",
         "badges",
-        "liquid_DkcPWx",
         "image_mtTqxL",
         "rating",
         "payment_terms",
         "separator",
         "buy_buttons",
         "variant_picker",
-        "quantity_selector"
+        "quantity_selector",
+        "liquid_kHWneL"
       ],
       "settings": {
         "full_width": true,
@@ -140,10 +147,24 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "custom_html_UqxE6A": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "related_products_6HrkNc"
+    "related_products_6HrkNc",
+    "custom_html_UqxE6A"
   ]
 }
