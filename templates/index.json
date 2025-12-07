@@ -109,6 +109,40 @@
         "logo_item_border": ""
       }
     },
+    "shop_the_look_DBTie4": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_kYFUyg": {
+          "type": "product",
+          "settings": {
+            "product": "gant-exfoliant-en-soie-corps",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        }
+      },
+      "block_order": [
+        "product_kYFUyg"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify://shop_images/3_87b9f4da-8680-4ca4-8d4c-5f3a81cf0d76.webp",
+        "title": "L’efficacité prouvée dès la première utilisation.",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#ffffff"
+      }
+    },
     "hot_spots_eie8i7": {
       "type": "hot-spots",
       "blocks": {
@@ -165,42 +199,8 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "shop_the_look_DBTie4": {
-      "type": "shop-the-look",
-      "blocks": {
-        "product_kYFUyg": {
-          "type": "product",
-          "settings": {
-            "product": "gant-exfoliant-en-soie-corps",
-            "horizontal_position": 52,
-            "vertical_position": 25
-          }
-        }
-      },
-      "block_order": [
-        "product_kYFUyg"
-      ],
-      "name": "Shop the look",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "image": "shopify://shop_images/3_87b9f4da-8680-4ca4-8d4c-5f3a81cf0d76.webp",
-        "title": "L’efficacité prouvée dès la première utilisation.",
-        "content": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
       }
     },
     "impact-text": {
@@ -266,110 +266,6 @@
         "text_color": ""
       }
     },
-    "featured_product_tNeRqU": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_yxbYNr": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_em7hYA": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_hyJ3nK": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_X3Jdfj": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_YgnfxH": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_EVTjeB": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_gzUEfY": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "buy_buttons_BjHhhF": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#f7c6d2",
-            "atc_button_text_color": "#000000",
-            "payment_button_background": "#1a1a1a",
-            "payment_button_text_color": ""
-          }
-        },
-        "variant_picker_EtUA3C": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_HnMTnp": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "pickup_availability_UgMzEf": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_yxbYNr",
-        "title_em7hYA",
-        "badges_hyJ3nK",
-        "price_X3Jdfj",
-        "rating_YgnfxH",
-        "separator_EVTjeB",
-        "description_gzUEfY",
-        "buy_buttons_BjHhhF",
-        "variant_picker_EtUA3C",
-        "quantity_selector_HnMTnp",
-        "pickup_availability_UgMzEf"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "gant-exfoliant-en-soie-corps",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
     "custom_html_hRaCCe": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -379,6 +275,19 @@
         "remove_horizontal_spacing": false,
         "html": "<style>\n  .faq-elinea {\n    max-width: 800px;\n    margin: 40px auto;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n    color: #222;\n  }\n\n  .faq-elinea h2 {\n    text-align: center;\n    font-size: 26px;\n    margin-bottom: 20px;\n  }\n\n  .faq-elinea p.faq-subtitle {\n    text-align: center;\n    margin-bottom: 32px;\n    color: #666;\n    font-size: 14px;\n  }\n\n  .faq-elinea details {\n    border-radius: 10px;\n    border: 1px solid #f5b8c5;\n    background: #fff;\n    margin-bottom: 10px;\n    padding: 12px 16px;\n    transition: box-shadow 0.2s ease;\n  }\n\n  .faq-elinea details[open] {\n    box-shadow: 0 8px 18px rgba(0,0,0,0.06);\n  }\n\n  .faq-elinea summary {\n    list-style: none;\n    cursor: pointer;\n    font-weight: 600;\n    font-size: 15px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n  }\n\n  .faq-elinea summary::-webkit-details-marker {\n    display: none;\n  }\n\n  .faq-elinea summary::after {\n    content: \"+\";\n    font-size: 20px;\n    color: #f36d9f;\n    margin-left: 12px;\n    transition: transform 0.2s ease;\n  }\n\n  .faq-elinea details[open] summary::after {\n    transform: rotate(45deg);\n  }\n\n  .faq-elinea .faq-content {\n    margin-top: 10px;\n    font-size: 14px;\n    line-height: 1.6;\n    color: #444;\n  }\n\n  .faq-elinea .faq-highlight {\n    color: #f36d9f;\n    font-weight: 600;\n  }\n</style>\n\n<section class=\"faq-elinea\">\n  <h2>FAQ – Gant exfoliant ÉLINEA</h2>\n  <p class=\"faq-subtitle\">\n    Vous hésitez encore ? Voici les réponses aux questions les plus posées avant de craquer pour le gant\n    <span class=\"faq-highlight\">ÉLINEA</span>.\n  </p>\n\n  <!-- 1 -->\n  <details>\n    <summary>Qu’est-ce que le gant ÉLINEA et comment fonctionne-t-il ?</summary>\n    <div class=\"faq-content\">\n      Le gant <span class=\"faq-highlight\">ÉLINEA</span> est un gant exfoliant en soie qui lisse la peau\n      uniquement avec de l’eau. Les fibres resserrées accrochent délicatement les cellules mortes, les\n      poils incarnés et la peau de fraise pour révéler une peau plus douce, plus lumineuse et plus lisse\n      en quelques minutes, sans produits chimiques.\n    </div>\n  </details>\n\n  <!-- 2 -->\n  <details>\n    <summary>En combien de temps vais-je voir des résultats ?</summary>\n    <div class=\"faq-content\">\n      Dès la <span class=\"faq-highlight\">première utilisation</span>, vous sentez votre peau plus douce et lisse.\n      La peau de fraise et les poils incarnés commencent à diminuer dès les premières séances.\n      Utilisé régulièrement, le gant ÉLINEA affine visiblement le grain de peau et donne un aspect plus uniforme.\n    </div>\n  </details>\n\n  <!-- 3 -->\n  <details>\n    <summary>Est-ce que le gant convient aux peaux sensibles ?</summary>\n    <div class=\"faq-content\">\n      Oui, le gant ÉLINEA a été pensé pour être utilisé sur la plupart des types de peaux, y compris les\n      peaux sensibles. L’important est de ne <span class=\"faq-highlight\">jamais frotter trop fort</span> :\n      laissez le gant glisser sur la peau en mouvements doux, sur une peau bien ramollie par l’eau chaude.\n      Si vous avez une pathologie cutanée (eczéma, psoriasis, etc.), demandez toujours l’avis d’un\n      professionnel de santé avant utilisation.\n    </div>\n  </details>\n\n  <!-- 4 -->\n  <details>\n    <summary>Est-ce que ça fait mal ou ça irrite la peau ?</summary>\n    <div class=\"faq-content\">\n      Non, utilisé correctement, le gant ne doit pas faire mal. Vous pouvez ressentir une légère\n      sensation de “frottement” mais jamais de brûlure ou de douleur vive.\n      Si votre peau rougit beaucoup ou chauffe, réduisez la pression ou la durée,\n      voire espacez les séances. Le but est une peau\n      <span class=\"faq-highlight\">lisse et confortable</span>, pas agressée.\n    </div>\n  </details>\n\n  <!-- 5 -->\n  <details>\n    <summary>À quelle fréquence dois-je utiliser le gant ÉLINEA ?</summary>\n    <div class=\"faq-content\">\n      Pour la plupart des personnes, <span class=\"faq-highlight\">1 fois par semaine</span> suffit largement.\n      Les peaux très épaisses peuvent aller jusqu’à 2 fois par semaine, tandis que les peaux sensibles\n      préféreront espacer à tous les 10–14 jours. Inutile d’exfolier davantage : la régularité est plus\n      importante que la fréquence.\n    </div>\n  </details>\n\n  <!-- 6 -->\n  <details>\n    <summary>Puis-je utiliser le gant avec mon auto-bronzant ou avant l’épilation ?</summary>\n    <div class=\"faq-content\">\n      Oui, c’est même recommandé !  \n      <br><br>\n      • <strong>Avant l’auto-bronzant</strong> : une exfoliation avec le gant ÉLINEA permet d’obtenir\n      un bronzage plus uniforme et sans taches.  \n      • <strong>Avant rasage ou épilation</strong> : il aide à libérer les poils incarnés et limite les\n      repousses sous la peau.\n    </div>\n  </details>\n\n  <!-- 7 -->\n  <details>\n    <summary>Faut-il utiliser un savon ou un gommage en plus ?</summary>\n    <div class=\"faq-content\">\n      Non, le gant ÉLINEA a été pensé pour fonctionner <span class=\"faq-highlight\">uniquement avec de l’eau</span>.\n      Prenez une douche ou un bain chaud pour ramollir la peau, rincez le savon, puis utilisez le gant sur\n      peau propre et humide. Vous pouvez ensuite appliquer votre soin hydratant ou votre huile préférée.\n    </div>\n  </details>\n\n  <!-- 8 -->\n  <details>\n    <summary>Combien de temps dure un gant ÉLINEA ?</summary>\n    <div class=\"faq-content\">\n      Avec un usage normal et un bon entretien, votre gant peut durer jusqu’à\n      <span class=\"faq-highlight\">un an</span>. Dès que les fibres semblent trop lisses, usées ou moins efficaces,\n      il est temps de le remplacer pour garder une exfoliation optimale.\n    </div>\n  </details>\n\n  <!-- 9 -->\n  <details>\n    <summary>Comment laver et entretenir mon gant ?</summary>\n    <div class=\"faq-content\">\n      Après chaque utilisation, rincez-le soigneusement à l’eau claire, pressez sans le tordre et laissez-le\n      sécher à l’air libre.  \n      Évitez la machine à laver, le sèche-linge, les adoucissants et les produits agressifs\n      qui peuvent abîmer les fibres. Un bon entretien prolonge la durée de vie et l’efficacité du gant.\n    </div>\n  </details>\n\n  <!-- 10 -->\n  <details>\n    <summary>Puis-je utiliser le gant ÉLINEA sur le visage ?</summary>\n    <div class=\"faq-content\">\n      La peau du visage est beaucoup plus fine que celle du corps. Le gant ÉLINEA est pensé en priorité\n      pour le corps (jambes, bras, dos, etc.).  \n      Si vous souhaitez l’utiliser sur le visage, faites-le avec <span class=\"faq-highlight\">une pression\n      ultra légère</span> et pas plus de 1 fois toutes les 2–3 semaines, en évitant le contour des yeux.\n    </div>\n  </details>\n\n  <!-- 11 -->\n  <details>\n    <summary>Le gant ÉLINEA est-il adapté pendant la grossesse ?</summary>\n    <div class=\"faq-content\">\n      L’exfoliation mécanique douce (sans produits chimiques) est généralement bien tolérée pendant la\n      grossesse. Beaucoup de futures mamans apprécient ÉLINEA pour retrouver une peau plus douce.\n      En cas de doute, parlez-en toujours à votre sage-femme ou votre médecin.\n    </div>\n  </details>\n\n  <!-- 12 -->\n  <details>\n    <summary>Et si le gant ne me convient pas ?</summary>\n    <div class=\"faq-content\">\n      Nous voulons que vous <span class=\"faq-highlight\">aimiez réellement</span> votre gant ÉLINEA.\n      Si vous avez la moindre question après votre achat (utilisation, résultat, entretien),\n      contactez notre service client : nous vous guiderons pour tirer le meilleur du gant.\n      Pour les conditions de retours ou d’échange, référez-vous à la page “Livraison &amp; Retours” de la boutique.\n    </div>\n  </details>\n</section>",
         "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_JayXyw": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% comment %}\nBulle Chat avec mini robot - Couleur #F7C6D2\nÀ coller dans une section / bloc Custom liquid\n{% endcomment %}\n\n<style>\n  .el-chat-wrapper {\n    position: fixed;\n    bottom: 20px;\n    right: 20px;\n    z-index: 99999;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  }\n\n  .el-chat-toggle {\n    display: none;\n  }\n\n  /* Bouton flottant */\n  .el-chat-button {\n    background: #F7C6D2;\n    color: #111827;\n    border-radius: 999px;\n    padding: 12px 18px;\n    font-size: 14px;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    box-shadow: 0 8px 20px rgba(0,0,0,0.25);\n    cursor: pointer;\n    user-select: none;\n    font-weight: 600;\n  }\n\n  .el-chat-dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 999px;\n    background: #10b981;\n  }\n\n  /* Popup */\n  .el-chat-popup {\n    position: fixed;\n    bottom: 80px;\n    right: 20px;\n    width: 320px;\n    max-width: 90vw;\n    background: #ffffff;\n    border-radius: 16px;\n    box-shadow: 0 12px 30px rgba(0,0,0,0.25);\n    padding: 14px 16px;\n    display: none;\n  }\n\n  .el-chat-header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n\n  .el-chat-title {\n    font-size: 15px;\n    font-weight: 700;\n    color: #111827;\n  }\n\n  .el-chat-subtitle {\n    font-size: 12px;\n    color: #6b7280;\n  }\n\n  .el-chat-close {\n    font-size: 18px;\n    cursor: pointer;\n    color: #9ca3af;\n  }\n\n  /* Zone messages */\n  .el-chat-messages {\n    border-radius: 10px;\n    background: #f9fafb;\n    padding: 8px;\n    max-height: 260px;\n    overflow-y: auto;\n    margin-bottom: 8px;\n    font-size: 13px;\n  }\n\n  .el-chat-bubble {\n    padding: 8px 10px;\n    border-radius: 12px;\n    margin-bottom: 6px;\n    line-height: 1.4;\n    max-width: 90%;\n    word-wrap: break-word;\n  }\n\n  .el-chat-bubble-bot {\n    background: #F7C6D2;\n    color: #111827;\n    border-bottom-left-radius: 2px;\n  }\n\n  .el-chat-bubble-user {\n    background: #111827;\n    color: #ffffff;\n    border-bottom-right-radius: 2px;\n    margin-left: auto;\n  }\n\n  /* Zone input */\n  .el-chat-input-row {\n    display: flex;\n    gap: 6px;\n    align-items: center;\n  }\n\n  .el-chat-input {\n    flex: 1;\n    border-radius: 999px;\n    border: 1px solid #e5e7eb;\n    padding: 6px 10px;\n    font-size: 13px;\n  }\n\n  .el-chat-send {\n    border-radius: 999px;\n    border: none;\n    padding: 7px 12px;\n    font-size: 13px;\n    cursor: pointer;\n    background: #F7C6D2;\n    color: #111827;\n    font-weight: 600;\n  }\n\n  .el-chat-send:disabled {\n    opacity: 0.6;\n    cursor: default;\n  }\n\n  /* Ouverture via checkbox */\n  .el-chat-toggle:checked ~ .el-chat-popup {\n    display: block;\n  }\n\n  @media (max-width: 640px) {\n    .el-chat-popup {\n      right: 10px;\n      left: 10px;\n      bottom: 80px;\n    }\n    .el-chat-wrapper {\n      right: 10px;\n    }\n  }\n</style>\n\n<div class=\"el-chat-wrapper\">\n  <!-- Toggle d'ouverture -->\n  <input type=\"checkbox\" id=\"el-chat-toggle\" class=\"el-chat-toggle\">\n\n  <!-- Bouton bulle -->\n  <label for=\"el-chat-toggle\" class=\"el-chat-button\">\n    <div class=\"el-chat-dot\"></div>\n    <span>Chat en direct</span>\n  </label>\n\n  <!-- Popup -->\n  <div class=\"el-chat-popup\">\n    <div class=\"el-chat-header\">\n      <div>\n        <div class=\"el-chat-title\">Chat en direct</div>\n        <div class=\"el-chat-subtitle\">Un petit assistant vous répond 🤖</div>\n      </div>\n      <label for=\"el-chat-toggle\" class=\"el-chat-close\">&times;</label>\n    </div>\n\n    <!-- Messages -->\n    <div class=\"el-chat-messages\" id=\"el-chat-messages\">\n      <div class=\"el-chat-bubble el-chat-bubble-bot\">\n        Bonjour 👋 Je suis l’assistant Elinea.<br>\n        Posez-moi une question (ex : <em>suivi commande</em>, <em>livraison</em>, <em>retour</em>…)\n      </div>\n    </div>\n\n    <!-- Input -->\n    <form class=\"el-chat-input-row\" id=\"el-chat-form\">\n      <input\n        type=\"text\"\n        id=\"el-chat-input\"\n        class=\"el-chat-input\"\n        placeholder=\"Écrivez votre message...\"\n        autocomplete=\"off\"\n      >\n      <button type=\"submit\" class=\"el-chat-send\">Envoyer</button>\n    </form>\n  </div>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var form = document.getElementById('el-chat-form');\n    var input = document.getElementById('el-chat-input');\n    var messages = document.getElementById('el-chat-messages');\n\n    function addMessage(text, from) {\n      var bubble = document.createElement('div');\n      bubble.classList.add('el-chat-bubble');\n      if (from === 'user') {\n        bubble.classList.add('el-chat-bubble-user');\n      } else {\n        bubble.classList.add('el-chat-bubble-bot');\n      }\n      bubble.innerHTML = text;\n      messages.appendChild(bubble);\n      messages.scrollTop = messages.scrollHeight;\n    }\n\n    function botReply(userText) {\n      var text = userText.toLowerCase();\n\n      var reply;\n\n      if (text.includes('commande') || text.includes('suivi')) {\n        reply = \"Pour suivre votre commande, vous pouvez utiliser notre page de suivi ici : <br><a href=\\\"/pages/suivi-commande\\\">➡️ Suivre ma commande</a>\";\n      } else if (text.includes('livraison')) {\n        reply = \"Nos délais de livraison varient selon le transporteur et le produit. En général, comptez 2 à 5 jours ouvrés après expédition.\";\n      } else if (text.includes('retour') || text.includes('remboursement')) {\n        reply = \"Pour un retour ou un échange, merci de consulter notre page dédiée ou de nous écrire via le formulaire de contact : <br><a href=\\\"/pages/contact\\\">📩 Contacter le support</a>\";\n      } else if (text.includes('bonjour') || text.includes('salut') || text.includes('bonsoir')) {\n        reply = \"Bonjour 😊 Comment puis-je vous aider aujourd’hui ?\";\n      } else {\n        reply = \"Merci pour votre message 🙏<br>Je suis un petit robot, je ne comprends pas encore tout...<br>Pour une réponse précise, vous pouvez nous écrire ici : <a href=\\\"/pages/contact\\\">📩 Formulaire de contact</a>\";\n      }\n\n      setTimeout(function() {\n        addMessage(reply, 'bot');\n      }, 500);\n    }\n\n    form.addEventListener('submit', function(e) {\n      e.preventDefault();\n      var value = (input.value || '').trim();\n      if (!value) return;\n\n      // Message utilisateur\n      addMessage(value, 'user');\n      input.value = '';\n\n      // Réponse robot\n      botReply(value);\n    });\n  });\n</script>",
+        "background": "",
         "background_gradient": "",
         "text_color": ""
       }
@@ -393,7 +302,7 @@
     "impact-text",
     "video_pydCgJ",
     "custom_html_b7F6g4",
-    "featured_product_tNeRqU",
-    "custom_html_hRaCCe"
+    "custom_html_hRaCCe",
+    "custom_liquid_JayXyw"
   ]
 }
