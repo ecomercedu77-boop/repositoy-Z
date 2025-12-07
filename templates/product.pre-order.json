@@ -113,9 +113,33 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "1765106946da4750f3": {
+      "type": "apps",
+      "blocks": {
+        "kaching_bundles_app_block_P3g73x": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "kaching_bundles_app_block_P3g73x"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1765106946da4750f3"
   ]
 }
