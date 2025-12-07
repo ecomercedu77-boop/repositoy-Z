@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/peau_sans_imperfections_en_2_semaines.webp",
             "mobile_image": "shopify://shop_images/peau_sans_imperfections_en_2_semaines.webp",
             "content_max_width": 720,
-            "mobile_text_position": "place-self-center-start text-start",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
