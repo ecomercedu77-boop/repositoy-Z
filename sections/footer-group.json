@@ -22,7 +22,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "#ffb74a",
-            "icon_color": "#cab587",
+            "icon_color": "#f7c6d2",
             "title": "Livraisons gratuite",
             "content": ""
           }
@@ -35,7 +35,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#cab587",
+            "icon_color": "#f7c6d2",
             "title": "Service client 7J7",
             "content": ""
           }
@@ -48,7 +48,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#cab587",
+            "icon_color": "#f7c6d2",
             "title": "Satisfait ou remboursé",
             "content": ""
           }
@@ -61,7 +61,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#cab587",
+            "icon_color": "#f7c6d2",
             "title": "Paiement sécurisé",
             "content": ""
           }
