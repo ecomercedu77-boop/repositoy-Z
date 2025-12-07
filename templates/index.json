@@ -232,7 +232,7 @@
         "heading_PJEcta": {
           "type": "heading",
           "settings": {
-            "text": "Video",
+            "text": "",
             "heading_tag": "h1"
           }
         }
@@ -290,6 +290,12 @@
             "show_taxes_notice": false
           }
         },
+        "kaching_bundles_app_block_zgb9Mw": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": ""
+          }
+        },
         "rating_fy6NFL": {
           "type": "rating",
           "settings": {
@@ -344,6 +350,7 @@
         "title_URWqGC",
         "badges_CF7PyC",
         "price_eCttdE",
+        "kaching_bundles_app_block_zgb9Mw",
         "rating_fy6NFL",
         "separator_BHtt6m",
         "description_AN8GnV",
@@ -396,6 +403,17 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "1765074749049323ba": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -409,6 +427,7 @@
     "custom_html_b7F6g4",
     "featured_product_dEwthW",
     "custom_html_hRaCCe",
-    "custom_liquid_JayXyw"
+    "custom_liquid_JayXyw",
+    "1765074749049323ba"
   ]
 }
