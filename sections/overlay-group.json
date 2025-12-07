@@ -25,6 +25,7 @@
     },
     "privacy-banner": {
       "type": "privacy-banner",
+      "disabled": true,
       "settings": {
         "privacy_bar_title": "Politique de cookies",
         "privacy_bar_content": "<p><br/>Nous utilisons des cookies et des technologies similaires afin d’offrir la meilleure expérience sur notre site Web. Veuillez consulter notre Politique de confidentialité pour plus d’informations.<br/><br/></p>"

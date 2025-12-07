@@ -292,6 +292,110 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_dEwthW": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_JGVexT": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_URWqGC": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_CF7PyC": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_eCttdE": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_fy6NFL": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_BHtt6m": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_AN8GnV": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_TMmPJV": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_cXbyci": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_TPf7qR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#ffffff",
+            "atc_button_text_color": "#f7c6d2",
+            "payment_button_background": "#b90909",
+            "payment_button_text_color": "#00a341"
+          }
+        },
+        "pickup_availability_VUqgMd": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_JGVexT",
+        "title_URWqGC",
+        "badges_CF7PyC",
+        "price_eCttdE",
+        "rating_fy6NFL",
+        "separator_BHtt6m",
+        "description_AN8GnV",
+        "variant_picker_TMmPJV",
+        "quantity_selector_cXbyci",
+        "buy_buttons_TPf7qR",
+        "pickup_availability_VUqgMd"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "gant-exfoliant-en-soie-corps",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -304,6 +408,7 @@
     "video_pydCgJ",
     "custom_html_b7F6g4",
     "custom_html_hRaCCe",
-    "custom_liquid_JayXyw"
+    "custom_liquid_JayXyw",
+    "featured_product_dEwthW"
   ]
 }
