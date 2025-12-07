@@ -17,20 +17,20 @@
           "settings": {
             "image": "shopify://shop_images/peau_sans_imperfections_en_2_semaines.webp",
             "mobile_image": "shopify://shop_images/peau_sans_imperfections_en_2_semaines.webp",
-            "content_max_width": 880,
+            "content_max_width": 720,
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
             "heading_tag": "h5",
             "button_text": "",
-            "button_link": "shopify://collections/all",
-            "text_color": "#ffffff",
+            "button_link": "shopify://products/gant-exfoliant-en-soie-corps",
+            "text_color": "#000000",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 12,
-            "background": "",
+            "overlay_opacity": 16,
+            "background": "#ffffff",
             "background_gradient": ""
           }
         }

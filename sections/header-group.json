@@ -55,12 +55,40 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_tKRNzp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_tKRNzp"
+      ],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": false,
+        "hide_on_scroll": true,
         "logo": "shopify://shop_images/9d0bc91a-5527-4bb9-a338-79ccf8d782a1.png",
-        "logo_max_width": 95,
-        "logo_mobile_max_width": 65,
+        "logo_max_width": 100,
+        "logo_mobile_max_width": 70,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
@@ -72,15 +100,29 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
+        "transparent_header_text_color": "#1a1a1a",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
+      }
+    },
+    "custom_liquid_cbxPij": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_cbxPij"
   ]
 }
