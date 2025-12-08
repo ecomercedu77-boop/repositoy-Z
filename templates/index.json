@@ -136,6 +136,7 @@
       "blocks": {
         "item_xtxgrx": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 83,
             "vertical_position": 75,
