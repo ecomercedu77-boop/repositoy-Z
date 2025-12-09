@@ -311,10 +311,10 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#ac4545",
-            "atc_button_text_color": "#ffd6d6",
-            "payment_button_background": "#2eae61",
-            "payment_button_text_color": "#00a341"
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "#000000",
+            "payment_button_text_color": "#000000"
           }
         },
         "pickup_availability_VUqgMd": {
