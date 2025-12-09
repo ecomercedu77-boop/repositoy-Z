@@ -279,7 +279,7 @@
       "track_shipment": "Suivre",
       "subtotal": "Sous-total",
       "discount": "Remise",
-      "shipping": "Frais d'envoi",
+      "shipping": "",
       "taxes_included": "Taxes inclues",
       "taxes_excluded": "Taxes exclues",
       "total_duties": "Douanes",
