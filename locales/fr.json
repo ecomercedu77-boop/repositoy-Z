@@ -348,7 +348,7 @@
       "remove_with_title": "Supprimer {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
+      "limit_unreached_html": " ",
       "limit_reached_html": "Frais de livraison offerts !"
     },
     "shipping_estimator": {
@@ -444,11 +444,48 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "general": {
+        "errors": {
+          "optional_duties": {
+            "optional_duties_not_permitted": " "
+          }
+        }
+      },
+      "order_summary": {
+        "recurring_total_tooltip": " ",
+        "percent_off_shipping": " ",
+        "amount_off_shipping": " ",
+        "duties_label": " ",
+        "shipping_discount_title": " ",
+        "duties_included_label": " "
+      },
+      "shipping": {
+        "duties_and_taxes_title": " ",
+        "duties_and_taxes_options": {
+          "ddu_caption": " ",
+          "ddp_caption": " "
+        }
+      },
+      "notice_banner": {
+        "calculating_shipping": " "
+      }
+    },
+    "notices": {
+      "cart": {
+        "shipping_address_invalid": " "
+      }
     }
   },
   "customer_accounts": {
     "order_details": {
-      "taxes_included": " "
+      "taxes_included": " ",
+      "duties": " ",
+      "ok_duties_tooltip": " ",
+      "error_duties_tooltip": " ",
+      "zero_duties_tooltip": " ",
+      "duties_and_taxes_included": " "
     }
   }
 }
