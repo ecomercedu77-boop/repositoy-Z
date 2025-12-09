@@ -93,7 +93,7 @@
       "sku": "SKU:",
       "variant": "Variant",
       "view_in_space": "Afficher dans votre espace",
-      "taxes_included": " ",
+      "taxes_included": "  ",
       "taxes_excluded": " ",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> au paiement",
       "size_chart": "Guide des tailles",
