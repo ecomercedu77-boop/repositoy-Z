@@ -110,25 +110,17 @@
         "logo_item_border": ""
       }
     },
-    "shop_the_look_DBTie4": {
-      "type": "shop-the-look",
-      "name": "Shop the look",
+    "custom_liquid_Nf7p7g": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "image": "shopify://shop_images/3_87b9f4da-8680-4ca4-8d4c-5f3a81cf0d76.webp",
-        "title": "L’efficacité prouvée dès la première utilisation.",
-        "content": "",
-        "background": "#ffffff",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n/* --- TITRE MARKETING --- */\n.beforeafter-title {\n  text-align: center;\n  font-size: 28px;\n  font-weight: bold;\n  margin-top: 35px;\n  margin-bottom: 8px;\n  color: #222;\n  font-family: sans-serif;\n}\n\n.beforeafter-subtitle {\n  text-align: center;\n  font-size: 16px;\n  color: #555;\n  margin-bottom: 25px;\n  font-family: sans-serif;\n}\n\n/* --- SLIDER IMAGES Avant / Après --- */\n.ba-slider-wrapper {\n  position: relative;\n  margin: 0 auto 50px auto;\n  max-width: 100%;\n  overflow: hidden;\n}\n\n.ba-slider {\n  display: flex;\n  gap: 20px;\n  overflow-x: auto;\n  scroll-behavior: smooth;\n  padding: 15px 0;\n}\n\n.ba-slider::-webkit-scrollbar {\n  height: 6px;\n}\n\n.ba-slider::-webkit-scrollbar-thumb {\n  background: #ff4da6;\n  border-radius: 10px;\n}\n\n.ba-slide {\n  min-width: 260px;\n  max-width: 260px;\n  background: #fff;\n  border-radius: 14px;\n  padding: 8px;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.06);\n}\n\n.ba-slide img {\n  width: 100%;\n  border-radius: 12px;\n}\n\n/* --- BOUTONS ROSES --- */\n.ba-slider-btn {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  background: #ff4da6;\n  color: white;\n  border: none;\n  padding: 12px 16px;\n  border-radius: 50%;\n  cursor: pointer;\n  font-size: 18px;\n  z-index: 10;\n  transition: 0.2s;\n}\n\n.ba-slider-btn:hover {\n  background: #ff1f87;\n}\n\n.ba-btn-left { left: 0; }\n.ba-btn-right { right: 0; }\n\n</style>\n\n<!-- ⭐ TITRE “Découvrez l’efficacité réelle de notre gant exfoliant 🌿” ⭐ -->\n<div class=\"beforeafter-title\">Découvrez l’efficacité réelle de notre gant exfoliant 🌿</div>\n<div class=\"beforeafter-subtitle\">Des résultats concrets, visibles sur tous types de peaux</div>\n\n<!-- ⭐ SLIDER IMAGES ⭐ -->\n<div class=\"ba-slider-wrapper\">\n  <button class=\"ba-slider-btn ba-btn-left\" onclick=\"scrollBA(-300)\">❮</button>\n  <button class=\"ba-slider-btn ba-btn-right\" onclick=\"scrollBA(300)\">❯</button>\n\n  <div class=\"ba-slider\" id=\"baSlider\">\n\n    <div class=\"ba-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/7_df8c1744-8544-400f-af33-a742b87ebed2.webp?v=1765391633\" alt=\"Avant Après 1\">\n    </div>\n\n    <div class=\"ba-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/111111111111111.webp?v=1765391162\" alt=\"Avant Après 2\">\n    </div>\n\n    <div class=\"ba-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Anti-imperfections_ba8ce0a1-37cd-45ed-a255-d187aa218259.webp?v=1765391162\" alt=\"Avant Après 3\">\n    </div>\n\n    <div class=\"ba-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Photo_produit_1_1_8b9d6b25-33b4-430e-9a23-d8a9094334ff.webp?v=1765391161\" alt=\"Avant Après 4\">\n    </div>\n\n  </div>\n</div>\n\n<script>\nfunction scrollBA(px) {\n  document.getElementById(\"baSlider\").scrollBy({ left: px, behavior: \"smooth\" });\n}\n</script>",
+        "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
+        "text_color": ""
       }
     },
     "hot_spots_eie8i7": {
@@ -411,7 +403,7 @@
   "order": [
     "slideshow",
     "logo_list_iTeKAH",
-    "shop_the_look_DBTie4",
+    "custom_liquid_Nf7p7g",
     "hot_spots_eie8i7",
     "slideshow_CjrXw8",
     "impact-text",
