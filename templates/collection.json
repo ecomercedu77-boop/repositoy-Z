@@ -34,7 +34,7 @@
       "type": "main-collection",
       "disabled": true,
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 26,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
@@ -44,10 +44,42 @@
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
+    },
+    "featured_collection_zXGN4w": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "gant-exfoliant-en-soie-corps",
+          "chantilly-rose-imparfait",
+          "brosse-seche",
+          "gant-exfoliant-en-soie-corps-1"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "featured_collection_zXGN4w"
   ]
 }
