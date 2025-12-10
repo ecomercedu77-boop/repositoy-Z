@@ -72,9 +72,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {{ content_for_header }}
 
-    {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+ {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
 <meta name="facebook-domain-verification" content="90207q44lu069cjxmdjfyx4u7h8zsu" />
 </head>
+
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
     {%- render 'shadow-dom-templates' -%}
