@@ -17,14 +17,14 @@
         "message_DpYCcL": {
           "type": "message",
           "settings": {
-            "text": "satisfait ou remboursé",
+            "text": "Garantie satisfait ou remboursé",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Livraison gratuite A domicile",
+            "text": "Livraison gratuite dès maintenant !",
             "url": ""
           }
         },
