@@ -102,7 +102,7 @@
           "settings": {
             "title": "Nous contacter",
             "content": "<p><br/>Service client disponible tous les jours de 8h00 à 20h00<br/><br/></p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
