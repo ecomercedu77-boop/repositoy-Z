@@ -108,32 +108,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "hot_spots_pzwANL": {
-      "type": "hot-spots",
-      "name": "Hot spots",
-      "settings": {
-        "full_width": true,
-        "image": "shopify://shop_images/bb843680-39a5-4457-bade-343788d32291.png",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "shopify://products/gant-exfoliant-en-soie-corps",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
     "custom_liquid_dA3rKQ": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -401,6 +375,32 @@
         "text_color": ""
       }
     },
+    "hot_spots_pzwANL": {
+      "type": "hot-spots",
+      "name": "Hot spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/bb843680-39a5-4457-bade-343788d32291.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "shopify://products/gant-exfoliant-en-soie-corps",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "custom_html_hRaCCe": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -430,7 +430,6 @@
     "slideshow",
     "custom_liquid_UyjcbP",
     "hot_spots_eie8i7",
-    "hot_spots_pzwANL",
     "custom_liquid_dA3rKQ",
     "custom_liquid_Nf7p7g",
     "slideshow_CjrXw8",
@@ -439,6 +438,7 @@
     "custom_html_b7F6g4",
     "featured_product_dEwthW",
     "custom_liquid_48ap9G",
+    "hot_spots_pzwANL",
     "custom_html_hRaCCe",
     "1765074749049323ba"
   ]
