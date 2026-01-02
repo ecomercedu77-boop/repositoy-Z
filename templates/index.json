@@ -270,7 +270,7 @@
         "image_U4w4ic": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3338b98a-b182-4a7e-bf59-ce3394c5c83b_4b21b967-96a4-4074-a8ea-95ab6979b7f6.png",
+            "image": "shopify://shop_images/42b1a326-a36f-4b03-b9f0-83102c9a64c5_75c39ff0-517e-473a-ba77-829cb4c0151a.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -307,9 +307,9 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#00a341",
-            "atc_button_text_color": "#00a341",
-            "payment_button_background": "#00a341",
+            "atc_button_background": "#f7c6d2",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "#f7c6d2",
             "payment_button_text_color": "#ffffff"
           }
         },
