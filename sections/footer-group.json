@@ -11,6 +11,19 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "custom_liquid_pnVHVm": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<a href=\"https://wa.me/message/COPXJX3BM5AXA1\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   style=\"\n     position:fixed;\n     bottom:20px;\n     right:20px;\n     z-index:9999;\n   \">\n\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0966/4259/7246/files/9f0cee51-6c53-440c-ab9c-5ca9497842c3.png?v=1767533374\"\n    alt=\"WhatsApp\"\n    width=\"52\"\n    height=\"52\"\n  />\n</a>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -122,6 +135,7 @@
     }
   },
   "order": [
+    "custom_liquid_pnVHVm",
     "text-with-icons",
     "footer"
   ]
