@@ -474,6 +474,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_yxdCXn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -492,6 +505,7 @@
     "hot_spots_pzwANL",
     "custom_liquid_PtzY9U",
     "custom_html_hRaCCe",
-    "1765074749049323ba"
+    "1765074749049323ba",
+    "custom_liquid_yxdCXn"
   ]
 }
