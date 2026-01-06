@@ -267,14 +267,6 @@
             "collapse_content": false
           }
         },
-        "image_U4w4ic": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/42b1a326-a36f-4b03-b9f0-83102c9a64c5_75c39ff0-517e-473a-ba77-829cb4c0151a.png",
-            "alignment": "start",
-            "max_width": 500
-          }
-        },
         "liquid_88Rxey": {
           "type": "liquid",
           "settings": {
@@ -306,7 +298,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
-            "show_gift_card_recipient": false,
+            "show_gift_card_recipient": true,
             "atc_button_background": "#f7c6d2",
             "atc_button_text_color": "#000000",
             "payment_button_background": "#f7c6d2",
@@ -365,7 +357,6 @@
         "rating_fy6NFL",
         "separator_BHtt6m",
         "description_AN8GnV",
-        "image_U4w4ic",
         "liquid_88Rxey",
         "variant_picker_TMmPJV",
         "liquid_peiwQC",
