@@ -278,6 +278,12 @@
             "payment_button_text_color": "#ffffff"
           }
         },
+        "liquid_Ytkzd9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"delivery-safe\">🚚 Livraison suivie • Expédition rapide</div>\n\n<style>\n  .delivery-safe{\n    margin-top:8px;\n    font-size:12px;\n    color:#555;\n    text-align:center;\n    font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n  }\n</style>"
+          }
+        },
         "image_KRCQdP": {
           "type": "image",
           "settings": {
@@ -360,6 +366,7 @@
         "separator_BHtt6m",
         "description_AN8GnV",
         "buy_buttons_TPf7qR",
+        "liquid_Ytkzd9",
         "image_KRCQdP",
         "variant_picker_TMmPJV",
         "liquid_peiwQC",
@@ -467,6 +474,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_wbXLGb": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"ship-box\">\n  <div class=\"ship-row\">\n    <span class=\"ship-ic\">🚚</span>\n    <div class=\"ship-txt\">\n      <div class=\"ship-title\">Livraison estimée</div>\n      <div class=\"ship-sub\" id=\"ship-estimate-fr\">Calcul en cours…</div>\n    </div>\n  </div>\n\n  <div class=\"ship-row\">\n    <span class=\"ship-ic\">📦</span>\n    <div class=\"ship-txt\">\n      <div class=\"ship-title\">Expédition rapide</div>\n      <div class=\"ship-sub\">Traitement sous 24/48h • Suivi inclus</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ship-box{\n    background:#f3f3f3;\n    border-radius:12px;\n    padding:12px 14px;\n    margin:12px 0;\n    font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n  }\n  .ship-row{\n    display:flex;\n    gap:10px;\n    align-items:flex-start;\n    padding:8px 0;\n  }\n  .ship-row + .ship-row{\n    border-top:1px solid rgba(0,0,0,.06);\n  }\n  .ship-ic{\n    font-size:18px;\n    line-height:1;\n    margin-top:2px;\n  }\n  .ship-title{\n    font-weight:800;\n    color:#111;\n    font-size:14px;\n  }\n  .ship-sub{\n    color:#555;\n    font-size:12px;\n    margin-top:2px;\n  }\n</style>\n\n<script>\n(function(){\n  const el = document.getElementById(\"ship-estimate-fr\");\n  if(!el) return;\n\n  // Délais France (à ajuster si besoin)\n  const minDays = 3;\n  const maxDays = 6;\n\n  const addBusinessDays = (date, days) => {\n    const d = new Date(date);\n    let added = 0;\n    while (added < days) {\n      d.setDate(d.getDate() + 1);\n      const day = d.getDay();\n      if (day !== 0 && day !== 6) added++; // skip samedi & dimanche\n    }\n    return d;\n  };\n\n  const formatFR = (d) =>\n    d.toLocaleDateString(\"fr-FR\", {\n      weekday: \"short\",\n      day: \"2-digit\",\n      month: \"short\"\n    });\n\n  const now = new Date();\n  const from = addBusinessDays(now, minDays);\n  const to   = addBusinessDays(now, maxDays);\n\n  el.textContent = `Entre le ${formatFR(from)} et le ${formatFR(to)} (livraison suivie)`;\n})();\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -485,6 +505,7 @@
     "hot_spots_pzwANL",
     "custom_html_hRaCCe",
     "custom_liquid_PtzY9U",
-    "1765074749049323ba"
+    "1765074749049323ba",
+    "custom_liquid_wbXLGb"
   ]
 }
