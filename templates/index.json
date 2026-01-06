@@ -281,7 +281,7 @@
         "liquid_Ytkzd9": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"delivery-safe\">🚚 Livraison suivie • Expédition rapide</div>\n\n<style>\n  .delivery-safe{\n    margin-top:8px;\n    font-size:12px;\n    color:#555;\n    text-align:center;\n    font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n  }\n</style>"
+            "liquid": "<div class=\"pay-icons\">\n  <span>🚚 Expédition 24h</span>\n  <span>📦 Livraison suivie</span>\n  <span>🔒 Paiement sécurisé</span>\n</div>\n\n<style>\n  .pay-icons{\n    display:flex;\n    justify-content:center;\n    gap:18px;\n    margin-top:8px;\n    font-size:12px;\n    color:#555;\n    font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;\n    flex-wrap:wrap;\n  }\n  .pay-icons span{\n    display:flex;\n    align-items:center;\n    gap:4px;\n    white-space:nowrap;\n  }\n</style>"
           }
         },
         "image_KRCQdP": {
