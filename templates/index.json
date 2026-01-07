@@ -108,6 +108,38 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "featured_collection_UtEAxj": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "tondeuse-bikini-2-en-1-indolore",
+          "gant-exfoliant-en-soie-corps",
+          "gant-exfoliant-en-soie-corps-1",
+          "chantilly-rose-imparfait",
+          "brosse-seche"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Nos collections phares",
+        "content": "",
+        "link_url": "",
+        "link_text": "Suite",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "custom_liquid_4VwqkP": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -271,7 +303,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
-            "show_gift_card_recipient": true,
+            "show_gift_card_recipient": false,
             "atc_button_background": "#f7c6d2",
             "atc_button_text_color": "#000000",
             "payment_button_background": "#f7c6d2",
@@ -473,38 +505,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "featured_collection_UtEAxj": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "tondeuse-bikini-2-en-1-indolore",
-          "gant-exfoliant-en-soie-corps",
-          "gant-exfoliant-en-soie-corps-1",
-          "chantilly-rose-imparfait",
-          "brosse-seche"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Nos collections phares",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     }
   },
