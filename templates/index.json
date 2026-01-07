@@ -474,12 +474,45 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_collection_UtEAxj": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "tondeuse-bikini-2-en-1-indolore",
+          "gant-exfoliant-en-soie-corps",
+          "gant-exfoliant-en-soie-corps-1",
+          "chantilly-rose-imparfait",
+          "brosse-seche"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Nos collections phares",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "custom_liquid_UyjcbP",
     "hot_spots_eie8i7",
+    "featured_collection_UtEAxj",
     "custom_liquid_4VwqkP",
     "custom_liquid_dA3rKQ",
     "custom_liquid_Nf7p7g",
