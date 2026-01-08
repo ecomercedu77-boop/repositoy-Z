@@ -36,6 +36,7 @@
     "currency_code_enabled": false,
     "heading_apparition": "split_fade",
     "show_vendor": false,
+    "show_quick_buy": false,
     "discount_mode": "saving",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
