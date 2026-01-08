@@ -297,6 +297,12 @@
             "collapse_content": false
           }
         },
+        "liquid_hQdKfE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.countdown {\n  display: flex;\n  justify-content: center;\n  align-items: flex-start;\n  gap: 10px;\n  font-family: inherit;\n}\n\n.time-block {\n  text-align: center;\n  min-width: 60px;\n}\n\n.time-number {\n  font-size: 34px;\n  font-weight: 700;\n}\n\n.time-label {\n  font-size: 11px;\n  color: #777;\n  margin-top: 4px;\n}\n\n.separator {\n  font-size: 34px;\n  font-weight: 700;\n  margin-top: 2px;\n}\n</style>\n\n<div class=\"countdown\">\n  <div class=\"time-block\">\n    <div class=\"time-number\" id=\"days\">00</div>\n    <div class=\"time-label\">JOURS</div>\n  </div>\n\n  <div class=\"separator\">:</div>\n\n  <div class=\"time-block\">\n    <div class=\"time-number\" id=\"hours\">00</div>\n    <div class=\"time-label\">HEURES</div>\n  </div>\n\n  <div class=\"separator\">:</div>\n\n  <div class=\"time-block\">\n    <div class=\"time-number\" id=\"minutes\">10</div>\n    <div class=\"time-label\">MINUTES</div>\n  </div>\n\n  <div class=\"separator\">:</div>\n\n  <div class=\"time-block\">\n    <div class=\"time-number\" id=\"seconds\">00</div>\n    <div class=\"time-label\">SECONDES</div>\n  </div>\n</div>\n\n<script>\nlet totalSeconds = 600; // 10 minutes\n\nconst daysEl = document.getElementById(\"days\");\nconst hoursEl = document.getElementById(\"hours\");\nconst minutesEl = document.getElementById(\"minutes\");\nconst secondsEl = document.getElementById(\"seconds\");\n\nconst timer = setInterval(() => {\n  let days = Math.floor(totalSeconds / 86400);\n  let hours = Math.floor((totalSeconds % 86400) / 3600);\n  let minutes = Math.floor((totalSeconds % 3600) / 60);\n  let seconds = totalSeconds % 60;\n\n  daysEl.textContent = String(days).padStart(2, \"0\");\n  hoursEl.textContent = String(hours).padStart(2, \"0\");\n  minutesEl.textContent = String(minutes).padStart(2, \"0\");\n  secondsEl.textContent = String(seconds).padStart(2, \"0\");\n\n  if (totalSeconds <= 0) {\n    clearInterval(timer);\n  }\n\n  totalSeconds--;\n}, 1000);\n</script>"
+          }
+        },
         "buy_buttons_TPf7qR": {
           "type": "buy_buttons",
           "settings": {
@@ -395,6 +401,7 @@
         "rating_fy6NFL",
         "separator_BHtt6m",
         "description_AN8GnV",
+        "liquid_hQdKfE",
         "buy_buttons_TPf7qR",
         "liquid_Ytkzd9",
         "image_KRCQdP",
