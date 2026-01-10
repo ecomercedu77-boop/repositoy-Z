@@ -9,11 +9,191 @@ CSS
 {%- endcomment -%}
 
 <style>
-  #shopify-section-{{ section.id }} {
+  #shopify-section-{{ section.id }}{
     --section-stack-intro: {% if text_position == 'center' %}50%{% else %}33.3333%{% endif %};
     --section-stack-main: {% if text_position == 'center' and section.settings.expand_image %}100%{% else %}66.6667%{% endif %};
 
     --before-after-initial-drag-position: {{ section.settings.drag_initial_position }}%;
+
+    /* ===== AI SCAN THEME (tweak) ===== */
+    --ai-neon-1: #ff5fa2;
+    --ai-neon-2: #9b5cff;
+    --ai-neon-3: #2ec5ff;
+    --ai-glow: rgba(155,92,255,.35);
+    --ai-glass: rgba(255,255,255,.06);
+  }
+
+  /* =========================
+     AI SCAN “WAAAH” EFFECT
+     ========================= */
+
+  /* Bloc principal */
+  #shopify-section-{{ section.id }} .before-after{
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+
+    background: linear-gradient(135deg,
+      rgba(255,95,162,.16),
+      rgba(155,92,255,.16),
+      rgba(46,197,255,.16)
+    );
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,.10),
+      0 30px 90px var(--ai-glow),
+      inset 0 0 50px var(--ai-glass);
+  }
+
+  /* Halo animé */
+  #shopify-section-{{ section.id }} .before-after::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius: inherit;
+    background: linear-gradient(120deg,
+      var(--ai-neon-1),
+      var(--ai-neon-2),
+      var(--ai-neon-3),
+      var(--ai-neon-1)
+    );
+    background-size: 300% 300%;
+    animation: aiNeonFlow 6.5s linear infinite;
+    opacity:.55;
+    z-index: 0;
+    pointer-events:none;
+  }
+
+  @keyframes aiNeonFlow{
+    0%{ background-position: 0% 50%; }
+    50%{ background-position: 100% 50%; }
+    100%{ background-position: 0% 50%; }
+  }
+
+  /* Contenu au-dessus du halo */
+  #shopify-section-{{ section.id }} .before-after > *{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Images plus premium */
+  #shopify-section-{{ section.id }} .before-after img{
+    filter: saturate(1.12) contrast(1.06);
+    transition: transform .6s cubic-bezier(.2,.8,.2,1);
+  }
+  #shopify-section-{{ section.id }} .before-after:hover img{
+    transform: scale(1.015);
+  }
+
+  /* Curseur + ligne centrale cyber */
+  #shopify-section-{{ section.id }} .before-after__cursor svg{
+    filter:
+      drop-shadow(0 0 14px rgba(155,92,255,.8))
+      drop-shadow(0 0 30px rgba(46,197,255,.6));
+  }
+
+  #shopify-section-{{ section.id }} .before-after__cursor-wrapper{
+    position: relative;
+  }
+
+  /* Ligne verticale lumineuse au centre */
+  #shopify-section-{{ section.id }} .before-after__cursor-wrapper::after{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:2px;
+    left:50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(155,92,255,.9),
+      rgba(46,197,255,.9),
+      transparent
+    );
+    opacity:.85;
+    pointer-events:none;
+    z-index: 3;
+    mix-blend-mode: screen;
+  }
+
+  /* Labels glass */
+  #shopify-section-{{ section.id }} .before-after__label{
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(0,0,0,.55);
+    backdrop-filter: blur(10px);
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,.14),
+      0 10px 30px rgba(0,0,0,.35);
+    letter-spacing: .6px;
+    text-transform: uppercase;
+  }
+
+  /* ===== AI SCAN LINE (sur tout le bloc) =====
+     - pas besoin de JS
+     - en hover sur desktop
+     - auto sur mobile (pas de hover)
+  */
+  #shopify-section-{{ section.id }} .before-after::after{
+    content:"";
+    position:absolute;
+    left:-30%;
+    top:0;
+    width: 45%;
+    height: 100%;
+
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(46,197,255,.00) 20%,
+      rgba(46,197,255,.18) 45%,
+      rgba(255,255,255,.38) 50%,
+      rgba(155,92,255,.18) 55%,
+      rgba(155,92,255,.00) 80%,
+      transparent 100%
+    );
+
+    transform: skewX(-12deg) translateX(-120%);
+    filter: blur(.2px);
+    opacity: 0;
+    pointer-events:none;
+    z-index: 4;
+    mix-blend-mode: screen;
+  }
+
+  /* Desktop: scan quand hover */
+  @media (hover:hover){
+    #shopify-section-{{ section.id }} .before-after:hover::after{
+      opacity: 1;
+      animation: aiScan 1.35s ease-in-out 1;
+    }
+  }
+
+  /* Mobile: scan automatique doux */
+  @media (hover:none){
+    #shopify-section-{{ section.id }} .before-after::after{
+      opacity: .9;
+      animation: aiScan 3.2s ease-in-out infinite;
+    }
+  }
+
+  @keyframes aiScan{
+    0%   { transform: skewX(-12deg) translateX(-140%); opacity: 0; }
+    8%   { opacity: 1; }
+    50%  { opacity: 1; }
+    100% { transform: skewX(-12deg) translateX(320%); opacity: 0; }
+  }
+
+  /* Option: réduit l’animation si l’utilisateur préfère */
+  @media (prefers-reduced-motion: reduce){
+    #shopify-section-{{ section.id }} .before-after::before,
+    #shopify-section-{{ section.id }} .before-after::after,
+    #shopify-section-{{ section.id }} .draw-line{
+      animation: none !important;
+    }
   }
 </style>
 
@@ -81,7 +261,8 @@ LIQUID
                   widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000',
                   draggable: false,
                   class: 'rounded w-full',
-                  loading: 'eager'
+                  loading: 'eager',
+                  fetchpriority: 'high'
               -}}
             </picture>
           {%- else -%}
