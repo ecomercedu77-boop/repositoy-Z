@@ -108,36 +108,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "featured_collection_UtEAxj": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "tondeuse-bikini-2-en-1-indolore",
-          "gant-exfoliant-en-soie-corps",
-          "brosse-seche"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Nos collections phares",
-        "content": "",
-        "link_url": "",
-        "link_text": "Suite",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "custom_liquid_4VwqkP": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -430,7 +400,6 @@
     "slideshow",
     "custom_liquid_UyjcbP",
     "hot_spots_eie8i7",
-    "featured_collection_UtEAxj",
     "custom_liquid_4VwqkP",
     "custom_liquid_dA3rKQ",
     "slideshow_CjrXw8",
