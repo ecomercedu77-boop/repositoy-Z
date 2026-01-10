@@ -4,7 +4,7 @@
 
 {%- comment -%}
 ------------------------------------------------------------------------------------------------------------------------
-CSS
+CSS (AI SCAN SAFE: ne touche jamais au z-index des calques before/after)
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
@@ -15,43 +15,44 @@ CSS
 
     --before-after-initial-drag-position: {{ section.settings.drag_initial_position }}%;
 
-    /* ===== AI SCAN THEME (tweak) ===== */
+    /* AI colors */
     --ai-neon-1: #ff5fa2;
     --ai-neon-2: #9b5cff;
     --ai-neon-3: #2ec5ff;
-    --ai-glow: rgba(155,92,255,.35);
-    --ai-glass: rgba(255,255,255,.06);
+    --ai-glow: rgba(155,92,255,.28);
   }
 
   /* =========================
      AI SCAN “WAAAH” EFFECT
+     ✅ SAFE for overlay stacking
      ========================= */
 
-  /* Bloc principal */
+  /* Main container: ONLY cosmetics */
   #shopify-section-{{ section.id }} .before-after{
     position: relative;
     border-radius: 28px;
     overflow: hidden;
 
     background: linear-gradient(135deg,
-      rgba(255,95,162,.16),
-      rgba(155,92,255,.16),
-      rgba(46,197,255,.16)
+      rgba(255,95,162,.12),
+      rgba(155,92,255,.12),
+      rgba(46,197,255,.12)
     );
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(12px);
 
     box-shadow:
       0 0 0 1px rgba(255,255,255,.10),
       0 30px 90px var(--ai-glow),
-      inset 0 0 50px var(--ai-glass);
+      inset 0 0 50px rgba(255,255,255,.05);
   }
 
-  /* Halo animé */
+  /* Neon animated border glow BEHIND the images */
   #shopify-section-{{ section.id }} .before-after::before{
     content:"";
     position:absolute;
     inset:-2px;
     border-radius: inherit;
+
     background: linear-gradient(120deg,
       var(--ai-neon-1),
       var(--ai-neon-2),
@@ -60,8 +61,9 @@ CSS
     );
     background-size: 300% 300%;
     animation: aiNeonFlow 6.5s linear infinite;
-    opacity:.55;
-    z-index: 0;
+    opacity:.45;
+
+    z-index: 0; /* ✅ behind */
     pointer-events:none;
   }
 
@@ -71,52 +73,67 @@ CSS
     100%{ background-position: 0% 50%; }
   }
 
-  /* Contenu au-dessus du halo */
-  #shopify-section-{{ section.id }} .before-after > *{
-    position: relative;
-    z-index: 1;
-  }
-
-  /* Images plus premium */
+  /* Slight image enhancement only (no stacking changes) */
   #shopify-section-{{ section.id }} .before-after img{
-    filter: saturate(1.12) contrast(1.06);
-    transition: transform .6s cubic-bezier(.2,.8,.2,1);
-  }
-  #shopify-section-{{ section.id }} .before-after:hover img{
-    transform: scale(1.015);
+    filter: saturate(1.10) contrast(1.06);
   }
 
-  /* Curseur + ligne centrale cyber */
-  #shopify-section-{{ section.id }} .before-after__cursor svg{
-    filter:
-      drop-shadow(0 0 14px rgba(155,92,255,.8))
-      drop-shadow(0 0 30px rgba(46,197,255,.6));
-  }
-
-  #shopify-section-{{ section.id }} .before-after__cursor-wrapper{
-    position: relative;
-  }
-
-  /* Ligne verticale lumineuse au centre */
-  #shopify-section-{{ section.id }} .before-after__cursor-wrapper::after{
+  /* AI Scan line ABOVE everything */
+  #shopify-section-{{ section.id }} .before-after::after{
     content:"";
     position:absolute;
+    left:-35%;
     top:0;
-    bottom:0;
-    width:2px;
-    left:50%;
-    transform: translateX(-50%);
+    width: 50%;
+    height: 100%;
+
     background: linear-gradient(
-      to bottom,
-      transparent,
-      rgba(155,92,255,.9),
-      rgba(46,197,255,.9),
-      transparent
+      90deg,
+      transparent 0%,
+      rgba(46,197,255,.00) 18%,
+      rgba(46,197,255,.18) 45%,
+      rgba(255,255,255,.40) 50%,
+      rgba(155,92,255,.18) 55%,
+      rgba(155,92,255,.00) 82%,
+      transparent 100%
     );
-    opacity:.85;
+
+    transform: skewX(-12deg) translateX(-160%);
+    opacity: 0;
+
     pointer-events:none;
-    z-index: 3;
+    z-index: 6;            /* ✅ above */
     mix-blend-mode: screen;
+  }
+
+  /* Desktop: scan on hover */
+  @media (hover:hover){
+    #shopify-section-{{ section.id }} .before-after:hover::after{
+      opacity: 1;
+      animation: aiScan 1.35s ease-in-out 1;
+    }
+  }
+
+  /* Mobile: auto scan */
+  @media (hover:none){
+    #shopify-section-{{ section.id }} .before-after::after{
+      opacity: .85;
+      animation: aiScan 3.2s ease-in-out infinite;
+    }
+  }
+
+  @keyframes aiScan{
+    0%   { transform: skewX(-12deg) translateX(-170%); opacity: 0; }
+    10%  { opacity: 1; }
+    55%  { opacity: 1; }
+    100% { transform: skewX(-12deg) translateX(340%); opacity: 0; }
+  }
+
+  /* Cursor glow only */
+  #shopify-section-{{ section.id }} .before-after__cursor svg{
+    filter:
+      drop-shadow(0 0 14px rgba(155,92,255,.75))
+      drop-shadow(0 0 30px rgba(46,197,255,.55));
   }
 
   /* Labels glass */
@@ -132,66 +149,10 @@ CSS
     text-transform: uppercase;
   }
 
-  /* ===== AI SCAN LINE (sur tout le bloc) =====
-     - pas besoin de JS
-     - en hover sur desktop
-     - auto sur mobile (pas de hover)
-  */
-  #shopify-section-{{ section.id }} .before-after::after{
-    content:"";
-    position:absolute;
-    left:-30%;
-    top:0;
-    width: 45%;
-    height: 100%;
-
-    background: linear-gradient(
-      90deg,
-      transparent 0%,
-      rgba(46,197,255,.00) 20%,
-      rgba(46,197,255,.18) 45%,
-      rgba(255,255,255,.38) 50%,
-      rgba(155,92,255,.18) 55%,
-      rgba(155,92,255,.00) 80%,
-      transparent 100%
-    );
-
-    transform: skewX(-12deg) translateX(-120%);
-    filter: blur(.2px);
-    opacity: 0;
-    pointer-events:none;
-    z-index: 4;
-    mix-blend-mode: screen;
-  }
-
-  /* Desktop: scan quand hover */
-  @media (hover:hover){
-    #shopify-section-{{ section.id }} .before-after:hover::after{
-      opacity: 1;
-      animation: aiScan 1.35s ease-in-out 1;
-    }
-  }
-
-  /* Mobile: scan automatique doux */
-  @media (hover:none){
-    #shopify-section-{{ section.id }} .before-after::after{
-      opacity: .9;
-      animation: aiScan 3.2s ease-in-out infinite;
-    }
-  }
-
-  @keyframes aiScan{
-    0%   { transform: skewX(-12deg) translateX(-140%); opacity: 0; }
-    8%   { opacity: 1; }
-    50%  { opacity: 1; }
-    100% { transform: skewX(-12deg) translateX(320%); opacity: 0; }
-  }
-
-  /* Option: réduit l’animation si l’utilisateur préfère */
+  /* Respect reduced motion */
   @media (prefers-reduced-motion: reduce){
     #shopify-section-{{ section.id }} .before-after::before,
-    #shopify-section-{{ section.id }} .before-after::after,
-    #shopify-section-{{ section.id }} .draw-line{
+    #shopify-section-{{ section.id }} .before-after::after{
       animation: none !important;
     }
   }
