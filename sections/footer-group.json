@@ -118,11 +118,20 @@
             "content": "<p><br/>Service client disponible tous les jours de 8h00 à 20h00<br/><br/></p>",
             "enable_follow_on_shop": false
           }
+        },
+        "links_qCUitH": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
         }
       },
       "block_order": [
         "newsletter",
-        "text"
+        "text",
+        "links_qCUitH"
       ],
       "settings": {
         "show_social_media": true,
