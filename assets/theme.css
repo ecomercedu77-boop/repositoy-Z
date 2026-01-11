@@ -10115,3 +10115,146 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+<!-- Trust badges (comme sur ton image) -->
+<section class="trust-badges">
+  <div class="trust-grid">
+
+    <div class="trust-item">
+      <div class="trust-icon">
+        <!-- camion -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 7h11v8H3V7zm12 3h3.2l2.3 2.7V15H15v-5z" />
+          <path d="M6.5 18.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm12 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+          <path d="M3 16h2.2M8.8 16H15m0 0h2.2" />
+        </svg>
+      </div>
+      <div class="trust-text">
+        <div class="trust-title">Livraison gratuite</div>
+        <div class="trust-sub">Prêt à être livré | Expédié en 24h</div>
+      </div>
+    </div>
+
+    <div class="trust-item">
+      <div class="trust-icon">
+        <!-- bouclier -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2l8 4v7c0 5-3.4 8.4-8 9-4.6-.6-8-4-8-9V6l8-4z" />
+          <path d="M9.2 12.2l1.9 1.9 3.9-4" />
+        </svg>
+      </div>
+      <div class="trust-text">
+        <div class="trust-title">Paiement sécurisé</div>
+        <div class="trust-sub">via SSL &amp; 3D Secure</div>
+      </div>
+    </div>
+
+    <div class="trust-item">
+      <div class="trust-icon">
+        <!-- remboursement / monnaie -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9z" />
+          <path d="M9 10.5c0-1 1.1-1.8 2.5-1.8S14 9.5 14 10.5s-1.1 1.8-2.5 1.8S9 13.5 9 14.5s1.1 1.8 2.5 1.8 2.5-.8 2.5-1.8" />
+          <path d="M11.5 7.8v1M11.5 16.2v1" />
+        </svg>
+      </div>
+      <div class="trust-text">
+        <div class="trust-title">Satisfait ou remboursé</div>
+        <div class="trust-sub">30 jours satisfait ou remboursé</div>
+      </div>
+    </div>
+
+    <div class="trust-item">
+      <div class="trust-icon">
+        <!-- drapeau FR -->
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="flag">
+          <rect x="4" y="6" width="16" height="12" rx="2" />
+          <rect x="4" y="6" width="5.33" height="12" rx="2" class="fr-blue" />
+          <rect x="14.67" y="6" width="5.33" height="12" rx="2" class="fr-red" />
+        </svg>
+      </div>
+      <div class="trust-text">
+        <div class="trust-title">SAV Français</div>
+        <div class="trust-sub">Disponible 7j/7</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .trust-badges{
+    padding: 18px 0;
+  }
+
+  .trust-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 56px; /* vertical / horizontal */
+    align-items: start;
+  }
+
+  .trust-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .trust-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    background: #f3f4f6; /* gris clair */
+    display: grid;
+    place-items: center;
+    flex: 0 0 44px;
+  }
+
+  .trust-icon svg{
+    width: 22px;
+    height: 22px;
+    fill: none;
+    stroke: #2b2b2b;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .trust-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #111;
+    margin-top: 2px;
+  }
+
+  .trust-sub{
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.25;
+    color: #6b7280; /* gris texte */
+  }
+
+
+  
+  /* Drapeau FR (un peu différent : remplissage) */
+  .trust-icon svg.flag{
+    stroke: none;
+    width: 24px;
+    height: 24px;
+  }
+  .trust-icon svg.flag rect:first-child{
+    fill: #fff;
+    stroke: #e5e7eb;
+    stroke-width: 1;
+  }
+  .trust-icon svg.flag .fr-blue{ fill:#1f3b82; }
+  .trust-icon svg.flag .fr-red{ fill:#d11f2a; }
+
+  /* Responsive */
+  @media (max-width: 640px){
+    .trust-grid{
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+  }
+</style>
