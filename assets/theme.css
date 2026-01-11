@@ -10236,29 +10236,55 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-/* ===== FORCE BOUTON AJOUTER AU PANIER / BUY NOW ===== */
 
-/* Add to cart */
+
+
+
+
+/* =============================== */
+/* BOUTON AJOUTER AU PANIER - PRO */
+/* =============================== */
+
 .product-form__submit,
-.product-form__submit.button,
-button.product-form__submit,
 button[name="add"],
-form[action*="/cart/add"] button[type="submit"],
-button[type="submit"][name="add"],
 .add-to-cart,
-#AddToCart{
-  background: #000 !important;
-  color: #fff !important;
-  border: 0 !important;
-  border-radius: 12px !important;
-  font-weight: 700 !important;
+form[action*="/cart/add"] button[type="submit"]{
+  background: linear-gradient(135deg, #F7C6D2, #EFA8BC) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 14px !important;
+  font-weight: 800 !important;
+  font-size: 17px !important;
+  padding: 18px 22px !important;
+  box-shadow: 0 10px 22px rgba(247, 198, 210, 0.45) !important;
+  transition: all 0.25s ease !important;
 }
 
-/* Buy it now (si activé) */
-.shopify-payment-button__button--unbranded{
-  background: #000 !important;
-  color: #fff !important;
+/* Hover (PC) */
+.product-form__submit:hover,
+button[name="add"]:hover{
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 26px rgba(247, 198, 210, 0.55) !important;
+}
+
+/* Click */
+.product-form__submit:active{
+  transform: scale(0.98);
+}
+
+/* Mobile : bouton bien large */
+@media (max-width: 768px){
+  .product-form__submit,
+  button[name="add"]{
+    width: 100% !important;
+    font-size: 18px !important;
+  }
+}
+
+/* Buy it now reste sobre */
+.shopify-payment-button__button{
+  background: #000000 !important;
+  color: #FFFFFF !important;
   border-radius: 12px !important;
-  font-weight: 700 !important;
 }
 
