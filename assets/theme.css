@@ -10235,26 +10235,30 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   }
 
 
-  
-  /* Drapeau FR (un peu différent : remplissage) */
-  .trust-icon svg.flag{
-    stroke: none;
-    width: 24px;
-    height: 24px;
-  }
-  .trust-icon svg.flag rect:first-child{
-    fill: #fff;
-    stroke: #e5e7eb;
-    stroke-width: 1;
-  }
-  .trust-icon svg.flag .fr-blue{ fill:#1f3b82; }
-  .trust-icon svg.flag .fr-red{ fill:#d11f2a; }
 
-  /* Responsive */
-  @media (max-width: 640px){
-    .trust-grid{
-      grid-template-columns: 1fr;
-      gap: 14px;
-    }
-  }
-</style>
+/* ===== FORCE BOUTON AJOUTER AU PANIER / BUY NOW ===== */
+
+/* Add to cart */
+.product-form__submit,
+.product-form__submit.button,
+button.product-form__submit,
+button[name="add"],
+form[action*="/cart/add"] button[type="submit"],
+button[type="submit"][name="add"],
+.add-to-cart,
+#AddToCart{
+  background: #000 !important;
+  color: #fff !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* Buy it now (si activé) */
+.shopify-payment-button__button--unbranded{
+  background: #000 !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+}
+
