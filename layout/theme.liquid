@@ -121,5 +121,94 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+
+
+
+
+
+
+
+
+<!-- WIDGET CHAT ELINEA (à coller dans Shopify -> theme.liquid avant </body>) -->
+<div id="elinea-chat" style="position:fixed;bottom:20px;right:20px;z-index:99999;font-family:Arial;">
+  <button id="elinea-chat-btn" style="padding:12px 14px;border-radius:999px;border:0;cursor:pointer;">
+    💬 Besoin d’aide ?
+  </button>
+
+  <div id="elinea-chat-box" style="display:none;width:320px;height:420px;background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.15);overflow:hidden;margin-top:10px;">
+    <div style="padding:12px 14px;font-weight:700;border-bottom:1px solid #eee;">
+      Assistant ELINEA
+    </div>
+    <div id="elinea-chat-messages" style="padding:12px 14px;height:310px;overflow:auto;font-size:14px;"></div>
+    <div style="display:flex;gap:8px;padding:10px;border-top:1px solid #eee;">
+      <input id="elinea-chat-input" placeholder="Écris ta question…" style="flex:1;padding:10px;border:1px solid #ddd;border-radius:10px;">
+      <button id="elinea-chat-send" style="padding:10px 12px;border-radius:10px;border:0;cursor:pointer;">Envoyer</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const API_BASE = "TON_URL_RENDER"; // ex: "https://elinea-chat.onrender.com"
+
+  let sessionId = localStorage.getItem("elinea_session_id");
+  if (!sessionId) {
+    sessionId = Math.random().toString(16).slice(2) + Date.now().toString(16);
+    localStorage.setItem("elinea_session_id", sessionId);
+  }
+
+  const btn = document.getElementById("elinea-chat-btn");
+  const box = document.getElementById("elinea-chat-box");
+  const messages = document.getElementById("elinea-chat-messages");
+  const input = document.getElementById("elinea-chat-input");
+  const send = document.getElementById("elinea-chat-send");
+
+  btn.onclick = () => {
+    box.style.display = box.style.display === "none" ? "block" : "none";
+    if (!messages.dataset.welcome) {
+      addMsg("assistant", "Salut 👋 Je peux t’aider à choisir ou répondre sur livraison/retours. Tu veux une recommandation ?");
+      messages.dataset.welcome = "1";
+    }
+  };
+
+  function escapeHtml(str){
+    return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+  }
+
+  function addMsg(role, text) {
+    const div = document.createElement("div");
+    div.style.margin = "8px 0";
+    div.style.whiteSpace = "pre-wrap";
+    div.innerHTML = `<b>${role === "user" ? "Toi" : "ELINEA"}</b><br>${escapeHtml(text)}`;
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  async function sendMsg() {
+    const text = input.value.trim();
+    if (!text) return;
+    input.value = "";
+    addMsg("user", text);
+
+    const res = await fetch(API_BASE + "/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-session-id": sessionId
+      },
+      body: JSON.stringify({ message: text, pageUrl: window.location.href })
+    });
+
+    const data = await res.json();
+    addMsg("assistant", data.answer || "Désolé, j’ai eu un souci. Réessaie.");
+  }
+
+  send.onclick = sendMsg;
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") sendMsg(); });
+</script>
+<!-- FIN WIDGET -->
+
+
+
   </body>
 </html>
