@@ -126,213 +126,120 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
 
 
+---------------
 
 
 
+<!-- ELINEA AI CHAT -->
+<div id="elinea-chat-bubble">💬</div>
 
-<!-- ELINEA AI CHAT - FULL WIDGET (replace old widget) -->
-<style>
-  #elinea-chat-root { position: fixed; bottom: 18px; right: 18px; z-index: 999999; font-family: Arial, sans-serif; }
-  #elinea-chat-btn {
-    border: 0; cursor: pointer; border-radius: 999px; padding: 12px 14px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.15); background: #111; color: #fff; font-weight: 700;
-  }
-  #elinea-chat-box {
-    display: none; width: 340px; height: 480px; background: #fff; border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.18); overflow: hidden; margin-top: 10px;
-  }
-  #elinea-chat-top { padding: 12px 14px; font-weight: 800; border-bottom: 1px solid #eee; display:flex; align-items:center; justify-content:space-between; }
-  #elinea-chat-top small { font-weight: 600; opacity: .7; }
-  #elinea-chat-messages { padding: 12px 14px; height: 318px; overflow: auto; font-size: 14px; background: #fafafa; }
-  .elinea-msg { margin: 10px 0; white-space: pre-wrap; }
-  .elinea-bubble { display:inline-block; padding: 10px 12px; border-radius: 14px; max-width: 92%; }
-  .elinea-user { text-align: right; }
-  .elinea-user .elinea-bubble { background: #111; color:#fff; border-bottom-right-radius: 6px; }
-  .elinea-assistant .elinea-bubble { background: #fff; color:#111; border: 1px solid #eee; border-bottom-left-radius: 6px; }
-  #elinea-quick { padding: 10px 12px; border-top: 1px solid #eee; background:#fff; display:flex; flex-wrap: wrap; gap: 8px; }
-  .elinea-chip { border: 1px solid #e7e7e7; background:#fff; padding: 8px 10px; border-radius: 999px; cursor:pointer; font-size: 13px; }
-  #elinea-inputbar { display:flex; gap: 8px; padding: 10px; border-top: 1px solid #eee; background:#fff; }
-  #elinea-input { flex:1; padding: 10px; border: 1px solid #ddd; border-radius: 10px; outline: none; }
-  #elinea-send { padding: 10px 12px; border-radius: 10px; border: 0; cursor: pointer; background:#111; color:#fff; font-weight:700; }
-  #elinea-tools { display:flex; gap: 8px; align-items:center; }
-  #elinea-min { border: 0; cursor:pointer; background: transparent; font-size: 18px; line-height: 1; }
-  #elinea-whatsapp {
-    display:none; padding: 10px 12px; border-top:1px solid #eee; background:#fff;
-  }
-  #elinea-whatsapp a {
-    display:block; text-align:center; text-decoration:none; font-weight:800;
-    padding: 10px 12px; border-radius: 12px; border: 1px solid #e7e7e7;
-  }
-  #elinea-typing { display:none; padding: 0 14px 10px; font-size: 12px; opacity: .7; background:#fafafa; }
-</style>
-
-<div id="elinea-chat-root">
-  <button id="elinea-chat-btn">💬 Besoin d’aide ?</button>
-
-  <div id="elinea-chat-box">
-    <div id="elinea-chat-top">
-      <div>
-        Assistant ELINEA<br>
-        <small>Réponse en quelques secondes</small>
-      </div>
-      <div id="elinea-tools">
-        <button id="elinea-min" title="Réduire">✕</button>
-      </div>
-    </div>
-
-    <div id="elinea-chat-messages"></div>
-    <div id="elinea-typing">ELINEA est en train d’écrire…</div>
-
-    <div id="elinea-quick">
-      <button class="elinea-chip" data-q="Est-ce adapté aux peaux sensibles ?">Peau sensible</button>
-      <button class="elinea-chip" data-q="Puis-je l’utiliser sous la douche ?">Sous la douche</button>
-      <button class="elinea-chip" data-q="Quels sont les délais de livraison ?">Livraison</button>
-      <button class="elinea-chip" data-q="Comment fonctionnent les retours ?">Retours</button>
-    </div>
-
-    <div id="elinea-whatsapp">
-      <a id="elinea-wa-link" href="#" target="_blank" rel="noopener">📲 Parler au SAV sur WhatsApp</a>
-    </div>
-
-    <div id="elinea-inputbar">
-      <input id="elinea-input" placeholder="Écris ta question…" />
-      <button id="elinea-send">Envoyer</button>
-    </div>
-  </div>
+<div id="elinea-chat-box">
+  <div id="elinea-chat-header">Assistant ELINEA</div>
+  <div id="elinea-chat-messages"></div>
+  <input id="elinea-chat-input" placeholder="Posez votre question..." />
 </div>
 
+<style>
+#elinea-chat-bubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+#elinea-chat-box {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 320px;
+  background: white;
+  border: 1px solid #ddd;
+  display: none;
+  flex-direction: column;
+  z-index: 9999;
+}
+#elinea-chat-header {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+#elinea-chat-messages {
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+#elinea-chat-input {
+  border: none;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+}
+</style>
+
 <script>
-  // ====== CONFIG ======
-  const API_BASE = "TON_URL_RENDER"; // ex: "https://elinea-chat.onrender.com"
-  const WHATSAPP_NUMBER = "TON_NUM_WHATSAPP"; // ex: "33612345678" (format international sans +)
-  const AUTO_OPEN_AFTER_MS = 25000; // 25s (met 0 pour désactiver)
-  const SHOW_WHATSAPP_AFTER_TURNS = 2; // après 2 questions
-  // ====================
+const bubble = document.getElementById("elinea-chat-bubble");
+const box = document.getElementById("elinea-chat-box");
+bubble.onclick = () => box.style.display = box.style.display === "flex" ? "none" : "flex";
 
-  const btn = document.getElementById("elinea-chat-btn");
-  const box = document.getElementById("elinea-chat-box");
-  const messages = document.getElementById("elinea-chat-messages");
-  const input = document.getElementById("elinea-input");
-  const send = document.getElementById("elinea-send");
-  const minBtn = document.getElementById("elinea-min");
-  const typing = document.getElementById("elinea-typing");
-  const waWrap = document.getElementById("elinea-whatsapp");
-  const waLink = document.getElementById("elinea-wa-link");
+const input = document.getElementById("elinea-chat-input");
+const messages = document.getElementById("elinea-chat-messages");
 
-  let turnCount = 0;
-
-  let sessionId = localStorage.getItem("elinea_session_id");
-  if (!sessionId) {
-    sessionId = Math.random().toString(16).slice(2) + Date.now().toString(16);
-    localStorage.setItem("elinea_session_id", sessionId);
-  }
-
-  function escapeHtml(str){
-    return (str || "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-  }
-
-  function addMsg(role, text) {
-    const wrap = document.createElement("div");
-    wrap.className = "elinea-msg " + (role === "user" ? "elinea-user" : "elinea-assistant");
-    const bubble = document.createElement("div");
-    bubble.className = "elinea-bubble";
-    bubble.innerHTML = escapeHtml(text);
-    wrap.appendChild(bubble);
-    messages.appendChild(wrap);
-    messages.scrollTop = messages.scrollHeight;
-  }
-
-  function openChat() {
-    box.style.display = "block";
-    btn.style.display = "none";
-    if (!messages.dataset.welcome) {
-      addMsg("assistant",
-        "Salut 👋 Je peux t’aider à choisir ELINEA en 30 secondes.\n" +
-        "Tu veux plutôt :\n" +
-        "• Infos produit\n" +
-        "• Livraison / retours\n" +
-        "• Est-ce adapté à ta peau ?"
-      );
-      messages.dataset.welcome = "1";
-    }
-  }
-
-  function closeChat() {
-    box.style.display = "none";
-    btn.style.display = "inline-block";
-  }
-
-  btn.onclick = openChat;
-  minBtn.onclick = closeChat;
-
-  // Auto open (once per session)
-  if (AUTO_OPEN_AFTER_MS > 0 && !sessionStorage.getItem("elinea_auto_opened")) {
-    setTimeout(() => {
-      if (btn.style.display !== "none") {
-        openChat();
-        sessionStorage.setItem("elinea_auto_opened", "1");
-      }
-    }, AUTO_OPEN_AFTER_MS);
-  }
-
-  // Quick chips
-  document.querySelectorAll(".elinea-chip").forEach(chip => {
-    chip.addEventListener("click", () => sendMsg(chip.getAttribute("data-q")));
-  });
-
-  function showTyping(on) {
-    typing.style.display = on ? "block" : "none";
-    messages.scrollTop = messages.scrollHeight;
-  }
-
-  function maybeShowWhatsApp() {
-    if (!WHATSAPP_NUMBER || WHATSAPP_NUMBER === "TON_NUM_WHATSAPP") return;
-    if (turnCount >= SHOW_WHATSAPP_AFTER_TURNS) {
-      waWrap.style.display = "block";
-      const txt = encodeURIComponent("Bonjour, j’ai une question à propos de ELINEA.");
-      waLink.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + txt;
-    }
-  }
-
-  async function sendMsg(forcedText) {
-    const text = (forcedText != null ? forcedText : input.value).trim();
-    if (!text) return;
+input.addEventListener("keypress", async (e) => {
+  if (e.key === "Enter") {
+    const text = input.value;
     input.value = "";
-    addMsg("user", text);
-    turnCount += 1;
-    maybeShowWhatsApp();
+    messages.innerHTML += `<div><b>Vous :</b> ${text}</div>`;
 
-    showTyping(true);
+    const res = await fetch("https://elinea-chat-server.onrender.com/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text })
+    });
 
-    try {
-      const res = await fetch(API_BASE + "/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-session-id": sessionId
-        },
-        body: JSON.stringify({ message: text, pageUrl: window.location.href })
-      });
-
-      const data = await res.json();
-      showTyping(false);
-
-      if (!res.ok) {
-        addMsg("assistant", data?.answer || "Petit souci technique. Tu peux me redire ?");
-        return;
-      }
-
-      addMsg("assistant", data.answer || "Je n’ai pas réussi à répondre. Tu peux reformuler ?");
-    } catch (e) {
-      showTyping(false);
-      addMsg("assistant", "Je n’arrive pas à me connecter. Tu peux essayer dans quelques secondes ?");
-    }
+    const data = await res.json();
+    messages.innerHTML += `<div><b>ELINEA :</b> ${data.answer}</div>`;
+    messages.scrollTop = messages.scrollHeight;
   }
-
-  send.onclick = () => sendMsg();
-  input.addEventListener("keydown", (e) => { if (e.key === "Enter") sendMsg(); });
+});
 </script>
-<!-- END ELINEA AI CHAT -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
