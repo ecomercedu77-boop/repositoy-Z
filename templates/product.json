@@ -82,10 +82,6 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "liquid_kHWneL": {
           "type": "liquid",
           "settings": {
@@ -137,7 +133,6 @@
         "separator",
         "buy_buttons",
         "variant_picker",
-        "quantity_selector",
         "liquid_kHWneL",
         "liquid_DGYBLe",
         "image_cqbyxR",
