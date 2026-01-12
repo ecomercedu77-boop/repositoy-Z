@@ -420,6 +420,48 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_wqjaM4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yUrzmH": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_GUHenr": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LC6MEV": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yUrzmH",
+        "heading_GUHenr",
+        "richtext_LC6MEV"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/7ea23596-3d99-4600-8834-802f84d18152.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -427,6 +469,7 @@
     "custom_liquid_UyjcbP",
     "hot_spots_eie8i7",
     "custom_liquid_4VwqkP",
+    "image_with_text_overlay_wqjaM4",
     "before_after_image_BCFJhY",
     "custom_liquid_dA3rKQ",
     "slideshow_CjrXw8",
