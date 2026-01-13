@@ -131,57 +131,6 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
 
 
-<script>
-(function () {
-  const ENDPOINT = "https://ftnfjnyjbovutvgdvrc.supabase.co/functions/v1/track";
-  const TRACK_TOKEN = "TrackElineap@2026!"; // EXACTEMENT le même que dans Secrets
-  const SHOP_DOMAIN = "{{ shop.permanent_domain }}";
-
-  function sid() {
-    const k = "wh_sid";
-    let v = localStorage.getItem(k);
-    if (!v) {
-      v = crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random();
-      localStorage.setItem(k, v);
-    }
-    return v;
-  }
-
-  const SESSION_ID = sid();
-
-  function send(payload) {
-    payload.shop_domain = SHOP_DOMAIN;
-    payload.page = location.pathname + location.search;
-    payload.viewport_w = window.innerWidth;
-    payload.viewport_h = window.innerHeight;
-    payload.session_id = SESSION_ID;
-
-    fetch(ENDPOINT, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer " + TRACK_TOKEN
-      },
-      body: JSON.stringify(payload),
-      keepalive: true
-    }).catch(()=>{});
-  }
-
-  document.addEventListener("click", (e) => {
-    send({ type: "click", x: e.clientX, y: e.clientY });
-  }, { passive:true });
-
-  let t=null;
-  window.addEventListener("scroll", () => {
-    if(t) return;
-    t=setTimeout(() => {
-      t=null;
-      send({ type:"scroll", scroll_y: Math.round(window.scrollY) });
-    }, 800);
-  }, { passive:true });
-})();
-</script>
-
 
 
 
