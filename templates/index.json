@@ -121,6 +121,48 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_wqjaM4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yUrzmH": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_GUHenr": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LC6MEV": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yUrzmH",
+        "heading_GUHenr",
+        "richtext_LC6MEV"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/7ea23596-3d99-4600-8834-802f84d18152.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "before_after_image_BCFJhY": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -295,7 +337,7 @@
         "liquid_4akGFA": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n:root{\n  --eline-border:#ececec;\n  --eline-text:#111;\n  --eline-muted:#555;\n}\n\n/* FAQ ULTRA COMPACTE */\n.eline-faq{\n  max-width:700px;\n  margin: 0 auto;                 /* collé */\n  font-family:inherit;\n}\n\n/* Titre produit collé */\nh1, h2, h3, .product__title{\n  margin-bottom: 4px !important;\n}\n\n/* Item */\n.eline-faq details{\n  padding: 10px 0;                /* ↓ réduit */\n  position:relative;\n}\n\n/* Petit trait séparateur */\n.eline-faq details:not(:last-child)::after{\n  content:\"\";\n  position:absolute;\n  bottom:0;\n  left:0;\n  width:100%;\n  height:1px;\n  background:var(--eline-border);\n}\n\n/* Ligne question */\n.eline-faq summary{\n  list-style:none;\n  cursor:pointer;\n  font-size:15px;\n  font-weight:600;\n  color:var(--eline-text);\n  display:flex;\n  justify-content:space-between;\n  align-items:center;\n  gap:10px;\n}\n\n.eline-faq summary::-webkit-details-marker{\n  display:none;\n}\n\n/* Flèche */\n.eline-faq summary::after{\n  content:\"⌄\";\n  font-size:16px;\n  transition:transform .2s ease;\n}\n\n.eline-faq details[open] summary::after{\n  transform:rotate(180deg);\n}\n\n/* Contenu COLLÉ */\n.eline-content{\n  margin-top:6px;                 /* ↓ très petit */\n  font-size:13.5px;\n  line-height:1.6;\n  color:var(--eline-muted);\n}\n\n.eline-content p{\n  margin:0 0 6px;                 /* ↓ compact */\n}\n\n.eline-content strong{\n  color:var(--eline-text);\n}\n\n/* Mobile encore + serré */\n@media(max-width:480px){\n  .eline-faq details{ padding:8px 0; }\n  .eline-faq summary{ font-size:14px; }\n}\n</style>\n\n<div class=\"eline-faq\" id=\"elineFaq\">\n\n  <details>\n    <summary>Qu’est-ce que ELINEA PARIS ?</summary>\n    <div class=\"eline-content\">\n      <p><strong>ELINEA PARIS</strong> est un rasoir 2-en-1 conçu pour une routine beauté rapide et efficace.</p>\n      <p>Double tête, rechargeable USB-C, étanche, idéal peaux sensibles.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>Que contient le pack ?</summary>\n    <div class=\"eline-content\">\n      <p>• Rasoir 2-en-1</p>\n      <p>• Gant exfoliant offert</p>\n      <p>• Câble USB-C</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>Conseils d’utilisation</summary>\n    <div class=\"eline-content\">\n      <p><strong>Avant :</strong> exfolier la peau.</p>\n      <p><strong>Pendant :</strong> pression légère, angle ~30°.</p>\n      <p><strong>Après :</strong> soin apaisant.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>Livraison & retours</summary>\n    <div class=\"eline-content\">\n      <p>📦 Livraison : 2–5 jours ouvrés</p>\n      <p>🔄 Retours sous 30 jours</p>\n    </div>\n  </details>\n\n</div>\n\n<script>\n/* 1 seule question ouverte */\n(() => {\n  const items = document.querySelectorAll('#elineFaq details');\n  items.forEach(d => {\n    d.addEventListener('toggle', () => {\n      if(d.open){\n        items.forEach(o => o !== d && o.removeAttribute('open'));\n      }\n    });\n  });\n})();\n</script>"
+            "liquid": "<style>\n:root{\n  --eline-border:#ececec;\n  --eline-text:#111;\n  --eline-muted:#555;\n}\n\n/* FAQ ULTRA COMPACTE */\n.eline-faq{\n  max-width:700px;\n  margin: 0 auto;\n  font-family:inherit;\n}\n\n/* Titre produit collé */\nh1, h2, h3, .product__title{\n  margin-bottom: 4px !important;\n}\n\n/* Item */\n.eline-faq details{\n  padding: 10px 0;\n  position:relative;\n}\n\n/* Petit trait séparateur */\n.eline-faq details:not(:last-child)::after{\n  content:\"\";\n  position:absolute;\n  bottom:0;\n  left:0;\n  width:100%;\n  height:1px;\n  background:var(--eline-border);\n}\n\n/* Ligne question */\n.eline-faq summary{\n  list-style:none;\n  cursor:pointer;\n  font-size:15px;\n  font-weight:600;\n  color:var(--eline-text);\n  display:flex;\n  justify-content:space-between;\n  align-items:center;\n  gap:10px;\n}\n\n.eline-faq summary::-webkit-details-marker{\n  display:none;\n}\n\n/* Flèche */\n.eline-faq summary::after{\n  content:\"⌄\";\n  font-size:16px;\n  transition:transform .2s ease;\n}\n\n.eline-faq details[open] summary::after{\n  transform:rotate(180deg);\n}\n\n/* Contenu COLLÉ */\n.eline-content{\n  margin-top:6px;\n  font-size:13.5px;\n  line-height:1.6;\n  color:var(--eline-muted);\n}\n\n.eline-content p{\n  margin:0 0 6px;\n}\n\n.eline-content strong{\n  color:var(--eline-text);\n}\n\n/* Mobile encore + serré */\n@media(max-width:480px){\n  .eline-faq details{ padding:8px 0; }\n  .eline-faq summary{ font-size:14px; }\n}\n</style>\n\n<div class=\"eline-faq\" id=\"elineFaq\">\n\n  <details>\n    <summary>Qu’est-ce que ELINEA PARIS ?</summary>\n    <div class=\"eline-content\">\n      <p><strong>ELINEA PARIS</strong> est un rasoir 2-en-1 conçu pour une routine beauté rapide et efficace.</p>\n      <p>Double tête, rechargeable USB-C, étanche, idéal peaux sensibles.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>Que contient le pack ?</summary>\n    <div class=\"eline-content\">\n      <p>• Rasoir 2-en-1</p>\n      <p>• Gant exfoliant offert</p>\n      <p>• Câble USB-C</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>Conseils d’utilisation</summary>\n    <div class=\"eline-content\">\n      <p><strong>Avant :</strong> exfolier la peau.</p>\n      <p><strong>Pendant :</strong> pression légère, angle ~30°.</p>\n      <p><strong>Après :</strong> soin apaisant.</p>\n    </div>\n  </details>\n\n</div>\n\n<script>\n/* 1 seule question ouverte */\n(() => {\n  const items = document.querySelectorAll('#elineFaq details');\n  items.forEach(d => {\n    d.addEventListener('toggle', () => {\n      if(d.open){\n        items.forEach(o => o !== d && o.removeAttribute('open'));\n      }\n    });\n  });\n})();\n</script>"
           }
         },
         "liquid_qUx4WJ": {
@@ -419,48 +461,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_wqjaM4": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_yUrzmH": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_GUHenr": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_LC6MEV": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_yUrzmH",
-        "heading_GUHenr",
-        "richtext_LC6MEV"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/7ea23596-3d99-4600-8834-802f84d18152.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     }
   },
