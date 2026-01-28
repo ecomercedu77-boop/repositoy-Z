@@ -80,23 +80,6 @@
     },
     "hot_spots_wV4GE7": {
       "type": "hot-spots",
-      "blocks": {
-        "item_PHEQFd": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_PHEQFd"
-      ],
       "name": "Hot spots",
       "settings": {
         "full_width": true,
@@ -299,23 +282,6 @@
     },
     "hot_spots_7UQmLe": {
       "type": "hot-spots",
-      "blocks": {
-        "item_LKtrXW": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_LKtrXW"
-      ],
       "name": "Hot spots",
       "settings": {
         "full_width": true,
