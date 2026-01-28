@@ -9,6 +9,88 @@
  */
 {
   "sections": {
+    "custom_liquid_jfbxJC": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"press-wrapper\">\n\n  <!-- TITRE -->\n  <div class=\"press-title\">\n    VU SUR :\n  </div>\n\n  <!-- MARQUEE LOGOS -->\n  <div class=\"press-marquee\">\n    <div class=\"press-marquee__fade press-marquee__fade--left\"></div>\n    <div class=\"press-marquee__fade press-marquee__fade--right\"></div>\n\n    <div class=\"press-marquee__track\">\n      <div class=\"press-marquee__group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/a98d4d0c-25de-453f-8409-a07b03af839f.png?v=1766212298\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n      <!-- duplication pour défilement infini -->\n      <div class=\"press-marquee__group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/a98d4d0c-25de-453f-8409-a07b03af839f.png?v=1766212298\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n    </div>\n  </div>\n\n</section>\n\n<style>\n.press-wrapper{\n  background:#fff;\n  padding: 30px 0 10px;\n}\n\n/* TITRE */\n.press-title{\n  text-align:center;\n  font-weight:700;\n  letter-spacing:0.18em;\n  font-size:14px;\n  color:#000;\n  margin-bottom:18px;\n}\n\n/* MARQUEE */\n.press-marquee{\n  --speed: 14s; /* PLUS RAPIDE */\n  --gap: 36px;\n\n  position: relative;\n  overflow: hidden;\n  background: #ffffff;\n  padding: 26px 0;\n}\n\n.press-marquee__track{\n  display: flex;\n  width: max-content;\n  animation: scroll var(--speed) linear infinite;\n}\n\n.press-marquee:hover .press-marquee__track{\n  animation-play-state: paused;\n}\n\n.press-marquee__group{\n  display: flex;\n  align-items: center;\n  gap: var(--gap);\n  padding: 0 var(--gap);\n}\n\n.press-marquee__group img{\n  width: 130px;\n  height: 130px;\n  object-fit: contain;\n  background: #ffffff;\n  border-radius: 18px;\n  padding: 18px;\n  box-shadow: 0 10px 26px rgba(0,0,0,.1);\n  transition: transform .25s ease, box-shadow .25s ease;\n}\n\n.press-marquee__group img:hover{\n  transform: scale(1.07);\n  box-shadow: 0 16px 38px rgba(0,0,0,.16);\n}\n\n/* FADES */\n.press-marquee__fade{\n  position:absolute;\n  top:0; bottom:0;\n  width: 120px;\n  pointer-events:none;\n  z-index:2;\n}\n.press-marquee__fade--left{\n  left:0;\n  background: linear-gradient(90deg,#fff 0%,rgba(255,255,255,0) 100%);\n}\n.press-marquee__fade--right{\n  right:0;\n  background: linear-gradient(270deg,#fff 0%,rgba(255,255,255,0) 100%);\n}\n\n@keyframes scroll{\n  from{ transform: translateX(0); }\n  to{ transform: translateX(-50%); }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_DayRzH": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"title-wrap\">\n  <span class=\"title-badge\">POURQUOI NOUS CHOISIR ?</span>\n  <h2 class=\"title-main\">\n    Pourquoi choisir <span>EpilSmooth</span> ?\n  </h2>\n  <p class=\"title-sub\">\n    L’épilateur visage préféré des femmes pour une peau lisse, nette et sans irritation.\n  </p>\n</div>\n\n<style>\n.title-wrap{\n  text-align:center;\n  margin:40px auto 24px;\n  padding:0 14px;\n  max-width:680px;\n}\n\n.title-badge{\n  display:inline-block;\n  background:#ffe6ec;\n  color:#d6336c;\n  font-size:11px;\n  font-weight:900;\n  padding:6px 12px;\n  border-radius:999px;\n  letter-spacing:.5px;\n  margin-bottom:10px;\n}\n\n.title-main{\n  font-size:26px;\n  font-weight:900;\n  line-height:1.2;\n  margin:8px 0 10px;\n  color:#111;\n}\n\n.title-main span{\n  color:#ff6f91;\n}\n\n.title-sub{\n  font-size:15px;\n  color:#444;\n  line-height:1.4;\n  margin:0;\n}\n\n@media(max-width:768px){\n  .title-main{font-size:22px;}\n  .title-sub{font-size:14px;}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "hot_spots_wV4GE7": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_PHEQFd": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PHEQFd"
+      ],
+      "name": "Hot spots",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/benefices-1.webp",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "custom_liquid_97mz3w": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"epl-reviews\">\n\n  <!-- HEADER -->\n  <div class=\"epl-head\">\n    <h2>Nos clientes en parlent le mieux !</h2>\n\n    <div class=\"epl-trust\">\n      <span class=\"epl-trust-text\">Excellent <b>4.8 / 5</b></span>\n\n      <div class=\"epl-stars\">\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star half\">★</span>\n      </div>\n\n      <span class=\"epl-based\">basé sur <b>3269 avis</b></span>\n    </div>\n  </div>\n\n  <!-- SLIDER -->\n  <div class=\"epl-slider\" data-slider>\n    <button class=\"epl-arrow left\" data-prev>‹</button>\n\n    <div class=\"epl-track\" data-track>\n\n      <!-- CARD 1 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1f147f32-c747-4aae-a885-7c862bbde932.png?v=1769563375\">\n        <h3>Clara L.</h3>\n        <p>“Résultat super propre, je revis !”</p>\n      </div>\n\n      <!-- CARD 2 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/4ddd4141-b2d3-41de-ad73-0aaac69d981b.png?v=1769563374\">\n        <h3>Joséphine C.</h3>\n        <p>“Enfin une solution douce pour le visage.”</p>\n      </div>\n\n      <!-- CARD 3 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/c108b55b-682f-4ef3-99a9-1e904e963e95.png?v=1769563374\">\n        <h3>Laurine H.</h3>\n        <p>“Repousse ralentie + peau plus nette.”</p>\n      </div>\n\n      <!-- CARD 4 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/0be8ce6b-4bc0-4e95-a6f1-437717de5b2a.png?v=1769563373\">\n        <h3>Ludivine L.</h3>\n        <p>“En une utilisation : plus de duvet.”</p>\n      </div>\n\n      <!-- CARD 5 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/hi1.webp?v=1769563365\">\n        <h3>Ambre D.</h3>\n        <p>“Peau douce, repousse beaucoup plus lente.”</p>\n      </div>\n\n      <!-- CARD 6 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/sil2_9270672f-0dcc-4aa4-bbb6-6b0d6f694e76.webp?v=1769563365\">\n        <h3>Marine G.</h3>\n        <p>“Même les poils très fins : ça enlève tout.”</p>\n      </div>\n\n    </div>\n\n    <button class=\"epl-arrow right\" data-next>›</button>\n  </div>\n</div>\n\n<style>\n.epl-reviews{\n  max-width:1200px;\n  margin:auto;\n  padding:32px 16px;\n  font-family:inherit;\n}\n\n.epl-head{\n  text-align:center;\n  margin-bottom:20px;\n}\n\n.epl-head h2{\n  font-size:22px;\n  font-weight:900;\n  margin-bottom:10px;\n}\n\n.epl-trust{\n  display:flex;\n  gap:10px;\n  justify-content:center;\n  align-items:center;\n  flex-wrap:wrap;\n  font-size:14px;\n}\n\n.epl-stars{\n  display:flex;\n  gap:4px;\n}\n\n.epl-star{\n  width:18px;\n  height:18px;\n  background:#00b67a;\n  color:#fff;\n  font-size:12px;\n  font-weight:900;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  border-radius:3px;\n}\n\n.epl-star.half{\n  background:linear-gradient(90deg,#00b67a 50%,#d9d9d9 50%);\n}\n\n.epl-slider{\n  position:relative;\n}\n\n.epl-track{\n  display:flex;\n  gap:16px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  padding:10px 6px 14px;\n}\n\n.epl-track::-webkit-scrollbar{height:8px;}\n.epl-track::-webkit-scrollbar-thumb{background:#ccc;border-radius:99px;}\n\n.epl-card{\n  flex:0 0 340px;\n  background:#fff;\n  border-radius:18px;\n  box-shadow:0 10px 30px rgba(0,0,0,.08);\n  padding:12px;\n  scroll-snap-align:start;\n}\n\n.epl-card img{\n  width:100%;\n  border-radius:14px;\n  aspect-ratio:4/3;\n  object-fit:cover;\n}\n\n.epl-card h3{\n  margin:12px 0 6px;\n  font-size:18px;\n  font-weight:900;\n}\n\n.epl-card p{\n  font-size:14px;\n  line-height:1.45;\n  margin:0;\n}\n\n.epl-arrow{\n  position:absolute;\n  top:50%;\n  transform:translateY(-50%);\n  width:44px;\n  height:44px;\n  border-radius:50%;\n  border:none;\n  background:#fff;\n  box-shadow:0 8px 20px rgba(0,0,0,.15);\n  font-size:26px;\n  cursor:pointer;\n}\n\n.epl-arrow.left{left:-6px;}\n.epl-arrow.right{right:-6px;}\n\n@media(max-width:768px){\n  .epl-card{flex-basis:86vw;}\n  .epl-arrow{display:none;}\n}\n</style>\n\n<script>\n(function(){\n  const track=document.querySelector('[data-track]');\n  const prev=document.querySelector('[data-prev]');\n  const next=document.querySelector('[data-next]');\n  if(!track) return;\n\n  function step(){\n    return track.querySelector('.epl-card').offsetWidth + 16;\n  }\n\n  prev.onclick=()=>track.scrollBy({left:-step(),behavior:'smooth'});\n  next.onclick=()=>track.scrollBy({left:step(),behavior:'smooth'});\n})();\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -21,7 +103,7 @@
         "liquid_aJfP6f": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- ✅ Version MOBILE (téléphone) + seulement coloris ROSE (FFE6EC) -->\n<div class=\"m-box\">\n\n  <!-- Badge -->\n  <div class=\"m-badge\">\n    <div class=\"m-badge-left\">#1</div>\n    <div class=\"m-badge-right\">\n      <div class=\"m-badge-title\">BEST-SELLER 2026</div>\n      <div class=\"m-badge-sub\">N°1 en Douceur et Précision</div>\n    </div>\n  </div>\n\n  <!-- Avis -->\n  <div class=\"m-rating-row\">\n    <div class=\"m-stars\" aria-label=\"4,7 sur 5\">\n      <span>★</span><span>★</span><span>★</span><span>★</span><span class=\"dim\">★</span>\n    </div>\n    <div class=\"m-rating-text\">Noté <b>4,7/5</b> par <b>1800 Avis Vérifiés</b></div>\n  </div>\n\n  <!-- Titre -->\n  <div class=\"m-title\">ELINEA PARIS · Rasoir Électrique Intime</div>\n\n  <!-- Prix -->\n  <div class=\"m-price-row\">\n    <div class=\"m-price-main\">34,90€</div>\n    <div class=\"m-price-old\">59,90€</div>\n    <div class=\"m-save\">ÉCONOMISEZ 42%</div>\n  </div>\n\n  <hr class=\"m-sep\">\n\n  <!-- Description -->\n  <div class=\"m-desc\">\n    Marre des coupures et irritations après chaque rasage ? Adoptez\n    <b>ELINEA PARIS</b> et profitez d’un rasage <b>sans douleur</b> et d’une\n    <b>peau lisse</b> au quotidien.\n  </div>\n\n  <!-- Points -->\n  <div class=\"m-bullets\">\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Confort absolu : sans coupures, sans irritation</div>\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Efficace sur toutes les zones, même sensibles</div>\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Prévient les poils incarnés et les imperfections</div>\n  </div>\n\n  <hr class=\"m-sep\">\n\n  <!-- Coloris : ROSE ONLY -->\n  <div class=\"m-colors\">\n    <div class=\"m-colors-title\">Coloris : <b>Rose</b></div>\n\n    <div class=\"m-swatches\">\n      <div class=\"m-swatch selected\" aria-label=\"Rose\">\n        <span class=\"m-dot\" style=\"background:#FFE6EC;\"></span>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n<style>\n  /* ✅ MOBILE FIRST */\n  .m-box{\n    width: 100%;\n    max-width: 520px;      /* s’adapte aux téléphones + petits écrans */\n    margin: 0 auto;\n    padding: 0 12px;       /* évite que ça coupe sur les côtés */\n    box-sizing: border-box;\n    font-family: Arial, sans-serif;\n    color:#111;\n  }\n\n  /* Badge */\n  .m-badge{\n    display:inline-flex;\n    align-items:center;\n    background:#ff6f91;\n    color:#fff;\n    border-radius:10px;\n    overflow:hidden;\n    margin: 6px 0 10px;\n    max-width: 100%;\n  }\n  .m-badge-left{\n    font-weight:900;\n    padding:10px 12px;\n    background:rgba(255,255,255,.18);\n    font-size:16px;\n    white-space:nowrap;\n  }\n  .m-badge-right{\n    padding:10px 12px;\n    line-height:1.05;\n  }\n  .m-badge-title{ font-weight:900; font-size:12px; letter-spacing:.2px; }\n  .m-badge-sub{ font-size:11px; opacity:.95; margin-top:3px; }\n\n  /* Avis */\n  .m-rating-row{\n    display:flex;\n    align-items:center;\n    gap:10px;\n    flex-wrap:wrap;        /* ✅ sur mobile ça revient à la ligne */\n    margin: 6px 0;\n  }\n  .m-stars{ color:#f5a623; font-size:16px; line-height:1; }\n  .m-stars .dim{ opacity:.55; }\n  .m-rating-text{ font-size:13px; color:#333; }\n\n  /* Titre */\n  .m-title{\n    font-size:20px;        /* ✅ plus petit pour mobile */\n    font-weight:900;\n    margin: 8px 0 10px;\n    line-height:1.2;\n  }\n\n  /* Prix */\n  .m-price-row{\n    display:flex;\n    align-items:baseline;\n    gap:10px;\n    flex-wrap:wrap;        /* ✅ pas de coupe */\n  }\n  .m-price-main{ font-size:26px; font-weight:900; }\n  .m-price-old{\n    font-size:16px;\n    color:#9aa0a6;\n    text-decoration:line-through;\n  }\n  .m-save{\n    background:#22c55e;\n    color:#fff;\n    font-weight:900;\n    font-size:12px;\n    padding:6px 10px;\n    border-radius:999px;\n  }\n\n  .m-sep{\n    border:none;\n    border-top:1px solid #e6e6e6;\n    margin:14px 0;\n  }\n\n  /* Description */\n  .m-desc{\n    background:#fdecef;\n    border-radius:12px;\n    padding:14px 14px;\n    font-size:14px;\n    color:#222;\n    line-height:1.35;\n  }\n\n  /* Puces */\n  .m-bullets{ margin:14px 0 6px; }\n  .m-bullet{\n    display:flex;\n    align-items:flex-start;\n    gap:10px;\n    font-size:14px;\n    margin:10px 0;\n    color:#222;\n    line-height:1.25;\n  }\n  .m-check{\n    width:18px; height:18px;\n    border-radius:50%;\n    background:#ff6f91;\n    position:relative;\n    flex:0 0 18px;\n    margin-top:2px;\n  }\n  .m-check:after{\n    content:\"\";\n    position:absolute;\n    left:5px; top:4px;\n    width:6px; height:9px;\n    border-right:2px solid #fff;\n    border-bottom:2px solid #fff;\n    transform:rotate(45deg);\n  }\n\n  /* Coloris */\n  .m-colors-title{\n    font-size:14px;\n    margin-bottom:10px;\n    color:#111;\n  }\n  .m-swatches{\n    display:flex;\n    gap:12px;\n    align-items:center;\n    margin-bottom:10px;\n  }\n  .m-swatch{\n    width:44px; height:44px;\n    border-radius:999px;\n    border:2px solid #111;\n    background:#fff;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    padding:0;\n  }\n  .m-dot{\n    width:34px; height:34px;\n    border-radius:999px;\n    border:1px solid rgba(0,0,0,.08);\n    display:block;\n  }\n\n  /* ✅ Très petits téléphones */\n  @media (max-width: 360px){\n    .m-box{ padding:0 10px; }\n    .m-title{ font-size:18px; }\n    .m-price-main{ font-size:24px; }\n  }\n</style>"
+            "liquid": "<!-- ✅ MOBILE FIRST – EPILE+ ÉPILATEUR VISAGE -->\n<div class=\"m-box\">\n\n  <!-- Badge -->\n  <div class=\"m-badge\">\n    <div class=\"m-badge-left\">#1</div>\n    <div class=\"m-badge-right\">\n      <div class=\"m-badge-title\">BEST-SELLER 2026</div>\n      <div class=\"m-badge-sub\">N°1 en Douceur et Précision</div>\n    </div>\n  </div>\n\n  <!-- Avis -->\n  <div class=\"m-rating-row\">\n    <div class=\"m-stars\" aria-label=\"4,8 sur 5\">\n      <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>\n    </div>\n    <div class=\"m-rating-text\">\n      Noté <b>4,8/5</b> basé sur <b>3269 Avis Vérifiés</b>\n    </div>\n  </div>\n\n  <!-- Titre -->\n  <div class=\"m-title\">EPILE+ · Épilateur Visage Haute Précision</div>\n\n  <!-- Prix -->\n  <div class=\"m-price-row\">\n    <div class=\"m-price-main\">34,90€</div>\n    <div class=\"m-price-old\">59,90€</div>\n    <div class=\"m-save\">ÉCONOMISEZ 42%</div>\n  </div>\n\n  <hr class=\"m-sep\">\n\n  <!-- Description -->\n  <div class=\"m-desc\">\n    Marre du duvet, des poils au menton ou à la lèvre, et des irritations après chaque méthode ?\n    Adoptez <b>EPILE+</b> et profitez d’une épilation <b>doux</b>, <b>rapide</b> et <b>sans douleur</b>\n    pour une <b>peau lisse</b> au quotidien.\n  </div>\n\n  <!-- Points forts -->\n  <div class=\"m-bullets\">\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Épilation douce, sans coupures ni rougeurs</div>\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Ultra précis : menton, lèvre, joues, sourcils</div>\n    <div class=\"m-bullet\"><span class=\"m-check\"></span> Résultat net et repousse visiblement ralentie</div>\n  </div>\n\n  <hr class=\"m-sep\">\n\n  <!-- Coloris -->\n  <div class=\"m-colors\">\n    <div class=\"m-colors-title\">Coloris : <b>Rose</b></div>\n    <div class=\"m-swatches\">\n      <div class=\"m-swatch selected\">\n        <span class=\"m-dot\" style=\"background:#FFE6EC;\"></span>\n      </div>\n    </div>\n  </div>\n\n</div>\n\n<style>\n/* MOBILE FIRST */\n.m-box{\n  width:100%;\n  max-width:520px;\n  margin:0 auto;\n  padding:0 12px;\n  box-sizing:border-box;\n  font-family:Arial,sans-serif;\n  color:#111;\n}\n\n/* Badge */\n.m-badge{\n  display:inline-flex;\n  align-items:center;\n  background:#ff6f91;\n  color:#fff;\n  border-radius:10px;\n  overflow:hidden;\n  margin:6px 0 10px;\n}\n.m-badge-left{\n  font-weight:900;\n  padding:10px 12px;\n  background:rgba(255,255,255,.18);\n  font-size:16px;\n}\n.m-badge-right{\n  padding:10px 12px;\n  line-height:1.05;\n}\n.m-badge-title{font-weight:900;font-size:12px;}\n.m-badge-sub{font-size:11px;opacity:.95;margin-top:3px;}\n\n/* Avis */\n.m-rating-row{\n  display:flex;\n  align-items:center;\n  gap:10px;\n  flex-wrap:wrap;\n  margin:6px 0;\n}\n.m-stars{color:#f5a623;font-size:16px;}\n.m-rating-text{font-size:13px;color:#333;}\n\n/* Titre */\n.m-title{\n  font-size:20px;\n  font-weight:900;\n  margin:8px 0 10px;\n  line-height:1.2;\n}\n\n/* Prix */\n.m-price-row{\n  display:flex;\n  align-items:baseline;\n  gap:10px;\n  flex-wrap:wrap;\n}\n.m-price-main{font-size:26px;font-weight:900;}\n.m-price-old{\n  font-size:16px;\n  color:#9aa0a6;\n  text-decoration:line-through;\n}\n.m-save{\n  background:#22c55e;\n  color:#fff;\n  font-weight:900;\n  font-size:12px;\n  padding:6px 10px;\n  border-radius:999px;\n}\n\n/* Séparateur */\n.m-sep{\n  border:none;\n  border-top:1px solid #e6e6e6;\n  margin:14px 0;\n}\n\n/* Description */\n.m-desc{\n  background:#fdecef;\n  border-radius:12px;\n  padding:14px;\n  font-size:14px;\n  color:#222;\n  line-height:1.35;\n}\n\n/* Bullets */\n.m-bullets{margin:14px 0 6px;}\n.m-bullet{\n  display:flex;\n  gap:10px;\n  font-size:14px;\n  margin:10px 0;\n  line-height:1.25;\n}\n.m-check{\n  width:18px;height:18px;\n  border-radius:50%;\n  background:#ff6f91;\n  position:relative;\n  flex:0 0 18px;\n}\n.m-check:after{\n  content:\"\";\n  position:absolute;\n  left:5px;top:4px;\n  width:6px;height:9px;\n  border-right:2px solid #fff;\n  border-bottom:2px solid #fff;\n  transform:rotate(45deg);\n}\n\n/* Coloris */\n.m-colors-title{\n  font-size:14px;\n  margin-bottom:10px;\n}\n.m-swatches{\n  display:flex;\n  gap:12px;\n  align-items:center;\n}\n.m-swatch{\n  width:44px;height:44px;\n  border-radius:999px;\n  border:2px solid #111;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n}\n.m-dot{\n  width:34px;height:34px;\n  border-radius:999px;\n  border:1px solid rgba(0,0,0,.08);\n}\n\n/* Très petits téléphones */\n@media(max-width:360px){\n  .m-title{font-size:18px;}\n  .m-price-main{font-size:24px;}\n}\n</style>"
           }
         },
         "sku_QFwMnn": {
@@ -116,8 +198,15 @@
         },
         "liquid_QzhLbe": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!-- MINI VIDEOS RONDES (ROSE #FFE6EC) — AUTOPLAY + POPUP RECTANGLE (PAS CARRÉ) + HALO ROSE -->\n<div class=\"mini-video-row\">\n\n  <!-- Vidéo 1 -->\n  <button class=\"mini-video\" type=\"button\"\n    data-video=\"https://cdn.shopify.com/videos/c/o/v/d8f5be2e5cd141c793aad40ffa58ac07.mp4\"\n    aria-label=\"Lire la vidéo 1\">\n    <div class=\"mini-video__thumb\">\n      <video muted playsinline webkit-playsinline preload=\"metadata\" loop>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/d8f5be2e5cd141c793aad40ffa58ac07.mp4#t=0.1\" type=\"video/mp4\">\n      </video>\n      <span class=\"mini-video__play\" aria-hidden=\"true\">▶</span>\n    </div>\n  </button>\n\n  <!-- Vidéo 2 -->\n  <button class=\"mini-video\" type=\"button\"\n    data-video=\"https://cdn.shopify.com/videos/c/o/v/96f6d50b77d5415db7c11ca6d4aa903d.mp4\"\n    aria-label=\"Lire la vidéo 2\">\n    <div class=\"mini-video__thumb\">\n      <video muted playsinline webkit-playsinline preload=\"metadata\" loop>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/96f6d50b77d5415db7c11ca6d4aa903d.mp4#t=0.1\" type=\"video/mp4\">\n      </video>\n      <span class=\"mini-video__play\" aria-hidden=\"true\">▶</span>\n    </div>\n  </button>\n\n  <!-- Vidéo 3 -->\n  <button class=\"mini-video\" type=\"button\"\n    data-video=\"https://cdn.shopify.com/videos/c/o/v/0832ec4a2eb242098de8c8606897ab34.mp4\"\n    aria-label=\"Lire la vidéo 3\">\n    <div class=\"mini-video__thumb\">\n      <video muted playsinline webkit-playsinline preload=\"metadata\" loop>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/0832ec4a2eb242098de8c8606897ab34.mp4#t=0.1\" type=\"video/mp4\">\n      </video>\n      <span class=\"mini-video__play\" aria-hidden=\"true\">▶</span>\n    </div>\n  </button>\n\n</div>\n\n<!-- POPUP VIDEO (RECTANGLE, PAS FULLSCREEN) -->\n<div class=\"mv-modal\" id=\"mvModal\" aria-hidden=\"true\">\n  <div class=\"mv-modal__box\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Lecture vidéo\">\n    <button class=\"mv-modal__close\" type=\"button\" aria-label=\"Fermer\">✕</button>\n\n    <!-- ✅ AUTOPLAY + NO FULLSCREEN: pas de controls, playsinline -->\n    <video\n      id=\"mvPlayer\"\n      muted\n      playsinline\n      webkit-playsinline\n      preload=\"auto\">\n    </video>\n\n    <!-- optionnel: mute/unmute -->\n    <button class=\"mv-sound\" type=\"button\" aria-label=\"Activer le son\">🔇</button>\n  </div>\n</div>\n\n<style>\n:root{\n  --mv-pink:#FFE6EC;\n}\n\n/* Ligne */\n.mini-video-row{\n  display:flex;\n  justify-content:center;\n  gap:22px;\n  margin:20px 0;\n}\n\n/* Bouton */\n.mini-video{\n  border:0;\n  background:none;\n  cursor:pointer;\n  padding:0;\n}\n\n/* Rond */\n.mini-video__thumb{\n  width:78px;\n  height:78px;\n  border-radius:50%;\n  overflow:hidden;\n  position:relative;\n  background:#000;\n  border:3px solid var(--mv-pink);\n  box-shadow:\n    0 10px 26px rgba(0,0,0,.14),\n    0 0 0 6px rgba(255,230,236,.35);\n}\n.mini-video__thumb video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  display:block;\n}\n\n/* Play */\n.mini-video__play{\n  width:36px;\n  height:36px;\n  border-radius:50%;\n  background:var(--mv-pink);\n  color:#111;\n  font-size:14px;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  position:absolute;\n  top:50%;\n  left:50%;\n  transform:translate(-50%,-50%);\n  box-shadow:0 8px 18px rgba(0,0,0,.28);\n}\n\n/* MODAL */\n.mv-modal{\n  position:fixed;\n  inset:0;\n  background:rgba(0,0,0,.72);\n  display:none;\n  align-items:center;\n  justify-content:center;\n  z-index:9999;\n}\n\n/* ✅ RECTANGLE “MOYEN” + PAS FULLSCREEN\n   - aspect ratio vertical mais pas carré\n   - large limitée */\n.mv-modal__box{\n  width: min(560px, 92vw);\n  aspect-ratio: 9 / 16;      /* ✅ garde les textes visibles en bas */\n  background:#000;\n  border-radius:22px;\n  overflow:hidden;\n  position:relative;\n  box-shadow:0 22px 70px rgba(0,0,0,.60);\n  border:1px solid rgba(255,230,236,.25);\n}\n\n/* Halo animé */\n.mv-modal__box::before{\n  content:\"\";\n  position:absolute;\n  inset:-3px;\n  border-radius:24px;\n  background: linear-gradient(120deg,\n    rgba(255,230,236,.95),\n    rgba(255,170,205,.55),\n    rgba(255,230,236,.95)\n  );\n  background-size: 240% 240%;\n  animation: mvHalo 3.8s linear infinite;\n  opacity:.55;\n  filter: blur(10px);\n  z-index:0;\n  pointer-events:none;\n}\n\n@keyframes mvHalo{\n  0%{ background-position: 0% 50%; }\n  50%{ background-position: 100% 50%; }\n  100%{ background-position: 0% 50%; }\n}\n\n.mv-modal video{\n  position:relative;\n  z-index:1;\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  background:#000;\n}\n\n/* Close */\n.mv-modal__close{\n  position:absolute;\n  top:10px;\n  right:12px;\n  width:34px;\n  height:34px;\n  border-radius:50%;\n  background:rgba(255,230,236,.92);\n  border:0;\n  font-size:16px;\n  cursor:pointer;\n  z-index:2;\n}\n\n/* Son */\n.mv-sound{\n  position:absolute;\n  left:12px;\n  top:10px;\n  width:34px;\n  height:34px;\n  border-radius:50%;\n  background:rgba(0,0,0,.45);\n  color:#fff;\n  border:1px solid rgba(255,230,236,.35);\n  cursor:pointer;\n  z-index:2;\n  font-size:15px;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n}\n\n/* Mobile */\n@media(max-width:480px){\n  .mini-video__thumb{ width:70px; height:70px; border-width:2px; }\n  .mv-modal__box{ width: 92vw; }\n}\n\n/* Reduce motion */\n@media (prefers-reduced-motion: reduce){\n  .mv-modal__box::before{ animation:none !important; }\n}\n</style>\n\n<script>\n(() => {\n  const buttons = document.querySelectorAll('.mini-video');\n  const modal = document.getElementById('mvModal');\n  const player = document.getElementById('mvPlayer');\n  const closeBtn = document.querySelector('.mv-modal__close');\n  const soundBtn = document.querySelector('.mv-sound');\n\n  // Aperçus auto (muted)\n  document.querySelectorAll('.mini-video__thumb video').forEach(v=>{\n    v.muted = true;\n    v.play().catch(()=>{});\n  });\n\n  const setSoundIcon = () => {\n    if (!soundBtn) return;\n    soundBtn.textContent = player.muted ? \"🔇\" : \"🔊\";\n    soundBtn.setAttribute(\"aria-label\", player.muted ? \"Activer le son\" : \"Couper le son\");\n  };\n\n  const openModal = async (src) => {\n    // ✅ autoplay iOS safe: doit être muted\n    player.muted = true;\n    setSoundIcon();\n\n    player.src = src;\n    modal.style.display = 'flex';\n    modal.setAttribute('aria-hidden','false');\n\n    try { await player.play(); } catch(e) {}\n  };\n\n  const closeModal = () => {\n    modal.style.display = 'none';\n    modal.setAttribute('aria-hidden','true');\n    player.pause();\n    player.removeAttribute('src');\n    player.load();\n  };\n\n  buttons.forEach(btn=>{\n    btn.addEventListener('click',()=>openModal(btn.dataset.video));\n  });\n\n  closeBtn.addEventListener('click', closeModal);\n  modal.addEventListener('click', e=>{\n    if(e.target === modal) closeModal();\n  });\n\n  document.addEventListener('keydown', e=>{\n    if(e.key === 'Escape' && modal.style.display === 'flex') closeModal();\n  });\n\n  if (soundBtn){\n    soundBtn.addEventListener('click', () => {\n      player.muted = !player.muted;\n      setSoundIcon();\n      player.play().catch(()=>{});\n    });\n  }\n})();\n</script>"
+          }
+        },
+        "liquid_DBkn43": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"faq-wrap\">\n\n  <h2 class=\"faq-title\">Questions fréquentes</h2>\n\n  <!-- FAQ ITEM -->\n  <details class=\"faq-item\">\n    <summary>Comment ça fonctionne ?</summary>\n    <p>\n      L’<b>EPILE+</b> utilise des disques mécaniques qui éliminent les poils à la racine\n      sans toucher la peau. Ils s’adaptent à l’épaisseur des poils, et les séances durent\n      de quelques secondes à quelques minutes selon la zone.  \n      Ce processus ralentit la repousse jusqu’à <b>4 semaines</b>.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Est-ce que ça provoque des rougeurs ou irritations ?</summary>\n    <p>\n      Non. L’appareil retire le poil proprement <b>sans chauffer ni tirer</b>.\n      Il est spécialement conçu pour les peaux sensibles, sans rougeur autour\n      de la bouche ou du menton.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Est-ce que ça enlève vraiment la moustache et le duvet ?</summary>\n    <p>\n      Oui ! C’est exactement conçu pour ça.  \n      <b>EPILE+</b> enlève même les poils très fins, invisibles au soleil,\n      là où les rasoirs et crèmes dépilatoires échouent.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Est-il adapté aux peaux sensibles ?</summary>\n    <p>\n      Oui. <b>97 % de nos utilisatrices</b> confirment n’avoir ressenti\n      <b>aucune rougeur, irritation ou picotement</b> pendant l’utilisation.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>La batterie tient combien de temps ?</summary>\n    <p>\n      Une charge complète offre plusieurs sessions selon l’usage.\n      L’appareil conserve sa puissance du début à la fin,\n      sans perte d’efficacité.  \n      L’autonomie est d’environ <b>60 minutes</b>.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Quand ma commande sera-t-elle expédiée ?</summary>\n    <p>\n      La commande est expédiée rapidement après validation.\n      La livraison prend en moyenne <b>3 à 5 jours ouvrés</b>.  \n      Un numéro de suivi vous est envoyé dès l’expédition.\n    </p>\n  </details>\n\n  <details class=\"faq-item\">\n    <summary>Garantie 30 jours Satisfait ou Remboursé</summary>\n    <p>\n      Si vous n’êtes pas satisfaite de <b>EPILE+</b>, vous pouvez demander\n      un <b>remboursement intégral sous 30 jours</b>, sans justification.\n    </p>\n  </details>\n\n</div>\n\n<style>\n.faq-wrap{\n  max-width:720px;\n  margin:40px auto;\n  padding:0 14px;\n  font-family:Arial, sans-serif;\n}\n\n.faq-title{\n  text-align:center;\n  font-size:24px;\n  font-weight:900;\n  margin-bottom:20px;\n}\n\n.faq-item{\n  border-bottom:1px solid #e6e6e6;\n  padding:12px 0;\n}\n\n.faq-item summary{\n  list-style:none;\n  cursor:pointer;\n  font-size:15px;\n  font-weight:700;\n  color:#111;\n  display:flex;\n  justify-content:space-between;\n  align-items:center;\n}\n\n.faq-item summary::-webkit-details-marker{\n  display:none;\n}\n\n.faq-item summary:after{\n  content:\"▾\";\n  font-size:18px;\n  transition:transform .25s ease;\n}\n\n.faq-item[open] summary:after{\n  transform:rotate(180deg);\n}\n\n.faq-item p{\n  font-size:14px;\n  color:#333;\n  line-height:1.45;\n  margin:10px 0 0;\n}\n\n@media(max-width:768px){\n  .faq-title{font-size:22px;}\n}\n</style>"
           }
         }
       },
@@ -138,7 +227,8 @@
         "image_cqbyxR",
         "liquid_GC4yAi",
         "liquid_9CUy7t",
-        "liquid_QzhLbe"
+        "liquid_QzhLbe",
+        "liquid_DBkn43"
       ],
       "settings": {
         "full_width": true,
@@ -158,32 +248,57 @@
         "input_text_color": ""
       }
     },
-    "related_products_6HrkNc": {
-      "type": "related-products",
-      "name": "Related products",
+    "hot_spots_7UQmLe": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_LKtrXW": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_LKtrXW"
+      ],
+      "name": "Hot spots",
       "settings": {
-        "recommendations_count": 6,
-        "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
+        "image": "shopify://shop_images/353bcf6c-ee3f-4202-b33d-548d8149737a.png",
+        "mobile_image": "shopify://shop_images/353bcf6c-ee3f-4202-b33d-548d8149737a.png",
         "title": "",
         "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
       }
     }
   },
   "order": [
+    "custom_liquid_jfbxJC",
+    "custom_liquid_DayRzH",
+    "hot_spots_wV4GE7",
+    "custom_liquid_97mz3w",
     "main",
-    "related_products_6HrkNc"
+    "hot_spots_7UQmLe"
   ]
 }
