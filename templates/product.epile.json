@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "slideshow_4d7JHR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_A96xB7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/da838e35-ec57-4a17-9e3a-4f1caf22d679.png",
+            "mobile_image": "shopify://shop_images/da838e35-ec57-4a17-9e3a-4f1caf22d679.png",
+            "content_max_width": 480,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_A96xB7"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "custom_liquid_jfbxJC": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -78,19 +121,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "custom_liquid_97mz3w": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"epl-reviews\">\n\n  <!-- HEADER -->\n  <div class=\"epl-head\">\n    <h2>Nos clientes en parlent le mieux !</h2>\n\n    <div class=\"epl-trust\">\n      <span class=\"epl-trust-text\">Excellent <b>4.8 / 5</b></span>\n\n      <div class=\"epl-stars\">\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star half\">★</span>\n      </div>\n\n      <span class=\"epl-based\">basé sur <b>3269 avis</b></span>\n    </div>\n  </div>\n\n  <!-- SLIDER -->\n  <div class=\"epl-slider\" data-slider>\n    <button class=\"epl-arrow left\" data-prev>‹</button>\n\n    <div class=\"epl-track\" data-track>\n\n      <!-- CARD 1 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1f147f32-c747-4aae-a885-7c862bbde932.png?v=1769563375\">\n        <h3>Clara L.</h3>\n        <p>“Résultat super propre, je revis !”</p>\n      </div>\n\n      <!-- CARD 2 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/4ddd4141-b2d3-41de-ad73-0aaac69d981b.png?v=1769563374\">\n        <h3>Joséphine C.</h3>\n        <p>“Enfin une solution douce pour le visage.”</p>\n      </div>\n\n      <!-- CARD 3 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/c108b55b-682f-4ef3-99a9-1e904e963e95.png?v=1769563374\">\n        <h3>Laurine H.</h3>\n        <p>“Repousse ralentie + peau plus nette.”</p>\n      </div>\n\n      <!-- CARD 4 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/0be8ce6b-4bc0-4e95-a6f1-437717de5b2a.png?v=1769563373\">\n        <h3>Ludivine L.</h3>\n        <p>“En une utilisation : plus de duvet.”</p>\n      </div>\n\n      <!-- CARD 5 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/hi1.webp?v=1769563365\">\n        <h3>Ambre D.</h3>\n        <p>“Peau douce, repousse beaucoup plus lente.”</p>\n      </div>\n\n      <!-- CARD 6 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/sil2_9270672f-0dcc-4aa4-bbb6-6b0d6f694e76.webp?v=1769563365\">\n        <h3>Marine G.</h3>\n        <p>“Même les poils très fins : ça enlève tout.”</p>\n      </div>\n\n    </div>\n\n    <button class=\"epl-arrow right\" data-next>›</button>\n  </div>\n</div>\n\n<style>\n.epl-reviews{\n  max-width:1200px;\n  margin:auto;\n  padding:32px 16px;\n  font-family:inherit;\n}\n\n.epl-head{\n  text-align:center;\n  margin-bottom:20px;\n}\n\n.epl-head h2{\n  font-size:22px;\n  font-weight:900;\n  margin-bottom:10px;\n}\n\n.epl-trust{\n  display:flex;\n  gap:10px;\n  justify-content:center;\n  align-items:center;\n  flex-wrap:wrap;\n  font-size:14px;\n}\n\n.epl-stars{\n  display:flex;\n  gap:4px;\n}\n\n.epl-star{\n  width:18px;\n  height:18px;\n  background:#00b67a;\n  color:#fff;\n  font-size:12px;\n  font-weight:900;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  border-radius:3px;\n}\n\n.epl-star.half{\n  background:linear-gradient(90deg,#00b67a 50%,#d9d9d9 50%);\n}\n\n.epl-slider{\n  position:relative;\n}\n\n.epl-track{\n  display:flex;\n  gap:16px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  padding:10px 6px 14px;\n}\n\n.epl-track::-webkit-scrollbar{height:8px;}\n.epl-track::-webkit-scrollbar-thumb{background:#ccc;border-radius:99px;}\n\n.epl-card{\n  flex:0 0 340px;\n  background:#fff;\n  border-radius:18px;\n  box-shadow:0 10px 30px rgba(0,0,0,.08);\n  padding:12px;\n  scroll-snap-align:start;\n}\n\n.epl-card img{\n  width:100%;\n  border-radius:14px;\n  aspect-ratio:4/3;\n  object-fit:cover;\n}\n\n.epl-card h3{\n  margin:12px 0 6px;\n  font-size:18px;\n  font-weight:900;\n}\n\n.epl-card p{\n  font-size:14px;\n  line-height:1.45;\n  margin:0;\n}\n\n.epl-arrow{\n  position:absolute;\n  top:50%;\n  transform:translateY(-50%);\n  width:44px;\n  height:44px;\n  border-radius:50%;\n  border:none;\n  background:#fff;\n  box-shadow:0 8px 20px rgba(0,0,0,.15);\n  font-size:26px;\n  cursor:pointer;\n}\n\n.epl-arrow.left{left:-6px;}\n.epl-arrow.right{right:-6px;}\n\n@media(max-width:768px){\n  .epl-card{flex-basis:86vw;}\n  .epl-arrow{display:none;}\n}\n</style>\n\n<script>\n(function(){\n  const track=document.querySelector('[data-track]');\n  const prev=document.querySelector('[data-prev]');\n  const next=document.querySelector('[data-next]');\n  if(!track) return;\n\n  function step(){\n    return track.querySelector('.epl-card').offsetWidth + 16;\n  }\n\n  prev.onclick=()=>track.scrollBy({left:-step(),behavior:'smooth'});\n  next.onclick=()=>track.scrollBy({left:step(),behavior:'smooth'});\n})();\n</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_LgcNfX": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -99,6 +129,19 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<!-- SECTION TITRE + VIDEO -->\n<section class=\"video-section\">\n\n  <!-- TITRE -->\n  <h2 class=\"video-title\">\n    Un mode d’épilation <span>innovant et indolore</span>\n  </h2>\n\n  <!-- VIDEO FULL WIDTH -->\n  <div class=\"video-full\">\n    <video\n      autoplay\n      muted\n      loop\n      playsinline\n      preload=\"auto\"\n    >\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/5f956d5642334d43b646a87a14a06bac.mp4\" type=\"video/mp4\">\n      Votre navigateur ne supporte pas la vidéo.\n    </video>\n  </div>\n\n</section>\n\n<style>\n/* SECTION */\n.video-section{\n  margin:40px 0;\n}\n\n/* TITRE */\n.video-title{\n  text-align:center;\n  font-size:26px;\n  font-weight:900;\n  line-height:1.2;\n  margin:0 0 20px;\n  padding:0 14px;\n  color:#111;\n}\n.video-title span{\n  color:#ff6f91;\n}\n\n/* VIDEO FULL BLOC */\n.video-full{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n  overflow:hidden;\n  background:#000;\n}\n\n.video-full video{\n  width:100%;\n  height:100%;\n  display:block;\n  object-fit:cover;\n}\n\n/* MOBILE */\n@media(max-width:768px){\n  .video-title{\n    font-size:22px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_97mz3w": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"epl-reviews\">\n\n  <!-- HEADER -->\n  <div class=\"epl-head\">\n    <h2>Nos clientes en parlent le mieux !</h2>\n\n    <div class=\"epl-trust\">\n      <span class=\"epl-trust-text\">Excellent <b>4.8 / 5</b></span>\n\n      <div class=\"epl-stars\">\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star\">★</span>\n        <span class=\"epl-star half\">★</span>\n      </div>\n\n      <span class=\"epl-based\">basé sur <b>3269 avis</b></span>\n    </div>\n  </div>\n\n  <!-- SLIDER -->\n  <div class=\"epl-slider\" data-slider>\n    <button class=\"epl-arrow left\" data-prev>‹</button>\n\n    <div class=\"epl-track\" data-track>\n\n      <!-- CARD 1 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/1f147f32-c747-4aae-a885-7c862bbde932.png?v=1769563375\">\n        <h3>Clara L.</h3>\n        <p>“Résultat super propre, je revis !”</p>\n      </div>\n\n      <!-- CARD 2 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/4ddd4141-b2d3-41de-ad73-0aaac69d981b.png?v=1769563374\">\n        <h3>Joséphine C.</h3>\n        <p>“Enfin une solution douce pour le visage.”</p>\n      </div>\n\n      <!-- CARD 3 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/c108b55b-682f-4ef3-99a9-1e904e963e95.png?v=1769563374\">\n        <h3>Laurine H.</h3>\n        <p>“Repousse ralentie + peau plus nette.”</p>\n      </div>\n\n      <!-- CARD 4 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/0be8ce6b-4bc0-4e95-a6f1-437717de5b2a.png?v=1769563373\">\n        <h3>Ludivine L.</h3>\n        <p>“En une utilisation : plus de duvet.”</p>\n      </div>\n\n      <!-- CARD 5 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/hi1.webp?v=1769563365\">\n        <h3>Ambre D.</h3>\n        <p>“Peau douce, repousse beaucoup plus lente.”</p>\n      </div>\n\n      <!-- CARD 6 -->\n      <div class=\"epl-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/sil2_9270672f-0dcc-4aa4-bbb6-6b0d6f694e76.webp?v=1769563365\">\n        <h3>Marine G.</h3>\n        <p>“Même les poils très fins : ça enlève tout.”</p>\n      </div>\n\n    </div>\n\n    <button class=\"epl-arrow right\" data-next>›</button>\n  </div>\n</div>\n\n<style>\n.epl-reviews{\n  max-width:1200px;\n  margin:auto;\n  padding:32px 16px;\n  font-family:inherit;\n}\n\n.epl-head{\n  text-align:center;\n  margin-bottom:20px;\n}\n\n.epl-head h2{\n  font-size:22px;\n  font-weight:900;\n  margin-bottom:10px;\n}\n\n.epl-trust{\n  display:flex;\n  gap:10px;\n  justify-content:center;\n  align-items:center;\n  flex-wrap:wrap;\n  font-size:14px;\n}\n\n.epl-stars{\n  display:flex;\n  gap:4px;\n}\n\n.epl-star{\n  width:18px;\n  height:18px;\n  background:#00b67a;\n  color:#fff;\n  font-size:12px;\n  font-weight:900;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  border-radius:3px;\n}\n\n.epl-star.half{\n  background:linear-gradient(90deg,#00b67a 50%,#d9d9d9 50%);\n}\n\n.epl-slider{\n  position:relative;\n}\n\n.epl-track{\n  display:flex;\n  gap:16px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  padding:10px 6px 14px;\n}\n\n.epl-track::-webkit-scrollbar{height:8px;}\n.epl-track::-webkit-scrollbar-thumb{background:#ccc;border-radius:99px;}\n\n.epl-card{\n  flex:0 0 340px;\n  background:#fff;\n  border-radius:18px;\n  box-shadow:0 10px 30px rgba(0,0,0,.08);\n  padding:12px;\n  scroll-snap-align:start;\n}\n\n.epl-card img{\n  width:100%;\n  border-radius:14px;\n  aspect-ratio:4/3;\n  object-fit:cover;\n}\n\n.epl-card h3{\n  margin:12px 0 6px;\n  font-size:18px;\n  font-weight:900;\n}\n\n.epl-card p{\n  font-size:14px;\n  line-height:1.45;\n  margin:0;\n}\n\n.epl-arrow{\n  position:absolute;\n  top:50%;\n  transform:translateY(-50%);\n  width:44px;\n  height:44px;\n  border-radius:50%;\n  border:none;\n  background:#fff;\n  box-shadow:0 8px 20px rgba(0,0,0,.15);\n  font-size:26px;\n  cursor:pointer;\n}\n\n.epl-arrow.left{left:-6px;}\n.epl-arrow.right{right:-6px;}\n\n@media(max-width:768px){\n  .epl-card{flex-basis:86vw;}\n  .epl-arrow{display:none;}\n}\n</style>\n\n<script>\n(function(){\n  const track=document.querySelector('[data-track]');\n  const prev=document.querySelector('[data-prev]');\n  const next=document.querySelector('[data-next]');\n  if(!track) return;\n\n  function step(){\n    return track.querySelector('.epl-card').offsetWidth + 16;\n  }\n\n  prev.onclick=()=>track.scrollBy({left:-step(),behavior:'smooth'});\n  next.onclick=()=>track.scrollBy({left:step(),behavior:'smooth'});\n})();\n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -307,6 +350,7 @@
     }
   },
   "order": [
+    "slideshow_4d7JHR",
     "custom_liquid_jfbxJC",
     "custom_liquid_DayRzH",
     "hot_spots_wV4GE7",
