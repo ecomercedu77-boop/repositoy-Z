@@ -291,6 +291,19 @@
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
       }
+    },
+    "custom_liquid_LgcNfX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- SECTION TITRE + VIDEO -->\n<section class=\"video-section\">\n\n  <!-- TITRE -->\n  <h2 class=\"video-title\">\n    Un mode d’épilation <span>innovant et indolore</span>\n  </h2>\n\n  <!-- VIDEO FULL WIDTH -->\n  <div class=\"video-full\">\n    <video\n      autoplay\n      muted\n      loop\n      playsinline\n      preload=\"auto\"\n    >\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/5f956d5642334d43b646a87a14a06bac.mp4\" type=\"video/mp4\">\n      Votre navigateur ne supporte pas la vidéo.\n    </video>\n  </div>\n\n</section>\n\n<style>\n/* SECTION */\n.video-section{\n  margin:40px 0;\n}\n\n/* TITRE */\n.video-title{\n  text-align:center;\n  font-size:26px;\n  font-weight:900;\n  line-height:1.2;\n  margin:0 0 20px;\n  padding:0 14px;\n  color:#111;\n}\n.video-title span{\n  color:#ff6f91;\n}\n\n/* VIDEO FULL BLOC */\n.video-full{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  margin-right:calc(50% - 50vw);\n  overflow:hidden;\n  background:#000;\n}\n\n.video-full video{\n  width:100%;\n  height:100%;\n  display:block;\n  object-fit:cover;\n}\n\n/* MOBILE */\n@media(max-width:768px){\n  .video-title{\n    font-size:22px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -299,6 +312,7 @@
     "hot_spots_wV4GE7",
     "custom_liquid_97mz3w",
     "main",
-    "hot_spots_7UQmLe"
+    "hot_spots_7UQmLe",
+    "custom_liquid_LgcNfX"
   ]
 }
