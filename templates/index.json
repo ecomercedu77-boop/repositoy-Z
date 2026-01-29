@@ -261,12 +261,6 @@
           "type": "badges",
           "settings": {}
         },
-        "rating_r7rpdi": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_GPCCxC": {
           "type": "separator",
           "settings": {}
@@ -352,7 +346,6 @@
         "kaching_bundles_app_block_FggqAL",
         "liquid_t6tLgG",
         "badges_CgkJ4X",
-        "rating_r7rpdi",
         "separator_GPCCxC",
         "variant_picker_AXVFAR",
         "quantity_selector_yAD6px",
