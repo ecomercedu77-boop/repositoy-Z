@@ -503,6 +503,9 @@
             },
             "banner_due": {
               "many": "Your payment is due in {{count}} days"
+            },
+            "banner_overdue_for_single_fulfillment": {
+              "many": "The payment of {{amount}} is {{count}} days overdue. {{link}}"
             }
           }
         }
@@ -545,6 +548,13 @@
       },
       "contracts_updated": {
         "many": "{{count}} subscription contracts successfully updated"
+      }
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "contracts_updated": {
+          "many": "{{count}} subscription contracts have been successfully updated"
+        }
       }
     }
   },
@@ -695,6 +705,12 @@
         },
         "shipping_method_recurring_shipments_group_title": {
           "many": "Recurring mailings"
+        },
+        "unbranded_description_with_fulfillment_days": {
+          "many": "Shipping within %{count} business days"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "many": "Shipping within %{count} weeks"
         }
       },
       "payment": {
