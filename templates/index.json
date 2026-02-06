@@ -121,48 +121,6 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_wqjaM4": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_yUrzmH": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_GUHenr": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_LC6MEV": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_yUrzmH",
-        "heading_GUHenr",
-        "richtext_LC6MEV"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/9baefd4a-0e3f-4e7e-b080-93d186d9a2c3_d4e35950-54a1-4cd9-adc9-a2f297d40307.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_liquid_dA3rKQ": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -216,7 +174,7 @@
         "liquid_MaCWtK": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- =========================\n     ELINEA – HERO MOBILE (MINIMAL CRO)\n     ❌ AUCUN BOUTON\n     ✅ INFO + PREUVE + PRIX\n     👉 À placer AU-DESSUS du bouton natif Shopify\n========================= -->\n\n<div class=\"elx2-wrap\" id=\"elx2Hero\">\n\n  <!-- Ligne haute -->\n  <div class=\"elx2-toprow\">\n    <div class=\"elx2-chip\">Best-seller</div>\n\n    <div class=\"elx2-rating\" aria-label=\"4,7 sur 5\">\n      <span class=\"elx2-stars\">★★★★<span class=\"dim\">★</span></span>\n      <span class=\"elx2-ratingtxt\"><b>4,7</b> (1800 avis)</span>\n    </div>\n  </div>\n\n  <!-- Titre -->\n  <h1 class=\"elx2-title\">Rasoir Électrique Intime ELINEA PARIS</h1>\n\n  <!-- Proposition de valeur -->\n  <div class=\"elx2-subtitle\">\n    Rasage <b>doux</b> et <b>précis</b>, conçu pour éviter\n    <b>irritations</b> et <b>coupures</b>.\n  </div>\n\n  <!-- Badges -->\n  <div class=\"elx2-inline\">\n    <div class=\"elx2-badge\">Garantie 30 jours</div>\n    <div class=\"elx2-badge\" id=\"elx2StockBadge\">\n      Stock limité : <b id=\"elx2StockNumber\">4</b>\n    </div>\n  </div>\n\n  <!-- Bénéfices -->\n  <div class=\"elx2-bullets\">\n    <div class=\"elx2-bullet\">• Sans coupures, sans irritation</div>\n    <div class=\"elx2-bullet\">• Adapté aux zones sensibles</div>\n    <div class=\"elx2-bullet\">• Aide à prévenir les poils incarnés</div>\n  </div>\n\n  <!-- PRIX -->\n  <div class=\"elx2-price\">\n    <div class=\"elx2-price-main\">\n      <span class=\"elx2-price-now\">39,90€</span>\n      <span class=\"elx2-price-old\">79,90€</span>\n    </div>\n    <div class=\"elx2-price-sub\">\n      Économisez <b>40€</b> aujourd’hui • Livraison gratuite\n    </div>\n    <div class=\"elx2-price-micro\">\n      TVA incluse • Aucun frais caché\n    </div>\n  </div>\n\n  <!-- Réassurance finale -->\n  <div class=\"elx2-reassure\">\n    <span class=\"elx2-gdot\"></span>\n    <div>\n      <b>Garantie 2 ans incluse</b><br>\n      Essayez 30 jours — remboursement simple\n    </div>\n  </div>\n\n</div>\n\n\n<!-- =========================\n     STICKY INFO BAR (SANS BOUTON)\n========================= -->\n<div class=\"elx2-sticky\" id=\"elx2Sticky\" aria-hidden=\"true\">\n  <div class=\"elx2-stickyInner\">\n    <div class=\"elx2-stickyStars\">★★★★<span class=\"dim\">★</span></div>\n    <div class=\"elx2-stickyMeta\">\n      <span><b>4,7</b> (1800)</span>\n      <span>• Stock <b id=\"elx2StickyStock\">4</b></span>\n    </div>\n  </div>\n</div>\n\n\n<style>\n:root{\n  --border:#e5e7eb;\n  --muted:#6b7280;\n  --soft:#f9fafb;\n}\n\n.elx2-wrap{\n  max-width:560px;\n  margin:0 auto;\n  padding:0 14px 14px;\n  font-family:Arial,sans-serif;\n  color:#111;\n}\n\n/* Top */\n.elx2-toprow{\n  display:flex;\n  justify-content:space-between;\n  align-items:center;\n  margin:10px 0 8px;\n}\n.elx2-chip{\n  font-size:11px;\n  font-weight:800;\n  padding:6px 10px;\n  border:1px solid var(--border);\n  border-radius:999px;\n}\n.elx2-rating{\n  font-size:12px;\n}\n.elx2-stars{color:#f5a623;}\n.elx2-stars .dim{opacity:.55;}\n.elx2-ratingtxt{margin-left:6px;}\n\n/* Title */\n.elx2-title{\n  font-size:20px;\n  font-weight:900;\n  margin:6px 0 8px;\n}\n\n/* Subtitle */\n.elx2-subtitle{\n  font-size:14px;\n  line-height:1.35;\n  margin-bottom:12px;\n}\n\n/* Badges */\n.elx2-inline{\n  display:flex;\n  gap:8px;\n  flex-wrap:wrap;\n  margin-bottom:12px;\n}\n.elx2-badge{\n  font-size:11px;\n  font-weight:800;\n  padding:6px 10px;\n  border:1px solid var(--border);\n  border-radius:999px;\n}\n\n/* Benefits */\n.elx2-bullets{\n  background:var(--soft);\n  border:1px solid var(--border);\n  border-radius:12px;\n  padding:12px;\n  margin-bottom:14px;\n}\n.elx2-bullet{\n  font-size:14px;\n  margin:8px 0;\n}\n\n/* Price */\n.elx2-price{\n  text-align:center;\n  border:1px solid var(--border);\n  border-radius:12px;\n  padding:14px;\n  margin-bottom:12px;\n}\n.elx2-price-main{\n  display:flex;\n  justify-content:center;\n  gap:10px;\n}\n.elx2-price-now{\n  font-size:26px;\n  font-weight:900;\n}\n.elx2-price-old{\n  font-size:14px;\n  color:#9ca3af;\n  text-decoration:line-through;\n}\n.elx2-price-sub{\n  font-size:13px;\n  margin-top:6px;\n}\n.elx2-price-micro{\n  font-size:12px;\n  color:var(--muted);\n  margin-top:4px;\n}\n\n/* Reassurance */\n.elx2-reassure{\n  display:flex;\n  gap:10px;\n  font-size:13px;\n  line-height:1.3;\n}\n.elx2-gdot{\n  width:10px;height:10px;\n  border-radius:50%;\n  background:#16a34a;\n  margin-top:4px;\n}\n\n/* Sticky info */\n.elx2-sticky{\n  position:fixed;\n  left:0; right:0; bottom:0;\n  background:rgba(255,255,255,.95);\n  border-top:1px solid var(--border);\n  padding:10px 12px;\n  transform:translateY(120%);\n  transition:.25s;\n  z-index:9999;\n}\n.elx2-sticky.is-on{transform:translateY(0);}\n.elx2-stickyInner{\n  max-width:560px;\n  margin:0 auto;\n  display:flex;\n  justify-content:space-between;\n  font-size:12px;\n}\n.elx2-stickyStars{color:#f5a623;}\n.elx2-stickyStars .dim{opacity:.55;}\n.elx2-stickyMeta{color:#111;}\n\nbody{padding-bottom:60px;}\n</style>\n\n\n<script>\n/* =========================\n   STOCK + STICKY (INFO ONLY)\n========================= */\nvar ELX2_STOCK_LEFT = 4;\n\n(function(){\n  var n = Math.max(0, parseInt(ELX2_STOCK_LEFT, 10));\n\n  var heroStock = document.getElementById(\"elx2StockNumber\");\n  var stickyStock = document.getElementById(\"elx2StickyStock\");\n  var heroBadge = document.getElementById(\"elx2StockBadge\");\n\n  if (heroStock) heroStock.textContent = n;\n  if (stickyStock) stickyStock.textContent = n;\n\n  if (n <= 0 && heroBadge){\n    heroBadge.textContent = \"Rupture de stock\";\n    heroBadge.style.opacity = \"0.7\";\n  }\n\n  var sticky = document.getElementById(\"elx2Sticky\");\n  var hero = document.getElementById(\"elx2Hero\");\n\n  function onScroll(){\n    var show = hero.getBoundingClientRect().bottom < window.innerHeight * 0.7;\n    sticky.classList.toggle(\"is-on\", show);\n  }\n  window.addEventListener(\"scroll\", onScroll, {passive:true});\n  onScroll();\n})();\n</script>"
+            "liquid": "<!-- =========================\n     ELINEA – HERO MOBILE (MINIMAL CRO)\n     ❌ AUCUN BOUTON\n     ✅ INFO + PREUVE (SANS PRIX)\n     👉 À placer AU-DESSUS du bouton natif Shopify\n========================= -->\n\n<div class=\"elx2-wrap\" id=\"elx2Hero\">\n\n  <!-- Ligne haute -->\n  <div class=\"elx2-toprow\">\n    <div class=\"elx2-chip\">Best-seller</div>\n\n    <div class=\"elx2-rating\" aria-label=\"4,7 sur 5\">\n      <span class=\"elx2-stars\">★★★★<span class=\"dim\">★</span></span>\n      <span class=\"elx2-ratingtxt\"><b>4,7</b> (1800 avis)</span>\n    </div>\n  </div>\n\n  <!-- Titre -->\n  <h1 class=\"elx2-title\">Rasoir Électrique Intime ELINEA PARIS</h1>\n\n  <!-- Proposition de valeur -->\n  <div class=\"elx2-subtitle\">\n    Rasage <b>doux</b> et <b>précis</b>, conçu pour éviter\n    <b>irritations</b> et <b>coupures</b>.\n  </div>\n\n  <!-- Badges -->\n  <div class=\"elx2-inline\">\n    <div class=\"elx2-badge\">Garantie 30 jours</div>\n    <div class=\"elx2-badge\" id=\"elx2StockBadge\">\n      Stock limité : <b id=\"elx2StockNumber\">4</b>\n    </div>\n  </div>\n\n  <!-- Bénéfices -->\n  <div class=\"elx2-bullets\">\n    <div class=\"elx2-bullet\">• Sans coupures, sans irritation</div>\n    <div class=\"elx2-bullet\">• Adapté aux zones sensibles</div>\n    <div class=\"elx2-bullet\">• Aide à prévenir les poils incarnés</div>\n  </div>\n\n  <!-- Réassurance finale -->\n  <div class=\"elx2-reassure\">\n    <span class=\"elx2-gdot\"></span>\n    <div>\n      <b>Garantie 2 ans incluse</b><br>\n      Essayez 30 jours — remboursement simple\n    </div>\n  </div>\n\n</div>\n\n\n<!-- =========================\n     STICKY INFO BAR (SANS BOUTON)\n========================= -->\n<div class=\"elx2-sticky\" id=\"elx2Sticky\" aria-hidden=\"true\">\n  <div class=\"elx2-stickyInner\">\n    <div class=\"elx2-stickyStars\">★★★★<span class=\"dim\">★</span></div>\n    <div class=\"elx2-stickyMeta\">\n      <span><b>4,7</b> (1800)</span>\n      <span>• Stock <b id=\"elx2StickyStock\">4</b></span>\n    </div>\n  </div>\n</div>\n\n\n<style>\n:root{\n  --border:#e5e7eb;\n  --muted:#6b7280;\n  --soft:#f9fafb;\n}\n\n.elx2-wrap{\n  max-width:560px;\n  margin:0 auto;\n  padding:0 14px 14px;\n  font-family:Arial,sans-serif;\n  color:#111;\n}\n\n/* Top */\n.elx2-toprow{\n  display:flex;\n  justify-content:space-between;\n  align-items:center;\n  margin:10px 0 8px;\n}\n.elx2-chip{\n  font-size:11px;\n  font-weight:800;\n  padding:6px 10px;\n  border:1px solid var(--border);\n  border-radius:999px;\n}\n.elx2-rating{\n  font-size:12px;\n}\n.elx2-stars{color:#f5a623;}\n.elx2-stars .dim{opacity:.55;}\n.elx2-ratingtxt{margin-left:6px;}\n\n/* Title */\n.elx2-title{\n  font-size:20px;\n  font-weight:900;\n  margin:6px 0 8px;\n}\n\n/* Subtitle */\n.elx2-subtitle{\n  font-size:14px;\n  line-height:1.35;\n  margin-bottom:12px;\n}\n\n/* Badges */\n.elx2-inline{\n  display:flex;\n  gap:8px;\n  flex-wrap:wrap;\n  margin-bottom:12px;\n}\n.elx2-badge{\n  font-size:11px;\n  font-weight:800;\n  padding:6px 10px;\n  border:1px solid var(--border);\n  border-radius:999px;\n}\n\n/* Benefits */\n.elx2-bullets{\n  background:var(--soft);\n  border:1px solid var(--border);\n  border-radius:12px;\n  padding:12px;\n  margin-bottom:12px; /* avant 14px, resserré car on a retiré le prix */\n}\n.elx2-bullet{\n  font-size:14px;\n  margin:8px 0;\n}\n\n/* Reassurance */\n.elx2-reassure{\n  display:flex;\n  gap:10px;\n  font-size:13px;\n  line-height:1.3;\n}\n.elx2-gdot{\n  width:10px;height:10px;\n  border-radius:50%;\n  background:#16a34a;\n  margin-top:4px;\n}\n\n/* Sticky info */\n.elx2-sticky{\n  position:fixed;\n  left:0; right:0; bottom:0;\n  background:rgba(255,255,255,.95);\n  border-top:1px solid var(--border);\n  padding:10px 12px;\n  transform:translateY(120%);\n  transition:.25s;\n  z-index:9999;\n}\n.elx2-sticky.is-on{transform:translateY(0);}\n.elx2-stickyInner{\n  max-width:560px;\n  margin:0 auto;\n  display:flex;\n  justify-content:space-between;\n  font-size:12px;\n}\n.elx2-stickyStars{color:#f5a623;}\n.elx2-stickyStars .dim{opacity:.55;}\n.elx2-stickyMeta{color:#111;}\n\n/* pour éviter que la sticky barre cache le bouton shopify en bas */\nbody{padding-bottom:60px;}\n</style>\n\n\n<script>\n/* =========================\n   STOCK + STICKY (INFO ONLY)\n========================= */\nvar ELX2_STOCK_LEFT = 4;\n\n(function(){\n  var n = Math.max(0, parseInt(ELX2_STOCK_LEFT, 10));\n\n  var heroStock = document.getElementById(\"elx2StockNumber\");\n  var stickyStock = document.getElementById(\"elx2StickyStock\");\n  var heroBadge = document.getElementById(\"elx2StockBadge\");\n\n  if (heroStock) heroStock.textContent = n;\n  if (stickyStock) stickyStock.textContent = n;\n\n  if (n <= 0 && heroBadge){\n    heroBadge.textContent = \"Rupture de stock\";\n    heroBadge.style.opacity = \"0.7\";\n  }\n\n  var sticky = document.getElementById(\"elx2Sticky\");\n  var hero = document.getElementById(\"elx2Hero\");\n\n  function onScroll(){\n    if (!hero || !sticky) return;\n    var show = hero.getBoundingClientRect().bottom < window.innerHeight * 0.7;\n    sticky.classList.toggle(\"is-on\", show);\n    sticky.setAttribute(\"aria-hidden\", show ? \"false\" : \"true\");\n  }\n\n  window.addEventListener(\"scroll\", onScroll, {passive:true});\n  onScroll();\n})();\n</script>"
           }
         },
         "kaching_bundles_app_block_FggqAL": {
@@ -323,6 +281,48 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "image_with_text_overlay_wqjaM4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yUrzmH": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_GUHenr": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LC6MEV": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yUrzmH",
+        "heading_GUHenr",
+        "richtext_LC6MEV"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9baefd4a-0e3f-4e7e-b080-93d186d9a2c3_d4e35950-54a1-4cd9-adc9-a2f297d40307.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_PtzY9U": {
