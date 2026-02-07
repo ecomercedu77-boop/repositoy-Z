@@ -225,6 +225,12 @@
             "payment_button_text_color": "#f0c417"
           }
         },
+        "liquid_8mczR4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== TIMER 1 LIGNE MOBILE ===== -->\n<p style=\"\n  font-size:13px;\n  margin-top:6px;\n  font-weight:600;\n  white-space:nowrap;\n\">\n  Offre valable encore\n  <span id=\"elTimer\" style=\"color:#c40000;font-weight:800;\">10:00</span>\n</p>\n\n<script>\n  // Timer 10 minutes (reset à chaque visite)\n  let time = 10 * 60;\n  const timerEl = document.getElementById(\"elTimer\");\n\n  setInterval(() => {\n    time--;\n    if (time <= 0) time = 10 * 60;\n    const m = String(Math.floor(time / 60)).padStart(2,'0');\n    const s = String(time % 60).padStart(2,'0');\n    timerEl.textContent = `${m}:${s}`;\n  }, 1000);\n</script>\n<!-- ===== FIN ===== -->"
+          }
+        },
         "image_CAigmK": {
           "type": "image",
           "settings": {
@@ -259,6 +265,7 @@
         "variant_picker_AXVFAR",
         "quantity_selector_yAD6px",
         "buy_buttons_ibRAhf",
+        "liquid_8mczR4",
         "image_CAigmK",
         "pickup_availability_7VEMPq",
         "liquid_4akGFA",
