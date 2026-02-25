@@ -161,12 +161,6 @@
             "max_width": 500
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -237,7 +231,6 @@
         "price",
         "badges",
         "image_mtTqxL",
-        "rating",
         "payment_terms",
         "separator",
         "buy_buttons",
