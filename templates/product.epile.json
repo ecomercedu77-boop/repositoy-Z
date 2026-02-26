@@ -180,17 +180,6 @@
             "payment_button_text_color": ""
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "liquid_kHWneL": {
           "type": "liquid",
           "settings": {
@@ -234,7 +223,6 @@
         "payment_terms",
         "separator",
         "buy_buttons",
-        "variant_picker",
         "liquid_kHWneL",
         "image_cqbyxR",
         "liquid_QzhLbe",
