@@ -184,17 +184,6 @@
             "manual_deal_block_id": ""
           }
         },
-        "variant_picker_reqM6f": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "none",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "liquid_t6tLgG": {
           "type": "liquid",
           "settings": {
@@ -259,7 +248,6 @@
       "block_order": [
         "liquid_MaCWtK",
         "kaching_bundles_app_block_FggqAL",
-        "variant_picker_reqM6f",
         "liquid_t6tLgG",
         "badges_CgkJ4X",
         "separator_GPCCxC",
