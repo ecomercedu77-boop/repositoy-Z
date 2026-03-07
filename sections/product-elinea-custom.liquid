@@ -489,31 +489,39 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
       <div class="stock-bar"><div class="stock-fill"></div></div>
     </div>
 
-    <!-- CTA AMÉLIORÉ -->
-    
-    <!-- VARIANTES -->
-    <div style="margin-bottom:16px;">
-      <div style="font-size:.82rem;font-weight:800;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Couleur</div>
-      <div id="variant-selector" style="display:flex;gap:10px;flex-wrap:wrap;">
-        {%- for variant in product.variants -%}
-        <button class="variant-btn{% if forloop.first %} active{% endif %}"
-          data-variant-id="{{ variant.id }}"
-          data-variant-available="{{ variant.available }}"
-          type="button">
-          {{ variant.title }}
-        </button>
-        {%- endfor -%}
+    <!-- FORMULAIRE SHOPIFY NATIF -->
+    {%- form 'product', product, id: 'elinea-product-form' -%}
+      <input type="hidden" name="id" id="elinea-variant-id" value="{{ product.variants.first.id }}">
+
+      {%- if product.variants.size > 1 -%}
+      <!-- VARIANTES COULEUR -->
+      <div style="margin-bottom:20px;">
+        <div style="font-size:.82rem;font-weight:800;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Couleur</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          {%- for variant in product.variants -%}
+          <button type="button"
+            class="variant-btn{% if forloop.first %} active{% endif %}"
+            data-variant-id="{{ variant.id }}"
+            onclick="selectVariant(this, {{ variant.id }})">
+            {{ variant.title }}
+          </button>
+          {%- endfor -%}
+        </div>
       </div>
-    </div>
-    <style>
-    .variant-btn{padding:10px 28px;border-radius:50px;border:2px solid #f0e0e8;background:white;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#2a1520;transition:all .2s;}
-    .variant-btn.active{border-color:#c2104a;background:#c2104a;color:white;}
-    .variant-btn:hover{border-color:#c2104a;}
-    .variant-btn[data-variant-available="false"]{opacity:.4;text-decoration:line-through;cursor:not-allowed;}
-    </style>
-    <a href="#" class="cta-main" id="add-to-cart-main">
-      🛒 AJOUTER AU PANIER — 39,90€
-    </a>
+      {%- endif -%}
+
+      <style>
+      .variant-btn{padding:12px 28px;border-radius:50px;border:2px solid #f0e0e8;background:white;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#2a1520;transition:all .2s;}
+      .variant-btn.active{border-color:#c2104a;background:#c2104a;color:white;}
+      .variant-btn:hover:not(.active){border-color:#c2104a;}
+      #elinea-product-form .cta-main{display:block;width:100%;border:none;cursor:pointer;}
+      </style>
+
+      <!-- BOUTON AJOUTER AU PANIER -->
+      <button type="submit" name="add" class="cta-main">
+        🛒 AJOUTER AU PANIER — 39,90€
+      </button>
+    {%- endform -%}
     <div class="cta-sub">✓ Livraison gratuite · ✓ Expédié sous 24h · ✓ 30j remboursé</div>
 
     <!-- Garanties -->
@@ -718,7 +726,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
   <div class="section-tag">Offre limitée</div>
   <h2 class="section-h2">Prête pour une peau parfaite ?</h2>
   <p class="bottom-cta-sub">Stock très limité · Expédition sous 24h · Livraison gratuite</p>
-  <a href="#" class="bottom-cta-btn" id="add-to-cart-bottom">
+  <a href="/cart/{{ product.variants.first.id }}:1" class="bottom-cta-btn" id="add-to-cart-bottom">
     🛒 COMMANDER MAINTENANT — 39,90€
   </a>
   <div class="bottom-cta-trust">
@@ -808,94 +816,37 @@ const obs=new IntersectionObserver(entries=>entries.forEach(e=>{
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 
 // ══ VARIANTES ══
-let selectedVariantId = {{ product.variants.first.id }};
-
-document.querySelectorAll('.variant-btn').forEach(btn => {
-  btn.addEventListener('click', function(){
-    if(this.dataset.variantAvailable === 'false') return;
-    selectedVariantId = parseInt(this.dataset.variantId);
-    document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
-    this.classList.add('active');
-    // Mettre à jour le texte du CTA
-    const cta = document.getElementById('add-to-cart-main');
-    if(cta) cta.innerHTML = '🛒 AJOUTER AU PANIER — 39,90€';
-  });
-});
-
-// ══ ADD TO CART — Épilateur seul ══
-function addToCart(variantId, btnSelectors) {
-  const btns = document.querySelectorAll(btnSelectors);
-  btns.forEach(b => {
-    b.style.opacity = '.6';
-    b.style.pointerEvents = 'none';
-    b.dataset.orig = b.innerHTML;
-    b.innerHTML = '⏳ Ajout en cours...';
-  });
-  fetch('/cart/add.js', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({items: [{id: variantId, quantity: 1}]})
-  })
-  .then(r => r.json())
-  .then(() => { window.location.href = '/cart'; })
-  .catch(() => { window.location.href = '/cart'; });
+function selectVariant(btn, variantId) {
+  document.getElementById('elinea-variant-id').value = variantId;
+  document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  // Mettre à jour le bouton bas de page
+  const bottomBtn = document.getElementById('add-to-cart-bottom');
+  if(bottomBtn) bottomBtn.href = '/cart/' + variantId + ':1';
 }
 
-// ══ ADD TO CART — Bundle épilateur + gant offert ══
-function addBundle(epilVariantId) {
+// ══ BUNDLE — Gant offert ══
+function addBundle() {
+  const variantId = document.getElementById('elinea-variant-id')?.value || '{{ product.variants.first.id }}';
   const btns = document.querySelectorAll('.bundle-cta');
-  btns.forEach(b => {
-    b.style.opacity = '.6';
-    b.style.pointerEvents = 'none';
-    b.innerHTML = '⏳ Ajout en cours...';
-  });
+  btns.forEach(b => { b.style.opacity='.6'; b.style.pointerEvents='none'; b.innerHTML='⏳ Ajout en cours...'; });
 
-  // Récupérer la variante du gant par son handle
   fetch('/products/gant-exfoliant-en-soie-corps-copie.js')
-    .then(r => {
-      if(!r.ok) throw new Error('handle introuvable');
-      return r.json();
-    })
+    .then(r => r.json())
     .then(data => {
       const gantId = data.variants[0].id;
       return fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({
-          items: [
-            {id: epilVariantId, quantity: 1},
-            {id: gantId, quantity: 1}
-          ]
-        })
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ items: [{id: parseInt(variantId), quantity:1}, {id: gantId, quantity:1}] })
       });
     })
     .then(() => { window.location.href = '/cart'; })
-    .catch(err => {
-      console.warn('Gant non trouvé, ajout épilateur seul:', err);
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({items: [{id: epilVariantId, quantity: 1}]})
-      }).then(() => { window.location.href = '/cart'; });
-    });
+    .catch(() => { window.location.href = '/cart/' + variantId + ':1'; });
 }
 
-// Boutons CTA principaux
-document.getElementById('add-to-cart-main')?.addEventListener('click', function(e){
-  e.preventDefault();
-  addToCart(selectedVariantId, '#add-to-cart-main');
-});
-document.getElementById('add-to-cart-bottom')?.addEventListener('click', function(e){
-  e.preventDefault();
-  addToCart(selectedVariantId, '#add-to-cart-bottom');
-});
-
-// Bouton bundle gant offert
 document.querySelectorAll('.bundle-cta').forEach(btn => {
-  btn.addEventListener('click', function(e){
-    e.preventDefault();
-    addBundle(selectedVariantId);
-  });
+  btn.addEventListener('click', function(e){ e.preventDefault(); addBundle(); });
 });
 </script>
 
