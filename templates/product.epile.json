@@ -148,7 +148,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style='padding:32px 16px;max-width:600px;margin:0 auto;'><img style='width:100%;border-radius:20px;box-shadow:0 8px 30px rgba(0,0,0,.1);' src='https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901' alt='Pourquoi ELINEA+'/></div>",
+        "liquid": "<style>\n.benefices-wrap{\npadding:32px 0;\n}\n\n.benefices-img{\nwidth:100%;\ndisplay:block;\nborder-radius:20px;\nbox-shadow:0 8px 30px rgba(0,0,0,.1);\n}\n\n@media(max-width:768px){\n.benefices-wrap{\npadding:24px 0;\n}\n.benefices-img{\nborder-radius:0;\n}\n}\n</style>\n\n<div class=\"benefices-wrap\">\n<img class=\"benefices-img\" src=\"https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901\" alt=\"Pourquoi ELINEA+\">\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
