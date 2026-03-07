@@ -656,7 +656,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
         <div class="b-new">39,90€</div>
         <div><span class="b-save">Gant exfoliant offert · Économisez 45€</span></div>
       </div>
-      <a href="/cart/{{ product.variants.first.id }}:1" class="bundle-cta">🎁 J'EN PROFITE — GANT OFFERT →</a>
+      <a href="#" class="bundle-cta">🎁 J'EN PROFITE — GANT OFFERT →</a>
       <div style="margin-top:16px;font-size:.8rem;color:rgba(255,255,255,.35);">✓ Offre valable uniquement sur cette page · Stock limité</div>
     </div>
   </div>
@@ -769,18 +769,57 @@ const obs=new IntersectionObserver(entries=>entries.forEach(e=>{
 }),{threshold:.1});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 
+// Ajouter un seul produit au panier
 function addToCart(variantId) {
-  const btns = document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom, .bundle-cta');
-  btns.forEach(b => { b.style.opacity='.7'; b.style.pointerEvents='none'; });
+  const btns = document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom');
+  btns.forEach(b => { b.style.opacity='.7'; b.style.pointerEvents='none'; b.textContent='Ajout en cours...'; });
   fetch('/cart/add.js', {
     method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({id: variantId, quantity: 1})
   }).then(() => { window.location.href='/cart'; });
 }
-document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom, .bundle-cta').forEach(btn => {
+
+// Ajouter épilateur + gant offert ensemble
+function addBundleToCart(epilVariantId) {
+  const btn = document.querySelector('.bundle-cta');
+  if(btn){ btn.style.opacity='.7'; btn.style.pointerEvents='none'; btn.textContent='Ajout en cours...'; }
+
+  // 1. Récupérer l'ID de la variante du gant via son handle
+  fetch('/products/gant-exfoliant-en-soie-corps-copie.js')
+    .then(r => r.json())
+    .then(data => {
+      const gantVariantId = data.variants[0].id;
+      // 2. Ajouter les 2 produits en une seule requête
+      return fetch('/cart/add.js', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+          items: [
+            { id: epilVariantId, quantity: 1 },
+            { id: gantVariantId, quantity: 1 }
+          ]
+        })
+      });
+    })
+    .then(() => { window.location.href='/cart'; })
+    .catch(() => {
+      // Si erreur, ajoute au moins l'épilateur
+      addToCart(epilVariantId);
+    });
+}
+
+// Boutons CTA simples
+document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom').forEach(btn => {
   btn.addEventListener('click', function(e) {
     e.preventDefault();
     addToCart({{ product.variants.first.id }});
+  });
+});
+
+// Bouton bundle = épilateur + gant offert
+document.querySelectorAll('.bundle-cta').forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    addBundleToCart({{ product.variants.first.id }});
   });
 });
 
