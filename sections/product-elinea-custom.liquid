@@ -490,8 +490,9 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
     </div>
 
     <!-- FORMULAIRE SHOPIFY NATIF -->
-    {%- form 'product', product, id: 'elinea-product-form' -%}
+    <form method="post" action="/cart/add" id="elinea-product-form">
       <input type="hidden" name="id" id="elinea-variant-id" value="{{ product.variants.first.id }}">
+      <input type="hidden" name="quantity" value="1">
 
       {%- if product.variants.size > 1 -%}
       <!-- VARIANTES COULEUR -->
@@ -502,7 +503,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
           <button type="button"
             class="variant-btn{% if forloop.first %} active{% endif %}"
             data-variant-id="{{ variant.id }}"
-            onclick="selectVariant(this, {{ variant.id }})">
+            onclick="selectVariant(this, '{{ variant.id }}')">
             {{ variant.title }}
           </button>
           {%- endfor -%}
@@ -521,7 +522,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
       <button type="submit" name="add" class="cta-main">
         🛒 AJOUTER AU PANIER — 39,90€
       </button>
-    {%- endform -%}
+    </form>
     <div class="cta-sub">✓ Livraison gratuite · ✓ Expédié sous 24h · ✓ 30j remboursé</div>
 
     <!-- Garanties -->
@@ -817,12 +818,16 @@ document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 
 // ══ VARIANTES ══
 function selectVariant(btn, variantId) {
-  document.getElementById('elinea-variant-id').value = variantId;
-  document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  // Mettre à jour le champ caché du formulaire
+  var input = document.getElementById('elinea-variant-id');
+  if(input) input.value = variantId;
   // Mettre à jour le bouton bas de page
-  const bottomBtn = document.getElementById('add-to-cart-bottom');
+  var bottomBtn = document.getElementById('add-to-cart-bottom');
   if(bottomBtn) bottomBtn.href = '/cart/' + variantId + ':1';
+  // Style actif
+  document.querySelectorAll('.variant-btn').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  console.log('Variante sélectionnée:', variantId);
 }
 
 // ══ BUNDLE — Gant offert ══
