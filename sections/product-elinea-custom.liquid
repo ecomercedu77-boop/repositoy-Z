@@ -490,7 +490,15 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
     </div>
 
     <!-- CTA AMÉLIORÉ -->
-    <a href="/cart/{{ product.variants.first.id }}:1" class="cta-main" id="add-to-cart-main">
+    
+    <!-- VARIANTES -->
+    <div id="variant-selector" style="display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;"></div>
+    <style>
+    .variant-btn{padding:10px 24px;border-radius:50px;border:2px solid #f0e0e8;background:white;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#2a1520;transition:all .2s;}
+    .variant-btn.active{border-color:#c2104a;background:#c2104a;color:white;}
+    .variant-btn:hover{border-color:#c2104a;}
+    </style>
+    <a href="#" class="cta-main" id="add-to-cart-main">
       🛒 AJOUTER AU PANIER — 39,90€
     </a>
     <div class="cta-sub">✓ Livraison gratuite · ✓ Expédié sous 24h · ✓ 30j remboursé</div>
@@ -682,7 +690,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
   <div class="section-tag">Offre limitée</div>
   <h2 class="section-h2">Prête pour une peau parfaite ?</h2>
   <p class="bottom-cta-sub">Stock très limité · Expédition sous 24h · Livraison gratuite</p>
-  <a href="/cart/{{ product.variants.first.id }}:1" class="bottom-cta-btn" id="add-to-cart-bottom">
+  <a href="#" class="bottom-cta-btn" id="add-to-cart-bottom">
     🛒 COMMANDER MAINTENANT — 39,90€
   </a>
   <div class="bottom-cta-trust">
@@ -736,9 +744,10 @@ document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 </script>
 
 <script>
-// Countdown
+// ══ COUNTDOWN ══
 function startCd(t){
   const m=document.getElementById('cm'),s=document.getElementById('cs');
+  if(!m||!s) return;
   setInterval(()=>{
     if(t<=0)t=9*60+59; t--;
     m.textContent=String(Math.floor(t/60)).padStart(2,'0');
@@ -747,14 +756,15 @@ function startCd(t){
 }
 startCd(9*60+59);
 
-// Galerie
+// ══ GALERIE ══
 function setImg(el, src){
-  document.getElementById('main-photo').src=src;
+  const main=document.getElementById('main-photo');
+  if(main) main.src=src;
   document.querySelectorAll('.thumb').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
 }
 
-// FAQ
+// ══ FAQ ══
 document.querySelectorAll('.faq-q').forEach(q=>{
   q.addEventListener('click',()=>{
     const item=q.parentElement, was=item.classList.contains('open');
@@ -763,66 +773,110 @@ document.querySelectorAll('.faq-q').forEach(q=>{
   });
 });
 
-// Scroll animations
+// ══ SCROLL ANIMATIONS ══
 const obs=new IntersectionObserver(entries=>entries.forEach(e=>{
   if(e.isIntersecting) e.target.classList.add('visible');
 }),{threshold:.1});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 
-// Ajouter un seul produit au panier
-function addToCart(variantId) {
-  const btns = document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom');
-  btns.forEach(b => { b.style.opacity='.7'; b.style.pointerEvents='none'; b.textContent='Ajout en cours...'; });
+// ══ VARIANTES (Blanc / Rose) ══
+const VARIANTS = {{ product.variants | json }};
+let selectedVariantId = {{ product.variants.first.id }};
+
+// Créer les boutons variantes si plusieurs variantes
+(function(){
+  if(!VARIANTS || VARIANTS.length <= 1) return;
+  const wrap = document.getElementById('variant-selector');
+  if(!wrap) return;
+  VARIANTS.forEach(v => {
+    const btn = document.createElement('button');
+    btn.className = 'variant-btn' + (v.id === selectedVariantId ? ' active' : '');
+    btn.textContent = v.title;
+    btn.dataset.variantId = v.id;
+    btn.addEventListener('click', function(){
+      selectedVariantId = parseInt(this.dataset.variantId);
+      document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+    });
+    wrap.appendChild(btn);
+  });
+})();
+
+// ══ ADD TO CART — Épilateur seul ══
+function addToCart(variantId, btnSelectors) {
+  const btns = document.querySelectorAll(btnSelectors);
+  btns.forEach(b => {
+    b.style.opacity = '.6';
+    b.style.pointerEvents = 'none';
+    b.dataset.orig = b.innerHTML;
+    b.innerHTML = '⏳ Ajout en cours...';
+  });
   fetch('/cart/add.js', {
-    method:'POST', headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({id: variantId, quantity: 1})
-  }).then(() => { window.location.href='/cart'; });
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({items: [{id: variantId, quantity: 1}]})
+  })
+  .then(r => r.json())
+  .then(() => { window.location.href = '/cart'; })
+  .catch(() => { window.location.href = '/cart'; });
 }
 
-// Ajouter épilateur + gant offert ensemble
-function addBundleToCart(epilVariantId) {
-  const btn = document.querySelector('.bundle-cta');
-  if(btn){ btn.style.opacity='.7'; btn.style.pointerEvents='none'; btn.textContent='Ajout en cours...'; }
+// ══ ADD TO CART — Bundle épilateur + gant offert ══
+function addBundle(epilVariantId) {
+  const btns = document.querySelectorAll('.bundle-cta');
+  btns.forEach(b => {
+    b.style.opacity = '.6';
+    b.style.pointerEvents = 'none';
+    b.innerHTML = '⏳ Ajout en cours...';
+  });
 
-  // 1. Récupérer l'ID de la variante du gant via son handle
+  // Récupérer la variante du gant par son handle
   fetch('/products/gant-exfoliant-en-soie-corps-copie.js')
-    .then(r => r.json())
+    .then(r => {
+      if(!r.ok) throw new Error('handle introuvable');
+      return r.json();
+    })
     .then(data => {
-      const gantVariantId = data.variants[0].id;
-      // 2. Ajouter les 2 produits en une seule requête
+      const gantId = data.variants[0].id;
       return fetch('/cart/add.js', {
-        method:'POST', headers:{'Content-Type':'application/json'},
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
           items: [
-            { id: epilVariantId, quantity: 1 },
-            { id: gantVariantId, quantity: 1 }
+            {id: epilVariantId, quantity: 1},
+            {id: gantId, quantity: 1}
           ]
         })
       });
     })
-    .then(() => { window.location.href='/cart'; })
-    .catch(() => {
-      // Si erreur, ajoute au moins l'épilateur
-      addToCart(epilVariantId);
+    .then(() => { window.location.href = '/cart'; })
+    .catch(err => {
+      console.warn('Gant non trouvé, ajout épilateur seul:', err);
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({items: [{id: epilVariantId, quantity: 1}]})
+      }).then(() => { window.location.href = '/cart'; });
     });
 }
 
-// Boutons CTA simples
-document.querySelectorAll('#add-to-cart-main, #add-to-cart-bottom').forEach(btn => {
-  btn.addEventListener('click', function(e) {
-    e.preventDefault();
-    addToCart({{ product.variants.first.id }});
-  });
+// Boutons CTA principaux
+document.getElementById('add-to-cart-main')?.addEventListener('click', function(e){
+  e.preventDefault();
+  addToCart(selectedVariantId, '#add-to-cart-main');
+});
+document.getElementById('add-to-cart-bottom')?.addEventListener('click', function(e){
+  e.preventDefault();
+  addToCart(selectedVariantId, '#add-to-cart-bottom');
 });
 
-// Bouton bundle = épilateur + gant offert
+// Bouton bundle gant offert
 document.querySelectorAll('.bundle-cta').forEach(btn => {
-  btn.addEventListener('click', function(e) {
+  btn.addEventListener('click', function(e){
     e.preventDefault();
-    addBundleToCart({{ product.variants.first.id }});
+    addBundle(selectedVariantId);
   });
 });
-
 </script>
 
 {% schema %}
