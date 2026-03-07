@@ -492,11 +492,24 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
     <!-- CTA AMÉLIORÉ -->
     
     <!-- VARIANTES -->
-    <div id="variant-selector" style="display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;"></div>
+    <div style="margin-bottom:16px;">
+      <div style="font-size:.82rem;font-weight:800;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;">Couleur</div>
+      <div id="variant-selector" style="display:flex;gap:10px;flex-wrap:wrap;">
+        {%- for variant in product.variants -%}
+        <button class="variant-btn{% if forloop.first %} active{% endif %}"
+          data-variant-id="{{ variant.id }}"
+          data-variant-available="{{ variant.available }}"
+          type="button">
+          {{ variant.title }}
+        </button>
+        {%- endfor -%}
+      </div>
+    </div>
     <style>
-    .variant-btn{padding:10px 24px;border-radius:50px;border:2px solid #f0e0e8;background:white;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#2a1520;transition:all .2s;}
+    .variant-btn{padding:10px 28px;border-radius:50px;border:2px solid #f0e0e8;background:white;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;color:#2a1520;transition:all .2s;}
     .variant-btn.active{border-color:#c2104a;background:#c2104a;color:white;}
     .variant-btn:hover{border-color:#c2104a;}
+    .variant-btn[data-variant-available="false"]{opacity:.4;text-decoration:line-through;cursor:not-allowed;}
     </style>
     <a href="#" class="cta-main" id="add-to-cart-main">
       🛒 AJOUTER AU PANIER — 39,90€
@@ -525,6 +538,21 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
 <!-- ══ BENEFITS ══ -->
 <div style="padding:0 40px 70px;max-width:1100px;margin:0 auto;" class="fade-in">
   <img class="benefits-img" src="https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901" alt="Pourquoi choisir ELINEA+"/>
+</div>
+
+<!-- ══ VIDEO ══ -->
+<div class="fade-in" style="padding:0 0 70px;">
+  <div style="max-width:1100px;margin:0 auto;padding:0 40px;">
+    <div style="text-align:center;margin-bottom:28px;">
+      <div class="section-tag">En action</div>
+      <h2 class="section-h2">Un mode d'épilation <span>innovant et indolore</span></h2>
+    </div>
+  </div>
+  <div style="width:100%;background:#000;overflow:hidden;border-radius:0;">
+    <video autoplay muted loop playsinline preload="auto" style="width:100%;display:block;max-height:560px;object-fit:cover;">
+      <source src="https://cdn.shopify.com/videos/c/o/v/5f956d5642334d43b646a87a14a06bac.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 <!-- ══ AVANT / APRÈS ══ -->
@@ -779,28 +807,20 @@ const obs=new IntersectionObserver(entries=>entries.forEach(e=>{
 }),{threshold:.1});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 
-// ══ VARIANTES (Blanc / Rose) ══
-const VARIANTS = {{ product.variants | json }};
+// ══ VARIANTES ══
 let selectedVariantId = {{ product.variants.first.id }};
 
-// Créer les boutons variantes si plusieurs variantes
-(function(){
-  if(!VARIANTS || VARIANTS.length <= 1) return;
-  const wrap = document.getElementById('variant-selector');
-  if(!wrap) return;
-  VARIANTS.forEach(v => {
-    const btn = document.createElement('button');
-    btn.className = 'variant-btn' + (v.id === selectedVariantId ? ' active' : '');
-    btn.textContent = v.title;
-    btn.dataset.variantId = v.id;
-    btn.addEventListener('click', function(){
-      selectedVariantId = parseInt(this.dataset.variantId);
-      document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-    });
-    wrap.appendChild(btn);
+document.querySelectorAll('.variant-btn').forEach(btn => {
+  btn.addEventListener('click', function(){
+    if(this.dataset.variantAvailable === 'false') return;
+    selectedVariantId = parseInt(this.dataset.variantId);
+    document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    // Mettre à jour le texte du CTA
+    const cta = document.getElementById('add-to-cart-main');
+    if(cta) cta.innerHTML = '🛒 AJOUTER AU PANIER — 39,90€';
   });
-})();
+});
 
 // ══ ADD TO CART — Épilateur seul ══
 function addToCart(variantId, btnSelectors) {
