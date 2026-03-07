@@ -490,7 +490,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
     </div>
 
     <!-- CTA AMÉLIORÉ -->
-    <a href="/cart/add" class="cta-main" id="add-to-cart-main">
+    <a href="/cart/{{ product.variants.first.id }}:1" class="cta-main" id="add-to-cart-main">
       🛒 AJOUTER AU PANIER — 39,90€
     </a>
     <div class="cta-sub">✓ Livraison gratuite · ✓ Expédié sous 24h · ✓ 30j remboursé</div>
@@ -656,7 +656,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
         <div class="b-new">39,90€</div>
         <div><span class="b-save">Gant exfoliant offert · Économisez 45€</span></div>
       </div>
-      <a href="https://www.elineap.com/cart/add" class="bundle-cta">🎁 J'EN PROFITE — GANT OFFERT →</a>
+      <a href="/cart/{{ product.variants.first.id }}:1" class="bundle-cta">🎁 J'EN PROFITE — GANT OFFERT →</a>
       <div style="margin-top:16px;font-size:.8rem;color:rgba(255,255,255,.35);">✓ Offre valable uniquement sur cette page · Stock limité</div>
     </div>
   </div>
@@ -682,7 +682,7 @@ footer a{color:rgba(255,255,255,.3);text-decoration:none;}
   <div class="section-tag">Offre limitée</div>
   <h2 class="section-h2">Prête pour une peau parfaite ?</h2>
   <p class="bottom-cta-sub">Stock très limité · Expédition sous 24h · Livraison gratuite</p>
-  <a href="/cart/add" class="bottom-cta-btn" id="add-to-cart-bottom">
+  <a href="/cart/{{ product.variants.first.id }}:1" class="bottom-cta-btn" id="add-to-cart-bottom">
     🛒 COMMANDER MAINTENANT — 39,90€
   </a>
   <div class="bottom-cta-trust">
