@@ -41,6 +41,7 @@
         "message",
         "message_CRH6wb"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -83,6 +84,7 @@
       "block_order": [
         "mega_menu_tKRNzp"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
