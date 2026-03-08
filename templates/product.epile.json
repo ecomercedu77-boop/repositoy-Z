@@ -203,18 +203,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "bottom_cta": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style='background:linear-gradient(135deg,#fce0e8,#ffc5d5);padding:32px 16px;text-align:center;'><p style='font-size:.8rem;font-weight:800;color:#c2104a;text-transform:uppercase;letter-spacing:1px;margin:0 0 8px;'>⚡ Offre limitée</p><h2 style='font-size:1.4rem;font-weight:900;color:#111;margin:0 0 6px;'>Prête pour une peau parfaite ?</h2><p style='font-size:.85rem;color:#888;margin:0 0 20px;'>Stock très limité · Livraison gratuite · 30j remboursé</p><button onclick='document.querySelector(`form[action*=\"/cart/add\"] [type=\"submit\"]`)?.click()' style='display:block;width:100%;max-width:400px;margin:0 auto;background:linear-gradient(135deg,#c2104a,#e83570);color:white;font-weight:900;padding:20px;border-radius:50px;border:none;font-size:1.1rem;cursor:pointer;font-family:inherit;box-shadow:0 8px 24px rgba(180,20,70,.4);'>🛒 COMMANDER — 39,90€</button><div style='display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:14px;'><span style='font-size:.75rem;color:#aaa;font-weight:700;'>✓ Livraison gratuite</span><span style='font-size:.75rem;color:#aaa;font-weight:700;'>✓ 30j remboursé</span><span style='font-size:.75rem;color:#aaa;font-weight:700;'>✓ Paiement sécurisé</span></div></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -228,7 +216,6 @@
     "gant_offert",
     "main",
     "stats_dark",
-    "faq",
-    "bottom_cta"
+    "faq"
   ]
 }
