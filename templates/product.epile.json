@@ -202,12 +202,26 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_YDamdK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.pm{background:#fff;border-top:1px solid #f5eaec;border-bottom:1px solid #f5eaec;padding:14px 0;overflow:hidden;}\n.pm-label{text-align:center;font-size:.58rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#ccc;margin-bottom:10px;}\n.pm-track{display:flex;width:max-content;animation:pmscroll 14s linear infinite;align-items:center;}\n.pm-group{display:flex;align-items:center;gap:28px;padding:0 28px;}\n.pm-group img{height:20px;opacity:.3;filter:grayscale(1);}\n@keyframes pmscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}\n</style>\n\n<div class=\"pm\">\n  <div class=\"pm-label\">Vu sur</div>\n  <div style=\"overflow:hidden\">\n    <div class=\"pm-track\">\n      <div class=\"pm-group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n      <div class=\"pm-group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "sticky_bar",
     "ugc_hero",
     "main",
+    "custom_liquid_YDamdK",
     "benefices",
     "avant_apres",
     "video_section",
