@@ -33,6 +33,79 @@
         "text_color": ""
       }
     },
+    "custom_liquid_YDamdK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.pm{background:#fff;border-top:1px solid #f5eaec;border-bottom:1px solid #f5eaec;padding:14px 0;overflow:hidden;}\n.pm-label{text-align:center;font-size:.58rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#ccc;margin-bottom:10px;}\n.pm-track{display:flex;width:max-content;animation:pmscroll 14s linear infinite;align-items:center;}\n.pm-group{display:flex;align-items:center;gap:28px;padding:0 28px;}\n.pm-group img{height:20px;opacity:.3;filter:grayscale(1);}\n@keyframes pmscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}\n</style>\n\n<div class=\"pm\">\n  <div class=\"pm-label\">Vu sur</div>\n  <div style=\"overflow:hidden\">\n    <div class=\"pm-track\">\n      <div class=\"pm-group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n      <div class=\"pm-group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "benefices": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.benefices-wrap{\npadding:32px 0;\n}\n\n.benefices-img{\nwidth:100%;\ndisplay:block;\nborder-radius:20px;\nbox-shadow:0 8px 30px rgba(0,0,0,.1);\n}\n\n@media(max-width:768px){\n.benefices-wrap{\npadding:24px 0;\n}\n.benefices-img{\nborder-radius:0;\n}\n}\n</style>\n\n<div class=\"benefices-wrap\">\n<img class=\"benefices-img\" src=\"https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901\" alt=\"Pourquoi ELINEA+\">\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "avant_apres": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style='background:#f9f0f4;padding:32px 16px;'><div style='text-align:center;margin-bottom:20px;'><span style='background:white;color:#c2104a;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;'>Photos réelles</span><h2 style='font-size:1.3rem;font-weight:900;color:#111;margin:12px 0 4px;'>Avant / Après sans filtre</h2><p style='font-size:.82rem;color:#888;margin:0;'>Résultats après 1 à 3 utilisations</p></div><div style='display:flex;flex-direction:column;gap:12px;max-width:600px;margin:0 auto;'><img src='https://www.elineap.com/cdn/shop/files/avantapres1-klyne_5ff3a655-b214-4995-a0a7-02a1b1d434e2.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/><img src='https://www.elineap.com/cdn/shop/files/avantapres2-klyne_70922129-1e48-4ea5-84d3-6ae7da75a021.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/><img src='https://www.elineap.com/cdn/shop/files/avantapres3-klyne_3ab1d886-7e18-40eb-87b7-07d55b30ed98.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/></div></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_section": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style='padding:32px 0 0;'><div style='text-align:center;padding:0 16px;margin-bottom:20px;'><span style='background:#fce0e8;color:#c2104a;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;'>▶ En action</span><h2 style='font-size:1.4rem;font-weight:900;color:#111;margin:12px 0 0;'>Vois le résultat <span style='color:#c2104a;'>en temps réel</span></h2></div><video autoplay muted loop playsinline preload='auto' style='width:100%;display:block;max-height:500px;object-fit:cover;'><source src='https://cdn.shopify.com/videos/c/o/v/5f956d5642334d43b646a87a14a06bac.mp4' type='video/mp4'></video></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ugc_reviews_strip": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>.urs{padding:32px 16px;background:#fff;}.urs h2{font-size:1.3rem;font-weight:900;color:#111;margin:0 0 6px;text-align:center;}.urs-sub{text-align:center;font-size:.82rem;color:#888;margin:0 0 20px;}.urs-grid{display:flex;flex-direction:column;gap:14px;max-width:600px;margin:0 auto;}.ur-card{background:#fafafa;border:1px solid #f0e0e8;border-radius:16px;padding:16px;}.ur-top{display:flex;align-items:center;gap:10px;margin-bottom:10px;}.ur-av{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;}.ur-info{}.ur-name{font-size:.88rem;font-weight:900;color:#111;}.ur-meta{font-size:.72rem;color:#aaa;font-weight:700;}.ur-stars{color:#f5c842;font-size:.82rem;margin-bottom:6px;}.ur-text{font-size:.85rem;color:#444;line-height:1.6;font-style:italic;}.ur-img{width:100%;border-radius:10px;margin-top:10px;object-fit:cover;max-height:200px;}</style><div class='urs'><h2>Elles l'ont testé. Elles ont adoré.</h2><p class='urs-sub'>⭐ 4,8/5 · 3 269 avis vérifiés · 80% donnent 5 étoiles</p><div class='urs-grid'><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/1f147f32-c747-4aae-a885-7c862bbde932.png?v=1769563375'/><div class='ur-info'><div class='ur-name'>Clara L. — Lyon</div><div class='ur-meta'>✓ Achat vérifié · Il y a 5 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Je l'utilise depuis 3 semaines, résultat bluffant ! Plus de duvet visible, peau incroyablement douce. J'aurais dû acheter bien plus tôt.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/4ddd4141-b2d3-41de-ad73-0aaac69d981b.png?v=1769563374'/><div class='ur-info'><div class='ur-name'>Joséphine C. — Paris</div><div class='ur-meta'>✓ Achat vérifié · Il y a 11 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Enfin une solution douce ! J'avais peur de la douleur mais zéro rougeur, zéro irritation. Ma peau est nickel dès le premier passage.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/c108b55b-682f-4ef3-99a9-1e904e963e95.png?v=1769563374'/><div class='ur-info'><div class='ur-name'>Laurine H. — Bordeaux</div><div class='ur-meta'>✓ Achat vérifié · Il y a 18 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Repousse vraiment ralentie et beaucoup plus fine. En 2 utilisations j'ai déjà vu une vraie différence. La peau est plus nette, plus lumineuse.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/0be8ce6b-4bc0-4e95-a6f1-437717de5b2a.png?v=1769563373'/><div class='ur-info'><div class='ur-name'>Ludivine L. — Marseille</div><div class='ur-meta'>✓ Achat vérifié · Il y a 22 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"En une seule utilisation, plus de duvet ! Je suis épatée par la rapidité. Vraiment indolore, même zones sensibles.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/hi1.webp?v=1769563365'/><div class='ur-info'><div class='ur-name'>Ambre D. — Nantes</div><div class='ur-meta'>✓ Achat vérifié · Il y a 29 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Je dépensais 60€/mois en institut. Avec l'ELINEA+ j'ai le même résultat à la maison en 3 minutes. Un vrai investissement.\"</p></div></div></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "gant_offert": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>.go{background:linear-gradient(135deg,#0f0208,#3a0820);padding:32px 16px;}.go-inner{max-width:600px;margin:0 auto;text-align:center;}.go-tag{display:inline-block;background:#e83570;color:white;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;margin-bottom:16px;}.go h2{font-size:1.4rem;font-weight:900;color:white;margin:0 0 20px;line-height:1.3;}.go h2 span{color:#ffc5d5;}.go-box{display:flex;align-items:center;justify-content:center;gap:16px;background:rgba(255,255,255,.07);border-radius:20px;padding:20px;margin-bottom:20px;flex-wrap:wrap;}.go-prod{text-align:center;}.go-prod img{width:90px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5));margin-bottom:8px;display:block;margin-left:auto;margin-right:auto;}.go-prod-name{font-size:.82rem;font-weight:800;color:white;margin-bottom:2px;}.go-prod-price{font-size:.75rem;color:rgba(255,255,255,.3);text-decoration:line-through;}.go-plus{font-size:1.8rem;font-weight:900;color:rgba(201,147,106,.6);flex-shrink:0;}.go-gant{text-align:center;position:relative;}.go-gant-badge{position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#e83570;color:white;font-size:.62rem;font-weight:900;padding:3px 10px;border-radius:10px;white-space:nowrap;}.go-gant-emoji{font-size:3rem;margin-bottom:8px;display:block;}.go-gant-name{font-size:.82rem;font-weight:800;color:white;margin-bottom:2px;}.go-gant-free{font-size:.78rem;font-weight:900;color:#4caf50;}.go-why{background:rgba(255,255,255,.06);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:flex-start;margin-bottom:20px;text-align:left;}.go-why span{font-size:1.2rem;flex-shrink:0;}.go-why p{font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.5;margin:0;}.go-price{margin-bottom:16px;}.go-old{font-size:.95rem;color:rgba(255,255,255,.25);text-decoration:line-through;font-weight:700;margin-bottom:4px;}.go-new{font-size:2.5rem;font-weight:900;color:white;line-height:1;margin-bottom:8px;}.go-save{display:inline-block;background:#c2104a;color:white;font-size:.78rem;font-weight:900;padding:5px 14px;border-radius:8px;}.go-btn{display:block;width:100%;background:linear-gradient(135deg,#c9936a,#e0b090);color:white;font-weight:900;padding:18px 20px;border-radius:50px;border:none;font-size:1rem;cursor:pointer;box-shadow:0 6px 20px rgba(180,100,40,.4);font-family:inherit;}.go-note{font-size:.72rem;color:rgba(255,255,255,.25);margin-top:10px;}</style><div class='go'><div class='go-inner'><div class='go-tag'>🎁 Offre exclusive</div><h2>Commandez maintenant,<br>recevez le gant <span>OFFERT</span></h2><div class='go-box'><div class='go-prod'><img src='https://www.elineap.com/cdn/shop/files/370f03fb-f42a-465a-bd12-204ef9623b7d_2653bc87-4d73-4e9e-9d71-5bc8dfa8bb0e.png?v=1769567105'/><div class='go-prod-name'>Épilateur ELINEA+</div><div class='go-prod-price'>79,80€</div></div><div class='go-plus'>+</div><div class='go-gant'><span class='go-gant-badge'>🎁 OFFERT</span><span class='go-gant-emoji'>🧤</span><div class='go-gant-name'>Gant Exfoliant</div><div class='go-gant-free'>GRATUIT</div></div></div><div class='go-why'><span>💡</span><p>Un gommage 24h avant l'épilation évite les poils incarnés et maximise le résultat de l'ELINEA+. Le duo parfait.</p></div><div class='go-price'><div class='go-old'>Valeur totale : 94,79€</div><div class='go-new'>39,90€</div><span class='go-save'>Gant offert · Vous économisez 55€</span></div><button class='go-btn' id='go-btn'>🎁 J'EN PROFITE — GANT OFFERT</button><div class='go-note'>✓ Offre valable sur cette page uniquement · Stock limité</div></div></div><script>(function(){document.getElementById('go-btn').addEventListener('click',function(){var b=this;b.textContent='⏳...';b.disabled=true;fetch('/products/gant-exfoliant-en-soie-corps-copie.js').then(function(r){return r.json()}).then(function(d){var gId=d.variants[0].id;var f=document.querySelector('form[action*=\\\"/cart/add\\\"]');var variantInput=f?f.querySelector('input[name=\\\"id\\\"]'):null;var eId=variantInput?parseInt(variantInput.value,10):0;return fetch('/cart/add.js',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:[{id:parseInt(eId)||0,quantity:1},{id:gId,quantity:1}]})})}).then(function(){window.location.href='/cart'}).catch(function(){window.location.href='/cart'})})})();</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -107,66 +180,6 @@
         "input_text_color": ""
       }
     },
-    "benefices": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.benefices-wrap{\npadding:32px 0;\n}\n\n.benefices-img{\nwidth:100%;\ndisplay:block;\nborder-radius:20px;\nbox-shadow:0 8px 30px rgba(0,0,0,.1);\n}\n\n@media(max-width:768px){\n.benefices-wrap{\npadding:24px 0;\n}\n.benefices-img{\nborder-radius:0;\n}\n}\n</style>\n\n<div class=\"benefices-wrap\">\n<img class=\"benefices-img\" src=\"https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901\" alt=\"Pourquoi ELINEA+\">\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "avant_apres": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style='background:#f9f0f4;padding:32px 16px;'><div style='text-align:center;margin-bottom:20px;'><span style='background:white;color:#c2104a;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;'>Photos réelles</span><h2 style='font-size:1.3rem;font-weight:900;color:#111;margin:12px 0 4px;'>Avant / Après sans filtre</h2><p style='font-size:.82rem;color:#888;margin:0;'>Résultats après 1 à 3 utilisations</p></div><div style='display:flex;flex-direction:column;gap:12px;max-width:600px;margin:0 auto;'><img src='https://www.elineap.com/cdn/shop/files/avantapres1-klyne_5ff3a655-b214-4995-a0a7-02a1b1d434e2.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/><img src='https://www.elineap.com/cdn/shop/files/avantapres2-klyne_70922129-1e48-4ea5-84d3-6ae7da75a021.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/><img src='https://www.elineap.com/cdn/shop/files/avantapres3-klyne_3ab1d886-7e18-40eb-87b7-07d55b30ed98.webp?v=1772054377' style='width:100%;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);'/></div></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_section": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style='padding:32px 0 0;'><div style='text-align:center;padding:0 16px;margin-bottom:20px;'><span style='background:#fce0e8;color:#c2104a;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;'>▶ En action</span><h2 style='font-size:1.4rem;font-weight:900;color:#111;margin:12px 0 0;'>Vois le résultat <span style='color:#c2104a;'>en temps réel</span></h2></div><video autoplay muted loop playsinline preload='auto' style='width:100%;display:block;max-height:500px;object-fit:cover;'><source src='https://cdn.shopify.com/videos/c/o/v/5f956d5642334d43b646a87a14a06bac.mp4' type='video/mp4'></video></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "ugc_reviews_strip": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>.urs{padding:32px 16px;background:#fff;}.urs h2{font-size:1.3rem;font-weight:900;color:#111;margin:0 0 6px;text-align:center;}.urs-sub{text-align:center;font-size:.82rem;color:#888;margin:0 0 20px;}.urs-grid{display:flex;flex-direction:column;gap:14px;max-width:600px;margin:0 auto;}.ur-card{background:#fafafa;border:1px solid #f0e0e8;border-radius:16px;padding:16px;}.ur-top{display:flex;align-items:center;gap:10px;margin-bottom:10px;}.ur-av{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;}.ur-info{}.ur-name{font-size:.88rem;font-weight:900;color:#111;}.ur-meta{font-size:.72rem;color:#aaa;font-weight:700;}.ur-stars{color:#f5c842;font-size:.82rem;margin-bottom:6px;}.ur-text{font-size:.85rem;color:#444;line-height:1.6;font-style:italic;}.ur-img{width:100%;border-radius:10px;margin-top:10px;object-fit:cover;max-height:200px;}</style><div class='urs'><h2>Elles l'ont testé. Elles ont adoré.</h2><p class='urs-sub'>⭐ 4,8/5 · 3 269 avis vérifiés · 80% donnent 5 étoiles</p><div class='urs-grid'><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/1f147f32-c747-4aae-a885-7c862bbde932.png?v=1769563375'/><div class='ur-info'><div class='ur-name'>Clara L. — Lyon</div><div class='ur-meta'>✓ Achat vérifié · Il y a 5 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Je l'utilise depuis 3 semaines, résultat bluffant ! Plus de duvet visible, peau incroyablement douce. J'aurais dû acheter bien plus tôt.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/4ddd4141-b2d3-41de-ad73-0aaac69d981b.png?v=1769563374'/><div class='ur-info'><div class='ur-name'>Joséphine C. — Paris</div><div class='ur-meta'>✓ Achat vérifié · Il y a 11 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Enfin une solution douce ! J'avais peur de la douleur mais zéro rougeur, zéro irritation. Ma peau est nickel dès le premier passage.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/c108b55b-682f-4ef3-99a9-1e904e963e95.png?v=1769563374'/><div class='ur-info'><div class='ur-name'>Laurine H. — Bordeaux</div><div class='ur-meta'>✓ Achat vérifié · Il y a 18 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Repousse vraiment ralentie et beaucoup plus fine. En 2 utilisations j'ai déjà vu une vraie différence. La peau est plus nette, plus lumineuse.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/0be8ce6b-4bc0-4e95-a6f1-437717de5b2a.png?v=1769563373'/><div class='ur-info'><div class='ur-name'>Ludivine L. — Marseille</div><div class='ur-meta'>✓ Achat vérifié · Il y a 22 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"En une seule utilisation, plus de duvet ! Je suis épatée par la rapidité. Vraiment indolore, même zones sensibles.\"</p></div><div class='ur-card'><div class='ur-top'><img class='ur-av' src='https://www.elineap.com/cdn/shop/files/hi1.webp?v=1769563365'/><div class='ur-info'><div class='ur-name'>Ambre D. — Nantes</div><div class='ur-meta'>✓ Achat vérifié · Il y a 29 jours</div></div></div><div class='ur-stars'>★★★★★</div><p class='ur-text'>\"Je dépensais 60€/mois en institut. Avec l'ELINEA+ j'ai le même résultat à la maison en 3 minutes. Un vrai investissement.\"</p></div></div></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "gant_offert": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>.go{background:linear-gradient(135deg,#0f0208,#3a0820);padding:32px 16px;}.go-inner{max-width:600px;margin:0 auto;text-align:center;}.go-tag{display:inline-block;background:#e83570;color:white;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:2px;padding:5px 14px;border-radius:20px;margin-bottom:16px;}.go h2{font-size:1.4rem;font-weight:900;color:white;margin:0 0 20px;line-height:1.3;}.go h2 span{color:#ffc5d5;}.go-box{display:flex;align-items:center;justify-content:center;gap:16px;background:rgba(255,255,255,.07);border-radius:20px;padding:20px;margin-bottom:20px;flex-wrap:wrap;}.go-prod{text-align:center;}.go-prod img{width:90px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5));margin-bottom:8px;display:block;margin-left:auto;margin-right:auto;}.go-prod-name{font-size:.82rem;font-weight:800;color:white;margin-bottom:2px;}.go-prod-price{font-size:.75rem;color:rgba(255,255,255,.3);text-decoration:line-through;}.go-plus{font-size:1.8rem;font-weight:900;color:rgba(201,147,106,.6);flex-shrink:0;}.go-gant{text-align:center;position:relative;}.go-gant-badge{position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#e83570;color:white;font-size:.62rem;font-weight:900;padding:3px 10px;border-radius:10px;white-space:nowrap;}.go-gant-emoji{font-size:3rem;margin-bottom:8px;display:block;}.go-gant-name{font-size:.82rem;font-weight:800;color:white;margin-bottom:2px;}.go-gant-free{font-size:.78rem;font-weight:900;color:#4caf50;}.go-why{background:rgba(255,255,255,.06);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:flex-start;margin-bottom:20px;text-align:left;}.go-why span{font-size:1.2rem;flex-shrink:0;}.go-why p{font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.5;margin:0;}.go-price{margin-bottom:16px;}.go-old{font-size:.95rem;color:rgba(255,255,255,.25);text-decoration:line-through;font-weight:700;margin-bottom:4px;}.go-new{font-size:2.5rem;font-weight:900;color:white;line-height:1;margin-bottom:8px;}.go-save{display:inline-block;background:#c2104a;color:white;font-size:.78rem;font-weight:900;padding:5px 14px;border-radius:8px;}.go-btn{display:block;width:100%;background:linear-gradient(135deg,#c9936a,#e0b090);color:white;font-weight:900;padding:18px 20px;border-radius:50px;border:none;font-size:1rem;cursor:pointer;box-shadow:0 6px 20px rgba(180,100,40,.4);font-family:inherit;}.go-note{font-size:.72rem;color:rgba(255,255,255,.25);margin-top:10px;}</style><div class='go'><div class='go-inner'><div class='go-tag'>🎁 Offre exclusive</div><h2>Commandez maintenant,<br>recevez le gant <span>OFFERT</span></h2><div class='go-box'><div class='go-prod'><img src='https://www.elineap.com/cdn/shop/files/370f03fb-f42a-465a-bd12-204ef9623b7d_2653bc87-4d73-4e9e-9d71-5bc8dfa8bb0e.png?v=1769567105'/><div class='go-prod-name'>Épilateur ELINEA+</div><div class='go-prod-price'>79,80€</div></div><div class='go-plus'>+</div><div class='go-gant'><span class='go-gant-badge'>🎁 OFFERT</span><span class='go-gant-emoji'>🧤</span><div class='go-gant-name'>Gant Exfoliant</div><div class='go-gant-free'>GRATUIT</div></div></div><div class='go-why'><span>💡</span><p>Un gommage 24h avant l'épilation évite les poils incarnés et maximise le résultat de l'ELINEA+. Le duo parfait.</p></div><div class='go-price'><div class='go-old'>Valeur totale : 94,79€</div><div class='go-new'>39,90€</div><span class='go-save'>Gant offert · Vous économisez 55€</span></div><button class='go-btn' id='go-btn'>🎁 J'EN PROFITE — GANT OFFERT</button><div class='go-note'>✓ Offre valable sur cette page uniquement · Stock limité</div></div></div><script>(function(){document.getElementById('go-btn').addEventListener('click',function(){var b=this;b.textContent='⏳...';b.disabled=true;fetch('/products/gant-exfoliant-en-soie-corps-copie.js').then(function(r){return r.json()}).then(function(d){var gId=d.variants[0].id;var f=document.querySelector('form[action*=\\\"/cart/add\\\"]');var variantInput=f?f.querySelector('input[name=\\\"id\\\"]'):null;var eId=variantInput?parseInt(variantInput.value,10):0;return fetch('/cart/add.js',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:[{id:parseInt(eId)||0,quantity:1},{id:gId,quantity:1}]})})}).then(function(){window.location.href='/cart'}).catch(function(){window.location.href='/cart'})})})();</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "stats_dark": {
       "type": "custom-liquid",
       "settings": {
@@ -202,31 +215,18 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_liquid_YDamdK": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.pm{background:#fff;border-top:1px solid #f5eaec;border-bottom:1px solid #f5eaec;padding:14px 0;overflow:hidden;}\n.pm-label{text-align:center;font-size:.58rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#ccc;margin-bottom:10px;}\n.pm-track{display:flex;width:max-content;animation:pmscroll 14s linear infinite;align-items:center;}\n.pm-group{display:flex;align-items:center;gap:28px;padding:0 28px;}\n.pm-group img{height:20px;opacity:.3;filter:grayscale(1);}\n@keyframes pmscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}\n</style>\n\n<div class=\"pm\">\n  <div class=\"pm-label\">Vu sur</div>\n  <div style=\"overflow:hidden\">\n    <div class=\"pm-track\">\n      <div class=\"pm-group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n      <div class=\"pm-group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "sticky_bar",
     "ugc_hero",
-    "main",
     "custom_liquid_YDamdK",
     "benefices",
     "avant_apres",
     "video_section",
     "ugc_reviews_strip",
     "gant_offert",
+    "main",
     "stats_dark",
     "faq",
     "bottom_cta"
