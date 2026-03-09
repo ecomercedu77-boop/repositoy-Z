@@ -20,9 +20,9 @@
     "background": "#ffffff",
     "text_color": "#200202",
     "header_background": "#f0f0f0",
-    "header_text_color": "#000000",
+    "header_text_color": "#200202",
     "footer_background": "#ffe6ec",
-    "footer_text_color": "#000000",
+    "footer_text_color": "#200202",
     "dialog_background": "#ffffff",
     "primary_button_background": "#200202",
     "primary_button_text_color": "#000000",
@@ -69,18 +69,18 @@
         "disabled": false,
         "settings": {}
       },
-      "2567389343055140935": {
-        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
-        "disabled": false,
+      "6143736321357441667": {
+        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "disabled": true,
         "settings": {}
       },
       "2200952712151285029": {
         "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       },
-      "6143736321357441667": {
-        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": true,
         "settings": {}
       }
