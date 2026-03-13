@@ -9,18 +9,6 @@
  */
 {
   "sections": {
-    "sticky_bar": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>.sb{position:sticky;top:0;z-index:999;background:#111;color:white;padding:9px 16px;display:flex;align-items:center;justify-content:center;gap:6px;font-size:.75rem;font-weight:800;letter-spacing:.3px;flex-wrap:wrap;}.sb-cd{display:inline-flex;align-items:center;gap:3px;}.sb-cd span{background:#c2104a;border-radius:5px;padding:1px 7px;font-size:.85rem;font-weight:900;min-width:24px;text-align:center;}</style><div class='sb'>🔥 Offre -50% expire dans <div class='sb-cd'><span id='sbm'>09</span>:<span id='sbs'>59</span></div> · Stock limité !</div><script>var t=9*60+59;setInterval(function(){if(t<=0)t=9*60+59;t--;document.getElementById('sbm').textContent=String(Math.floor(t/60)).padStart(2,'0');document.getElementById('sbs').textContent=String(t%60).padStart(2,'0');},1000);</script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "ugc_hero": {
       "type": "custom-liquid",
       "settings": {
@@ -221,7 +209,6 @@
     }
   },
   "order": [
-    "sticky_bar",
     "ugc_hero",
     "custom_liquid_YDamdK",
     "custom_liquid_GbdryP",
