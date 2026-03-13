@@ -204,6 +204,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_GbdryP": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"elinea-benefit-video\">\n  <div class=\"elinea-benefit-video__wrap\">\n    \n    <div class=\"elinea-benefit-video__content\">\n      <h2 class=\"elinea-benefit-video__title\">\n        Enfin ! Bénéficier d'une épilation durable et d'une repousse de poils plus fins au fil du temps, sans dommages\n      </h2>\n\n      <ul class=\"elinea-benefit-video__list\">\n        <li>Réduit les risques de poils incarnés et d’irritations</li>\n        <li>Favorise une repousse plus lente et plus fine</li>\n        <li>Élimine les poils épais, délicats ou difficiles</li>\n      </ul>\n    </div>\n\n    <div class=\"elinea-benefit-video__media\">\n      <div class=\"elinea-benefit-video__video-box\">\n        <video\n          class=\"elinea-benefit-video__video\"\n          autoplay\n          muted\n          loop\n          playsinline\n          preload=\"metadata\"\n        >\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/4b32f67475454e72afad39c25ad693ce.mp4\" type=\"video/mp4\">\n        </video>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .elinea-benefit-video {\n    background: #f3f3f1;\n    padding: 20px 14px;\n  }\n\n  .elinea-benefit-video__wrap {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column-reverse;\n    gap: 22px;\n    align-items: center;\n  }\n\n  .elinea-benefit-video__content,\n  .elinea-benefit-video__media {\n    width: 100%;\n  }\n\n  .elinea-benefit-video__video-box {\n    border-radius: 18px;\n    overflow: hidden;\n    background: #ddd;\n    line-height: 0;\n  }\n\n  .elinea-benefit-video__video {\n    width: 100%;\n    height: auto;\n    display: block;\n    object-fit: cover;\n  }\n\n  .elinea-benefit-video__title {\n    margin: 0 0 18px;\n    color: #111;\n    font-size: 24px;\n    line-height: 1.08;\n    font-weight: 800;\n    letter-spacing: -0.02em;\n  }\n\n  .elinea-benefit-video__list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .elinea-benefit-video__list li {\n    position: relative;\n    padding-left: 24px;\n    margin-bottom: 10px;\n    color: #222;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .elinea-benefit-video__list li::before {\n    content: \"✓\";\n    position: absolute;\n    left: 0;\n    top: 0;\n    font-weight: 700;\n    color: #111;\n  }\n\n  @media screen and (min-width: 768px) {\n    .elinea-benefit-video {\n      padding: 42px 24px;\n    }\n\n    .elinea-benefit-video__wrap {\n      display: grid;\n      grid-template-columns: 1.05fr 1fr;\n      gap: 48px;\n      align-items: center;\n    }\n\n    .elinea-benefit-video__content {\n      order: 1;\n    }\n\n    .elinea-benefit-video__media {\n      order: 2;\n    }\n\n    .elinea-benefit-video__title {\n      font-size: 42px;\n      margin-bottom: 22px;\n    }\n\n    .elinea-benefit-video__list li {\n      font-size: 20px;\n      line-height: 1.45;\n      margin-bottom: 12px;\n      padding-left: 28px;\n    }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -217,6 +230,7 @@
     "custom_liquid_wgmknf",
     "main",
     "stats_dark",
-    "faq"
+    "faq",
+    "custom_liquid_GbdryP"
   ]
 }
