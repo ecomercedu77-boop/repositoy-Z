@@ -217,6 +217,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_bhYhWU": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"max-width:700px;margin:auto;background:#f5f5f5;border-radius:16px;padding:20px;font-family:sans-serif;\">\n\n<table style=\"width:100%;border-collapse:collapse;text-align:center;font-size:15px;\">\n\n<thead>\n<tr>\n<th style=\"text-align:left;padding:12px;\"></th>\n\n<th style=\"background:#d8c9f2;padding:12px;border-radius:12px 12px 0 0;font-weight:700;\">\nELINEA +\n</th>\n\n<th style=\"padding:12px;font-weight:700;\">\nRasage\n</th>\n</tr>\n</thead>\n\n<tbody>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Convient aux peaux sensibles</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:14px;\">Conçu pour le visage</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Coûteux</td>\n<td style=\"color:red;\">✖</td>\n<td>✔</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:14px;\">Facile à utiliser</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Garantie satisfait ou remboursé</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n</tbody>\n\n</table>\n\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -231,6 +244,7 @@
     "custom_liquid_wgmknf",
     "main",
     "stats_dark",
-    "faq"
+    "faq",
+    "custom_liquid_bhYhWU"
   ]
 }
