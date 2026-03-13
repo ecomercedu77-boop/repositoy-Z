@@ -194,13 +194,14 @@
         "input_text_color": ""
       }
     },
-    "stats_dark": {
+    "custom_liquid_bhYhWU": {
       "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style='background:#ffffff;padding:32px 16px;'>\n  <div style='max-width:600px;margin:0 auto;'>\n\n    <div style='text-align:center;margin-bottom:20px;'>\n      <h2 style='font-size:1.3rem;font-weight:900;color:#111;margin:0 0 4px;'>\n        Des résultats <span style='color:#e83570;'>prouvés.</span>\n      </h2>\n      <p style='font-size:.82rem;color:rgba(0,0,0,.5);margin:0;'>\n        Basé sur +35 000 utilisatrices\n      </p>\n    </div>\n\n    <div id=\"stats-section\" style='display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;'>\n\n      <div style='background:#ffe4ec;border-radius:16px;padding:20px 14px;text-align:center;'>\n        <div class=\"counter\" data-target=\"97\" style='font-size:2.2rem;font-weight:900;color:#111;'>0<span style=\"color:#e83570;font-size:1.3rem;\">%</span></div>\n        <div style='font-size:.72rem;color:rgba(0,0,0,.6);font-weight:700;margin-top:6px;'>Zéro rougeur</div>\n      </div>\n\n      <div style='background:#ffe4ec;border-radius:16px;padding:20px 14px;text-align:center;'>\n        <div class=\"counter\" data-target=\"4\" style='font-size:2.2rem;font-weight:900;color:#111;'>0<span style=\"color:#e83570;font-size:1.1rem;\"> sem.</span></div>\n        <div style='font-size:.72rem;color:rgba(0,0,0,.6);font-weight:700;margin-top:6px;'>Peau lisse</div>\n      </div>\n\n      <div style='background:#ffe4ec;border-radius:16px;padding:20px 14px;text-align:center;'>\n        <div class=\"counter\" data-target=\"4.8\" style='font-size:2.2rem;font-weight:900;color:#111;'>0<span style=\"color:#e83570;font-size:1.1rem;\">/5</span></div>\n        <div style='font-size:.72rem;color:rgba(0,0,0,.6);font-weight:700;margin-top:6px;'>Note moyenne</div>\n      </div>\n\n      <div style='background:#ffe4ec;border-radius:16px;padding:20px 14px;text-align:center;'>\n        <div class=\"counter\" data-target=\"35000\" style='font-size:2.2rem;font-weight:900;color:#111;'>0</div>\n        <div style='font-size:.72rem;color:rgba(0,0,0,.6);font-weight:700;margin-top:6px;'>Clientes</div>\n      </div>\n\n    </div>\n\n  </div>\n</div>\n\n<script>\nconst counters = document.querySelectorAll('.counter');\nlet started = false;\n\nfunction animateCounters() {\n  counters.forEach(counter => {\n    const target = +counter.getAttribute('data-target');\n    const duration = 1500;\n    const startTime = performance.now();\n\n    function update(now) {\n      const progress = Math.min((now - startTime) / duration, 1);\n      const value = target * progress;\n\n      if(target === 35000){\n        counter.childNodes[0].nodeValue = Math.floor(value).toLocaleString('fr-FR');\n      } else if(target % 1 !== 0){\n        counter.childNodes[0].nodeValue = value.toFixed(1);\n      } else {\n        counter.childNodes[0].nodeValue = Math.floor(value);\n      }\n\n      if (progress < 1) requestAnimationFrame(update);\n    }\n\n    requestAnimationFrame(update);\n  });\n}\n\nconst observer = new IntersectionObserver(entries => {\n  if(entries[0].isIntersecting && !started){\n    started = true;\n    animateCounters();\n  }\n});\n\nobserver.observe(document.getElementById('stats-section'));\n</script>",
+        "liquid": "<div style=\"max-width:720px;margin:auto;background:#f6f6f6;border-radius:18px;padding:18px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;\">\n\n<table style=\"width:100%;border-collapse:collapse;text-align:center;font-size:15px;overflow:hidden;border-radius:16px;\">\n\n<thead>\n<tr>\n\n<th style=\"text-align:left;padding:14px;\"></th>\n\n<th style=\"\nbackground:#ffd6e6;\ncolor:#111;\npadding:14px;\nborder-radius:14px 14px 0 0;\nfont-weight:800;\nfont-size:16px;\n\">\nELINEA +\n</th>\n\n<th style=\"padding:14px;font-weight:700;color:#333;\">\nRasage\n</th>\n\n</tr>\n</thead>\n\n<tbody>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:16px;\">Convient aux peaux sensibles</td>\n<td style=\"color:#e6005c;font-size:18px;font-weight:700;\">✔</td>\n<td style=\"color:#ff3b3b;font-size:18px;\">✖</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:16px;\">Conçu pour le visage</td>\n<td style=\"color:#e6005c;font-size:18px;font-weight:700;\">✔</td>\n<td style=\"color:#ff3b3b;font-size:18px;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:16px;\">Coûteux</td>\n<td style=\"color:#ff3b3b;font-size:18px;\">✖</td>\n<td style=\"color:#e6005c;font-size:18px;font-weight:700;\">✔</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:16px;\">Facile à utiliser</td>\n<td style=\"color:#e6005c;font-size:18px;font-weight:700;\">✔</td>\n<td style=\"color:#ff3b3b;font-size:18px;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:16px;\">Garantie satisfait ou remboursé</td>\n<td style=\"color:#e6005c;font-size:18px;font-weight:700;\">✔</td>\n<td style=\"color:#ff3b3b;font-size:18px;\">✖</td>\n</tr>\n\n</tbody>\n\n</table>\n\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -213,19 +214,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<div style='padding:32px 16px;max-width:600px;margin:0 auto;'><h2 style='font-size:1.3rem;font-weight:900;color:#111;margin:0 0 16px;text-align:center;'>Questions fréquentes</h2><details style='border-bottom:1px solid #f0e0e8;padding:14px 0;'><summary style='font-weight:800;cursor:pointer;font-size:.92rem;list-style:none;display:flex;justify-content:space-between;'>Est-ce douloureux ? <span>+</span></summary><p style='font-size:.85rem;color:#555;padding-top:10px;line-height:1.6;margin:0;'>Non. 97% de nos utilisatrices confirment zéro rougeur ni irritation. Spécialement conçu pour les peaux sensibles.</p></details><details style='border-bottom:1px solid #f0e0e8;padding:14px 0;'><summary style='font-weight:800;cursor:pointer;font-size:.92rem;list-style:none;display:flex;justify-content:space-between;'>Combien de temps dure le résultat ? <span>+</span></summary><p style='font-size:.85rem;color:#555;padding-top:10px;line-height:1.6;margin:0;'>Jusqu'à 4 semaines. Les poils repoussent plus fins et plus lentement à chaque utilisation.</p></details><details style='border-bottom:1px solid #f0e0e8;padding:14px 0;'><summary style='font-weight:800;cursor:pointer;font-size:.92rem;list-style:none;display:flex;justify-content:space-between;'>Garantie satisfait ou remboursé ? <span>+</span></summary><p style='font-size:.85rem;color:#555;padding-top:10px;line-height:1.6;margin:0;'>Oui, 30 jours remboursement intégral sans conditions. Aucun risque pour vous.</p></details><details style='padding:14px 0;'><summary style='font-weight:800;cursor:pointer;font-size:.92rem;list-style:none;display:flex;justify-content:space-between;'>Quand est-ce que je reçois ma commande ? <span>+</span></summary><p style='font-size:.85rem;color:#555;padding-top:10px;line-height:1.6;margin:0;'>Expédition sous 24h. Livraison en 3 à 5 jours ouvrés avec numéro de suivi.</p></details></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_bhYhWU": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"max-width:700px;margin:auto;background:#f5f5f5;border-radius:16px;padding:20px;font-family:sans-serif;\">\n\n<table style=\"width:100%;border-collapse:collapse;text-align:center;font-size:15px;\">\n\n<thead>\n<tr>\n<th style=\"text-align:left;padding:12px;\"></th>\n\n<th style=\"background:#d8c9f2;padding:12px;border-radius:12px 12px 0 0;font-weight:700;\">\nELINEA +\n</th>\n\n<th style=\"padding:12px;font-weight:700;\">\nRasage\n</th>\n</tr>\n</thead>\n\n<tbody>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Convient aux peaux sensibles</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:14px;\">Conçu pour le visage</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Coûteux</td>\n<td style=\"color:red;\">✖</td>\n<td>✔</td>\n</tr>\n\n<tr>\n<td style=\"text-align:left;padding:14px;\">Facile à utiliser</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n<tr style=\"background:white;\">\n<td style=\"text-align:left;padding:14px;\">Garantie satisfait ou remboursé</td>\n<td>✔</td>\n<td style=\"color:red;\">✖</td>\n</tr>\n\n</tbody>\n\n</table>\n\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -243,8 +231,7 @@
     "ugc_reviews_strip",
     "custom_liquid_wgmknf",
     "main",
-    "stats_dark",
-    "faq",
-    "custom_liquid_bhYhWU"
+    "custom_liquid_bhYhWU",
+    "faq"
   ]
 }
