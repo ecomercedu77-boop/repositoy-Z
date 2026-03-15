@@ -114,8 +114,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Nous contacter",
-            "content": "<p><br/>Service client disponible tous les jours de 8h00 à 20h00<br/><br/></p>",
+            "title": "💬 Besoin d’aide ? Contactez-nous",
+            "content": "<p><br/>📞 Service client disponible tous les jours de 8h à 20h pour répondre à toutes vos questions.<br/><br/></p>",
             "enable_follow_on_shop": false
           }
         },
