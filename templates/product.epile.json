@@ -34,19 +34,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_GbdryP": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<section class=\"elinea-benefit-video\">\n  <div class=\"elinea-benefit-video__wrap\">\n\n    <div class=\"elinea-benefit-video__media\">\n      <video class=\"elinea-benefit-video__video\" autoplay muted loop playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/4b32f67475454e72afad39c25ad693ce.mp4\" type=\"video/mp4\">\n      </video>\n    </div>\n\n    <div class=\"elinea-benefit-video__content\">\n      <h2 class=\"elinea-benefit-video__title\">\n        Enfin ! Bénéficier d'une épilation durable et d'une repousse de poils plus fins au fil du temps\n      </h2>\n\n      <ul class=\"elinea-benefit-video__list\">\n        <li>Réduit les risques de poils incarnés et d’irritations</li>\n        <li>Favorise une repousse plus lente et plus fine</li>\n        <li>Élimine les poils épais, délicats ou difficiles</li>\n      </ul>\n    </div>\n\n  </div>\n</section>\n\n<style>\n\n.elinea-benefit-video{\nbackground:white;\npadding:30px 16px;\n}\n\n.elinea-benefit-video__wrap{\nmax-width:1100px;\nmargin:auto;\ndisplay:flex;\nflex-direction:column;\ngap:24px;\n}\n\n.elinea-benefit-video__video{\nwidth:100%;\nborder-radius:18px;\ndisplay:block;\n}\n\n.elinea-benefit-video__title{\nfont-size:26px;\nfont-weight:800;\ncolor:#111;\nmargin-bottom:14px;\n}\n\n.elinea-benefit-video__list{\nlist-style:none;\npadding:0;\nmargin:0;\n}\n\n.elinea-benefit-video__list li{\npadding-left:24px;\nposition:relative;\nmargin-bottom:10px;\nfont-size:16px;\ncolor:#333;\n}\n\n.elinea-benefit-video__list li::before{\ncontent:\"✓\";\nposition:absolute;\nleft:0;\ncolor:#c2104a;\nfont-weight:700;\n}\n\n@media (min-width:768px){\n\n.elinea-benefit-video__wrap{\ndisplay:grid;\ngrid-template-columns:1fr 1fr;\ngap:50px;\nalign-items:center;\n}\n\n.elinea-benefit-video__title{\nfont-size:38px;\n}\n\n}\n\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "benefices": {
       "type": "custom-liquid",
       "settings": {
@@ -205,7 +192,6 @@
   "order": [
     "ugc_hero",
     "custom_liquid_YDamdK",
-    "custom_liquid_GbdryP",
     "benefices",
     "avant_apres",
     "video_section",
