@@ -15,9 +15,8 @@
         "image_TQ8Pdq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/8a78b2e2-95f8-41e0-8381-27f2db5b1d57_c7d3e846-deb0-4f1b-8fec-f8dcb7d44b61.png",
-            "mobile_image": "shopify://shop_images/8a78b2e2-95f8-41e0-8381-27f2db5b1d57.png",
-            "content_max_width": 520,
+            "image": "shopify://shop_images/accueil-epilateur-visage-klyne.webp",
+            "content_max_width": 480,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -33,31 +32,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_XzDD8G": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "image_TQ8Pdq",
-        "image_XzDD8G"
+        "image_TQ8Pdq"
       ],
       "name": "Slideshow",
       "settings": {
@@ -73,18 +51,6 @@
         "background_gradient": ""
       }
     },
-    "ugc_hero": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.uh{\n  padding:20px 14px;\n  max-width:100%;\n  margin:0 auto;\n  text-align:center;\n}\n\n.uh-img{\n  width:100%;\n  max-width:100%;\n  border-radius:14px;\n  margin-top:8px;\n}\n</style>\n\n<div class=\"uh\">\n\n  <img class=\"uh-img\" src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/8a78b2e2-95f8-41e0-8381-27f2db5b1d57_c7d3e846-deb0-4f1b-8fec-f8dcb7d44b61.png?v=1773358778\">\n\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_YDamdK": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -98,16 +64,47 @@
         "text_color": ""
       }
     },
-    "benefices": {
-      "type": "custom-liquid",
+    "slideshow_XgWqaK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_weUBLJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/benefices-1.webp",
+            "mobile_image": "shopify://shop_images/benefices-1.webp",
+            "content_max_width": 480,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 4,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_weUBLJ"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.benefices-wrap{\npadding:32px 0;\n}\n\n.benefices-img{\nwidth:100%;\ndisplay:block;\nborder-radius:20px;\nbox-shadow:0 8px 30px rgba(0,0,0,.1);\n}\n\n@media(max-width:768px){\n.benefices-wrap{\npadding:24px 0;\n}\n.benefices-img{\nborder-radius:0;\n}\n}\n</style>\n\n<div class=\"benefices-wrap\">\n<img class=\"benefices-img\" src=\"https://www.elineap.com/cdn/shop/files/benefices-1.webp?v=1769561901\" alt=\"Pourquoi ELINEA+\">\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "avant_apres": {
@@ -244,18 +241,34 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "images_with_text_scrolling_JcyRmb": {
+      "type": "images-with-text-scrolling",
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "slideshow_rpkr44",
-    "ugc_hero",
     "custom_liquid_YDamdK",
-    "benefices",
+    "slideshow_XgWqaK",
     "avant_apres",
     "video_section",
     "ugc_reviews_strip",
     "main",
     "custom_liquid_bhYhWU",
-    "faq"
+    "faq",
+    "images_with_text_scrolling_JcyRmb"
   ]
 }
