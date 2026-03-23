@@ -61,7 +61,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -104,7 +104,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -173,12 +173,6 @@
             "max_width": 340
           }
         },
-        "timer_block": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style='background:#f0fff4;border-left:4px solid #22c55e;border-radius:0 10px 10px 0;padding:9px 14px;font-size:.82rem;font-weight:700;display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:10px 0;'>✅ <span style='color:#16a34a;'>Livraison gratuite</span> · Expire dans <span id='et2' style='color:#c40000;font-weight:900;'>10:00</span></div><script>var et=10*60;setInterval(function(){et--;if(et<0)et=10*60;document.getElementById('et2').textContent=String(Math.floor(et/60)).padStart(2,'0')+':'+String(et%60).padStart(2,'0');},1000);</script>"
-          }
-        },
         "guarantees": {
           "type": "liquid",
           "settings": {
@@ -196,7 +190,6 @@
         "price_block",
         "buy_buttons",
         "payments",
-        "timer_block",
         "guarantees",
         "ugc_review_1"
       ],
