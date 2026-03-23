@@ -147,6 +147,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_GF7Wj9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display:flex; align-items:center; gap:10px; font-size:18px; font-weight:500;\">\n  \n  <span style=\"\n    width:12px;\n    height:12px;\n    background:#f5a623;\n    border-radius:50%;\n    display:inline-block;\n    box-shadow:0 0 8px #f5a623;\n  \"></span>\n  \n  <span>\n    Plus que <strong>3</strong> en stock.\n  </span>\n\n</div>"
+          }
+        },
         "price_block": {
           "type": "liquid",
           "disabled": true,
@@ -173,12 +179,6 @@
             "max_width": 340
           }
         },
-        "liquid_GF7Wj9": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"display:flex; align-items:center; gap:10px; font-size:18px; font-weight:500;\">\n  \n  <span style=\"\n    width:12px;\n    height:12px;\n    background:#f5a623;\n    border-radius:50%;\n    display:inline-block;\n    box-shadow:0 0 8px #f5a623;\n  \"></span>\n  \n  <span>\n    Plus que <strong>3</strong> en stock.\n  </span>\n\n</div>"
-          }
-        },
         "guarantees": {
           "type": "liquid",
           "settings": {
@@ -193,10 +193,10 @@
         }
       },
       "block_order": [
+        "liquid_GF7Wj9",
         "price_block",
         "buy_buttons",
         "payments",
-        "liquid_GF7Wj9",
         "guarantees",
         "ugc_review_1"
       ],
