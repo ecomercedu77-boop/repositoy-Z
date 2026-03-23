@@ -85,11 +85,11 @@
         "mega_menu_tKRNzp"
       ],
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "hide_on_scroll": true,
         "logo": "shopify://shop_images/be70fea9-7a9d-4e3b-aabc-677d52f33537.png",
-        "logo_max_width": 100,
-        "logo_mobile_max_width": 70,
+        "logo_max_width": 90,
+        "logo_mobile_max_width": 60,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
