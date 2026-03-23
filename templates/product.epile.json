@@ -9,6 +9,19 @@
  */
 {
   "sections": {
+    "custom_liquid_YDamdK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.pm{\n  background:#fff;\n  border-top:1px solid #f5eaec;\n  border-bottom:1px solid #f5eaec;\n  padding:14px 0;\n  overflow:hidden;\n}\n\n.pm-label{\n  text-align:center;\n  font-size:.58rem;\n  font-weight:800;\n  letter-spacing:2.5px;\n  text-transform:uppercase;\n  color:#999;\n  margin-bottom:10px;\n}\n\n.pm-track{\n  display:flex;\n  width:max-content;\n  animation:pmscroll 14s linear infinite;\n  align-items:center;\n}\n\n.pm-group{\n  display:flex;\n  align-items:center;\n  gap:28px;\n  padding:0 28px;\n}\n\n.pm-group img{\n  height:20px;\n  opacity:1;\n  filter:none;\n}\n\n@keyframes pmscroll{\n  from{transform:translateX(0)}\n  to{transform:translateX(-50%)}\n}\n</style>\n\n<div class=\"pm\">\n\n  <div class=\"pm-label\">Vu sur</div>\n\n  <div style=\"overflow:hidden\">\n\n    <div class=\"pm-track\">\n\n      <div class=\"pm-group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n      <div class=\"pm-group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n    </div>\n\n  </div>\n\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_rpkr44": {
       "type": "slideshow",
       "blocks": {
@@ -16,6 +29,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/accueil-epilateur-visage-klyne.webp",
+            "mobile_image": "shopify://shop_images/accueil-epilateur-visage-klyne.webp",
             "content_max_width": 500,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -49,19 +63,6 @@
         "cycle_speed": 6,
         "background": "#F2F2F2",
         "background_gradient": ""
-      }
-    },
-    "custom_liquid_YDamdK": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.pm{\n  background:#fff;\n  border-top:1px solid #f5eaec;\n  border-bottom:1px solid #f5eaec;\n  padding:14px 0;\n  overflow:hidden;\n}\n\n.pm-label{\n  text-align:center;\n  font-size:.58rem;\n  font-weight:800;\n  letter-spacing:2.5px;\n  text-transform:uppercase;\n  color:#999;\n  margin-bottom:10px;\n}\n\n.pm-track{\n  display:flex;\n  width:max-content;\n  animation:pmscroll 14s linear infinite;\n  align-items:center;\n}\n\n.pm-group{\n  display:flex;\n  align-items:center;\n  gap:28px;\n  padding:0 28px;\n}\n\n.pm-group img{\n  height:20px;\n  opacity:1;\n  filter:none;\n}\n\n@keyframes pmscroll{\n  from{transform:translateX(0)}\n  to{transform:translateX(-50%)}\n}\n</style>\n\n<div class=\"pm\">\n\n  <div class=\"pm-label\">Vu sur</div>\n\n  <div style=\"overflow:hidden\">\n\n    <div class=\"pm-track\">\n\n      <div class=\"pm-group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n      <div class=\"pm-group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n    </div>\n\n  </div>\n\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "slideshow_XgWqaK": {
