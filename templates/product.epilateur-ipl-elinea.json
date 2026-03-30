@@ -287,9 +287,11 @@
     "featured_product_mLAbqW": {
       "type": "featured-product",
       "blocks": {
-        "vendor_49Pwn9": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_Ntz3Ef": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- =========================================================\nBANNIÈRE AVIS ELINEA IPL (AUTO + DOTS) - MOBILE FRIENDLY\n========================================================= -->\n\n<style>\n  .elxR-banner{\n    font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",Arial,sans-serif;\n    max-width:980px;margin:18px auto;padding:0 16px;color:#111;\n  }\n\n  .elxR-toprow{\n    display:flex;align-items:center;justify-content:space-between;\n    gap:12px;flex-wrap:wrap;margin-bottom:12px;\n  }\n\n  .elxR-reviews-link{display:inline-flex;align-items:center;gap:10px;color:#111;font-size:14px;font-weight:600;}\n  .elxR-reviews-link a{color:#111;text-decoration:underline;}\n  .elxR-stars{color:#22a06b;letter-spacing:2px;font-size:14px;display:inline-flex;align-items:center;gap:8px;}\n  .elxR-rating{font-size:13px;font-weight:700;color:#111;}\n  .elxR-flag{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;white-space:nowrap;}\n\n  .elxR-quote{\n    background:#f6f0e7;border:1px solid rgba(0,0,0,.08);\n    border-radius:12px;padding:12px 12px;\n    display:flex;align-items:flex-start;gap:10px;\n    position:relative;margin-bottom:12px;\n  }\n\n  .elxR-quote .avatar{\n    width:40px;height:40px;border-radius:999px;object-fit:cover;\n    border:1px solid rgba(0,0,0,.08);flex:0 0 auto;\n  }\n\n  .elxR-quote .qwrap{min-width:0; padding-right:56px;}\n  .elxR-quote .qtitle{\n    font-weight:700;font-size:14px;line-height:1.25;margin:0 0 4px;\n    word-break:break-word;\n  }\n  .elxR-quote .qmeta{font-size:12.5px;color:#555;margin:0;line-height:1.2;}\n\n  .elxR-dots{\n    display:flex;gap:7px;\n    position:absolute;right:12px;top:50%;\n    transform:translateY(-50%);\n  }\n  .elxR-dot{width:7px;height:7px;border-radius:50%;background:rgba(0,0,0,.25);cursor:pointer;}\n  .elxR-dot.active{background:rgba(0,0,0,.85);}\n\n  .elxR-title{\n    font-family:Georgia,\"Times New Roman\",serif;\n    font-size:44px;font-weight:500;margin:8px 0 6px;\n    line-height:1.05;\n  }\n  .elxR-subtitle{\n    font-size:16px;\n    color:#555;\n    margin:0 0 10px;\n    line-height:1.4;\n    max-width:720px;\n  }\n  .elxR-hr{height:1px;background:rgba(0,0,0,.08);border:0;margin:12px 0 14px;}\n\n  .elxR-bullets{list-style:none;padding:0;margin:0;display:grid;gap:10px;}\n  .elxR-bullets li{display:flex;gap:10px;font-size:14px;line-height:1.35;}\n  .elxR-bullets li strong{font-weight:800;}\n\n  @media (max-width:640px){\n    .elxR-banner{padding:0 12px;margin:14px auto;}\n    .elxR-toprow{flex-direction:column;align-items:flex-start;gap:8px;}\n    .elxR-title{font-size:30px;line-height:1.08;margin-top:6px;}\n    .elxR-subtitle{font-size:14px;}\n    .elxR-quote{padding:11px 11px;}\n    .elxR-quote .avatar{width:36px;height:36px;}\n    .elxR-quote .qwrap{padding-right:0;}\n    .elxR-dots{\n      position:static;transform:none;margin-top:10px;\n      justify-content:flex-start;\n    }\n  }\n</style>\n\n<section class=\"elxR-banner\" data-elx-reviews>\n\n  <div class=\"elxR-toprow\">\n    <div class=\"elxR-reviews-link\">\n      <span class=\"elxR-stars\">\n        <span>★★★★<span style=\"opacity:.55;\">★</span></span>\n        <span class=\"elxR-rating\">4.8</span>\n      </span>\n      <a href=\"#avis\">+ de 1 800 avis</a>\n    </div>\n\n    <div class=\"elxR-flag\">\n      <span style=\"font-size:18px;\">🇫🇷</span>\n      <span>Marque française</span>\n    </div>\n  </div>\n\n  <div class=\"elxR-quote\">\n    <img class=\"avatar\" data-elx-avatar src=\"https://i.pravatar.cc/84?img=15\" alt=\"Avis client\">\n    <div class=\"qwrap\">\n      <p class=\"qtitle\" data-elx-quote>Après quelques séances, mes poils repoussent beaucoup moins vite. Très satisfaite.</p>\n      <p class=\"qmeta\" data-elx-meta></p>\n\n      <div class=\"elxR-dots\" aria-label=\"Avis clients\">\n        <span class=\"elxR-dot active\" data-idx=\"0\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 1\"></span>\n        <span class=\"elxR-dot\" data-idx=\"1\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 2\"></span>\n        <span class=\"elxR-dot\" data-idx=\"2\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 3\"></span>\n      </div>\n    </div>\n  </div>\n\n  <h1 class=\"elxR-title\">Épilateur IPL Elinea</h1>\n  <p class=\"elxR-subtitle\">Une solution simple et confortable pour réduire durablement la repousse des poils à la maison.</p>\n  <hr class=\"elxR-hr\">\n\n  <ul class=\"elxR-bullets\">\n    <li>✔ <strong>Réduction durable</strong> : aide à ralentir la repousse des poils séance après séance</li>\n    <li>✔ <strong>Technologie glacée</strong> : plus de confort pendant l’utilisation, même sur les zones sensibles</li>\n    <li>✔ <strong>5 niveaux d’intensité</strong> : s’adapte à votre peau et à chaque zone du corps</li>\n  </ul>\n\n</section>\n\n<script>\n(function(){\n  const section = document.querySelector('[data-elx-reviews]');\n  if(!section) return;\n\n  const quoteEl = section.querySelector('[data-elx-quote]');\n  const metaEl  = section.querySelector('[data-elx-meta]');\n  const avatarEl = section.querySelector('[data-elx-avatar]');\n  const dots = section.querySelectorAll('.elxR-dot');\n\n  const slides = [\n    {\n      quote:\"Après quelques séances, mes poils repoussent beaucoup moins vite. Très satisfaite.\",\n      name:\"Claire M.\",\n      city:\"Paris\",\n      days:6,\n      avatar:\"https://i.pravatar.cc/84?img=15\"\n    },\n    {\n      quote:\"Le mode glacé change tout. C’est bien plus confortable que ce que j’imaginais.\",\n      name:\"Sophie L.\",\n      city:\"Lyon\",\n      days:12,\n      avatar:\"https://i.pravatar.cc/84?img=28\"\n    },\n    {\n      quote:\"Simple à utiliser, design canon et résultats visibles sur les jambes et les aisselles.\",\n      name:\"Émilie R.\",\n      city:\"Nice\",\n      days:3,\n      avatar:\"https://i.pravatar.cc/84?img=45\"\n    }\n  ];\n\n  let current = 0;\n  let autoSlide;\n\n  function render(i){\n    const s = slides[i];\n    quoteEl.textContent = s.quote;\n    avatarEl.src = s.avatar;\n    avatarEl.alt = `Avis de ${s.name}`;\n    metaEl.textContent = `${s.name} · ${s.city} · il y a ${s.days} jours`;\n    dots.forEach((d,idx)=>d.classList.toggle(\"active\", idx===i));\n    current = i;\n  }\n\n  function goTo(idx){\n    const i = Number(idx);\n    if(Number.isNaN(i)) return;\n    render(i);\n    restartAuto();\n  }\n\n  function startAuto(){\n    autoSlide = setInterval(()=>{ render((current+1)%slides.length); }, 3500);\n  }\n\n  function restartAuto(){\n    clearInterval(autoSlide);\n    startAuto();\n  }\n\n  dots.forEach(dot=>{\n    dot.addEventListener(\"click\",()=> goTo(dot.dataset.idx));\n    dot.addEventListener(\"keydown\",(e)=>{\n      if(e.key === \"Enter\" || e.key === \" \"){\n        e.preventDefault();\n        goTo(dot.dataset.idx);\n      }\n    });\n  });\n\n  render(0);\n  startAuto();\n})();\n</script>"
+          }
         },
         "title_VAcehU": {
           "type": "title",
@@ -317,14 +319,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description_kNTKUY": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
         "variant_picker_MtUHnT": {
           "type": "variant_picker",
           "settings": {
@@ -335,10 +329,6 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector_KtfqVX": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_wR9pdb": {
           "type": "buy_buttons",
@@ -351,22 +341,43 @@
             "payment_button_text_color": ""
           }
         },
+        "image_JhLgh6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/soya-payments.svg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "liquid_KXArPQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== TIMER + STOCK MOBILE FIX ===== -->\n<p id=\"elLine\" style=\"\n  font-size:13px;\n  margin-top:6px;\n  font-weight:600;\n  display:flex;\n  flex-wrap:wrap;\n  gap:4px;\n  align-items:center;\n  line-height:1.4;\n\">\n  <span>Offre valable encore</span>\n  <span id=\"elTimer\" style=\"color:#c40000;font-weight:800;\">10:00</span>\n  <span>· Stock limité :</span>\n  <span id=\"elStock\" style=\"font-weight:800;\">4</span>\n  <span>·</span>\n  <span style=\"color:#0a8f08;font-weight:800;\">Livraison gratuite aujourd’hui</span>\n</p>\n\n<script>\n  // Timer 10 minutes\n  let time = 10 * 60;\n  const timerEl = document.getElementById(\"elTimer\");\n\n  // Stock dynamique\n  const STOCK_MIN = 3;\n  const STOCK_MAX = 7;\n  const stockEl = document.getElementById(\"elStock\");\n  let stock = Math.floor(Math.random() * (STOCK_MAX - STOCK_MIN + 1)) + STOCK_MIN;\n  stockEl.textContent = stock;\n\n  setInterval(() => {\n    time--;\n    if (time <= 0) time = 10 * 60;\n\n    const m = String(Math.floor(time / 60)).padStart(2,'0');\n    const s = String(time % 60).padStart(2,'0');\n    timerEl.textContent = `${m}:${s}`;\n  }, 1000);\n</script>\n<!-- ===== FIN ===== -->"
+          }
+        },
+        "liquid_bWzEe7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n:root{\n  --faq-border:#ededed;\n  --faq-text:#111;\n  --faq-muted:#555;\n  --faq-btn-bg:#f6f6f6;\n  --faq-btn-border:#e2e2e2;\n  --faq-btn-color:#777;\n}\n\n/* CONTENEUR */\n.eline-faq{\n  width:100%;\n  max-width:760px;\n  margin:0 auto;\n  font-family:inherit;\n}\n\n/* ITEM */\n.eline-faq details{\n  border-bottom:1px solid var(--faq-border);\n}\n\n/* QUESTION */\n.eline-faq summary{\n  list-style:none;\n  cursor:pointer;\n  display:flex;\n  align-items:center;\n  justify-content:space-between;\n  gap:12px;\n  padding:16px 0;\n  font-size:16px;\n  font-weight:600;\n  color:var(--faq-text);\n}\n.eline-faq summary::-webkit-details-marker{ display:none; }\n\n.faq-q{ flex:1; }\n\n/* BOUTON + / - */\n.faq-btn{\n  width:30px;\n  height:30px;\n  border-radius:50%;\n  background:var(--faq-btn-bg);\n  border:1px solid var(--faq-btn-border);\n  color:var(--faq-btn-color);\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  font-size:18px;\n}\n\n/* OUVERT = - */\ndetails[open] .faq-btn{ color:#444; }\n\n/* CONTENU */\n.eline-content{\n  padding:0 0 14px;\n  font-size:14px;\n  line-height:1.65;\n  color:var(--faq-muted);\n}\n.eline-content p{ margin:0 0 10px; }\n.eline-content ul{ margin:0 0 10px 18px; }\n.eline-content li{ margin-bottom:6px; }\n.eline-content strong{ color:var(--faq-text); }\n\n/* Mobile */\n@media(max-width:480px){\n  .eline-faq summary{ font-size:15px; padding:14px 0; }\n}\n</style>\n\n<div class=\"eline-faq\" id=\"elineFaq\">\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Qu’est-ce que ELINEA ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p><strong>ELINEA</strong> est un épilateur à lumière pulsée (IPL) conçu pour réduire durablement la repousse des poils depuis chez vous.</p>\n      <p>Il associe une technologie IPL avancée, un <strong>refroidissement glacé</strong> pour plus de confort, et <strong>5 niveaux d’intensité</strong> pour s’adapter à votre peau.</p>\n      <p>Simple à utiliser, il convient parfaitement aux jambes, bras, aisselles, maillot et autres zones du corps.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Que contient le pack ELINEA ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <ul>\n        <li>1 épilateur à lumière pulsée ELINEA</li>\n        <li>1 paire de lunettes de protection</li>\n        <li>1 rasoir</li>\n        <li>1 câble d’alimentation</li>\n        <li>1 manuel d’utilisation</li>\n      </ul>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Comment utiliser ELINEA ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p><strong>Étape 1 :</strong> rasez la zone à traiter avant la séance.</p>\n      <p><strong>Étape 2 :</strong> branchez l’appareil et choisissez le niveau d’intensité adapté.</p>\n      <p><strong>Étape 3 :</strong> placez la fenêtre de flash bien à plat sur la peau puis déclenchez le flash.</p>\n      <p><strong>Étape 4 :</strong> hydratez votre peau après utilisation et évitez une exposition directe au soleil juste après la séance.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Quand puis-je voir les résultats ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>Les premiers résultats peuvent apparaître après quelques séances régulières.</p>\n      <p>Pour de meilleurs résultats, il est recommandé d’utiliser ELINEA de façon constante pendant plusieurs semaines selon votre type de peau et de pilosité.</p>\n      <p>La repousse devient progressivement plus lente, plus fine et moins visible.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Est-ce que l’utilisation est douloureuse ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>ELINEA a été conçu pour offrir une expérience plus confortable grâce à sa fonction de <strong>refroidissement glacé</strong>.</p>\n      <p>La sensation peut varier selon la sensibilité de chacun, mais la majorité des utilisatrices décrivent une utilisation douce et bien plus agréable qu’une épilation classique.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Expédition</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>\n        Commande passée aujourd’hui (<strong><span data-today></span></strong>)\n        avant <strong>minuit</strong> : traitement rapide de votre commande.\n      </p>\n      <p>Un e-mail de confirmation avec suivi vous sera envoyé dès l’expédition.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Garantie 14 jours Satisfait ou Remboursé</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>Testez <strong>ELINEA</strong> en toute sérénité.</p>\n      <p>Si vous n’êtes pas satisfait, vous disposez de <strong>14 jours</strong> pour demander un retour selon notre politique de remboursement.</p>\n    </div>\n  </details>\n\n</div>\n\n<script>\n(() => {\n  const items = document.querySelectorAll('#elineFaq details');\n\n  items.forEach(d => {\n    const btn = d.querySelector('.faq-btn');\n\n    d.addEventListener('toggle', () => {\n      items.forEach(o => {\n        const b = o.querySelector('.faq-btn');\n        if(o === d && o.open){\n          b.textContent = '−';\n        } else {\n          o.removeAttribute('open');\n          b.textContent = '+';\n        }\n      });\n    });\n  });\n\n  const today = new Date();\n  const fmt = today.toLocaleDateString('fr-FR', {\n    weekday:'long',\n    year:'numeric',\n    month:'long',\n    day:'numeric'\n  });\n\n  document.querySelectorAll('[data-today]')\n    .forEach(el => el.textContent = fmt);\n})();\n</script>"
+          }
+        },
         "pickup_availability_UCrFgL": {
           "type": "pickup_availability",
           "settings": {}
         }
       },
       "block_order": [
-        "vendor_49Pwn9",
+        "liquid_Ntz3Ef",
         "title_VAcehU",
         "badges_mrhJzg",
         "price_FBajMc",
         "rating_GPt8xw",
         "separator_GPKUmr",
-        "description_kNTKUY",
         "variant_picker_MtUHnT",
-        "quantity_selector_KtfqVX",
         "buy_buttons_wR9pdb",
+        "image_JhLgh6",
+        "liquid_KXArPQ",
+        "liquid_bWzEe7",
         "pickup_availability_UCrFgL"
       ],
       "name": "Featured product",
