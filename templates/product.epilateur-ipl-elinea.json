@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_VThTTz": {
+      "type": "slideshow",
+      "blocks": {
+        "image_36g6aT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/incroyable.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Un rasage net, sans irritation. Enfin.",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_36g6aT"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_KPjzCP": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"press-wrapper\">\n\n  <!-- TITRE -->\n  <div class=\"press-title\">\n    VU SUR :\n  </div>\n\n  <!-- MARQUEE LOGOS -->\n  <div class=\"press-marquee\">\n    <div class=\"press-marquee__fade press-marquee__fade--left\"></div>\n    <div class=\"press-marquee__fade press-marquee__fade--right\"></div>\n\n    <div class=\"press-marquee__track\">\n      <div class=\"press-marquee__group\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/a98d4d0c-25de-453f-8409-a07b03af839f.png?v=1766212298\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n\n      <!-- duplication pour défilement infini -->\n      <div class=\"press-marquee__group\" aria-hidden=\"true\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_26da272d-dabb-4643-aebd-8b4c6fc616fc.png?v=1765667956\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/a98d4d0c-25de-453f-8409-a07b03af839f.png?v=1766212298\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/Quotes_Marie_Claire_logo_c9e3e23b-169e-4d5f-935a-ee4dd70f9a41.png?v=1765666721\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_c652c990-dae6-4f31-897e-2bdbd0aab709.png?v=1764787512\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/download_54c52adc-e32e-4faf-ba9b-d5a80d4f6d16.png?v=1764787400\">\n      </div>\n    </div>\n  </div>\n\n</section>\n\n<style>\n.press-wrapper{\n  background:#fff;\n  padding: 30px 0 10px;\n}\n\n/* TITRE */\n.press-title{\n  text-align:center;\n  font-weight:700;\n  letter-spacing:0.18em;\n  font-size:14px;\n  color:#000;\n  margin-bottom:18px;\n}\n\n/* MARQUEE */\n.press-marquee{\n  --speed: 14s; /* PLUS RAPIDE */\n  --gap: 36px;\n\n  position: relative;\n  overflow: hidden;\n  background: #ffffff;\n  padding: 26px 0;\n}\n\n.press-marquee__track{\n  display: flex;\n  width: max-content;\n  animation: scroll var(--speed) linear infinite;\n}\n\n.press-marquee:hover .press-marquee__track{\n  animation-play-state: paused;\n}\n\n.press-marquee__group{\n  display: flex;\n  align-items: center;\n  gap: var(--gap);\n  padding: 0 var(--gap);\n}\n\n.press-marquee__group img{\n  width: 130px;\n  height: 130px;\n  object-fit: contain;\n  background: #ffffff;\n  border-radius: 18px;\n  padding: 18px;\n  box-shadow: 0 10px 26px rgba(0,0,0,.1);\n  transition: transform .25s ease, box-shadow .25s ease;\n}\n\n.press-marquee__group img:hover{\n  transform: scale(1.07);\n  box-shadow: 0 16px 38px rgba(0,0,0,.16);\n}\n\n/* FADES */\n.press-marquee__fade{\n  position:absolute;\n  top:0; bottom:0;\n  width: 120px;\n  pointer-events:none;\n  z-index:2;\n}\n.press-marquee__fade--left{\n  left:0;\n  background: linear-gradient(90deg,#fff 0%,rgba(255,255,255,0) 100%);\n}\n.press-marquee__fade--right{\n  right:0;\n  background: linear-gradient(270deg,#fff 0%,rgba(255,255,255,0) 100%);\n}\n\n@keyframes scroll{\n  from{ transform: translateX(0); }\n  to{ transform: translateX(-50%); }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_pAGRhF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QFLydF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/benefice-carre-3.webp",
+            "mobile_image": "shopify://shop_images/benefice-carre-3.webp",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QFLydF"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_mHrX83": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .reviews-proof {\n    background: #ffffff;\n    border-radius: 20px;\n    padding: 24px;\n    max-width: 1100px;\n    margin: 0 auto;\n    border: 1px solid rgba(0,0,0,.06);\n    box-shadow: 0 12px 32px rgba(0,0,0,.08);\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Inter, Arial, sans-serif;\n  }\n\n  .rp-title {\n    font-size: 26px;\n    font-weight: 800;\n    color: #111;\n    margin-bottom: 8px;\n  }\n\n  .rp-meta {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    gap: 12px;\n    font-size: 14px;\n    color: #444;\n    margin-bottom: 20px;\n  }\n\n  .rp-stars svg { width: 16px; height: 16px; fill: #00b67a; }\n\n  .rp-grid{\n    display:grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap:16px;\n  }\n\n  .rp-card{\n    background:#fafafa;\n    border-radius:16px;\n    padding:10px;\n    border:1px solid rgba(0,0,0,.06);\n    display:flex;\n    flex-direction:column;\n    gap:10px;\n  }\n\n  .rp-imgwrap{\n    width:100%;\n    aspect-ratio: 4 / 5;\n    border-radius:12px;\n    background:#f3f4f6;\n    overflow:hidden;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n  }\n\n  .rp-card img{\n    width:100%;\n    height:100%;\n    object-fit:contain;\n    display:block;\n  }\n\n  .rp-name{\n    font-size:14px;\n    font-weight:800;\n    color:#111;\n    margin-top:2px;\n  }\n\n  .rp-comment{\n    font-size:13px;\n    color:#333;\n    line-height:1.45;\n  }\n\n  @media (max-width: 900px){\n    .rp-grid{ grid-template-columns: repeat(2, 1fr); }\n  }\n\n  @media (max-width: 600px){\n    .reviews-proof{ padding:16px; }\n    .rp-title{ font-size:22px; }\n\n    .rp-grid{\n      display:flex;\n      gap:12px;\n      overflow-x:auto;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n      padding-bottom:6px;\n    }\n\n    .rp-grid::-webkit-scrollbar{display:none}\n\n    .rp-card{\n      flex: 0 0 86%;\n      scroll-snap-align: center;\n      padding:12px;\n      border-radius:18px;\n    }\n\n    .rp-imgwrap{\n      aspect-ratio: 9 / 16;\n      border-radius:14px;\n    }\n\n    .rp-name{ font-size:15px; }\n    .rp-comment{ font-size:14px; }\n  }\n</style>\n\n<section class=\"reviews-proof\">\n  <h2 class=\"rp-title\">Nos clients recommandent ELINEA</h2>\n\n  <div class=\"rp-meta\">\n    <strong>Excellent • 4.7 / 5</strong>\n\n    <span class=\"rp-stars\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </span>\n\n    <span>basé sur +1800 avis</span>\n  </div>\n\n  <div class=\"rp-grid\">\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/ARYA_LUSH_AV_AP.webp?v=1768083523\">\n      </div>\n      <div class=\"rp-name\">Lucas D.</div>\n      <div class=\"rp-comment\">« Avant j’avais toujours des rougeurs dans le cou après le rasage. Avec ça c’est beaucoup plus propre et surtout aucune brûlure. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/ARYA_LUSH_AV_AP_2.webp?v=1768083523\">\n      </div>\n      <div class=\"rp-name\">Maxime M.</div>\n      <div class=\"rp-comment\">« J’ai la peau sensible et les rasoirs classiques m’irritaient. Là la barbe est nette et la peau reste confortable. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/ARYA_LUSH_AV_AP_3.webp?v=1768083523\">\n      </div>\n      <div class=\"rp-name\">Thomas R.</div>\n      <div class=\"rp-comment\">« Je voulais un truc simple pour entretenir ma barbe. Pas de coupures et le résultat est vraiment propre. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/29481dcd-4149-47cc-9022-7bb36afa6fff.png?v=1769957293\">\n      </div>\n      <div class=\"rp-name\">Nicolas B.</div>\n      <div class=\"rp-comment\">« J’avais souvent des petits boutons après le rasage. Depuis que je l’utilise ma peau est beaucoup plus nette. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/d115ed03-2b4a-4324-888b-59024a9c511c.png?v=1769957294\">\n      </div>\n      <div class=\"rp-name\">Julien T.</div>\n      <div class=\"rp-comment\">« Parfait pour entretenir la barbe rapidement. Je peux le faire à la maison en quelques minutes. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/ce215593-e0b6-4ffb-9da8-96023f8e471b.png?v=1769957293\">\n      </div>\n      <div class=\"rp-name\">Alexandre P.</div>\n      <div class=\"rp-comment\">« Je l’utilise pour la barbe et le cou. Le résultat est propre et la peau reste douce. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/d61cfe72-827c-4774-ba96-436e61328b36.png?v=1769957292\">\n      </div>\n      <div class=\"rp-name\">Kevin L.</div>\n      <div class=\"rp-comment\">« Beaucoup plus pratique qu’un rasoir classique. Pas d’irritations et ça va beaucoup plus vite. »</div>\n    </div>\n\n    <div class=\"rp-card\">\n      <div class=\"rp-imgwrap\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1003/8496/4940/files/b5a87788-006f-4535-9ce3-306b43da27c6.png?v=1769957295\">\n      </div>\n      <div class=\"rp-name\">Anthony G.</div>\n      <div class=\"rp-comment\">« Franchement surpris du résultat. La barbe est nette et je n’ai plus les irritations des rasoirs jetables. »</div>\n    </div>\n\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_YCqbeE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WXBdgj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2d5245b7-361a-4732-a13f-fcac4271effb.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WXBdgj"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_nqakmn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- =========================================================\nBANNIÈRE AVIS (AUTO + DOTS) - MOBILE FRIENDLY\n========================================================= -->\n\n<style>\n  .elxR-banner{\n    font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",Arial,sans-serif;\n    max-width:980px;margin:18px auto;padding:0 16px;color:#111;\n  }\n\n  .elxR-toprow{\n    display:flex;align-items:center;justify-content:space-between;\n    gap:12px;flex-wrap:wrap;margin-bottom:12px;\n  }\n\n  .elxR-reviews-link{display:inline-flex;align-items:center;gap:10px;color:#111;font-size:14px;font-weight:600;}\n  .elxR-reviews-link a{color:#111;text-decoration:underline;}\n  .elxR-stars{color:#22a06b;letter-spacing:2px;font-size:14px;display:inline-flex;align-items:center;gap:8px;}\n  .elxR-rating{font-size:13px;font-weight:700;color:#111;}\n  .elxR-flag{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;white-space:nowrap;}\n\n  .elxR-quote{\n    background:#f6f0e7;border:1px solid rgba(0,0,0,.08);\n    border-radius:12px;padding:12px 12px;\n    display:flex;align-items:flex-start;gap:10px;\n    position:relative;margin-bottom:12px;\n  }\n\n  .elxR-quote .avatar{\n    width:40px;height:40px;border-radius:999px;object-fit:cover;\n    border:1px solid rgba(0,0,0,.08);flex:0 0 auto;\n  }\n\n  .elxR-quote .qwrap{min-width:0; padding-right:56px;} /* réserve place pour les dots */\n  .elxR-quote .qtitle{\n    font-weight:700;font-size:14px;line-height:1.25;margin:0 0 4px;\n    word-break:break-word;\n  }\n  .elxR-quote .qmeta{font-size:12.5px;color:#555;margin:0;line-height:1.2;}\n\n  .elxR-dots{\n    display:flex;gap:7px;\n    position:absolute;right:12px;top:50%;\n    transform:translateY(-50%);\n  }\n  .elxR-dot{width:7px;height:7px;border-radius:50%;background:rgba(0,0,0,.25);cursor:pointer;}\n  .elxR-dot.active{background:rgba(0,0,0,.85);}\n\n  .elxR-title{\n    font-family:Georgia,\"Times New Roman\",serif;\n    font-size:44px;font-weight:500;margin:8px 0 6px;\n    line-height:1.05;\n  }\n  .elxR-hr{height:1px;background:rgba(0,0,0,.08);border:0;margin:12px 0 14px;}\n\n  .elxR-bullets{list-style:none;padding:0;margin:0;display:grid;gap:10px;}\n  .elxR-bullets li{display:flex;gap:10px;font-size:14px;line-height:1.25;}\n  .elxR-bullets li strong{font-weight:800;}\n\n  /* ✅ MOBILE OPTI */\n  @media (max-width:640px){\n    .elxR-banner{padding:0 12px;margin:14px auto;}\n    .elxR-toprow{flex-direction:column;align-items:flex-start;gap:8px;}\n    .elxR-title{font-size:30px;line-height:1.08;margin-top:6px;}\n    .elxR-quote{padding:11px 11px;}\n    .elxR-quote .avatar{width:36px;height:36px;}\n    .elxR-quote .qwrap{padding-right:0;} /* les dots descendent en bas */\n    .elxR-dots{\n      position:static;transform:none;margin-top:10px;\n      justify-content:flex-start;\n    }\n  }\n</style>\n\n<section class=\"elxR-banner\" data-elx-reviews>\n\n  <div class=\"elxR-toprow\">\n    <div class=\"elxR-reviews-link\">\n      <span class=\"elxR-stars\">\n        <span>★★★★<span style=\"opacity:.55;\">★</span></span>\n        <span class=\"elxR-rating\">4.7</span>\n      </span>\n      <a href=\"#avis\">1800 avis</a>\n    </div>\n\n    <div class=\"elxR-flag\">\n      <span style=\"font-size:18px;\">🇫🇷</span>\n      <span>Marque française</span>\n    </div>\n  </div>\n\n  <div class=\"elxR-quote\">\n    <img class=\"avatar\" data-elx-avatar src=\"https://i.pravatar.cc/84?img=15\" alt=\"Avis client\">\n    <div class=\"qwrap\">\n      <p class=\"qtitle\" data-elx-quote>Zéro irritation, hyper doux. Je recommande à 100%.</p>\n      <p class=\"qmeta\" data-elx-meta></p>\n\n      <div class=\"elxR-dots\" aria-label=\"Avis clients\">\n        <span class=\"elxR-dot active\" data-idx=\"0\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 1\"></span>\n        <span class=\"elxR-dot\" data-idx=\"1\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 2\"></span>\n        <span class=\"elxR-dot\" data-idx=\"2\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 3\"></span>\n      </div>\n    </div>\n  </div>\n\n  <h1 class=\"elxR-title\">Rasoir Électrique Précision</h1>\n  <hr class=\"elxR-hr\">\n\n  <ul class=\"elxR-bullets\">\n    <li>✔ <strong>Rasage doux</strong> : évite irritations & coupures</li>\n    <li>✔ <strong>Zones sensibles</strong> : bikini, aisselles, corps</li>\n    <li>✔ <strong>Peau plus nette</strong> : aide à prévenir les poils incarnés</li>\n  </ul>\n\n</section>\n\n<script>\n(function(){\n  const section = document.querySelector('[data-elx-reviews]');\n  if(!section) return;\n\n  const quoteEl = section.querySelector('[data-elx-quote]');\n  const metaEl  = section.querySelector('[data-elx-meta]');\n  const avatarEl = section.querySelector('[data-elx-avatar]');\n  const dots = section.querySelectorAll('.elxR-dot');\n\n  const slides = [\n    {quote:\"Zéro irritation, hyper doux. Je recommande à 100%.\", name:\"Claire M.\", city:\"Paris\", days:6, avatar:\"https://i.pravatar.cc/84?img=15\"},\n    {quote:\"Super précis sur les zones sensibles.\", name:\"Sophie L.\", city:\"Lyon\", days:12, avatar:\"https://i.pravatar.cc/84?img=28\"},\n    {quote:\"Peau nette et moins de poils incarnés.\", name:\"Émilie R.\", city:\"Nice\", days:3, avatar:\"https://i.pravatar.cc/84?img=45\"}\n  ];\n\n  let current = 0;\n\n  function render(i){\n    const s = slides[i];\n    quoteEl.textContent = s.quote;\n    avatarEl.src = s.avatar;\n    metaEl.textContent = `${s.name} · ${s.city} · il y a ${s.days} jours`;\n    dots.forEach((d,idx)=>d.classList.toggle(\"active\", idx===i));\n    current = i;\n  }\n\n  function goTo(idx){\n    const i = Number(idx);\n    if(Number.isNaN(i)) return;\n    render(i);\n  }\n\n  dots.forEach(dot=>{\n    dot.addEventListener(\"click\",()=> goTo(dot.dataset.idx));\n    dot.addEventListener(\"keydown\",(e)=>{\n      if(e.key === \"Enter\" || e.key === \" \"){\n        e.preventDefault();\n        goTo(dot.dataset.idx);\n      }\n    });\n  });\n\n  setInterval(()=>{ render((current+1)%slides.length); }, 3500);\n  render(0);\n})();\n</script>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "sku_QFwMnn": {
+          "type": "sku",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "image_mtTqxL": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "liquid_kHWneL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Trustpilot script global -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- Fin script Trustpilot -->"
+          }
+        },
+        "image_cqbyxR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/soya-payments.svg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
+        "liquid_QzhLbe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== TIMER + STOCK MOBILE FIX ===== -->\n<p id=\"elLine\" style=\"\n  font-size:13px;\n  margin-top:6px;\n  font-weight:600;\n  display:flex;\n  flex-wrap:wrap;\n  gap:4px;\n  align-items:center;\n  line-height:1.4;\n\">\n  <span>Offre valable encore</span>\n  <span id=\"elTimer\" style=\"color:#c40000;font-weight:800;\">10:00</span>\n  <span>· Stock limité :</span>\n  <span id=\"elStock\" style=\"font-weight:800;\">4</span>\n  <span>·</span>\n  <span style=\"color:#0a8f08;font-weight:800;\">Livraison gratuite aujourd’hui</span>\n</p>\n\n<script>\n  // Timer 10 minutes\n  let time = 10 * 60;\n  const timerEl = document.getElementById(\"elTimer\");\n\n  // Stock dynamique\n  const STOCK_MIN = 3;\n  const STOCK_MAX = 7;\n  const stockEl = document.getElementById(\"elStock\");\n  let stock = Math.floor(Math.random() * (STOCK_MAX - STOCK_MIN + 1)) + STOCK_MIN;\n  stockEl.textContent = stock;\n\n  setInterval(() => {\n    time--;\n    if (time <= 0) time = 10 * 60;\n\n    const m = String(Math.floor(time / 60)).padStart(2,'0');\n    const s = String(time % 60).padStart(2,'0');\n    timerEl.textContent = `${m}:${s}`;\n  }, 1000);\n</script>\n<!-- ===== FIN ===== -->"
+          }
+        },
+        "liquid_ANqy67": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n:root{\n  --faq-border:#ededed;\n  --faq-text:#111;\n  --faq-muted:#555;\n  --faq-btn-bg:#f6f6f6;\n  --faq-btn-border:#e2e2e2;\n  --faq-btn-color:#777;\n}\n\n/* CONTENEUR */\n.eline-faq{\n  width:100%;\n  max-width:760px;\n  margin:0 auto;\n  font-family:inherit;\n}\n\n/* ITEM */\n.eline-faq details{\n  border-bottom:1px solid var(--faq-border);\n}\n\n/* QUESTION */\n.eline-faq summary{\n  list-style:none;\n  cursor:pointer;\n  display:flex;\n  align-items:center;\n  justify-content:space-between;\n  gap:12px;\n  padding:16px 0;\n  font-size:16px;\n  font-weight:600;\n  color:var(--faq-text);\n}\n.eline-faq summary::-webkit-details-marker{ display:none; }\n\n.faq-q{ flex:1; }\n\n/* BOUTON + / - */\n.faq-btn{\n  width:30px;\n  height:30px;\n  border-radius:50%;\n  background:var(--faq-btn-bg);\n  border:1px solid var(--faq-btn-border);\n  color:var(--faq-btn-color);\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  font-size:18px;\n}\n\n/* OUVERT = - */\ndetails[open] .faq-btn{ color:#444; }\n\n/* CONTENU */\n.eline-content{\n  padding:0 0 14px;\n  font-size:14px;\n  line-height:1.65;\n  color:var(--faq-muted);\n}\n.eline-content p{ margin:0 0 10px; }\n.eline-content ul{ margin:0 0 10px 18px; }\n.eline-content li{ margin-bottom:6px; }\n.eline-content strong{ color:var(--faq-text); }\n\n/* Mobile */\n@media(max-width:480px){\n  .eline-faq summary{ font-size:15px; padding:14px 0; }\n}\n</style>\n\n<div class=\"eline-faq\" id=\"elineFaq\">\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Qu’est-ce que ELINEA ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p><strong>ELINEA</strong> est une solution beauté 2-en-1 conçue pour simplifier votre routine.</p>\n      <p>Double tête, utilisation douce et précise, idéale pour les peaux sensibles.</p>\n      <p>Étanche et rechargeable en USB-C, elle s’utilise sur peau sèche ou humide.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Que contient le pack ELINEA ?</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <ul>\n        <li>Tête de tonte corps</li>\n        <li>Tête de précision</li>\n        <li>Sabot</li>\n        <li>Câble de chargement USB-C</li>\n        <li>Brosse de nettoyage</li>\n        <li>Manuel d’utilisation</li>\n        <li><strong>E-book offert</strong></li>\n      </ul>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Conseils d’utilisation</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p><strong>Avant :</strong> exfolier la peau 24h avant.</p>\n      <p><strong>Pendant :</strong> angle ~30°, pression légère.</p>\n      <p><strong>Après :</strong> soin apaisant sans alcool.</p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Expédition</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>\n        Commande passée aujourd’hui (<strong><span data-today></span></strong>)\n        avant <strong>minuit</strong> : expédition <strong>le jour même</strong>.\n      </p>\n    </div>\n  </details>\n\n  <details>\n    <summary>\n      <span class=\"faq-q\">Garantie 30 jours Satisfait ou Remboursé</span>\n      <span class=\"faq-btn\">+</span>\n    </summary>\n    <div class=\"eline-content\">\n      <p>Essayez ELINEA pendant 30 jours.</p>\n      <p>Remboursement intégral si vous n’êtes pas satisfait.</p>\n    </div>\n  </details>\n\n</div>\n\n<script>\n(() => {\n  const items = document.querySelectorAll('#elineFaq details');\n\n  items.forEach(d => {\n    const btn = d.querySelector('.faq-btn');\n\n    d.addEventListener('toggle', () => {\n      items.forEach(o => {\n        const b = o.querySelector('.faq-btn');\n        if(o === d && o.open){\n          b.textContent = '−';\n        } else {\n          o.removeAttribute('open');\n          b.textContent = '+';\n        }\n      });\n    });\n  });\n\n  const today = new Date();\n  const fmt = today.toLocaleDateString('fr-FR', {\n    weekday:'long',\n    year:'numeric',\n    month:'long',\n    day:'numeric'\n  });\n\n  document.querySelectorAll('[data-today]')\n    .forEach(el => el.textContent = fmt);\n})();\n</script>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_nqakmn",
+        "price",
+        "sku_QFwMnn",
+        "badges",
+        "image_mtTqxL",
+        "payment_terms",
+        "separator",
+        "buy_buttons",
+        "variant_picker",
+        "liquid_kHWneL",
+        "image_cqbyxR",
+        "liquid_QzhLbe",
+        "liquid_ANqy67"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_VThTTz",
+    "custom_liquid_KPjzCP",
+    "slideshow_pAGRhF",
+    "custom_liquid_mHrX83",
+    "slideshow_YCqbeE",
+    "main"
+  ]
+}
