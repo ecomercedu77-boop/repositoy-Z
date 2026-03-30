@@ -15,11 +15,12 @@
         "image_36g6aT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/incroyable.webp",
+            "image": "shopify://shop_images/76fdf30d-b83b-4dcc-9107-0658f07f9cb3.png",
+            "mobile_image": "shopify://shop_images/76fdf30d-b83b-4dcc-9107-0658f07f9cb3.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Un rasage net, sans irritation. Enfin.",
+            "subheading": "",
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
