@@ -283,6 +283,110 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "featured_product_mLAbqW": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_49Pwn9": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_VAcehU": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_mrhJzg": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_FBajMc": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_GPt8xw": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_GPKUmr": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_kNTKUY": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_MtUHnT": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_KtfqVX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_wR9pdb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_UCrFgL": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_49Pwn9",
+        "title_VAcehU",
+        "badges_mrhJzg",
+        "price_FBajMc",
+        "rating_GPt8xw",
+        "separator_GPKUmr",
+        "description_kNTKUY",
+        "variant_picker_MtUHnT",
+        "quantity_selector_KtfqVX",
+        "buy_buttons_wR9pdb",
+        "pickup_availability_UCrFgL"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "epilateur-a-lumiere-pulsee",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -291,6 +395,7 @@
     "slideshow_pAGRhF",
     "custom_liquid_mHrX83",
     "slideshow_YCqbeE",
-    "main"
+    "main",
+    "featured_product_mLAbqW"
   ]
 }
