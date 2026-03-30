@@ -237,6 +237,7 @@
         "liquid_QzhLbe",
         "liquid_ANqy67"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
