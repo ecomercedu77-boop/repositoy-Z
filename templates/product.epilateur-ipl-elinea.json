@@ -266,6 +266,7 @@
         "liquid_QzhLbe",
         "liquid_ANqy67"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
@@ -293,21 +294,9 @@
             "liquid": "<!-- =========================================================\nBANNIÈRE AVIS ELINEA IPL (AUTO + DOTS) - MOBILE FRIENDLY\n========================================================= -->\n\n<style>\n  .elxR-banner{\n    font-family:-apple-system,BlinkMacSystemFont,\"Helvetica Neue\",Arial,sans-serif;\n    max-width:980px;margin:18px auto;padding:0 16px;color:#111;\n  }\n\n  .elxR-toprow{\n    display:flex;align-items:center;justify-content:space-between;\n    gap:12px;flex-wrap:wrap;margin-bottom:12px;\n  }\n\n  .elxR-reviews-link{display:inline-flex;align-items:center;gap:10px;color:#111;font-size:14px;font-weight:600;}\n  .elxR-reviews-link a{color:#111;text-decoration:underline;}\n  .elxR-stars{color:#22a06b;letter-spacing:2px;font-size:14px;display:inline-flex;align-items:center;gap:8px;}\n  .elxR-rating{font-size:13px;font-weight:700;color:#111;}\n  .elxR-flag{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;white-space:nowrap;}\n\n  .elxR-quote{\n    background:#f6f0e7;border:1px solid rgba(0,0,0,.08);\n    border-radius:12px;padding:12px 12px;\n    display:flex;align-items:flex-start;gap:10px;\n    position:relative;margin-bottom:12px;\n  }\n\n  .elxR-quote .avatar{\n    width:40px;height:40px;border-radius:999px;object-fit:cover;\n    border:1px solid rgba(0,0,0,.08);flex:0 0 auto;\n  }\n\n  .elxR-quote .qwrap{min-width:0; padding-right:56px;}\n  .elxR-quote .qtitle{\n    font-weight:700;font-size:14px;line-height:1.25;margin:0 0 4px;\n    word-break:break-word;\n  }\n  .elxR-quote .qmeta{font-size:12.5px;color:#555;margin:0;line-height:1.2;}\n\n  .elxR-dots{\n    display:flex;gap:7px;\n    position:absolute;right:12px;top:50%;\n    transform:translateY(-50%);\n  }\n  .elxR-dot{width:7px;height:7px;border-radius:50%;background:rgba(0,0,0,.25);cursor:pointer;}\n  .elxR-dot.active{background:rgba(0,0,0,.85);}\n\n  .elxR-title{\n    font-family:Georgia,\"Times New Roman\",serif;\n    font-size:44px;font-weight:500;margin:8px 0 6px;\n    line-height:1.05;\n  }\n  .elxR-subtitle{\n    font-size:16px;\n    color:#555;\n    margin:0 0 10px;\n    line-height:1.4;\n    max-width:720px;\n  }\n  .elxR-hr{height:1px;background:rgba(0,0,0,.08);border:0;margin:12px 0 14px;}\n\n  .elxR-bullets{list-style:none;padding:0;margin:0;display:grid;gap:10px;}\n  .elxR-bullets li{display:flex;gap:10px;font-size:14px;line-height:1.35;}\n  .elxR-bullets li strong{font-weight:800;}\n\n  @media (max-width:640px){\n    .elxR-banner{padding:0 12px;margin:14px auto;}\n    .elxR-toprow{flex-direction:column;align-items:flex-start;gap:8px;}\n    .elxR-title{font-size:30px;line-height:1.08;margin-top:6px;}\n    .elxR-subtitle{font-size:14px;}\n    .elxR-quote{padding:11px 11px;}\n    .elxR-quote .avatar{width:36px;height:36px;}\n    .elxR-quote .qwrap{padding-right:0;}\n    .elxR-dots{\n      position:static;transform:none;margin-top:10px;\n      justify-content:flex-start;\n    }\n  }\n</style>\n\n<section class=\"elxR-banner\" data-elx-reviews>\n\n  <div class=\"elxR-toprow\">\n    <div class=\"elxR-reviews-link\">\n      <span class=\"elxR-stars\">\n        <span>★★★★<span style=\"opacity:.55;\">★</span></span>\n        <span class=\"elxR-rating\">4.8</span>\n      </span>\n      <a href=\"#avis\">+ de 1 800 avis</a>\n    </div>\n\n    <div class=\"elxR-flag\">\n      <span style=\"font-size:18px;\">🇫🇷</span>\n      <span>Marque française</span>\n    </div>\n  </div>\n\n  <div class=\"elxR-quote\">\n    <img class=\"avatar\" data-elx-avatar src=\"https://i.pravatar.cc/84?img=15\" alt=\"Avis client\">\n    <div class=\"qwrap\">\n      <p class=\"qtitle\" data-elx-quote>Après quelques séances, mes poils repoussent beaucoup moins vite. Très satisfaite.</p>\n      <p class=\"qmeta\" data-elx-meta></p>\n\n      <div class=\"elxR-dots\" aria-label=\"Avis clients\">\n        <span class=\"elxR-dot active\" data-idx=\"0\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 1\"></span>\n        <span class=\"elxR-dot\" data-idx=\"1\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 2\"></span>\n        <span class=\"elxR-dot\" data-idx=\"2\" role=\"button\" tabindex=\"0\" aria-label=\"Avis 3\"></span>\n      </div>\n    </div>\n  </div>\n\n  <h1 class=\"elxR-title\">Épilateur IPL Elinea</h1>\n  <p class=\"elxR-subtitle\">Une solution simple et confortable pour réduire durablement la repousse des poils à la maison.</p>\n  <hr class=\"elxR-hr\">\n\n  <ul class=\"elxR-bullets\">\n    <li>✔ <strong>Réduction durable</strong> : aide à ralentir la repousse des poils séance après séance</li>\n    <li>✔ <strong>Technologie glacée</strong> : plus de confort pendant l’utilisation, même sur les zones sensibles</li>\n    <li>✔ <strong>5 niveaux d’intensité</strong> : s’adapte à votre peau et à chaque zone du corps</li>\n  </ul>\n\n</section>\n\n<script>\n(function(){\n  const section = document.querySelector('[data-elx-reviews]');\n  if(!section) return;\n\n  const quoteEl = section.querySelector('[data-elx-quote]');\n  const metaEl  = section.querySelector('[data-elx-meta]');\n  const avatarEl = section.querySelector('[data-elx-avatar]');\n  const dots = section.querySelectorAll('.elxR-dot');\n\n  const slides = [\n    {\n      quote:\"Après quelques séances, mes poils repoussent beaucoup moins vite. Très satisfaite.\",\n      name:\"Claire M.\",\n      city:\"Paris\",\n      days:6,\n      avatar:\"https://i.pravatar.cc/84?img=15\"\n    },\n    {\n      quote:\"Le mode glacé change tout. C’est bien plus confortable que ce que j’imaginais.\",\n      name:\"Sophie L.\",\n      city:\"Lyon\",\n      days:12,\n      avatar:\"https://i.pravatar.cc/84?img=28\"\n    },\n    {\n      quote:\"Simple à utiliser, design canon et résultats visibles sur les jambes et les aisselles.\",\n      name:\"Émilie R.\",\n      city:\"Nice\",\n      days:3,\n      avatar:\"https://i.pravatar.cc/84?img=45\"\n    }\n  ];\n\n  let current = 0;\n  let autoSlide;\n\n  function render(i){\n    const s = slides[i];\n    quoteEl.textContent = s.quote;\n    avatarEl.src = s.avatar;\n    avatarEl.alt = `Avis de ${s.name}`;\n    metaEl.textContent = `${s.name} · ${s.city} · il y a ${s.days} jours`;\n    dots.forEach((d,idx)=>d.classList.toggle(\"active\", idx===i));\n    current = i;\n  }\n\n  function goTo(idx){\n    const i = Number(idx);\n    if(Number.isNaN(i)) return;\n    render(i);\n    restartAuto();\n  }\n\n  function startAuto(){\n    autoSlide = setInterval(()=>{ render((current+1)%slides.length); }, 3500);\n  }\n\n  function restartAuto(){\n    clearInterval(autoSlide);\n    startAuto();\n  }\n\n  dots.forEach(dot=>{\n    dot.addEventListener(\"click\",()=> goTo(dot.dataset.idx));\n    dot.addEventListener(\"keydown\",(e)=>{\n      if(e.key === \"Enter\" || e.key === \" \"){\n        e.preventDefault();\n        goTo(dot.dataset.idx);\n      }\n    });\n  });\n\n  render(0);\n  startAuto();\n})();\n</script>"
           }
         },
-        "title_VAcehU": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
         "badges_mrhJzg": {
           "type": "badges",
           "settings": {}
-        },
-        "price_FBajMc": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
         },
         "rating_GPt8xw": {
           "type": "rating",
@@ -368,9 +357,7 @@
       },
       "block_order": [
         "liquid_Ntz3Ef",
-        "title_VAcehU",
         "badges_mrhJzg",
-        "price_FBajMc",
         "rating_GPt8xw",
         "separator_GPKUmr",
         "variant_picker_MtUHnT",
